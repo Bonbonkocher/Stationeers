@@ -9,14 +9,14 @@ https://discordapp.com/invite/CxR3mRy
 
 EN: Created to translate the languages / DE: Erstellt zum übersetzten der sprachen
 
-Chinese Simplified
-Chinese Traditional
-English
-French
-German
-Japanese
-Korean
-Polish
-Portuguese
-Russian
-Spanish
+"Chinese Simplified"
+"Chinese Traditional"
+"English"
+"French"
+"German"
+"Japanese"
+"Korean"
+"Polish"
+"Portuguese"
+"Russian"
+"Spanish"
