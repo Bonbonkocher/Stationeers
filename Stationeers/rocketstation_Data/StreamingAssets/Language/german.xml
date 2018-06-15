@@ -17,7 +17,6 @@
     <RecordReagent>
       <Key>Egg</Key>
       <Value>Ei</Value>
-      <Unit/>
     </RecordReagent>
     <RecordReagent>
       <Key>Iron</Key>
@@ -117,7 +116,6 @@
     <RecordReagent>
       <Key>Potato</Key>
       <Value>Kartoffel</Value>
-      <Unit/>
     </RecordReagent>
   </Reagents>
   <Gases>
@@ -595,35 +593,35 @@
     </Record>
     <Record>
       <Key>DynamicGasCanisterAir</Key>
-      <Value>Portabler Tank (Luft)</Value>
+      <Value>Portabler Tank Luft</Value>
     </Record>
     <Record>
       <Key>DynamicGasCanisterCarbonDioxide</Key>
-      <Value>Portabler Tank (CO2)</Value>
+      <Value>Portabler Tank Kohlendioxid (CO2)</Value>
     </Record>
     <Record>
       <Key>DynamicGasCanisterEmpty</Key>
-      <Value>Portabler Tank</Value>
+      <Value>Portabler Tank Leer</Value>
     </Record>
     <Record>
       <Key>DynamicGasCanisterFuel</Key>
-      <Value>Portabler Tank (Kraftstoff)</Value>
+      <Value>Portabler Tank Kraftstoff</Value>
     </Record>
     <Record>
       <Key>DynamicGasCanisterNitrogen</Key>
-      <Value>Portabler Tank (Stickstoff)</Value>
+      <Value>Portabler Tank Stickstoff (N2)</Value>
     </Record>
     <Record>
       <Key>DynamicGasCanisterOxygen</Key>
-      <Value>Portabler Tank (Sauerstoff)</Value>
+      <Value>Portabler Tank Sauerstoff (O2)</Value>
     </Record>
     <Record>
       <Key>DynamicGasCanisterVolatiles</Key>
-      <Value>Portabler Tank (Flüchtige Stoffe)</Value>
+      <Value>Portabler Tank Flüchtige Stoffe</Value>
     </Record>
     <Record>
       <Key>DynamicGasCanisterWater</Key>
-      <Value>Portabler Tank (Wasser)</Value>
+      <Value>Portabler Tank Wasser (H2O)</Value>
     </Record>
     <Record>
       <Key>DynamicGenerator</Key>
@@ -643,31 +641,31 @@
     </Record>
     <Record>
       <Key>EntityAlien</Key>
-      <Value>Wesen Alien</Value>
+      <Value>Alien</Value>
     </Record>
     <Record>
       <Key>EntityChick</Key>
-      <Value>Wesen Huhn</Value>
+      <Value>Huhn</Value>
     </Record>
     <Record>
       <Key>EntityChickenBrown</Key>
-      <Value>Wesen Huhn (Braun)</Value>
+      <Value>Huhn (Braun)</Value>
     </Record>
     <Record>
       <Key>EntityChickenWhite</Key>
-      <Value>Wesen Huhn (Weiß)</Value>
+      <Value>Huhn (Weiß)</Value>
     </Record>
     <Record>
       <Key>EntityGraylien</Key>
-      <Value>Wesen Grauling</Value>
+      <Value>Grauling</Value>
     </Record>
     <Record>
       <Key>EntityRoosterBlack</Key>
-      <Value>Wesen Hahn (Schwarz)</Value>
+      <Value>Hahn (Schwarz)</Value>
     </Record>
     <Record>
       <Key>EntityRoosterBrown</Key>
-      <Value>Wesen Hahn (Braun)</Value>
+      <Value>Hahn (Braun)</Value>
     </Record>
     <Record>
       <Key>GasTankAir</Key>
@@ -803,59 +801,59 @@
     </Record>
     <Record>
       <Key>ItemGasCanisterCarbonDioxide</Key>
-      <Value>Gasbehälter (CO2)</Value>
+      <Value>Gasbehälter Kohlendioxid (CO2)</Value>
     </Record>
     <Record>
       <Key>ItemGasCanisterPollutants</Key>
-      <Value>Gasbehälter (Schadstoffe)</Value>
+      <Value>Gasbehälter Schadstoffe (X)</Value>
     </Record>
     <Record>
       <Key>ItemGasCanisterEmpty</Key>
-      <Value>Gasbehälter</Value>
+      <Value>Gasbehälter Leer</Value>
     </Record>
     <Record>
       <Key>ItemGasCanisterFuel</Key>
-      <Value>Gasbehälter (Kraftstoff)</Value>
+      <Value>Gasbehälter Kraftstoff</Value>
     </Record>
     <Record>
       <Key>ItemGasCanisterVolatiles</Key>
-      <Value>Gasbehälter (Flüchtige Stoffe)</Value>
+      <Value>Gasbehälter Flüchtige Stoffe</Value>
     </Record>
     <Record>
       <Key>ItemGasCanisterNitrogen</Key>
-      <Value>Gasbehälter (Stickstoff)</Value>
+      <Value>Gasbehälter Stickstoff (N2)</Value>
     </Record>
     <Record>
       <Key>ItemGasCanisterOxygen</Key>
-      <Value>Gasbehälter (Sauerstoff)</Value>
+      <Value>Gasbehälter Sauerstoff (O2)</Value>
     </Record>
     <Record>
       <Key>ItemGasCanisterWater</Key>
-      <Value>Gasbehälter (Wasser)</Value>
+      <Value>Gasbehälter Wasser (H2O)</Value>
     </Record>
     <Record>
       <Key>ItemGasFilterCarbonDioxide</Key>
-      <Value>Filter (CO2)</Value>
+      <Value>Filter Kohlendioxid (CO2)</Value>
     </Record>
     <Record>
       <Key>ItemGasFilterPollutants</Key>
-      <Value>Filter (Schadstoffe)</Value>
+      <Value>Filter Schadstoffe (X)</Value>
     </Record>
     <Record>
       <Key>ItemGasFilterNitrogen</Key>
-      <Value>Filter (Stickstoff)</Value>
+      <Value>Filter Stickstoff (N2)</Value>
     </Record>
     <Record>
       <Key>ItemGasFilterOxygen</Key>
-      <Value>Filter (Sauerstoff)</Value>
+      <Value>Filter Sauerstoff (O2)</Value>
     </Record>
     <Record>
       <Key>ItemGasFilterVolatiles</Key>
-      <Value>Filter (Flüchtige Stoffe)</Value>
+      <Value>Filter Flüchtige Stoffe</Value>
     </Record>
     <Record>
       <Key>ItemGasFilterWater</Key>
-      <Value>Filter (Wasser)</Value>
+      <Value>Filter Wasser (H2O)</Value>
     </Record>
     <Record>
       <Key>ItemGasTankStorage</Key>
@@ -919,7 +917,7 @@
     </Record>
     <Record>
       <Key>ItemKitBattery</Key>
-      <Value>USV (Bausatz)</Value>
+      <Value>Stationäre Batterien (Bausatz)</Value>
     </Record>
     <Record>
       <Key>ItemKitCentrifuge</Key>
@@ -1099,7 +1097,7 @@
     </Record>
     <Record>
       <Key>ItemPipeStraight</Key>
-      <Value>GeradesvRohr)</Value>
+      <Value>Rohr-Gerade</Value>
     </Record>
     <Record>
       <Key>ItemPipeTJunction</Key>
@@ -1279,7 +1277,7 @@
     </Record>
     <Record>
       <Key>NPCDummyCharacter</Key>
-      <Value>NPC Charakter</Value>
+      <Value>NPC Charakter Attrappe</Value>
     </Record>
     <Record>
       <Key>NpcGrounder</Key>
@@ -1323,7 +1321,7 @@
     </Record>
     <Record>
       <Key>StructureBattery</Key>
-      <Value>USV</Value>
+      <Value>Stationäre Batterie</Value>
     </Record>
     <Record>
       <Key>StructureBatteryCharger</Key>
@@ -1359,7 +1357,7 @@
     </Record>
     <Record>
       <Key>StructureCableStraight</Key>
-      <Value>Gerades Kabel</Value>
+      <Value>Kabel-Gerades</Value>
     </Record>
     <Record>
       <Key>StructureCamera</Key>
@@ -1375,7 +1373,7 @@
     </Record>
     <Record>
       <Key>StructureChuteBin</Key>
-      <Value>Manüller Schachteinwurf</Value>
+      <Value>Schachteinwurf</Value>
     </Record>
     <Record>
       <Key>StructureChuteCorner</Key>
@@ -1383,7 +1381,7 @@
     </Record>
     <Record>
       <Key>StructureChuteInlet</Key>
-      <Value>Schachteinwurf</Value>
+      <Value>Schacht Einlass</Value>
     </Record>
     <Record>
       <Key>StructureChuteJunction</Key>
@@ -1711,7 +1709,7 @@
     </Record>
     <Record>
       <Key>UniformOrangeJumpSuit</Key>
-      <Value>Jump Suit (Orange)</Value>
+      <Value>Uniform (Rekut)</Value>
     </Record>
     <Record>
       <Key>WeaponEnergy</Key>
@@ -2311,27 +2309,27 @@
     </Record>
     <Record>
       <Key>StructureCompositeCladdingAngled</Key>
-      <Value>Verbundverkleidungen (abgewinkelt)</Value>
+      <Value>Verbundverkleidungen (Abgewinkelt)</Value>
     </Record>
     <Record>
       <Key>StructureCompositeCladdingAngledCorner</Key>
-      <Value>Verbundverkleidung (abgewinkelte Ecke)</Value>
+      <Value>Verbundverkleidung (Abgewinkelte Ecke)</Value>
     </Record>
     <Record>
       <Key>StructureCompositeCladdingAngledCornerLong</Key>
-      <Value>Verbundverkleidung (lang abgewinkelte Ecke)</Value>
+      <Value>Verbundverkleidung (Lang abgewinkelte Ecke)</Value>
     </Record>
     <Record>
       <Key>StructureCompositeCladdingAngledLong</Key>
-      <Value>Composite Cladding (Long Angled)</Value>
+      <Value>Verbundverkleidungg (Lang abgewinkelt)</Value>
     </Record>
     <Record>
       <Key>StructureCompositeCladdingCylindrical</Key>
-      <Value>Verbundverkleidung (zylindrisch)</Value>
+      <Value>Verbundverkleidung (Zylindrisch)</Value>
     </Record>
     <Record>
       <Key>StructureCompositeCladdingCylindricalPanel</Key>
-      <Value>Verbundverkleidung (zylindrische Platte)</Value>
+      <Value>Verbundverkleidung (Zylindrische Platte)</Value>
     </Record>
     <Record>
       <Key>StructureCompositeCladdingSphericalCorner</Key>
@@ -2351,7 +2349,7 @@
     </Record>
     <Record>
       <Key>StructureCompositeCladdingRounded</Key>
-      <Value>Composite-Verkleidung (abgerundet)</Value>
+      <Value>Zusammengesetzt-Verkleidung (abgerundet)</Value>
     </Record>
     <Record>
       <Key>StructureCompositeCladdingPanel</Key>
@@ -2403,27 +2401,27 @@
     </Record>
     <Record>
       <Key>StructureCompositeWindowIron</Key>
-      <Value>Struktur Composite Fenster Eisen</Value>
+      <Value>Zusammengesetzter Fenster Eisen</Value>
     </Record>
     <Record>
       <Key>CompositeFloorGrating1</Key>
-      <Value>Verbundboden-Gitter1</Value>
+      <Value>Verbundboden-Gitter</Value>
     </Record>
     <Record>
       <Key>CompositeFloorGrating2</Key>
-      <Value>Verbundboden-Gitter2</Value>
+      <Value>Verbundboden-Gitter</Value>
     </Record>
     <Record>
       <Key>StructureCompositeFloorGrating2</Key>
-      <Value>Struktur-zusammengesetzter Boden-Gitter2</Value>
+      <Value>Zusammengesetzter Boden-Gitter</Value>
     </Record>
     <Record>
       <Key>StructureCompositeFloorGrating3</Key>
-      <Value>Structure Composite Floor Grating3</Value>
+      <Value>Zusammengesetzter Boden-Gitter</Value>
     </Record>
     <Record>
       <Key>StructureCompositeFloorGrating4</Key>
-      <Value>Struktur-zusammengesetzter Boden-Gitter4</Value>
+      <Value>Zusammengesetzter Boden-Gitter</Value>
     </Record>
     <Record>
       <Key>ItemKitWallPanels</Key>
@@ -2431,7 +2429,7 @@
     </Record>
     <Record>
       <Key>StructureCompositeWallPanelling1</Key>
-      <Value>Struktur-Composite-Wandverkleidung1</Value>
+      <Value>Zusammengesetzter-Wandverkleidung</Value>
     </Record>
     <Record>
       <Key>ItemKitCompositeFloorGrating</Key>
@@ -2451,99 +2449,99 @@
     </Record>
     <Record>
       <Key>CompositeWallPanelling1</Key>
-      <Value>Composite-Wandverkleidung1</Value>
+      <Value>Zusammengesetzt-Wandverkleidung</Value>
     </Record>
     <Record>
       <Key>CompositeWallPanelling2</Key>
-      <Value>Composite-Wandverkleidung2</Value>
+      <Value>Zusammengesetzt-Wandverkleidung</Value>
     </Record>
     <Record>
       <Key>CompositeWallPanelling3</Key>
-      <Value>Composite-Wandverkleidung3</Value>
+      <Value>Zusammengesetzt-Wandverkleidung</Value>
     </Record>
     <Record>
       <Key>CompositeWallPanelling4</Key>
-      <Value>Composite-Wandverkleidung4</Value>
+      <Value>Zusammengesetzt-Wandverkleidung</Value>
     </Record>
     <Record>
       <Key>CompositeWallPanelling5</Key>
-      <Value>Composite-Wandverkleidung5</Value>
+      <Value>Zusammengesetzt-Wandverkleidung</Value>
     </Record>
     <Record>
       <Key>CompositeWallPanelling6</Key>
-      <Value>Composite-Wandverkleidung6</Value>
+      <Value>Zusammengesetzt-Wandverkleidung</Value>
     </Record>
     <Record>
       <Key>CompositeWallPanelling7</Key>
-      <Value>Composite-Wandverkleidung7</Value>
+      <Value>Zusammengesetzt-Wandverkleidung</Value>
     </Record>
     <Record>
       <Key>CompositeWallPanelling8</Key>
-      <Value>Composite-Wandverkleidung8</Value>
+      <Value>Zusammengesetzt-Wandverkleidung</Value>
     </Record>
     <Record>
       <Key>CompositeWallPanelling9</Key>
-      <Value>Composite-Wandverkleidung9</Value>
+      <Value>Zusammengesetzt-Wandverkleidung</Value>
     </Record>
     <Record>
       <Key>CompositeWallPanelling10</Key>
-      <Value>Composite-Wandverkleidung10</Value>
+      <Value>Zusammengesetzt-Wandverkleidung</Value>
     </Record>
     <Record>
       <Key>CompositeWallPanelling11</Key>
-      <Value>Composite-Wandverkleidung11</Value>
+      <Value>Zusammengesetzt-Wandverkleidung</Value>
     </Record>
     <Record>
       <Key>CompositeWallPanelling12</Key>
-      <Value>Composite-Wandverkleidung12</Value>
+      <Value>Zusammengesetzt-Wandverkleidung</Value>
     </Record>
     <Record>
       <Key>CompositeWallPanelling13</Key>
-      <Value>Composite-Wandverkleidung13</Value>
+      <Value>Zusammengesetzt-Wandverkleidung</Value>
     </Record>
     <Record>
       <Key>CompositeWallPanelling14</Key>
-      <Value>Composite-Wandverkleidung14</Value>
+      <Value>Zusammengesetzt-Wandverkleidung</Value>
     </Record>
     <Record>
       <Key>CompositeWallPanelling15</Key>
-      <Value>Composite-Wandverkleidung15</Value>
+      <Value>Zusammengesetzt-Wandverkleidung</Value>
     </Record>
     <Record>
       <Key>CompositeWallPanelling16</Key>
-      <Value>Composite-Wandverkleidung16</Value>
+      <Value>Zusammengesetzt-Wandverkleidung</Value>
     </Record>
     <Record>
       <Key>CompositeWallPanelling17</Key>
-      <Value>Composite-Wandverkleidung17</Value>
+      <Value>Zusammengesetzt-Wandverkleidung</Value>
     </Record>
     <Record>
       <Key>CompositeWallPanelling18</Key>
-      <Value>Composite-Wandverkleidung18</Value>
+      <Value>Zusammengesetzt-Wandverkleidung</Value>
     </Record>
     <Record>
       <Key>CompositeWallPanelling19</Key>
-      <Value>Composite-Wandverkleidung19</Value>
+      <Value>Zusammengesetzt-Wandverkleidung</Value>
     </Record>
     <Record>
       <Key>CompositeWallPanelling20</Key>
-      <Value>Composite-Wandverkleidung20</Value>
+      <Value>Zusammengesetzt-Wandverkleidung</Value>
     </Record>
     <Record>
       <Key>CompositeWallPanelling21</Key>
-      <Value>Composite-Wandverkleidung21</Value>
+      <Value>Zusammengesetzt-Wandverkleidung</Value>
     </Record>
     <Record>
       <Key>Corner1</Key>
-      <Value>Ecke1</Value>
+      <Value>Ecke</Value>
     </Record>
     <Record>
       <Key>StructureWallFlat</Key>
-      <Value>Struktur Wand flach</Value>
+      <Value>Struktur-Wand flach</Value>
     </Record>
     <Record>
       <Key>StructureWallArch</Key>
-      <Value>Struktur Wandbogen</Value>
+      <Value>Struktur-Wandbogen</Value>
     </Record>
     <Record>
       <Key>StructureWallArchArrow</Key>
@@ -2551,11 +2549,11 @@
     </Record>
     <Record>
       <Key>StructureWallArchPlating</Key>
-      <Value>Struktur Wandbogen Plating</Value>
+      <Value>Struktur-Wandbogen Panzerung</Value>
     </Record>
     <Record>
       <Key>StructureWallArchTwoTone</Key>
-      <Value>Struktur-Wandbogen Two Tone</Value>
+      <Value>Struktur-Wandbogen 2 Tone</Value>
     </Record>
     <Record>
       <Key>StructureWallGeometryCorner</Key>
@@ -2567,7 +2565,7 @@
     </Record>
     <Record>
       <Key>StructureWallGeometryT</Key>
-      <Value>Struktur Wand Geometrie T</Value>
+      <Value>Struktur-Wand Geometrie T</Value>
     </Record>
     <Record>
       <Key>StructureWallPaddedArch</Key>
@@ -2579,11 +2577,11 @@
     </Record>
     <Record>
       <Key>StructureWallPadding</Key>
-      <Value>Struktur Wandpolsterung</Value>
+      <Value>Struktur-Wandpolsterung</Value>
     </Record>
     <Record>
       <Key>StructureWallPaddingArchVent</Key>
-      <Value>Struktur Wandpolster Bogen Entlüften</Value>
+      <Value>Struktur-Wandpolster Bogen Entlüften</Value>
     </Record>
     <Record>
       <Key>StructureWallPaddingLightFitting</Key>
@@ -2591,11 +2589,11 @@
     </Record>
     <Record>
       <Key>StructureWallPaddingThin</Key>
-      <Value>Structure Wall Padding Thin</Value>
+      <Value>Structure-Wall Panzerung Dünn</Value>
     </Record>
     <Record>
       <Key>StructureWallPlating</Key>
-      <Value>Struktur Wandpolster dünn</Value>
+      <Value>Struktur-Wandpolster dünn</Value>
     </Record>
     <Record>
       <Key>StructureWallSimple</Key>
@@ -2611,11 +2609,11 @@
     </Record>
     <Record>
       <Key>StructureWallSmallPanelsAndHatch</Key>
-      <Value>Struktur-Wand-kleine Platten und Luke</Value>
+      <Value>Struktur-Wand kleine Platten und Luke</Value>
     </Record>
     <Record>
       <Key>StructureWallSmallPanelsArrow</Key>
-      <Value>Struktur Wand Kleine Platten Pfeil</Value>
+      <Value>Struktur-Wand Kleine Platten Pfeil</Value>
     </Record>
     <Record>
       <Key>StructureWallSmallPanelsMonoChrome</Key>
@@ -2631,19 +2629,19 @@
     </Record>
     <Record>
       <Key>ItemKitWallArch</Key>
-      <Value>Kit (gewölbte Wand)</Value>
+      <Value>Gewölbte Wand (Kit)</Value>
     </Record>
     <Record>
       <Key>ItemKitWallFlat</Key>
-      <Value>Kit (flache Wand)</Value>
+      <Value>Flache Wand (Kit)</Value>
     </Record>
     <Record>
       <Key>ItemKitWallGeometry</Key>
-      <Value>Kit (Geometrische Wand)</Value>
+      <Value>Geometrische Wand (Kit)</Value>
     </Record>
     <Record>
       <Key>ItemKitWallPadded</Key>
-      <Value>Kit (gepolsterte Wand)</Value>
+      <Value>Gepolsterte Wand (Kit)</Value>
     </Record>
     <Record>
       <Key>StructureLadder</Key>
@@ -2687,73 +2685,73 @@
     </Record>
     <Record>
       <Key>CartridgeAccessController</Key>
-      <Value>
+      <Value>Kassetten Controller</Value>
     <Record>
       <Key>AccessCardBlack</Key>
-      <Value>
+      <Value>Zugriffskarte (Schwarz)</Value>
     <Record>
       <Key>AccessCardBlue</Key>
-      <Value>
+      <Value>Zugriffskarte (Blau)</Value>
     <Record>
       <Key>AccessCardBrown</Key>
-      <Value>
+      <Value>Zugriffskarte (Braun)</Value>
     <Record>
       <Key>AccessCardGray</Key>
-      <Value>
+      <Value>Zugriffskarte (Grau)</Value>
     <Record>
       <Key>AccessCardGreen</Key>
-      <Value>
+      <Value>Zugriffskarte (Grün)</Value>
     <Record>
       <Key>AccessCardKhaki</Key>
-      <Value>
+      <Value>Zugriffskarte (Khaki)</Value>
     <Record>
       <Key>AccessCardOrange</Key>
-      <Value>
+      <Value>Zugriffskarte (Orange)</Value>
     <Record>
       <Key>AccessCardPink</Key>
-      <Value>
+      <Value>Zugriffskarte (Rosa)</Value>
     <Record>
       <Key>AccessCardPurple</Key>
-      <Value>
+      <Value>Zugriffskarte (Lila)</Value>
     <Record>
       <Key>AccessCardRed</Key>
-      <Value></Value>
+      <Value>Zugriffskarte (Rot)</Value>
     </Record>
     <Record>
       <Key>AccessCardWhite</Key>
-      <Value></Value>
+      <Value>Zugriffskarte (Weiß)</Value>
     </Record>
     <Record>
       <Key>AccessCardYellow</Key>
-      <Value></Value>
+      <Value>Zugriffskarte (Gelb)</Value>
     </Record>
     <Record>
       <Key>StructureSecurityPrinter</Key>
-      <Value></Value>
+      <Value>Sicherheitsdrucker</Value>
     </Record>
     <Record>
       <Key>ItemKitSecurityPrinter</Key>
-      <Value></Value>
+      <Value>Sicherheitsdrucker (Bausatz)</Value>
     </Record>
     <Record>
       <Key>Handgun</Key>
-      <Value></Value>
+      <Value>Pistole</Value>
     </Record>
     <Record>
       <Key>ItemAmmoBox</Key>
-      <Value></Value>
+      <Value>Munitions Box</Value>
     </Record>
     <Record>
       <Key>HandgunMagazine</Key>
-      <Value></Value>
+      <Value>Pistole Magazin</Value>
     </Record>
         <Record>
       <Key>SMGMagazine</Key>
-      <Value></Value>
+      <Value>SMG-Magazin</Value>
     </Record>
     <Record>
       <Key>FireArmSMG</Key>
-      <Value></Value>
+      <Value>SMG</Value>
     </Record>
   </Things>
   <Slots>
@@ -2919,11 +2917,11 @@
     </Record>
     <Record>
       <Key>AccessCard</Key>
-      <Value></Value>
+      <Value>Zugangskarte</Value>
     </Record>
     <Record>
       <Key>Magazine</Key>
-      <Value></Value>
+      <Value>Zeitschrift</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -3249,7 +3247,7 @@
     </Record>
     <Record>
       <Key>Access</Key>
-      <Value></Value>
+      <Value>Zugriff</Value>
     </Record>
   </Interactables>
   <Interface>
@@ -3651,7 +3649,7 @@
     </Record>
     <Record>
       <Key>SettingsCameraSensitivity</Key>
-      <Value>Kamerämpfindlichkeit</Value>
+      <Value>Kameraempfindlichkeit</Value>
     </Record>
     <Record>
       <Key>NotificationTitle</Key>
@@ -3779,7 +3777,7 @@
     </Record>
     <Record>
       <Key>TutorialSkipButton</Key>
-      <Value>Ueberspringen</Value>
+      <Value>Überspringen</Value>
     </Record>
     <Record>
       <Key>TutorialStartButton</Key>
@@ -3881,7 +3879,7 @@ Auf geht es, Stationeer!</Value>
     </Record>
     <Record>
       <Key>SettingsTooltipOpacity</Key>
-      <Value>Tooltipsichtbarkeit</Value>
+      <Value>Tooltip Sichtbarkeit</Value>
     </Record>
     <Record>
       <Key>MenuDownloadDriverButton</Key>
@@ -3921,7 +3919,7 @@ Auf geht es, Stationeer!</Value>
     </Record>
     <Record>
       <Key>PromptOverwriteTitle</Key>
-      <Value>Ueberschreiben</Value>
+      <Value>Überschreiben</Value>
     </Record>
     <Record>
       <Key>PromptOverwriteBody</Key>
@@ -3929,7 +3927,7 @@ Auf geht es, Stationeer!</Value>
     </Record>
     <Record>
       <Key>PromptOverwriteConfirm</Key>
-      <Value>Ueberschreiben</Value>
+      <Value>Überschreiben</Value>
     </Record>
     <Record>
       <Key>PromptPublishTitle</Key>
@@ -4058,7 +4056,7 @@ Bitte erneut versuchen.</Value>
     </Record>
     <Record>
       <Key>SaveMenuOverwriteButton</Key>
-      <Value>Ueberschreiben</Value>
+      <Value>Überschreiben</Value>
     </Record>
     <Record>
       <Key>SaveMenuNamePlaceholder</Key>
@@ -4070,7 +4068,7 @@ Bitte erneut versuchen.</Value>
     </Record>
     <Record>
       <Key>NewWorldModeSurvival</Key>
-      <Value>Ueberleben</Value>
+      <Value>Überleben</Value>
     </Record>
     <Record>
       <Key>JoinMenuServerListMap</Key>
