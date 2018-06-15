@@ -148,6 +148,10 @@
   </Gases>
   <Actions>
     <Record>
+      <Key>Reload</Key>
+      <Value>Nachladen</Value>
+    </Record>
+    <Record>
       <Key>Paint</Key>
       <Value>Färben</Value>
     </Record>
@@ -1846,10 +1850,6 @@
       <Value>Herstellung (Bausatz)</Value>
     </Record>
     <Record>
-      <Key>ItemPipeKit</Key>
-      <Value>Rohr (Bausatz)</Value>
-    </Record>
-    <Record>
       <Key>ItemKitPipe</Key>
       <Value>Rohr (Bausatz)</Value>
     </Record>
@@ -2260,10 +2260,6 @@
     <Record>
       <Key>StructureCableCornerH3</Key>
       <Value>Schwere Kabel-3-Wege-Kurve</Value>
-    </Record>
-    <Record>
-      <Key>StructureCableCorner3HBurnt</Key>
-      <Value>Durchgeschmorte Schwere Kabel-3-Wege-Kurve</Value>
     </Record>
     <Record>
       <Key>StructureCableCornerH4</Key>
@@ -2689,6 +2685,76 @@
       <Key>ItemWreckage4</Key>
       <Value>Trümmer</Value>
     </Record>
+    <Record>
+      <Key>CartridgeAccessController</Key>
+      <Value>
+    <Record>
+      <Key>AccessCardBlack</Key>
+      <Value>
+    <Record>
+      <Key>AccessCardBlue</Key>
+      <Value>
+    <Record>
+      <Key>AccessCardBrown</Key>
+      <Value>
+    <Record>
+      <Key>AccessCardGray</Key>
+      <Value>
+    <Record>
+      <Key>AccessCardGreen</Key>
+      <Value>
+    <Record>
+      <Key>AccessCardKhaki</Key>
+      <Value>
+    <Record>
+      <Key>AccessCardOrange</Key>
+      <Value>
+    <Record>
+      <Key>AccessCardPink</Key>
+      <Value>
+    <Record>
+      <Key>AccessCardPurple</Key>
+      <Value>
+    <Record>
+      <Key>AccessCardRed</Key>
+      <Value></Value>
+    </Record>
+    <Record>
+      <Key>AccessCardWhite</Key>
+      <Value></Value>
+    </Record>
+    <Record>
+      <Key>AccessCardYellow</Key>
+      <Value></Value>
+    </Record>
+    <Record>
+      <Key>StructureSecurityPrinter</Key>
+      <Value></Value>
+    </Record>
+    <Record>
+      <Key>ItemKitSecurityPrinter</Key>
+      <Value></Value>
+    </Record>
+    <Record>
+      <Key>Handgun</Key>
+      <Value></Value>
+    </Record>
+    <Record>
+      <Key>ItemAmmoBox</Key>
+      <Value></Value>
+    </Record>
+    <Record>
+      <Key>HandgunMagazine</Key>
+      <Value></Value>
+    </Record>
+        <Record>
+      <Key>SMGMagazine</Key>
+      <Value></Value>
+    </Record>
+    <Record>
+      <Key>FireArmSMG</Key>
+      <Value></Value>
+    </Record>
   </Things>
   <Slots>
     <Record>
@@ -2851,6 +2917,14 @@
       <Key>LoadingRail</Key>
       <Value>Ladeschiene</Value>
     </Record>
+    <Record>
+      <Key>AccessCard</Key>
+      <Value></Value>
+    </Record>
+    <Record>
+      <Key>Magazine</Key>
+      <Value></Value>
+    </Record>
   </Slots>
   <Interactables>
     <Record>
@@ -2984,10 +3058,6 @@
     <Record>
       <Key>PressureDown</Key>
       <Value>Druck Senken</Value>
-    </Record>
-    <Record>
-      <Key/>
-      <Value/>
     </Record>
     <Record>
       <Key>Flush</Key>
@@ -3176,6 +3246,10 @@
     <Record>
       <Key>Color</Key>
       <Value>Farbe</Value>
+    </Record>
+    <Record>
+      <Key>Access</Key>
+      <Value></Value>
     </Record>
   </Interactables>
   <Interface>
