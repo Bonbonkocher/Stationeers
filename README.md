@@ -7,7 +7,7 @@ Construct and manage your own space station and ships either by yourself in sing
 - [Discord](https://discordapp.com/invite/CxR3mRy "Titel, der beim Überfahren mit der Maus angezeigt wird")
 
 
-EN: Created to translate the languages / DE: Erstellt zum übersetzten der sprachen
+EN: Created to translate the languages
 
 - Chinese Simplified
 - Chinese Traditional
