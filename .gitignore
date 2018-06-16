@@ -1,5 +1,5 @@
 # folder
-/.git
-/.zip
+*.git
+*.zip
 
 # file format
