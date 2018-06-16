@@ -17,6 +17,7 @@
     <RecordReagent>
       <Key>Egg</Key>
       <Value>Ei</Value>
+      <Unit/>
     </RecordReagent>
     <RecordReagent>
       <Key>Iron</Key>
@@ -116,6 +117,7 @@
     <RecordReagent>
       <Key>Potato</Key>
       <Value>Kartoffel</Value>
+      <Unit/>
     </RecordReagent>
   </Reagents>
   <Gases>
@@ -1848,6 +1850,10 @@
       <Value>Herstellung (Bausatz)</Value>
     </Record>
     <Record>
+      <Key>ItemPipeKit</Key>
+      <Value>Rohr (Bausatz)</Value>
+    </Record>
+    <Record>
       <Key>ItemKitPipe</Key>
       <Value>Rohr (Bausatz)</Value>
     </Record>
@@ -2258,6 +2264,10 @@
     <Record>
       <Key>StructureCableCornerH3</Key>
       <Value>Schwere Kabel-3-Wege-Kurve</Value>
+    </Record>
+    <Record>
+      <Key>StructureCableCorner3HBurnt</Key>
+      <Value>Durchgeschmorte Schwere Kabel-3-Wege-Kurve</Value>
     </Record>
     <Record>
       <Key>StructureCableCornerH4</Key>
@@ -2686,33 +2696,43 @@
     <Record>
       <Key>CartridgeAccessController</Key>
       <Value>Kassetten Controller</Value>
+    </Record>
     <Record>
       <Key>AccessCardBlack</Key>
       <Value>Zugriffskarte (Schwarz)</Value>
+    </Record>
     <Record>
       <Key>AccessCardBlue</Key>
       <Value>Zugriffskarte (Blau)</Value>
+    </Record>
     <Record>
       <Key>AccessCardBrown</Key>
       <Value>Zugriffskarte (Braun)</Value>
+    </Record>
     <Record>
       <Key>AccessCardGray</Key>
       <Value>Zugriffskarte (Grau)</Value>
+    </Record>
     <Record>
       <Key>AccessCardGreen</Key>
       <Value>Zugriffskarte (Grün)</Value>
+    </Record>
     <Record>
       <Key>AccessCardKhaki</Key>
       <Value>Zugriffskarte (Khaki)</Value>
+    </Record>
     <Record>
       <Key>AccessCardOrange</Key>
       <Value>Zugriffskarte (Orange)</Value>
+    </Record>
     <Record>
       <Key>AccessCardPink</Key>
       <Value>Zugriffskarte (Rosa)</Value>
+    </Record>
     <Record>
       <Key>AccessCardPurple</Key>
       <Value>Zugriffskarte (Lila)</Value>
+    </Record>
     <Record>
       <Key>AccessCardRed</Key>
       <Value>Zugriffskarte (Rot)</Value>
@@ -2745,7 +2765,7 @@
       <Key>HandgunMagazine</Key>
       <Value>Pistole Magazin</Value>
     </Record>
-        <Record>
+    <Record>
       <Key>SMGMagazine</Key>
       <Value>SMG-Magazin</Value>
     </Record>
@@ -4349,7 +4369,6 @@ Seien Sie nicht traurig, wenn Sie sich in winzige kleine Stücke blasen, von Hü
       <Value>Lila</Value>
     </Record>
   </Colors>
-  <Keys/>
   <Mineables>
     <Record>
       <Key>Iron</Key>
