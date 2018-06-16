@@ -2685,33 +2685,43 @@
     <Record>
       <Key>CartridgeAccessController</Key>
       <Value>
+    </Record>
     <Record>
       <Key>AccessCardBlack</Key>
       <Value>
+    </Record>
     <Record>
       <Key>AccessCardBlue</Key>
       <Value>
+    </Record>
     <Record>
       <Key>AccessCardBrown</Key>
       <Value>
+    </Record>
     <Record>
       <Key>AccessCardGray</Key>
       <Value>
+    </Record>
     <Record>
       <Key>AccessCardGreen</Key>
       <Value>
+    </Record>
     <Record>
       <Key>AccessCardKhaki</Key>
       <Value>
+    </Record>
     <Record>
       <Key>AccessCardOrange</Key>
       <Value>
+    </Record>
     <Record>
       <Key>AccessCardPink</Key>
       <Value>
+    </Record>
     <Record>
       <Key>AccessCardPurple</Key>
       <Value>
+    </Record>
     <Record>
       <Key>AccessCardRed</Key>
       <Value></Value>
@@ -2744,7 +2754,7 @@
       <Key>HandgunMagazine</Key>
       <Value></Value>
     </Record>
-        <Record>
+    <Record>
       <Key>SMGMagazine</Key>
       <Value></Value>
     </Record>
