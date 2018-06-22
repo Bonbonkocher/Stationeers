@@ -519,15 +519,15 @@
     </Record>
     <Record>
       <Key>CartridgeAtmosAnalyser</Key>
-      <Value>Messkassette (Atmosphäre)</Value>
+      <Value>Atmosphäre (Kassette)</Value>
     </Record>
     <Record>
       <Key>CartridgeMedicalAnalyser</Key>
-      <Value>Messkassette (Medizinisch)</Value>
+      <Value>Medizinisch (Kassette)</Value>
     </Record>
     <Record>
       <Key>CartridgeNetworkAnalyser</Key>
-      <Value>Messkassette (Netzwerk)</Value>
+      <Value>Netzwerk (Kassette)</Value>
     </Record>
     <Record>
       <Key>Character</Key>
@@ -535,39 +535,39 @@
     </Record>
     <Record>
       <Key>CircuitboardAirControl</Key>
-      <Value>Platine (Umluft-Steuerung)</Value>
+      <Value>Umluft-Steuerung (Platine)</Value>
     </Record>
     <Record>
       <Key>CircuitboardAirlockControl</Key>
-      <Value>Platine (Luftschleusen-Steuerung)</Value>
+      <Value>Luftschleusen-Steuerung (Platine)</Value>
     </Record>
     <Record>
       <Key>CircuitboardCameraDisplay</Key>
-      <Value>Platine (Kamera-Bildschirm)</Value>
+      <Value>Kamera-Bildschirm (Platine)</Value>
     </Record>
     <Record>
       <Key>CircuitboardDoorControl</Key>
-      <Value>Platine (Tür-Steuerung)</Value>
+      <Value>Tür-Steuerung (Platine)</Value>
     </Record>
     <Record>
       <Key>CircuitboardGasDisplay</Key>
-      <Value>Platine (Gas-Anzeige)</Value>
+      <Value>Gas-Anzeige (Platine)</Value>
     </Record>
     <Record>
       <Key>CircuitboardModeControl</Key>
-      <Value>Platine (Modus-Steuerung)</Value>
+      <Value>Modus-Steuerung (Platine)</Value>
     </Record>
     <Record>
       <Key>CircuitboardPowerControl</Key>
-      <Value>Platine (Energie-Steuerung)</Value>
+      <Value>Energie-Steuerung (Platine)</Value>
     </Record>
     <Record>
       <Key>CircuitboardShipDisplay</Key>
-      <Value>Platine (Raumschiff-Anzeige)</Value>
+      <Value>Raumschiff-Anzeige (Platine)</Value>
     </Record>
     <Record>
       <Key>CircuitboardSolarControl</Key>
-      <Value>Platine (Solarmodul-Steuerung)</Value>
+      <Value>Solarmodul-Steuerung (Platine)</Value>
     </Record>
     <Record>
       <Key>DynamicAirConditioner</Key>
@@ -1263,15 +1263,15 @@
     </Record>
     <Record>
       <Key>MotherboardLogic</Key>
-      <Value>Mainboard (Logik)</Value>
+      <Value>Logik (Mainboard)</Value>
     </Record>
     <Record>
       <Key>MotherboardManufacturing</Key>
-      <Value>Mainboard (Herstellung)</Value>
+      <Value>Herstellung (Mainboard)</Value>
     </Record>
     <Record>
       <Key>MotherboardSorter</Key>
-      <Value>Mainboard (Sortiereinheit)</Value>
+      <Value>Sortiereinheit (Mainboard)</Value>
     </Record>
     <Record>
       <Key>MothershipCore</Key>
@@ -1859,7 +1859,7 @@
     </Record>
     <Record>
       <Key>CartridgeElectronicReader</Key>
-      <Value>Kassette (eReader)</Value>
+      <Value>eReader (Kassette)</Value>
     </Record>
     <Record>
       <Key>ItemCableCoilHeavy</Key>
@@ -2055,7 +2055,7 @@
     </Record>
     <Record>
       <Key>CartridgeTracker</Key>
-      <Value>Messkassette (Peilsignal Empfänger)</Value>
+      <Value>Peilsignal Empfänger (Kassette)</Value>
     </Record>
     <Record>
       <Key>ItemGasSensor</Key>
@@ -2247,7 +2247,7 @@
     </Record>
     <Record>
       <Key>CartridgeOreScanner</Key>
-      <Value>Messkassette (Erz Scanner)</Value>
+      <Value>Erz Scanner (Kassette)</Value>
     </Record>
     <Record>
       <Key>ItemPotatoBaked</Key>
@@ -2367,7 +2367,7 @@
     </Record>
     <Record>
       <Key>ItemKitCompositeCladding</Key>
-      <Value>Kit (Verkleidung)</Value>
+      <Value>Verkleidung (Bausatz)</Value>
     </Record>
     <Record>
       <Key>StructureCompositeCladdingAngledCornerLongR</Key>
@@ -2379,7 +2379,7 @@
     </Record>
     <Record>
       <Key>ItemKitDockingPort</Key>
-      <Value>Kit (Schnittstelle)</Value>
+      <Value>SchnittstelleKit (Bausatz)</Value>
     </Record>
     <Record>
       <Key>StructureDockShipSide</Key>
@@ -2403,7 +2403,7 @@
     </Record>
     <Record>
       <Key>ItemKitOrganicsPrinter</Key>
-      <Value>Kit (organischer Drucker)</Value>
+      <Value>organischer Drucker (Bausatz)</Value>
     </Record>
     <Record>
       <Key>StructureOrganicsPrinter</Key>
@@ -2639,19 +2639,19 @@
     </Record>
     <Record>
       <Key>ItemKitWallArch</Key>
-      <Value>Gewölbte Wand (Kit)</Value>
+      <Value>Gewölbte Wand (Bausatz)</Value>
     </Record>
     <Record>
       <Key>ItemKitWallFlat</Key>
-      <Value>Flache Wand (Kit)</Value>
+      <Value>Flache Wand (Bausatz)</Value>
     </Record>
     <Record>
       <Key>ItemKitWallGeometry</Key>
-      <Value>Geometrische Wand (Kit)</Value>
+      <Value>Geometrische Wand (Bausatz)</Value>
     </Record>
     <Record>
       <Key>ItemKitWallPadded</Key>
-      <Value>Gepolsterte Wand (Kit)</Value>
+      <Value>Gepolsterte Wand (Bausatz)</Value>
     </Record>
     <Record>
       <Key>StructureLadder</Key>
@@ -2695,7 +2695,7 @@
     </Record>
     <Record>
       <Key>CartridgeAccessController</Key>
-      <Value>Kassetten Controller</Value>
+      <Value>Controller (Kassette)</Value>
     </Record>
     <Record>
       <Key>AccessCardBlack</Key>
@@ -3267,7 +3267,7 @@
     </Record>
     <Record>
       <Key>Access</Key>
-      <Value>Zugriff</Value>
+      <Value>KartenSlot</Value>
     </Record>
   </Interactables>
   <Interface>
