@@ -2757,13 +2757,17 @@
       <Key>HandgunMagazine</Key>
       <Value>Handgun Magazine</Value>
     </Record>
-        <Record>
+    <Record>
       <Key>SMGMagazine</Key>
       <Value>SMG Magazine</Value>
     </Record>
     <Record>
       <Key>FireArmSMG</Key>
       <Value>Fire Arm SMG</Value>
+    </Record>
+    <Record>
+      <Key>StructureElectrolyzer</Key>
+      <Value>Electrolyzer</Value>
     </Record>
   </Things>
   <Slots>
