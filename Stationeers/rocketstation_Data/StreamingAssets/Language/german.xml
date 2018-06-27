@@ -291,6 +291,22 @@
       <Key>Rename</Key>
       <Value>Umbenennen</Value>
     </Record>
+    <Record>
+      <Key>Up</Key>
+      <Value>Hoch</Value>
+    </Record>
+    <Record>
+      <Key>Down</Key>
+      <Value>Runter</Value>
+    </Record>
+    <Record>
+      <Key>CallElevator</Key>
+      <Value>Rufen</Value>
+    </Record>
+    <Record>
+      <Key>Set</Key>
+      <Value>Set</Value>
+    </Record>
   </Actions>
   <Things>
     <Record>
@@ -2379,7 +2395,7 @@
     </Record>
     <Record>
       <Key>ItemKitDockingPort</Key>
-      <Value>SchnittstelleKit (Bausatz)</Value>
+      <Value>Schnittstelle (Bausatz)</Value>
     </Record>
     <Record>
       <Key>StructureDockShipSide</Key>
@@ -2435,7 +2451,7 @@
     </Record>
     <Record>
       <Key>ItemKitWallPanels</Key>
-      <Value>Kit (Wandpaneele)</Value>
+      <Value>Wandpaneele (Bausatz)</Value>
     </Record>
     <Record>
       <Key>StructureCompositeWallPanelling1</Key>
@@ -2443,7 +2459,7 @@
     </Record>
     <Record>
       <Key>ItemKitCompositeFloorGrating</Key>
-      <Value>Kit (Bodengitter)</Value>
+      <Value>Bodengitter (Bausatz)</Value>
     </Record>
     <Record>
       <Key>CompositeRollCover</Key>
@@ -2451,7 +2467,7 @@
     </Record>
     <Record>
       <Key>ItemKitLadder</Key>
-      <Value>Kit (Leiter)</Value>
+      <Value>Leiter Bausatz</Value>
     </Record>
     <Record>
       <Key>StructureFrameCornerCut</Key>
@@ -2603,43 +2619,43 @@
     </Record>
     <Record>
       <Key>StructureWallPlating</Key>
-      <Value>Struktur-Wandpolster dünn</Value>
+      <Value>Wand Polster dünn</Value>
     </Record>
     <Record>
       <Key>StructureWallSimple</Key>
-      <Value>Strukturwand einfach</Value>
+      <Value>Wand Einfach</Value>
     </Record>
     <Record>
       <Key>StructureWallSmallPanels</Key>
-      <Value>Strukturwand Kleine Platten</Value>
+      <Value>Wand Kleine Platten</Value>
     </Record>
     <Record>
       <Key>StructureWallLargePanel</Key>
-      <Value>Strukturwand groß Platten</Value>
+      <Value>Wand groß Platten</Value>
     </Record>
     <Record>
       <Key>StructureWallSmallPanelsAndHatch</Key>
-      <Value>Struktur-Wand kleine Platten und Luke</Value>
+      <Value>Wand kleine Platten und Luke</Value>
     </Record>
     <Record>
       <Key>StructureWallSmallPanelsArrow</Key>
-      <Value>Struktur-Wand Kleine Platten Pfeil</Value>
+      <Value>Wand Kleine Platten Pfeil</Value>
     </Record>
     <Record>
       <Key>StructureWallSmallPanelsMonoChrome</Key>
-      <Value>Strukturwand Kleine Platten Einfarbig</Value>
+      <Value>Wand Kleine Platten Einfarbig</Value>
     </Record>
     <Record>
       <Key>StructureWallSmallPanelsTwoTone</Key>
-      <Value>Strukturwand kleine Platten zweifarbig</Value>
+      <Value>Wand kleine Platten zweifarbig</Value>
     </Record>
     <Record>
       <Key>StructureWallLargePanelArrow</Key>
-      <Value>Strukturwand Großer Plattenpfeil</Value>
+      <Value>Wand Großer Plattenpfeil</Value>
     </Record>
     <Record>
       <Key>ItemKitWallArch</Key>
-      <Value>Gewölbte Wand (Bausatz)</Value>
+      <Value>Wand Gewölbte (Bausatz)</Value>
     </Record>
     <Record>
       <Key>ItemKitWallFlat</Key>
@@ -2647,11 +2663,11 @@
     </Record>
     <Record>
       <Key>ItemKitWallGeometry</Key>
-      <Value>Geometrische Wand (Bausatz)</Value>
+      <Value>Wand Geometrische (Bausatz)</Value>
     </Record>
     <Record>
       <Key>ItemKitWallPadded</Key>
-      <Value>Gepolsterte Wand (Bausatz)</Value>
+      <Value>Wand Gepolsterte (Bausatz)</Value>
     </Record>
     <Record>
       <Key>StructureLadder</Key>
@@ -2772,6 +2788,38 @@
     <Record>
       <Key>FireArmSMG</Key>
       <Value>SMG</Value>
+    </Record>
+    <Record>
+      <Key>StructureElectrolyzer</Key>
+      <Value>Elektrolyseur</Value>
+    </Record>
+    <Record>
+      <Key>StructureElevatorShaft</Key>
+      <Value>Aufzug Welle</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitElevator</Key>
+      <Value>Aufzug (Bausatz)</Value>
+    </Record>
+    <Record>
+      <Key>ElevatorCarrage</Key>
+      <Value>Aufzug</Value>
+    </Record>
+    <Record>
+      <Key>StructureElevatorLevelFront</Key>
+      <Value>Aufzug Etage</Value>
+    </Record>
+    <Record>
+      <Key>StructureCrateMount</Key>
+      <Value>Containerhalterung</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitCrateMount</Key>
+      <Value>Containerhalterung (Bausatz)</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicMirror</Key>
+      <Value>Logikspiegel</Value>
     </Record>
   </Things>
   <Slots>
@@ -2937,7 +2985,7 @@
     </Record>
     <Record>
       <Key>AccessCard</Key>
-      <Value>Zugangskarte</Value>
+      <Value>KarteSlot</Value>
     </Record>
     <Record>
       <Key>Magazine</Key>
@@ -3267,7 +3315,7 @@
     </Record>
     <Record>
       <Key>Access</Key>
-      <Value>KartenSlot</Value>
+      <Value>Zugriff</Value>
     </Record>
   </Interactables>
   <Interface>
