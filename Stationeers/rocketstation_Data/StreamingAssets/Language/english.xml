@@ -291,6 +291,22 @@
       <Key>Rename</Key>
       <Value>Rename</Value>
     </Record>
+    <Record>
+      <Key>Up</Key>
+      <Value>Up</Value>
+    </Record>
+    <Record>
+      <Key>Down</Key>
+      <Value>Down</Value>
+    </Record>
+    <Record>
+      <Key>CallElevator</Key>
+      <Value>Call</Value>
+    </Record>
+    <Record>
+      <Key>Set</Key>
+      <Value>Set</Value>
+    </Record>
   </Actions>
   <Things>
     <Record>
@@ -2769,6 +2785,34 @@
       <Key>StructureElectrolyzer</Key>
       <Value>Electrolyzer</Value>
     </Record>
+    <Record>
+      <Key>StructureElevatorShaft</Key>
+      <Value>Elevator Shaft</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitElevator</Key>
+      <Value>Kit (Elevator)</Value>
+    </Record>
+    <Record>
+      <Key>ElevatorCarrage</Key>
+      <Value>Elevator</Value>
+    </Record>
+    <Record>
+      <Key>StructureElevatorLevelFront</Key>
+      <Value>Elevator Level</Value>
+    </Record>
+    <Record>
+      <Key>StructureCrateMount</Key>
+      <Value>Container Mount</Value>
+    </Record>
+    <Record>
+      <Key>ItemKitCrateMount</Key>
+      <Value>Kit (Container Mount)</Value>
+    </Record>
+    <Record>
+      <Key>StructureLogicMirror</Key>
+      <Value>Logic Mirror</Value>
+    </Record>
   </Things>
   <Slots>
     <Record>
@@ -2938,6 +2982,10 @@
     <Record>
       <Key>Magazine</Key>
       <Value>Magazine</Value>
+    </Record>
+    <Record>
+      <Key>ContainerSlot</Key>
+      <Value>Container Slot</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -3996,6 +4044,18 @@ Scroll &lt;color=red&gt;Mouse Wheel&lt;/color&gt; for more options.</Value>
     <Record>
       <Key>PromptRespawnConfirm</Key>
       <Value>Respawn</Value>
+    </Record>
+    <Record>
+      <Key>PromptGiveUpTitle</Key>
+      <Value>Give Up</Value>
+    </Record>
+    <Record>
+      <Key>PromptGiveUpBody</Key>
+      <Value>You are unconscious. Do you want to give up and respawn?</Value>
+    </Record>
+    <Record>
+      <Key>PromptGiveUpConfirm</Key>
+      <Value>Give Up</Value>
     </Record>
     <Record>
       <Key>AlertInvalidIP</Key>
