@@ -9,14 +9,5 @@ Construct and manage your own space station and ships either by yourself in sing
 
 EN: Created to translate the languages
 
-- Chinese Simplified
-- Chinese Traditional
 - English
-- French
 - German
-- Japanese
-- Korean
-- Polish
-- Portuguese
-- Russian
-- Spanish
