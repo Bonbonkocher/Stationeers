@@ -230,7 +230,7 @@
     </Record>
     <Record>
       <Key>Volatiles</Key>
-      <Value>Volatiles</Value>
+      <Value>Flüchtige Stoffe</Value>
     </Record>
     <Record>
       <Key>Pollutant</Key>
@@ -242,7 +242,8 @@
     </Record>
     <Record>
       <Key>NitrousOxide</Key>
-      <Value>Lachgas</Value>
+      <Value>Distickstoffmonoxid</Value>	  
+      <Description>Auch bekannt als Lachgas</Description>
     </Record>
   </Gases>
   <Actions>
@@ -252,11 +253,11 @@
     </Record>
     <Record>
       <Key>Paint</Key>
-      <Value>Farbe</Value>
+      <Value>Färben</Value>
     </Record>
     <Record>
       <Key>Mine</Key>
-      <Value>Bergwerk</Value>
+      <Value>Abbauen</Value>
     </Record>
     <Record>
       <Key>Swap</Key>
@@ -264,7 +265,7 @@
     </Record>
     <Record>
       <Key>Clear</Key>
-      <Value>klar</Value>
+      <Value>Löschen</Value>
     </Record>
     <Record>
       <Key>Collect</Key>
@@ -284,7 +285,7 @@
     </Record>
     <Record>
       <Key>Pickup</Key>
-      <Value>Abholen</Value>
+      <Value>Aufheben</Value>
     </Record>
     <Record>
       <Key>Take</Key>
@@ -300,11 +301,11 @@
     </Record>
     <Record>
       <Key>Plant</Key>
-      <Value>Pflanze</Value>
+      <Value>Pflanzen</Value>
     </Record>
     <Record>
       <Key>Harvest</Key>
-      <Value>Ernte</Value>
+      <Value>Ernten</Value>
     </Record>
     <Record>
       <Key>Open</Key>
@@ -324,15 +325,15 @@
     </Record>
     <Record>
       <Key>Off</Key>
-      <Value>aus</Value>
+      <Value>Aus</Value>
     </Record>
     <Record>
       <Key>On</Key>
-      <Value>Auf</Value>
+      <Value>An</Value>
     </Record>
     <Record>
       <Key>Powered</Key>
-      <Value>Angetrieben</Value>
+      <Value>Mit Strom versorgt</Value>
     </Record>
     <Record>
       <Key>Unpowered</Key>
@@ -352,7 +353,7 @@
     </Record>
     <Record>
       <Key>Deconstruct</Key>
-      <Value>Dekonstruieren</Value>
+      <Value>Abbauen</Value>
     </Record>
     <Record>
       <Key>Disconnect</Key>
@@ -372,11 +373,11 @@
     </Record>
     <Record>
       <Key>GetIn</Key>
-      <Value>Treten Sie ein</Value>
+      <Value>Eintretenn</Value>
     </Record>
     <Record>
       <Key>Error</Key>
-      <Value>Error</Value>
+      <Value>Fehler</Value>
     </Record>
     <Record>
       <Key>Lock</Key>
@@ -400,11 +401,11 @@
     </Record>
     <Record>
       <Key>CallElevator</Key>
-      <Value>Anruf</Value>
+      <Value>Aufzug rufen</Value>
     </Record>
     <Record>
       <Key>Set</Key>
-      <Value>Set</Value>
+      <Value>Einstellen</Value>
     </Record>
     <Record>
       <Key>Cycle</Key>
@@ -420,23 +421,23 @@
     </Record>
     <Record>
       <Key>Vend</Key>
-      <Value>Vend?</Value>
+      <Value>Verkaufen</Value>
     </Record>
     <Record>
       <Key>Link</Key>
-      <Value>Link?</Value>
+      <Value>Verbinden</Value>
     </Record>
     <Record>
       <Key>UnLink</Key>
-      <Value>UnLink?</Value>
+      <Value>Trennen</Value>
     </Record>
     <Record>
       <Key>ForceFeed</Key>
-      <Value>Force Feed?</Value>
+      <Value>Fütterung erzwingen</Value>
     </Record>
     <Record>
       <Key>FlipRover</Key>
-      <Value>Flip Rover?</Value>
+      <Value>Rover umdrehen</Value>
     </Record>
   </Actions>
   <Things>
