@@ -454,287 +454,287 @@
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautFemaleArmL</Key>
-      <Value>Body Part Astronaut Female Arm</Value>
-      <Description>As far as left arms go, this is an acceptable, if slightly forgettable example of its kind. It's seen better days.</Description>
+      <Value>Astronautin Körperteil Linker Arm</Value>
+      <Description>Was die linken Arme betrifft, ist dies ein akzeptables, wenn auch etwas unvergessliches Beispiel dieser Art. Es hat bessere Tage gesehen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautFemaleArmR</Key>
-      <Value>Body Part Astronaut Female Arm R</Value>
-      <Description>One of a pair. The other is probably nearby.</Description>
+      <Value>Astronautin Körperteil Rechter Arm</Value>
+      <Description>Einer aus einem Paar. Der andere ist wahrscheinlich in der Nähe.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautFemaleHead</Key>
-      <Value>Body Part Astronaut Female Head</Value>
-      <Description>If the eyes are windows to the soul, what does that make the head?</Description>
+      <Value>Astronautin Körperteil Kopf</Value>
+      <Description>Wenn die Augen Fenster zur Seele ist, Was macht sind dann die Ohren?</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautFemaleLegL</Key>
-      <Value>Body Part Astronaut Female Leg)</Value>
-      <Description>A leg, is a leg, is a leg.</Description>
+      <Value>Astronautin Körperteil Linkes Bein</Value>
+      <Description>Dies ist das linke Bein einer Frau, zum fortbewegen, nur eins davon ist sehr unpracktisch!</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautFemaleLegR</Key>
-      <Value>Body Part Astronaut Female Leg R</Value>
-      <Description>This is a woman's right leg. To judge by its state, she was fairly healthy, of average height, with a tendency to walk on the balls of her feet.</Description>
+      <Value>Astronautin Körperteil Rechts Bein</Value>
+      <Description>Dies ist das rechte Bein einer Frau. Nach ihrem Zustand zu urteilen, war sie ziemlich gesund, durchschnittlich groß und neigte dazu, auf ihren Fußkugeln zu laufen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautFemaleTorso</Key>
-      <Value>Body Part Astronaut Female Torso</Value>
-      <Description>This isn't going anywhere by itself.</Description>
+      <Value>Astronautin Körperteil Torso</Value>
+      <Description>Körper einer Frau. Die geht von alleine nirgendwo hin.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautMaleArmL</Key>
-      <Value>Body Part Astronaut Male Arm)</Value>
-      <Description>Your arm is your fourth most important body part.</Description>
+      <Value>Astronaut Körperteil Linker Arm</Value>
+      <Description>Der Arm ist der viertwichtigstes Körperteil.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautMaleArmR</Key>
-      <Value>Body Part Astronaut Male Arm R</Value>
-      <Description>There's nothing funny about this humerus.</Description>
+      <Value>Astronaut Körperteil Rechter Arm</Value>
+      <Description>An diesem Oberarmknochen ist nichts Komisches.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautMaleHead</Key>
-      <Value>Body Part Astronaut Male Head</Value>
-      <Description>&lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt;s need to keep their heads at all times.</Description>
+      <Value>Astronaut Körperteil Kopf</Value>
+      <Description>&lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt;s müssen immer den Kopf behalten.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautMaleLegL</Key>
-      <Value>Body Part Astronaut Male Leg)</Value>
-      <Description>This is a leg. Someone probably misses it.</Description>
+      <Value>Astronaut Körperteil Linkes Bein</Value>
+      <Description>Das ist ein Bein. Jemand vermisst es wahrscheinlich.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautMaleLegR</Key>
-      <Value>Body Part Astronaut Male Leg R</Value>
-      <Description>Legs are really useful things, but wheels would have been cool.</Description>
+      <Value>Astronaut Körperteil Rechtes Arm</Value>
+      <Description>Beine sind wirklich nützliche Dinge, aber Räder wären cool gewesen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautTorso</Key>
-      <Value>Body Part Astronaut Torso</Value>
-      <Description>Once, this was most of someone.</Description>
+      <Value>Astronaut Körperteil Torso</Value>
+      <Description>Körper eines Mannes. Einmal war dies der größte Teil von jemandem.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickBody</Key>
-      <Value>Body Part Chick Body</Value>
+      <Value>Körperteil Huhn Körper</Value>
       <Description>The fluffy heart of a harmless proto-hen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenBrownBody</Key>
-      <Value>Body Part Chicken Brown Body</Value>
+      <Value>Körperteil Huhn Braun Körper</Value>
       <Description>Let's not over-complicate things. It's a chicken.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenBrownHead</Key>
-      <Value>Body Part Chicken Brown Head</Value>
+      <Value>Körperteil Huhn Braun Kopf</Value>
       <Description>A chicken head is useful for many things, but principally voodoo and space curses.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenBrownLegL</Key>
-      <Value>Body Part Chicken Brown Leg)</Value>
+      <Value>Körperteil Huhn Braun Linker Bein</Value>
       <Description>A chicken leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenBrownLegR</Key>
-      <Value>Body Part Chicken Brown Leg R</Value>
+      <Value>Körperteil Huhn Braun Rechtes Bein</Value>
       <Description>Also a chicken leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenBrownTail</Key>
-      <Value>Body Part Chicken Brown Tail</Value>
+      <Value>Körperteil Huhn Braun Schweif</Value>
       <Description>A chicken's tail is arguably its least endearing feature.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenBrownWingL</Key>
-      <Value>Body Part Chicken Brown Wing)</Value>
+      <Value>Körperteil Huhn Braun Linker Flügel</Value>
       <Description>A chicken wing.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenBrownWingR</Key>
-      <Value>Body Part Chicken Brown Wing R</Value>
+      <Value>Körperteil Huhn Braun Rechter Flügel</Value>
       <Description>A chicken wing.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenWhiteBody</Key>
-      <Value>Body Part Chicken White Body</Value>
+      <Value>Körperteil Huhn Weißer Körper</Value>
       <Description>Part of a chicken.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenWhiteHead</Key>
-      <Value>Body Part Chicken White Head</Value>
+      <Value>Körperteil Huhn Weißer Kopf</Value>
       <Description>A chicken's head. Once used as currency by long-departed alien races.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenWhiteLegL</Key>
-      <Value>Body Part Chicken White Leg)</Value>
+      <Value>Körperteil Huhn Weißer Linker Bein</Value>
       <Description>A chicken leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenWhiteLegR</Key>
-      <Value>Body Part Chicken White Leg R</Value>
+      <Value>Körperteil Huhn Weißer Rechtes Bein</Value>
       <Description>A chicken leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenWhiteTail</Key>
-      <Value>Body Part Chicken White Tail</Value>
+      <Value>Körperteil Huhn Weißer Schweif</Value>
       <Description>A chicken tail.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenWhiteWingL</Key>
-      <Value>Body Part Chicken White Wing)</Value>
+      <Value>Körperteil Huhn Weißer Linker Flügel</Value>
       <Description>It's a chicken wing.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickenWhiteWingR</Key>
-      <Value>Body Part Chicken White Wing R</Value>
+      <Value>Körperteil Huhn Weißer Rechter Flügel</Value>
       <Description>A chicken wing.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickHead</Key>
-      <Value>Body Part Chick Head</Value>
+      <Value>Körperteil Küken Kopf</Value>
       <Description>The head of a chicken. Once, it had the heart of a tiger.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickLegL</Key>
-      <Value>Body Part Chick Leg)</Value>
+      <Value>Körperteil Küken Linker Bein</Value>
       <Description>A chicken leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickLegR</Key>
-      <Value>Body Part Chick Leg R</Value>
+      <Value>Körperteil Küken Rechts Bein</Value>
       <Description>A chicken leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickTail</Key>
-      <Value>Body Part Chick Tail</Value>
+      <Value>Körperteil Küken Schweif</Value>
       <Description>A chicken's tail.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickWingL</Key>
-      <Value>Body Part Chick Wing)</Value>
+      <Value>Körperteil Küken Linker Flügel</Value>
       <Description>A chicken wing.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartChickWingR</Key>
-      <Value>Body Part Chick Wing R</Value>
+      <Value>Körperteil Küken Rechter Flügel</Value>
       <Description>A chicken wing.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartGraylienArmL</Key>
-      <Value>Body Part Graylien Arm L</Value>
+      <Value>Körperteil Graylien Linker Arm</Value>
       <Description>An alien's arm.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartGraylienArmR</Key>
-      <Value>Body Part Graylien Arm R</Value>
+      <Value>Körperteil Graylien Rechtes Arm</Value>
       <Description>An alien's arm.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartGraylienBody</Key>
-      <Value>Body Part Graylien Body</Value>
+      <Value>Körperteil Graylien Torso</Value>
       <Description>An alien's body, or a very convincing fake.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartGraylienHead</Key>
-      <Value>Body Part Graylien Head</Value>
+      <Value>Körperteil Graylien Kopf</Value>
       <Description>An alien's head.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartGraylienLegL</Key>
-      <Value>Body Part Graylien Leg L</Value>
+      <Value>Körperteil Graylien Linkes Bein</Value>
       <Description>An alien's leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartGraylienLegR</Key>
-      <Value>Body Part Graylien Leg R</Value>
+      <Value>Körperteil Graylien Rechtes Bein</Value>
       <Description>An alien's other leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartGraylienPelvis</Key>
-      <Value>Body Part Graylien Pelvis</Value>
+      <Value>Körperteil Graylien Becken</Value>
       <Description>An alien's pelvis.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBlackBody</Key>
-      <Value>Body Part Rooster Black Body</Value>
+      <Value>Körperteil Hahn Schwarz Body</Value>
       <Description>A rooster's body.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBlackHead</Key>
-      <Value>Body Part Rooster Black Head</Value>
+      <Value>Körperteil Hahn Schwarz Head</Value>
       <Description>A rooster's head. The perfect gift for mother's day.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBlackLegL</Key>
-      <Value>Body Part Rooster Black Leg)</Value>
+      <Value>Körperteil Hahn Schwarz Leg)</Value>
       <Description>A rooster's leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBlackLegR</Key>
-      <Value>Body Part Rooster Black Leg R</Value>
+      <Value>Körperteil Hahn Schwarz Leg R</Value>
       <Description>A rooster's leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBlackTail</Key>
-      <Value>Body Part Rooster Black Tail</Value>
+      <Value>Körperteil Hahn Schwarz Tail</Value>
       <Description>A rooster's tail.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBlackWingL</Key>
-      <Value>Body Part Rooster Black Wing)</Value>
+      <Value>Körperteil Hahn Schwarz Wing)</Value>
       <Description>A rooster's wing.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBlackWingR</Key>
-      <Value>Body Part Rooster Black Wing R</Value>
+      <Value>Körperteil Hahn Schwarz Wing R</Value>
       <Description>A rooster's wing.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBrownBody</Key>
-      <Value>Body Part Rooster Brown Body</Value>
+      <Value>Körperteil Hahn Braun Body</Value>
       <Description>A rooster's body.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBrownHead</Key>
-      <Value>Body Part Rooster Brown Head</Value>
+      <Value>Körperteil Hahn Braun Head</Value>
       <Description>The head of a brown rooster.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBrownLegL</Key>
-      <Value>Body Part Rooster Brown Leg)</Value>
+      <Value>Körperteil Hahn Braun Leg)</Value>
       <Description>A brown rooster's leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBrownLegR</Key>
-      <Value>Body Part Rooster Brown Leg R</Value>
+      <Value>Körperteil Hahn Braun Leg R</Value>
       <Description>A rooster's leg.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBrownTail</Key>
-      <Value>Body Part Rooster Brown Tail</Value>
+      <Value>Körperteil Hahn Braun Tail</Value>
       <Description>A rooster's tail.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBrownWingL</Key>
-      <Value>Body Part Rooster Brown Wing)</Value>
+      <Value>Körperteil Hahn Braun Linker Flügel</Value>
       <Description>A rooster's wing.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartRoosterBrownWingR</Key>
-      <Value>Body Part Rooster Brown Wing R</Value>
+      <Value>Körperteil Hahn Braun Rechter Flügel</Value>
       <Description>A brown rooster's wing. Well, brownish.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeAtmosAnalyser</Key>
-      <Value>Atmos Analyser</Value>
+      <Value>Atmos Analyzer</Value>
       <Description>The Lorenz atmos analyzer is a multi-functional mass-spectrometer designed by &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; for use with the OreCore {THING:ItemTablet}. It displays the pressure, concentration and molar quantity of &lt;color=#0080FFFF&gt;{LINK:GasPage;Gas}&lt;/color&gt; in rooms, tanks, or pipe networks.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeMedicalAnalyser</Key>
-      <Value>Medical Analyser</Value>
+      <Value>Medizinisch Analyzer</Value>
       <Description>When added to the OreCore {THING:ItemTablet}, &lt;color=#0080FFFF&gt;{LINK:Asura;Asura's}&lt;/color&gt;'s ReadyMed medical analyzer reveals the health, or otherwise, of users various organs. Due to a design flaw, older models were notorious for producing quasar-like levels of x-ray radiation. Recent advances in shielding have more than halved the risk to users.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeNetworkAnalyser</Key>
-      <Value>Network Analyser</Value>
+      <Value>Netzwerk Analyzer</Value>
       <Description>A minor masterpiece of micro-electronic engineering, the network analyzer displays the current, voltage and wattage of a cable network, as well as any devices connected to it. Based on a widely-copied &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt; design, it's used in conjunction with the OreCore {THING:ItemTablet}.</Description>
     </RecordThing>
     <RecordThing>
@@ -793,89 +793,89 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     </RecordThing>
     <RecordThing>
       <Key>DynamicAirConditioner</Key>
-      <Value>Portable Air Conditioner</Value>
+      <Value>Tragbar Air Conditioner</Value>
       <Description>The &lt;color=#0080FFFF&gt;{LINK:Sinotai;Sinotai}&lt;/color&gt;-designed Huxi portable air conditioner cools by drawing heat from the atmosphere and storing it, or adding heat to the atmosphere from its internal tank. With a max internal pressure of 8106kPa, its capacity is relatively limited, physics being clear on this subject. To extend its temperature storage ability, bolt the Huxi to a {THING:StructureTankConnector}, then connect it to a pipe network supplying hot or cold &lt;color=#0080FFFF&gt;{LINK:GasPage;gases}&lt;/color&gt;.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicCrate</Key>
-      <Value>Dynamic Crate</Value>
+      <Value>Dynamische Kiste</Value>
       <Description>The humble dynamic crate has become a symbol of &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer}&lt;/color&gt; invention and independence. With twelve slots and handles at either end for ease of carriage, it's both standard issue and critical kit for cadets and Commanders alike.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicCrateBuildingSupplies</Key>
-      <Value>Crate (Building Supplies)</Value>
+      <Value>Kiste (Baumaterialien)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>DynamicCrateCableSupplies</Key>
-      <Value>Crate (Cabling Supplies)</Value>
+      <Value>Kiste (Kabelzubehör)</Value>
     </RecordThing>
     <RecordThing>
       <Key>DynamicCrateConveyorSupplies</Key>
-      <Value>Crate (Conveyor Supplies)</Value>
+      <Value>Kiste (Fördererbedarf)</Value>
     </RecordThing>
     <RecordThing>
       <Key>DynamicCratePipeSupplies</Key>
-      <Value>Crate (Pipe Supplies)</Value>
+      <Value>Kiste (Rohrzubehör)</Value>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterAir</Key>
-      <Value>Portable Gas Tank (Air)</Value>
+      <Value>Tragbar Gas Tank (Sauerstoff)</Value>
       <Description>Portable gas tanks do one thing: store gas. But there's lots you can do with them. To refill the tank, bolt it to a {THING:ItemTankConnector}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or bad things happen. Once it's full, you can refill a {THING:ItemGasCanisterOxygen} by attaching it to the tank's striped section. Or you could vent the tank's variable flow rate valve into a room and create an atmosphere. They also attach to rovers and rockets. Alternatively, kick it over and practice barrel rolling. The possiblities are endless.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterCarbonDioxide</Key>
-      <Value>Portable Gas Tank (CO2)</Value>
+      <Value>Tragbar Gas Tank (CO2)</Value>
       <Description>Portable gas tanks do one thing: store gas. To refill the tank, bolt it to a {THING:ItemTankConnector}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or ... boom. Once it's full, you can refill a {THING:ItemGasCanisterCarbonDioxide} by attaching it to the tank's striped section. Or you could vent the tank's variable flow rate valve into a room and create an atmosphere ... of sorts.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterEmpty</Key>
-      <Value>Portable Gas Tank</Value>
+      <Value>Tragbar Gas Tank (Leer)</Value>
       <Description>Portable gas tanks store gas. To refill one, bolt it to a {THING:ItemTankConnector}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or bad things happen. Once it's full, you can refill a {THING:ItemGasCanisterEmpty} by attaching it to the tank's striped section. Or you could vent the tank's variable flow rate valve into a room and create an atmosphere.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterFuel</Key>
-      <Value>Portable Gas Tank (Fuel)</Value>
+      <Value>Tragbar Gas Tank (Treibstoff)</Value>
       <Description>Portable tanks store gas. They're good at it. If you need to refill a tank, bolt it to a {THING:ItemTankConnector}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or things get messy. You can refill a {THING:ItemGasCanisterFuel} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rover or rocket for later. It's really up to you.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterNitrogen</Key>
-      <Value>Portable Gas Tank (Nitrogen)</Value>
+      <Value>Tragbar Gas Tank (Stickstoff)</Value>
       <Description>Portable tanks store gas. If you need to refill a tank, bolt it to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or you'll end up with nitrogen in places you weren't expecting. You can refill a {THING:ItemGasCanisterNitrogen} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rover or rocket for later.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterOxygen</Key>
-      <Value>Portable Gas Tank (Oxygen)</Value>
+      <Value>Tragbar Gas Tank (Sauerstoff)</Value>
       <Description>Portable tanks store gas. If you need to refill a tank, bolt it to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to a pipe network. Try to avoid pushing it above 10 MPa, or you'll be picking tank shards out of your face. You can refill a {THING:ItemGasCanisterOxygen} by attaching it to the tank's striped section. Or you could vent it into a sealed room to create an atmosphere. Or even paint it pink, call it Steve and fill that sad space in your heart.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterVolatiles</Key>
-      <Value>Portable Gas Tank (Volatiles)</Value>
+      <Value>Tragbar Gas Tank (Volatiles)</Value>
       <Description>Portable tanks store gas. To refill one, bolt it to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to a pipe network. Don't fill it above 10 MPa, unless you're the sort who loves complicated, flammable emergencies. You can refill a {THING:ItemGasCanisterVolatiles} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach to a rocket and show it around the Solar System.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterWater</Key>
-      <Value>Portable Liquid Tank (Water)</Value>
+      <Value>Tragbar Flüssigkeit Tank (Wasser)</Value>
       <Description>This portable tank stores liquid, and liquid only. You can bolt one to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to {THING:StructurePipeLiquidStraight} to supply liquid to a network. But try to keep pressure under 10 MPa, or you'll end up wet, hurt and sorry, without any of the fun. You can refill a {THING:ItemGasCanisterWater} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rocket and take it somewhere distant and dry, then feel good about yourself.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicLiquidCanisterEmpty</Key>
-      <Value>Portable Liquid Tank</Value>
+      <Value>Tragbar Flüssigkeit Tank (Leer)</Value>
       <Description>This portable tank stores liquid, and liquid only. You can bolt one to a {THING:ItemTankConnectorLiquid} using a {THING:ItemWrench}, then connect it to a pipe network to refill it. You can refill a {THING:ItemGasCanisterWater} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rocket and take it somewhere distant and dry, then feel good about yourself.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGenerator</Key>
-      <Value>Portable Generator</Value>
+      <Value>Tragbar Generator</Value>
       <Description>Every &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeer's}&lt;/color&gt; best friend, the portable generator gets you up and running, fast. Fill it with a {THING:ItemGasCanisterFuel} to power up and charge a {THING:ItemBatteryCell}, or attach it to a {THING:StructurePowerConnector} to link it into your electrical network. It's pressure driven, so functions more efficiently at lower temperatures, and REALLY efficiently if supercooled. Perfecting your fuel mix also makes a big difference.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicLight</Key>
-      <Value>Portable Light</Value>
+      <Value>Tragbares Licht</Value>
       <Description>Philippe Starck might not applaud, but this battery-powered light source undarkens the corners when illumination's lacking. Powered by any battery, it's a 'no-frills' &lt;color=#0080FFFF&gt;{LINK:Xigo;Xigo}&lt;/color&gt; design that can be cheaply fabricated with the minimum of fuss. Unless you like fuss. In which case, fuss all you like.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicScrubber</Key>
-      <Value>Portable Air Scrubber</Value>
+      <Value>Tragbares Luft Filter</Value>
       <Description>A portable scrubber does just what it sounds like: removes specific substances from the air. For instance, attaching a {THING:ItemGasFilterCarbonDioxide} will pull &lt;color=#0080FFFF&gt;{LINK:GasPage;CO2}&lt;/color&gt; from the surrounding atmosphere. Note that the scrubber has room for one battery and two filters, which will double its operating speed. Neat. When it reaches an internal pressure of 8106kPA, an error signal will flash on the switch, indicating it needs to be emptied. Either vent it directly, or attach it to a pipe network via a {THING:ItemTankConnector} and a {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
@@ -889,17 +889,17 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     </RecordThing>
     <RecordThing>
       <Key>EntityChick</Key>
-      <Value>Entity Chick</Value>
+      <Value>Entity Küken</Value>
       <Description>Once a chick is hatched, it gets hungry. It will eat soybeans, corn, and wheat, and lay eggs. Some will be fertilized, producing further chickens. Some will not.</Description>
     </RecordThing>
     <RecordThing>
       <Key>EntityChickenBrown</Key>
-      <Value>Entity Chicken Brown</Value>
+      <Value>Entity Huhn Braun</Value>
       <Description>Like so many of its bretheren, this is a chicken. A brown one. It will eat soybeans, corn, and wheat, and lay eggs. Some will be fertilized, producing further chickens. Some will not.</Description>
     </RecordThing>
     <RecordThing>
       <Key>EntityChickenWhite</Key>
-      <Value>Entity Chicken White</Value>
+      <Value>Entity Huhn Weiß</Value>
       <Description>It's a chicken, as white as moondust. It will eat soybeans, corn, and wheat, and lay eggs. Some will be fertilized, producing further chickens. Some will not.</Description>
     </RecordThing>
     <RecordThing>
@@ -909,17 +909,17 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     </RecordThing>
     <RecordThing>
       <Key>EntityRoosterBlack</Key>
-      <Value>Entity Rooster Black</Value>
+      <Value>Entity Hahn Schwarz</Value>
       <Description>This is a rooster. It is black. There is dignity in this.</Description>
     </RecordThing>
     <RecordThing>
       <Key>EntityRoosterBrown</Key>
-      <Value>Entity Rooster Brown</Value>
+      <Value>Entity Hahn Braun</Value>
       <Description>The common brown rooster. Don't let it hear you say that.</Description>
     </RecordThing>
     <RecordThing>
       <Key>GasTankAir</Key>
-      <Value>Gas Tank (Air)</Value>
+      <Value>Gas Tank (Sauerstoff)</Value>
       <Description>Portable gas tanks store gas, and gas only. To refill one, bolt it to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to a pipe network. Try to avoid pushing it above 100 atmospheres, or you'll taste the delicate flavor of regret. Use tanks to fill a {THING:ItemGasCanisterEmpty} by attaching it to the tank's striped section. Or you could vent it into a sealed room to create an atmosphere, attach it to a rover and take it for a drive, or just use it for loud, expensive target practice.</Description>
     </RecordThing>
     <RecordThing>
