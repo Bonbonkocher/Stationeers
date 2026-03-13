@@ -7,7 +7,7 @@ Construct and manage your own space station and ships either by yourself in sing
 - [Discord](https://discordapp.com/invite/CxR3mRy "Titel, der beim Überfahren mit der Maus angezeigt wird")
 
 Ich wurde inspiriert, von JonasVerzockt (Steam Profile)
-- [Mod [BETA] Deutsche ÜbersetzungDiscord](https://steamcommunity.com/sharedfiles/filedetails/?id=3032318024 "[BETA] Deutsche Übersetzung von JonasVerzockt")
+- [Mod [BETA] Deutsche Übersetzung](https://steamcommunity.com/sharedfiles/filedetails/?id=3032318024 "[BETA] Deutsche Übersetzung von JonasVerzockt")
 
 EN: Created to translate the languages
 
