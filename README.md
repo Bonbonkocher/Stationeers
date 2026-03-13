@@ -13,11 +13,11 @@ Inspiriert
 - Mod [[BETA] Deutsche Übersetzung](https://steamcommunity.com/sharedfiles/filedetails/?id=3032318024 "[BETA] Deutsche Übersetzung von JonasVerzockt")
 
 Weitere Links:
-- GitHub (https://github.com/Bonbonkocher/Stationeers/ "https://github.com/Bonbonkocher/Stationeers/")
-- Mod in Plannung
+- [GitHub](https://github.com/Bonbonkocher/Stationeers/ "https://github.com/Bonbonkocher/Stationeers/")
+- [Steam Workshop] in Plannung
 
 Installiere:
-1. Downloade die releases version
+1. Downloade die releases version [Releases](https://github.com/Bonbonkocher/Stationeers/releases "https://github.com/Bonbonkocher/Stationeers/releases")
 2. Enpacke die Dateien der zip Dateien
 3. die im ordner xml, alle dateien einfügen nach Installationsverzeichnis (Steam): "C:\Program Files (x86)\Steam\steamapps\common\Stationeers\rocketstation_Data\StreamingAssets\Language"
 4. bitte sicherung vor dem Ersetzen der dateien german.xml, german_help.xml, german_keys.xml, german_tips.xml, german_tooltips.xml (z.B. Desktop Neuer Ordner Original)
