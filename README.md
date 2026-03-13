@@ -16,6 +16,13 @@ Weitere Links:
 - GitHub (https://github.com/Bonbonkocher/Stationeers/ "https://github.com/Bonbonkocher/Stationeers/")
 - Mod in Plannung
 
+Installiere:
+1. Downloade die releases version
+2. Enpacke die Dateien der zip Dateien
+3. die im ordner xml, alle dateien einfügen nach Installationsverzeichnis (Steam): "C:\Program Files (x86)\Steam\steamapps\common\Stationeers\rocketstation_Data\StreamingAssets\Language"
+4. bitte sicherung vor dem Ersetzen der dateien german.xml, german_help.xml, german_keys.xml, german_tips.xml, german_tooltips.xml (z.B. Desktop Neuer Ordner Original)
+5. Spiel starten untereinstellung spiel auf Deutsch stellen fertig
+
 EN: Created to translate the languages
 DE: Erstellt, um die Sprachen zu übersetzen
 
