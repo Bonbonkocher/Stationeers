@@ -1,23 +1,13 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Code>DE</Code>
   <HelpPage>
-    <!--
-    ~~~~~~~~~~~~~~~~~~~~~~~~~
-    |                 MASTER PAGES            |
-    ~~~~~~~~~~~~~~~~~~~~~~~~~
-    -->
     <StationpediaPage>
-      <!--LEAVE THIS ALONE NEEDED FOR THOSE PAGES-->
       <Key>Home</Key>
-      <Title>Startseite</Title>
-      <Text></Text>
+      <Title>Home</Title>
     </StationpediaPage>
-    <!--LEAVE THIS ALONE NEEDED FOR THOSE PAGES-->
     <StationpediaPage>
       <Key>Search</Key>
       <Title>Suche</Title>
-      <Text></Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>AirlockDevicePage</Key>
@@ -31,7 +21,7 @@
     </StationpediaPage>
     <StationpediaPage>
       <Key>CartridgePage</Key>
-      <Title>Chips</Title>
+      <Title>Patronen</Title>
       <Text>Diese können zu {THING:ItemTablet} oder {THING:ItemAdvancedTablet} hinzugefügt werden, um verschiedene Diagnosefunktionen auszuführen.
         {LIST_OF_CARTRIDGES}</Text>
     </StationpediaPage>
@@ -67,9 +57,9 @@
     </StationpediaPage>
     <StationpediaPage>
       <Key>LorePage</Key>
-      <DisplayFilter>Lore</DisplayFilter>
       <Title>Fraktionen</Title>
       <Text>{LIST_OF_FACTIONS}</Text>
+      <DisplayFilter>Lore</DisplayFilter>
     </StationpediaPage>
     <StationpediaPage>
       <Key>FabricatorPage</Key>
@@ -91,260 +81,16 @@
     </StationpediaPage>
     <StationpediaPage>
       <Key>SmeltingPage</Key>
-      <DisplayFilter>Guides</DisplayFilter>
-      <Title>Verhüttung</Title>
-      <Text>Sobald du {LINK:OrePage;Erz} hast, musst du es in {LINK:IngotPage;Barren} umwandeln, damit du ihre {LINK:ReagentPage;Reagenzien} verwenden kannst. Bei der Verhüttung entstehen oft {LINK:GasPage;Gase}. Dies geschieht entweder im {THING:StructureArcFurnace} (für einfache Rezepte) und im {THING:StructureFurnace} für kompliziertere {LINK:AlloyPage;Legierungen}, und schließlich im {THING:StructureAdvancedFurnace} für sehr komplizierte {LINK:SuperAlloyPage;Superlegierungen}. Für die komplexen Legierungen müssen Sie Mischungen mit perfekten Verhältnissen, {LINK:TemperaturSeite;Temperatur} und {LINK:DruckSeite;Druck} erreichen. 
-      </Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>TranslatePage</Key>
-      <Title>Deutsche Übersetzung</Title>
-      <Text>Du spielst mit der Übersetzung von JonasVerzockt! Vielen Dank!
-Hier findest du paar Infos, Hinweise und etc.! Hast du einen Fehler gefunden oder einen Wunsch zur Übersetzung?
-Dann komm gerne auf meinen Discord, Einladungslink: {LINK:Dummy;cG3KkQQ7KP}
-Keine Lust auf Discord? Schreib mir eine E-Mail! Ja sowas hab ich auch noch ;)! {LINK:Dummy;mail@jonasverzockt.de}
-
-In Druckern werden aktuell nicht die Mod Übersetzungen angezeigt sondern die originalen Files rangezogen!
-Fixen lässt sich es nur wenn du die german.xml aus meinem Mod kopierst und hier einfügst/überschreibst: "SteamLibrary\steamapps\common\Stationeers\rocketstation_Data\StreamingAssets\Language"
-
-{HEADER:INFOS}
-In der Übersetzung haben wir unter Umständen paar Insider für Konny87 versteckt! Wer sie gesehen hat und sich gewundert hat weiß nun bescheid ;)!
-Wie könnt ihr Konny87 finden fragt ihr euch? Gerne sage ich euch wie!
-Discord: {LINK:Dummy;PrdGfX4haq}
-Twitch: {LINK:Dummy;konny87}
-YouTube: {LINK:Dummy;@Konny87}
-
-Wer ist nun dieser Konny87? Nun er stellt sich unter Twitch so vor:
-"Hallo und willkommen! Ich bin Konny87 und spiele hier zu einem großen Anteil Oxygen not Included. Ich versuche das Game für jeden interessant zu gestalten, völlig egal ob Neuling oder Veteran. Ansonsten spiele ich gerne Multiplayer, Rätsel, Survival, Action-Adventure und Basebau Spiele."
-
-{HEADER:HINWEISE}
-ACHTUNG! DAS IST AKTUELL NOCH EINE BETA UND STARK IN BEARBEITUNG!
-
-
-{HEADER:NEUE SEITEN}
-{LINK:SmeltingPage1;Schmelzen}
-{LINK:SmeltingPage2;Grundlagen der Metallverarbeitung}
-{LINK:SmeltingPage3;Allgemeine Metallverarbeitung}
-{LINK:SmeltingPage4;Fortgeschrittener Metallverarbeitung}
-{LINK:CombustionGases;Brenngase}
-{LINK:MiningPage;Bergbau}
-{LINK:AdvancedMiningPage;Erweiterter Bergbau}
-{LINK:MiningStrategy;Bergbau Strategie}
-{LINK:ColorsPage;Farben}
-
-Sind auch unter Leitfäden!
-
-{HEADER:DANKESSAGUNG}
-Großartiger Applaus und virtuelle High Fives gehen raus an die wahren Helden hinter diesem technologischen Epos! Ein herzliches Dankeschön an all die klugen Köpfe, die dieses Projekt aus der Taufe gehoben, mit Ideen gefüttert, Feedback geliefert und Support gegeben haben. Hier sind unsere Champions:
-
-{LINK:Dummy;konny87} - Deine Ideen haben nicht nur die Funken gezündet, sondern du hast auch tapfer im Twitch-Streams die Updates getestet, um Bugs zu entlarven und den Verbesserungszug anzufeuern.
-
-{LINK:Dummy;rogerwatersx} - Der Visionär, der von Anfang an dabei war und sogar Übersetzungen aus dem Hut gezaubert hat! Deine Inspiration und Sprachkünste haben das Projekt größer gemacht.
-
-{LINK:Dummy;zynischerboomer} - Der Ideen-Guru, der mit seinen brillanten Einfällen den Beschreibungsozean erweitert hat. Nicht zu vergessen die Meisterwerke der Hilfeartikel, die du aufpoliert hast.
-
-Eure Genialität und Zusammenarbeit haben dieses Projekt auf den Raketenantrieb gestellt und es zur Freude der Community gemacht. Ein riesiges Dankeschön für eure Unterstützung – ihr seid wahrhaftig die Legenden hinter den Kulissen!</Text>
-      <DisplayFilter>Lore</DisplayFilter>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>SmeltingPage1</Key>
       <Title>Schmelzen</Title>
-      <Text>Da wir dir nicht alles mitschicken konnten, was du brauchst und die aktuellen Lieferdienste bei dir nur landen werden, wenn du sie bezahlen kannst, musst du dir dein Zeug erst einmal selbst bauen. Wie schon beim Bergbau beschrieben, wir haben dir den einen oder anderen "befreiten" Bauplan mitgeschickt. Du musst also nur das Zeug um dich herum sammeln und veredeln. Also Erz in Metall und Legierungen verwandeln. Sobald du also das passende{LINK:OrePage;Erze} hast, musst du es in {LINK:IngotPage;Barren} verwandeln, damit du ihre {LINK:ReagentPage;Reagenzien} benutzen kannst. Ist einfacher als gesagt. Wir haben dir einen {THING:StructureArcFurnace} mitgeschickt. Dieser wird den einfachen Metallen fertig und benötigt nur ein wenig Strom. Aber du wirst schnell merken, dass es nicht für kompliziertere {LINK:AlloyPage;Legierungen} und schließlich für sehr komplizierte {LINK:SuperAlloyPage;Legierungen} reichen wird. Dafür benötigst du den {THING:StructureFurnace} und anschließend erst recht den im {THING:StructureAdvancedFurnace}. Du musst also idealerweise Eis sammeln und filtern. Wenn die Atmosphäre das nicht erlaubt... puh! Ich hoffe, du hast in Chemie aufgepasst, die einzelnen Erze sollten ein wenig Gas produzieren können. Schau am besten nach, wir werden dir diese Eigenschaften ins Handbuch schreiben! 
- Für die komplexen Legierungen musst du Mischungen mit perfekten Verhältnissen, {LINK:TemperaturePage;Temperatur}, und {LINK:PressurePage;Druck} erreichen. Diese Werte haben wir dir ebenfalls ins Handbuch geschrieben. Kommen wir aber jetzt zu den aufeinander aufbauenden Themen. Wir werden dir hier nicht alles fertig erklären können. Budget ist schon jetzt nicht hierfür vorgesehen, das hier ist gerade meine Mittagspause, in der ich dir das schreibe!
- {LINK:SmeltingPage2;Grundlagen der Metallverarbeitung}
-
-Von Boomer angepasst!</Text>
-    <DisplayFilter>Guides</DisplayFilter>
+      <Text>Sobald du {LINK:OrePage;ore} hast, musst du es in {LINK:IngotPage; ingots} verwandeln, damit du ihre {LINK:ReagentPage;reagents} benutzen kannst. Beim Schmelzen entstehen oft {LINK:GasPage;gases}. Dies geschieht entweder im {THING:StructureArcFurnace} (für einfache Rezepte) oder im {THING:StructureFurnace} für kompliziertere {LINK:AlloyPage;Alloys}, und schließlich im {THING:StructureAdvancedFurnace} für sehr komplizierte {LINK:SuperAlloyPage;Superalloys}. Für die komplexen Legierungen musst du Mischungen mit perfekten Verhältnissen, {LINK: TemperaturePage;Temperature}, und {LINK:PressurePage;Pressure} erreichen.</Text>
     </StationpediaPage>
-	<StationpediaPage>
-      <Key>SmeltingPage2</Key>
-      <Title>Grundlagen der Metallverarbeitung</Title>
-      <Text>Der erste Ofen wurde von uns aus Teilen der Managementküche zusammen gebaut. Leider ist die Hardware eher für Pizzen und dererlei gedacht gewesen. Du wirst also einige Zeit beim Schmelzen benötigen.
-Baue den {THING:StructureArcFurnace} so, das er ans Stromnetz angeschlossen werden kann. Du hast doch schon den Solarstrom angeschlossen oder die Kohleverbrennung aufgebaut? Wenn nicht... denkst du das Teil hier läuft mit Feenstaub? Aufhören zu lesen und um die Stromversorgung kümmern!
-Wenn du das alles dann gemacht hast, einfach das gewünschte Erz reinwerfen und anschalten. Nach einer gefühlten Ewigkeiten werden die Barren hinten rauspurzeln. Bau schnell alles zusammen, was du benötigst. Aber halte dich nicht mit diesem Ofen auf. Der Durchsatz ist gering. Es war schlicht eine Notlösung.
-Schau, dass du möglichst schnell zum {THING:StructureFurnace} vorarbeitest.  Der Plan ist mitgeschickt worden. 
-Dieser hat auch mehr Volumen und kann erste Legierungen unterstützen. Aber mehr dazu im nächsten Kapitel, wenn du endlich so weit bist!
-{LINK:SmeltingPage3;Allgemeine Metallverarbeitung}
-
-Von Boomer angepasst!</Text>
-    <DisplayFilter>Guides</DisplayFilter>
-    </StationpediaPage>
-	<StationpediaPage>
-      <Key>SmeltingPage3</Key>
-      <Title>Allgemeine Metallverarbeitung</Title>
-      <Text>Ok, du hast also den {THING:StructureFurnace} aufgebaut. Dieser arbeitet anders. Du musst neben einem Stromanschluss nun auch mit Gas hantieren! Dafür kannst du jetzt große Mengen und verschiedene Erze gleichzeitig verarbeiten. Aber Vorsicht! Es kann hier zu ernsten Problemen kommen. Erinnerst du dich an dein Brandschutztraining oder die Schulungen bezüglich explosiver Stoffe? Nein? Oh.... ach stimmt, da war wieder das Budget Thema. Nun, du wirst rausfinden, was im schlimmsten Fall passieren kann. Baue die Schmelze und die Gasverarbeitung vielleicht nicht nebeneinander und auch nicht mitten in deine Basis! Du musst immerhin bestimmte Temperaturen, Drücke und Mengen einhalten für die Legierungen. Schau dir dafür die Handbuchseiten an, die wir vorbereitet haben. 
-Wie genau funktioniert es nun also? Gut, du hast den {THING:StructureFurnace} aufgebaut und Gaseinlass wie auch Auslass angeschlossen? Perfekt. Idealerweise überlegst du dir auch Notfallmaßnahmen z.B. zum schnell entlüften oder kühlen des Ofens. Gut gemeinter Tipp!
-Ansonsten wirfst du die passenden Mengen bei passender Temperatur rein und wartest kurz. Beispiele? Stahl. 150g Eisenerz und 50g Kohle in den Ofen rein. Ist ein gnädiges Produkt für den Anfang - du musst lediglich über 900°K mit der Temperatur kommen. Dafür reicht es, Wasserstoff mit Sauerstoff in den Ofen zu werfen. Oh... ja, ok, du kannst es auch wirklich physisch reinwerfen inklusive der Verunreinigungen ... aber gewöhn es dir besser, nicht zu lange an. Es erhöht das Risiko im Betrieb. 2 Eisbrocken Wasserstoff und 1 Eisbrocken Sauerstoff im Verhältnis einwerfen. Idealerweise machst du das in einer Umgebung, in der dir das nicht schon in den Händen schmilzt. Und nicht zu viel auf einmal! Warte, wie der Druck sich im Ofen verhält. Wirfst du zu viel auf einmal rein, könnte der Ofen rapide den Zustand ändern!
-Nach der Nutzung solltest du dir aber überlegen, was du mit dem Gas in der Schmelze machst. Die Temperatur usw. können dir bei anderen Themen noch helfen. Sei kreativ! Oder lass es einfach über einen Vent in die Atmosphäre ab. Wir werden dir wahrscheinlich noch andere Handbuchseiten, zum Beispiel zu den Prozessgasen liefern. Wenn wir die Mittagspausen nicht für dringendere Fixes benötigen.
-Nachdem du nun die grundlegenden Legierungen selbst produzieren kannst, kannst du eine {THING:StructureAdvancedFurnace} bauen. Hier werden dann die nächsten Legierungen in Angriff genommen, die noch kleinere Rahmenbedingungen haben.
-Dazu aber mehr in fortgeschrittener Metallverarbeitung.
-{LINK:SmeltingPage4;Fortgeschrittener Metallverarbeitung}
-
-Von Boomer angepasst!</Text>
-    <DisplayFilter>Guides</DisplayFilter>
-    </StationpediaPage>
-	<StationpediaPage>
-      <Key>SmeltingPage4</Key>
-      <Title>Fortgeschrittener Metallverarbeitung</Title>
-      <Text>Du bist echt bis hierher gekommen? Und hast dich noch nicht in die Luft gejagt? Ausgezeichnet! Und da sage noch einmal jemand, das der erste Kandidat, der im Budget liegt und an Position 2638729 im Auswahlverfahren nicht gut genug sei!
-Aber gut. Du weißt, wie das mit dem Aufheizen des Ofens funktioniert und auch wo du die einzelnen Rezepte findest. Perfekt! Hoffentlich hattest du dir schon eine Gasinfrastruktur erarbeitet und wirfst nicht mehr einzelne Eisbrocken in den Ofen. 
-Wir können daher alles hier relativ kurz halten. Mittagspause, und ich muss noch deinen Anzug nähen. Also wie im bisherigen Verlauf beigebracht:
-Ofen aufstellen.
-Gas einfüllen.
-Langsam die Rohstoffe des Rezepts einfüllen. ACHTUNG! Denk an die Gase aus den Erzen. Wenn du zu viele Rohstoffe einfüllst, also Kiloweise, können dabei extreme Bedingungen entstehen! Schaue also auch vorher, welche Gase freigesetzt werden.
-Und jetzt wirst du bei den {LINK:SuperAlloyPage;Legierungen} feststellen, das die Bedingungen wirklich anstrengend werden. Überlege dir gut, was du tust. Temperatur regeln geht natürlich über das bekannte Wasserstoff/Sauerstoffgemisch. Oder Wasserstoff und Lachgas im 1:1 Verhältnis - das Handling war aber noch äußerst experimental. Das musst du selbst rausfinden.
-Du willst den Druck erhöhen? Hoffentlich hast du altes Gas gesichert, das noch relativ warm war. 
-Oder du willst kühlen? Je nachdem, wohin wir dich geschickt haben, kannst du kaltes CO2 oder N2 in den Ofen leiten.
-Sei kreativ, was die Lösung deiner Probleme angeht. Wir können dir aktuell bedauerlicherweise keine größere Anleitung zukommen lassen. Die Anbieter der {THING:StructureAdvancedFurnace} wollten uns mit dem Vorführmodell nicht länger experimentieren lassen. Irgendwas hatte sie nervös gemacht, nachdem so komisches Knarzen entstand...
-
-Wie dem auch sei - viel Erfolg. Solltest du noch Fragen haben, schick sie uns einfach per Herm äh einem Transportunternehmen deiner Wahl. Wir antworten dir dann in 6-12 Monaten. Alternativ schau hier von Zeit zu Zeit rein, wir versuchen noch eine ausführlichere Anleitung für die Fortgeschrittene Metallverarbeitung zu schreiben!
-
-Von Boomer angepasst!</Text>
-    <DisplayFilter>Guides</DisplayFilter>
-    </StationpediaPage>
-	<StationpediaPage>
-      <Key>CombustionGases</Key>
-      <Title>Brenngase</Title>
-      <Text>{HEADER:Es gibt generell 2 Brenngase!}
-
-{GAS:Volatiles} + {GAS:Oxygen}
-Mischung 2:1 (2 Mol H2 + 1 Mol O2 = 3 Mol Pol + 6 Mol CO2)
-Gase verdreifachen sich! Temperatur bei perfekter Verbrennung ist 2500° (Heißere Umgebungen kühlen dadurch ab!)
-Selbstentzündung bei 300°C
-
-{GAS:Volatiles} + {GAS:NitrousOxide}
-Mischung 1:1 (1 Mol N2O + 1 Mol H2 = 2 Mol N2 + 2 Mol CO2)
-Gase verdoppeln sich! Tempertatur bei perfekter Verbrennung 6000° (Heißere Umgebungen kühlen dadurch ab!)
-Selbstentzündung bei 50°C
-
-{HEADER:Allgemein}
-Für Verbrennung wird mindestens 1 Mol je Brenngas benötigt. Unabhängig von der Entzündungstemperatur können Funken das Gemisch jederzeit entzünden! Ist ein Teil der Brenngase Flüssig, verbrennen diese erst wenn die Flüssigkeit verdampft! Die Verbrennung findet Linear statt und verbrennt immer etwa 15% des Brenngases pro Tick!
-
-{HEADER:Unreine Mischungen bei Brennvorgängen}
-Befindet sich beim Brennvorgang N2 und O2 in den Gasen wird eine kleine Menge N2O erzeugt! N2 Hemmt den Temperaturanstieg deutlich!
-Pol ist ein sehr gutes Füllgas wenn es die richtige Temperatur hat um die Hitze der Verbrennung lange zu halten (bspw. in der Schmelze)!
-
-Infos von rogerwatersx beigesteuert!</Text>
-    <DisplayFilter>Guides</DisplayFilter>
-	</StationpediaPage>
-	<StationpediaPage>
+    <StationpediaPage>
       <Key>MiningPage</Key>
       <Title>Bergbau</Title>
-      <Text>Du kannst für den Start {LINK:OrePage;Dreckiges Erz} mit einem {THING:ItemMiningDrill} abbauen. Wenn du einen {THING:ItemMiningBelt} oder später {THING:ItemMiningBackPack} trägst, wird das {LINK:OrePage;Dreckiges Erz} automatisch in ihm platziert.
-Du kannst auch noch anderes Zeug nutzen. Wir haben dir noch ein paar Sachen als Baupläne mitgeschickt. Mehr dazu in der Bergbau Strategie, die wir uns ausgedacht hatten. Aber erst einmal, was für ein Zeug überhaupt für den Bergbau gedacht war.Keine Angst, nur die Begriffe, damit du mal davon gehört hast. Was die Teile können, musste später halt rausfinden oder in den letzten Unterlagen raussuchen. Wir tragen da selbst noch alle Informationen zusammen.
-Mit zunehmenden Fortschritt wirst du neue Möglichkeiten bekommen. Zuerst bietet sich ein besserer, schneller {THING:ItemMiningDrill} an. Zusätzlich kannst du auf die {THING:ItemSensorLenses} vertrauen, um jederzeit das Material deiner Wahl in deiner Nähe finden zu können. Du wirst schon rausfinden, wie das alles funktioniert. Danach gibt es diverse Optionen, die Erzförderung zu automatisieren. 
-{THING:StructureAutoMinerSmall} 
-{THING:StructureHorizontalAutoMiner} 
-{THING:Robot} 
-{THING:StructureToolManufactory}
-Diese Strukturen haben alle unterschiedliche Vorteile wie auch Nachteile. 
-Kurze Beschreibungen ohne größere Spoiler dazu {LINK:AdvancedMiningPage;Erweiterter Bergbau}. 
-Weitere Möglichkeiten findest du unter {LINK:AutomatedRocketPage;Raketenthema}. Diese haben jedoch die höchsten Anforderungen, liefern aber auf einigen Himmelskörpern Rohstoffe, die vielleicht nicht anders förderbar sind.
-
-Von Boomer angepasst!</Text>
-    <DisplayFilter>Guides</DisplayFilter>
-	</StationpediaPage>
-	<StationpediaPage>
-      <Key>AdvancedMiningPage</Key>
-      <Title>Erweiterter Bergbau</Title>
-      <Text>{THING:StructureAutoMinerSmall} Einfache Bergbaustruktur. Ein Bohrkopf wird horizontal vorangetrieben und baut dabei alles ab, was in seiner Reichweite ist. Begrenzte Abbaumenge.
-   
-{THING:StructureHorizontalAutoMiner} Einfache Berbaustruktur. Ein Bohrkopf wird vertikal vorangetrieben bis zum Grundgestein. Dabei wird alles auf seinem Weg abgebaut. Begrenzte Abbaumenge.
-   
-{THING:Robot} Kleiner Roboter, der mit der richtigen Programmierung selbstständig über die Oberfläche fahren und Erz abbauen kann. Achtung - Stürme schaden seiner Gesundheit und können ihn bei fehlender Wartung zerstören.
-   
-{THING:StructureToolManufactory} Erweiterte Abbaustruktur. Bohrt sich durch das Erdreich, bis sie das Grundgestein erreicht. Erst wenn dieses erreicht wurde, wird mit der Förderung von Rohstoffen begonnen. Dieses {THING:ItemDirtyOre} muss noch weiter verarbeitet werden, bevor es genutzt werden kann.
-{LINK:MiningStrategy;Bergbau Strategie}
-
-Von Boomer angepasst!</Text>
-    <DisplayFilter>Guides</DisplayFilter>
-	</StationpediaPage>
-	<StationpediaPage>
-	<Key>MiningStrategy</Key>
-    <Title>Bergbau Strategie</Title>
-	<Text> Nachdem wir dir in den vorherigen Artikeln zum Bergbau nüchtern erklärt haben, welche Möglichkeiten es gibt, kommen wir nun zu dem, was du unbedingt machen solltest. Wir konnten dir das leider nicht auf der Erde erzählen - Anwälte, Urheberrecht und so... du weißt schon die Geißel der Menschheit. Leider musste aus Budget Gründen der Mining Drill als dein primäres Werkzeug herhalten. Sei froh, wir haben hier privat gesammelt, um ihn zu erwerben. Die Raumfahrtagentur meinte, die Spitzhacke würde es auch tun. Wie du mittlerweile sicher festgestellt haben dürfte, hat hier der günstigste Anbieter gewonnen. Leider konnten wir nicht wirklich testen, was er wirklich taugt. Wir haben zwar von besseren Anbietern die Pläne für bessere Hardware klauen äh prüfen dürfen, leider können wir diese jedoch aus Urheberrechtsgründen nicht auf der Erde nachbauen. Erwähnte ich schon die Anwälte?
-Auf den anderen Himmelskörpern gelten diese Rechte natürlich nicht, daher......... sind die Pläne alle zur Produktion mitgeflogen. Vielleicht ist dir das auch schon aufgefallen, beim Schauen in den Plänen.
-Was bedeutet das nun? Wenn der geneigte Astronaut die grundlegenden Sachen zu seinem Überleben, also dem anderen Budgetthema, gebaut hat und nicht mehr alle 5 Minuten panisch nach Ressourcen suchen muss, kann er sich die Situation deutlich vereinfachen.
-Ab hier solltest du nebenbei NUR weiterlesen, wenn du nicht von alleine drauf kommen willst.  Wenn du meinst "Hey, ihr 2749 Wissenschaftler seid zwar in der Lage, mich hier her zu schießen, aber ab hier übernehme ich" - nur zu. Vielleicht hast du ja "Der Marsianer" als Buch für die Langeweile dabei gehabt und so. 
-Jedenfalls: 
-
-{HEADER:SPOILER}
-Der erste Schritt dürfte sein, sich in der {THING:StructureToolManufactory} einen verbesserten Mining Drill zu produzieren. Damit kannst du dich schon einmal deutlich schneller durch den Boden fräsen.
-Damit lassen sich gängige Ressourcen schnell und ergiebig ausgraben. 
-Direkt im Anschluss kann man schon fast loslegen mit automatischen Fördermethoden.
-Lasst uns ehrlich sein - wir haben zwar einige Möglichkeiten von den Anbietern kopiert, aber lohnenswert sind nur wenige Optionen.
-Autominer? OGRE? AIMEe? Ja, AIMEe ist ein netter Partner für einsame Momente. Jeder sollte einen AIMEe in seiner Basis haben, der ihn anlächelt wenn man seine Batterie tauscht. Um damit Erze zu fördern ist der kleine viel zu schade - und nicht wirklich lange haltbar. Der Autominer und OGRE? Vergesst sie.
-Der {THING:StructureDeepMiner} ist das ultimative frühe Ziel. Er greift direkt auf die Planetenressourcen zu und fördert Unmengen davon im Vergleich zu den anderen Gebäuden.
-Du lieber Astronaut, solltest für alle Ressourcen abseits des Eises dieses Gebäude benutzen.
-Buddel dich dafür am besten bis aufs Grundgestein und erstelle eine kleine Höhle. In dieser platzierst du den {THING:StructureDeepMiner} auf dem Boden. So ist der Weg für seine Bohrköpfe relativ kurz.
-Er fördert allerdings noch keine reinen Rohstoffe, sondern Dreck. Dieser muss in einer der Zentrifugen weiterverarbeitet werden.
-"Oh" wirst du dir gerade denken - ja genau. Der Nachteil dieser Gebäude ist der erhöhte Stromverbrauch bzw. auch Gasverbrauch für den Miner und die Zentrifugen. Aber du findest meistens auch Kohle in dem Dreckigen Erz. Ansonsten sollten genügend Rohstoffe "abfallen" um Windräder und Solarpanels in Masse bauen zu können. 
-Warum liest du hier noch weiter? Los! Geh Rohstoffe fördern.
-Ach... dir fehlen noch einige besondere? Ja. Schnapp dir deine {THING:ItemSensorLenses} und stürz dich durchs Gestein. Das Teil scannt quer durch die Erde und zeigt dir alle Rohstoffpositionen an. Das Suchen hat noch nie so viel Spaß gemacht wie jetzt. Vergiss aber nicht, den Chip dafür einzubauen. Ohne Chip musst du Konny87 eher die Pilze klauen... also den Geheimvorrat... von dem wir niemals etwas gehört hätten.... . Damit siehst du dann vielleicht auch entsprechende Muster - ob dahinter aber auch Erz ist?
-
-So... noch Eis nötig? {LINK:AutomatedRocketPage;Raketenthema} hilft für die Eisförderung. Aber Achtung, Vulcan und Venus brauchen da wieder mehr Arbeit, damit dir das Zeug nicht beim Landen verdampft bzw. die Rakete direkt platzt.... Tja. Du wirst dir Lösungen überlegen müssen. Uns sind noch keine eingefallen,...... schreib uns, wenn du eine Lösung hast... und lange genug überlebst!
-
-Von Boomer angepasst!</Text>
-    </StationpediaPage>
-    <StationpediaPage>
-      <Key>ColorsPage</Key>
-      <Title>Farben</Title>
-      <Text>Es kommt immer wieder mal das Thema "Welche Farben nutzt man wofür?", hier zeige ich mal meine Art Dinge zu färben! Am Ende macht es eh jeder wie er möchte ;) !
-
-
-{HEADER:ROHRE}
-
-Für Gas- und Flüssigkeitsrohre und deren Anlagen (wie Filteranlagen etc.) nutze ich die Farben wie folgt:
-
-Weiß = O2 (Sauerstoff)
-Grau = CO2 (Kohlenstoffdioxid)
-Gelb = X (Schadstoffe)
-Rot = H2 (Wasserstoff)
-Schwarz = N2 (Stickstoff)
-Grün = N2O (Lachgas)
-Blau = H2O (Wasser/Dampf)
-
-Braun = kaltes Mischgas/Abgas (max 40C°)
-Khaki = heißes Mischgas/Abgas (min 40C°)
-
-Orange = Brenngase
-
-Lila = "Klimaanlagen", also alles, was zum kühlen oder Heizen genutzt wird.
-
-
-{HEADER:KABEL}
-
-Für Stromkabel und deren Anlagen nutze ich die Farben wie folgt:
-
-Gelb = Hauptstromkabel (100kW), ich habe gerne ein Stromkabel wo keine Geräte angeschlossen werden, sondern nur APC's und Transformatoren angeschlossen werden.
-Rot = alle Stromkreise nach dem Hauptstromkabel.
-
-Schwarz = Kohlestrom vom Generator bis zur Batterie
-Grün = Solar und Windstrom bis zur Batterie
-Braun = Sonstige Stromerzeuger bis zur Batterie
-
-Sonderfälle: Sofern ich Strom und Daten trenne, so nutze ich gerne Blau für das Datenkabel. Auch wenn viele Stromkreise sich überkreuzen und damit Verwechslungsgefahr besteht, nutze ich neben Rot auch zufällig je nach Thema (Greenhouse = Grün) noch andere Farben, die nicht fix festgelegt sind.
-
-
-{HEADER:SCHÄCHTE}
-
-Für Schächte und deren Anlagen nutze ich die Farben wie folgt:
-
-Keine festen Farben, aber ich versuche immer je nach Thema/Zweck eine Farbe zu finden. Wichtig ist das man parallel laufende Schächte unterschiedlich gefärbt hat und sofern Schächte dasselbe machen wie das andere, eben dann auch dieselbe Farbe bekommt.
-
-
-{HEADER:TIPPS}
-
-Ich kenne einige Menschen, die auch gerne 2 Farben gleichzeitig nutzen wie z.b. Rot/Weiß für das Brenngas mit H2 und O2 oder Rot und Grün für das Brenngas mit H2 und N2O.
-Ihr könnt da ganz kreativ sein/werden, was das betrifft. Einige Farbzuweisungen sind Standard, wie z.b. Gase und Flüssigkeiten. Auf den Filterkartuschen z.b. ist der Hintergrund von O2 weiß und bei H2 rot etc.
-
-Wichtig ist nur, dass ihr es festlegt und dann nicht ständig bunt wechselt. Das verwirrt nur jeden, der mal eure Welt anschaut/mitspielt und ich denke, es hilft auch euch selbst nicht weiter, wenn ihr euch selbst verwirren tut.
-	  </Text>
-      <DisplayFilter>Lore</DisplayFilter>
+      <Text>Du kannst {LINK:OrePage;ore} mit einem {THING:ItemMiningDrill} abbauen. Wenn du einen {THING:ItemMiningBelt} trägst, wird das {LINK:OrePage;ore} automatisch in ihm platziert.</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>TradingPage</Key>
-      <DisplayFilter>Guides</DisplayFilter>
       <Title>Handel</Title>
       <Text>Der Handel ist ein wesentlicher Bestandteil des {LINK:Stationeers;Stationeers} Daseins, vor allem auf extremeren Welten, wo es für neue Kadetten anfangs eine Herausforderung sein kann, ohne Hilfe zu überleben.
 
@@ -359,7 +105,6 @@ Wichtig ist nur, dass ihr es festlegt und dann nicht ständig bunt wechselt. Das
     <StationpediaPage>
       <Key>ConstructionPage</Key>
       <Title>Konstruktion</Title>
-      <DisplayFilter>Guides</DisplayFilter>
       <Text>{HEADER:Getting Started}
         Normalerweise benutzt du {LINK:KitPage;kits}, um mit dem Bau zu beginnen und dann eine Reihe von {LINK:ToolPage;tools} und {LINK:ResourcePage;resources}, um ihn abzuschließen. Achte genau darauf, wie viele deiner Bausätze du brauchst, um das ausgewählte Bauwerk zu errichten, denn für manche Bauwerke brauchst du mehr als einen der Bausätze. Für manche Bausätze gibt es mehrere Optionen. Benutze das {COLORRED:Scroll Wheel}, um die aktuelle Variante zu ändern, die du bauen möchtest.
 
@@ -371,6 +116,7 @@ Wichtig ist nur, dass ihr es festlegt und dann nicht ständig bunt wechselt. Das
 
         {HEADER:Pressure}
         Beim Bauen ist es wichtig zu wissen, dass der Druck als Differenz gemessen wird. Die meisten Bauwerke haben eine Druckgrenze von 200 kPa: Wenn der Unterschied zwischen innen und außen größer ist, gibt es Probleme.</Text>
+      <DisplayFilter>Guides</DisplayFilter>
     </StationpediaPage>
     <StationpediaPage>
       <Key>ReagentPage</Key>
@@ -381,7 +127,6 @@ Wichtig ist nur, dass ihr es festlegt und dann nicht ständig bunt wechselt. Das
     <StationpediaPage>
       <Key>MusicPage</Key>
       <Title>Musik machen</Title>
-      <DisplayFilter>Guides</DisplayFilter>
       <Text>Die {LINK:ODA;ODA} duldet keine Soundtracks oder andere Ablenkungen.
         Daher mussten die {LINK:Stationeers;Stationeers} ihre eigene musikalische Untermalung für die anstrengende Arbeit des Aufbaus und der Instandhaltung der Infrastruktur außerhalb der Welt schaffen.
         Das Herzstück dieser Freizeitbeschäftigung ist der Step-Sequenzer, mit dem Stationeers kurze musikalische Muster oder Schleifen abspielen können.
@@ -390,7 +135,7 @@ Wichtig ist nur, dass ihr es festlegt und dann nicht ständig bunt wechselt. Das
 
         1: Schließe 8 {THING:DeviceStepUnit}s über den Datenanschluss auf der linken Seite an deinen Stepsequenzer an.
 
-        2: Beschrifte jede Step-Unit und weise dann die Step-Units 1 bis 8 mit dem Schraubendreher auf dem Step-Sequenzer zu.
+        2: Beschrifte jede Step-Unit und weise dann die Step-Units 1 bis 8 mit dem Schraubenzieher auf dem Step-Sequenzer zu.
 
         3: Wähle den Ausgangslautsprecher (z.B. {THING:PassiveSpeaker}), über den der Sequenzer die Sounds abspielen soll. Dieser muss mit dem Logiknetzwerk auf der rechten Seite des Sequenzers verbunden werden.
 
@@ -405,12 +150,12 @@ Wichtig ist nur, dass ihr es festlegt und dann nicht ständig bunt wechselt. Das
         8: Spiele mit dem {THING:DeviceLfoVolume} verrückt.
 
         9: Aktiviere schließlich den Sequenzer, Vibeoneer.</Text>
+      <DisplayFilter>Guides</DisplayFilter>
     </StationpediaPage>
     <StationpediaPage>
       <Key>TemperatureControlPage</Key>
       <Title>Temperaturkontrolle</Title>
-      <DisplayFilter>Guides</DisplayFilter>
-      <Text>"Um die Temperatur eines Systems zu regeln, müssen wir ihm entweder Wärme zuführen und so die Temperatur erhöhen oder Wärme abführen und es so abkühlen - das ist die Grundidee der Temperaturregelung. Geräte, die dieses Ziel für dich erreichen, sind {THING:ItemWallHeater}, {THING:ItemWallCooler}, {THING:StructurePipeRadiator}, und {THING:StructureAirConditioner}.
+      <Text>&quot;Um die Temperatur eines Systems zu regeln, müssen wir ihm entweder Wärme zuführen und so die Temperatur erhöhen oder Wärme abführen und es so abkühlen - das ist die Grundidee der Temperaturregelung. Geräte, die dieses Ziel für dich erreichen, sind {THING:ItemWallHeater}, {THING:ItemWallCooler}, {THING:StructurePipeRadiator}, und {THING:StructureAirConditioner}.
 
         HINWEIS: Es gibt viele Methoden der Temperaturkontrolle. Manche beinhalten keines der genannten Geräte. Wir behandeln hier nur die Grundlagen.
 
@@ -468,11 +213,12 @@ Wichtig ist nur, dass ihr es festlegt und dann nicht ständig bunt wechselt. Das
 
         KLIMAANLAGE: TEMPERATURREGELUNG DER BASIS
         Es gibt viele Möglichkeiten, die Temperatur deiner Basis mit Klimaanlagen zu kontrollieren - dies ist eine davon:
-        Schritt 1: Verlege ein Netzwerk aus einem einzigen Rohr um deine Basis und installiere in jedem Raum, den du auf diese Weise klimatisieren möchtest, passive Lüftungsanlagen, die mit diesem Rohr verbunden sind. Das ist das "Netzwerk A".
-        Schritt 2: Verbinde "Netzwerk A" mit dem Eingang und Ausgang einer Klimaanlage.
+        Schritt 1: Verlege ein Netzwerk aus einem einzigen Rohr um deine Basis und installiere in jedem Raum, den du auf diese Weise klimatisieren möchtest, passive Lüftungsanlagen, die mit diesem Rohr verbunden sind. Das ist das &quot;Netzwerk A&quot;.
+        Schritt 2: Verbinde &quot;Netzwerk A&quot; mit dem Eingang und Ausgang einer Klimaanlage.
         Schritt 3: Verbinde das Abfallrohr mit einem anderen Netzwerk und führe es nach draußen. Installiere Heizkörper in diesem Netzwerk.
         Dies ist die Grundeinstellung. Um das Ganze zu automatisieren, brauchst du einen Rohranalysator an Netzwerk A. Dann kannst du die Temperatur ablesen und deine Klimaanlage(n) entsprechend betreiben.
-        Viel Glück, Kadett!"</Text>
+        Viel Glück, Kadett!&quot;</Text>
+      <DisplayFilter>Guides</DisplayFilter>
     </StationpediaPage>
     <StationpediaPage>
       <Key>GasPage</Key>
@@ -487,7 +233,6 @@ Wichtig ist nur, dass ihr es festlegt und dann nicht ständig bunt wechselt. Das
     </StationpediaPage>
     <StationpediaPage>
       <Key>GeneticsPage</Key>
-      <DisplayFilter>Guides</DisplayFilter>
       <Title>Genetik</Title>
       <Text>Pflanzen haben eine Reihe von Genen, die ihr Verhalten verändern. Die Gene einer Pflanze können auf verschiedene Weise manipuliert werden, sowohl auf natürliche als auch auf künstliche Weise. Wenn eine Pflanze Früchte oder Samen produziert, gibt sie ihre Gene mit einer kleinen Zufallsmutation weiter.
 
@@ -519,38 +264,59 @@ Wichtig ist nur, dass ihr es festlegt und dann nicht ständig bunt wechselt. Das
     </StationpediaPage>
     <StationpediaPage>
       <Key>KitPage</Key>
-      <Title>Bausätze</Title>
+      <Title>Kits</Title>
       <Text>Dies sind Gegenstände, die während der {LINK:ConstructionPage;Construction} und anderen Aufgaben verbraucht werden.
         {LIST_OF_KITS}</Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>AutomatedRocketPage</Key>
       <Title>Automatisierte Raketenmodule (A.R.M.)</Title>
+      <Text>&quot;Automatisierte Raketen sind unbemannte Fahrzeuge, die außerhalb der Welten entsandt werden können, um eine Reihe von Rohstoffen zu holen. Die Rakete kann von {LINK:LogicUnitPage;logic} oder {LINK:LogicUnitPage;IC} oder einer Mischung aus diesen Systemen gesteuert werden.
+
+        Nach dem Start suchen die automatischen Raketen nach Planeten oder Asteroiden mit abbaubaren Rohstoffen, je nachdem, mit welchen MODULEN sie gebaut wurden. Die Raketen können so programmiert werden, dass sie alle verfügbaren Rohstoffe abbauen und dann zu einem anderen Planeten fliegen oder nach Hause zurückkehren. Ihre Reichweite - und damit die Menge an Rohstoffen, die sie abbauen können - hängt von ihrem verfügbaren Treibstoff ab. Wenn ihnen der Treibstoff ausgeht, sind sie für immer in den Weiten des Alls verloren.
+
+
+        {HEADER:MODULES}
+        Das automatisierte Raketensystem besteht aus vier grundlegenden Modulen sowie einem Triebwerk und einem oder mehreren Treibstofftanks:
+
+        * AUTOMATISIERUNGSMODUL - das {THING:StructureModularRocketAutomation} ist das Steuerungssystem, das Daten an die verschiedenen Module weitergibt.
+
+        * ABBAUMODUL - dieses Modul führt den Abbau durch. Derzeit sind dies {THING:StructureRocketModuleMiningOre}, {THING:StructureModularRocketIceMining}, {THING:StructureRocketModuleMiningJunk} und {THING:StructureModularRocketGasMining}.
+
+        * KOPPLER - verbindet Bergbaumodule mit Lagermodulen, indem es Material von einem zum anderen weiterleitet. Der {THING:StructureModularRocketCouplingDown} übergibt Rohstoffe an ein Lagermodul UNTER ihm. Die {THING:StructureModularRocketCouplingUp} übergibt Rohstoffe an ein Lagermodul ÜBER der Rakete. Ohne dieses Element wird die Rakete keine Rohstoffe sammeln.
+
+        * LAGERMODUL - dieses Modul erhält Rohstoffe von einem Bergbaumodul über einen Koppler und lagert sie, bis die Rakete zurückkehrt. Dazu gehören derzeit {THING:StructureRocketModuleSilo} für Erze und {THING:StructureModularRocketFueltank01} für Gas. Lagermodule können mit einem {LINK:ImportExportPage;chute network} verbunden werden, sind aber standardmäßig geschlossen. Benutze {LINK:LogicUnitPage;logic}, um sie auf 'offen' zu setzen.
+
+
+        {HEADER: LAUNCH CONDITIONS}
+        * ENERGIE - alle Module der Rakete müssen mit Energie versorgt werden. Beachte, dass die Module standardmäßig 'An' sind, aber mit {LINK:LogicUnitPage;logic} Verbindungen aus- und eingeschaltet werden können.
+
+        * TANK - die Rakete muss mindestens einen Treibstofftank und ausreichend Treibstoff für den Start haben (mindestens 500 Mol). Beachte, dass die Rakete auch 500 Mol für die Landung benötigt UND während der Reisephase 5 Mol pro Tick verbraucht.
+
+        * AUFBAU - Die Rakete muss korrekt zusammengebaut werden (siehe MODULE oben)
+
+        * PROGRAMMIERUNG - Die Rakete wird durch das {LINK:LogicUnitPage;IC-System} gesteuert (siehe unten)
+
+
+        {HEADER:ROCKET MODES}
+        Der Modus der Rakete wird über den Wert &quot;activate&quot; des Geräts eingestellt. Der Modus bestimmt das aktuelle Verhalten:
+
+        0: Leerlauf (an der Basis)
+        1: Starten
+        2: Unterwegs
+        3: Angekommen
+        4: Leerlauf am Zielort (bereit, Bergbaumodule zu aktivieren).
+        5: Auf dem Heimweg
+        6: Zurückgekehrt
+        7: Verloren
+
+
+        {HEADER:EINZIGARTIGE RAKETENBEFEHLE}
+        * TREIBSTOFF IM TANK VEBLEIBEND - Zeigt den verbleibenden Treibstoff im Tank deiner Rakete an.
+        * TREIBSTOFF RÜCKKEHRKOSTEN - Zeigt die Treibstoffkosten für die Rückkehr der Rakete zu deiner aktuellen Welt an.
+        * ROCKET MODE - Liefert den aktuellen Wert für den Raketenmodus (0-7).
+        * SAMMELBARE GÜTER - Gibt 0 oder 1 zurück, je nachdem, ob das aktuelle Raketensystem die Möglichkeit hat, Rohstoffe auf dem Planeten zu sammeln oder nicht.&quot;</Text>
       <DisplayFilter>Guides</DisplayFilter>
-      <Text>
-Raketenteile werden auf der {THING:StructureRocketManufactory} gedruckt.
-
-{THING:StructureFuselageTypeA1} muss auf einer {THING:StructureLaunchMount} gebaut werden. Ein {THING:StructureGovernedGasEngine} muss in einem {THING:StructureEngineMountTypeA1} platziert werden.
-
-Ressourcenleitungen werden auf dem {THING:StructureRocketTower} platziert und zwischen {THING:StructureGasUmbilicalMale} und {THING:StructureGasUmbilicalFemale} im Inneren der Rakete angeschlossen.
-
-Ein {THING:StructureComputer} mit den {THING:MotherboardRockets} bietet eine Benutzeroberfläche zur Steuerung der Rakete.
-
-Ein Paar Datenverbindungen werden verwendet, um eine planetenseitige {THING:StructureLogicRocketUplink} und eine raketenseitige {THING:StructureLogicRocketDownlink} zu erstellen, die an den {THING:StructureComputer} angeschlossen werden müssen.
-
-Ein {THING:StructureRocketAvionics} sollte in der Rakete platziert werden, um als Hauptsteuergerät für die Rakete zu fungieren.
-
-Auf dem {THING:MotherboardRockets} Map Screen kann man das Ziel der Rakete festlegen.
-
-Wenn Sie die Rakete ohne Ziel zünden, können Sie die Leistung der Rakete und den Treibstoffverbrauch sehen, ohne die Rakete zu starten.
-
-Rechnen Sie mit einem Treibstoffverbrauch von 5-20Kmol pro Raketentour, je nach Raketengröße.
-
-Ein {THING:StructureRocketScanner} wird verwendet, um unbekannte Orte zu kartieren und abbaubare Asteroiden zu entdecken.
-
-Komplexere Raketen können {THING:StructureRocketMiner} und {THING:StructureCargoStorageSmall} verwenden.
-{LIST_OF_ROCKET}
-      </Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>FoodPage</Key>
@@ -571,19 +337,51 @@ Komplexere Raketen können {THING:StructureRocketMiner} und {THING:StructureCarg
         {LIST_OF_APPLIANCES}</Text>
     </StationpediaPage>
     <StationpediaPage>
+      <Key>RocketShuttleModulesHelpPage</Key>
+      <Title>Raketen-Shuttle-Module</Title>
+      <Text>&quot;{HEADER:Modular Rocket Cargo}
+
+        Die {THING:StructureModularRocketCargo01} hat Platz für zwei Kisten mit zehn Fächern. Du kannst mehrere Frachtmodule auf deiner Rakete haben. Die Rakete kann insgesamt bis zu sieben Module transportieren.
+
+        {HEADER:Modular Rocket Command}
+
+        Der {THING:StructureModularRocketCommand01} muss oben auf der Rakete platziert werden. Er prüft, ob die Rakete flugbereit ist. Wenn alle Bedingungen erfüllt sind, kann die Rakete gestartet werden, wenn alle Spieler im Modul sitzen, indem du auf der Konsole &quot;ZÜNDUNG&quot; drückst.
+
+        Die folgenden Bedingungen müssen für den Start erfüllt sein:
+
+        Treibstoff voll
+        Treibstoffmischungsverhältnis korrekt
+        Alle Spieler sitzen auf ihren Plätzen
+        Die Startrampe wird mit Energie versorgt
+        Vollständig gebaute Rakete
+
+        Die {THING:StructureModularRocketCommand01} Konsole zeigt den aktuellen Stand dieser Bedingungen an. Für den Start wird keine Atmosphäre benötigt - die Atmosphäre deines Anzugs ist ausreichend.
+
+        {HEADER:Modular Rocket Engine}
+
+        Die {THING:StructureModularRocketEngine01} ist in der Lage, bis zu sieben Module (einschließlich sich selbst) zu heben.
+
+        {HEADER:Modular Rocket Fuel Tank}
+
+        Der {THING:StructureModularRocketFueltank01} benötigt ein 2:1-Gemisch aus {GAS:Volatiles} und {GAS:Oxygen}. Wenn die Mischung dieses Verhältnis überschreitet oder du andere Gase in den Tank gibst, zeigt die {THING:StructureModularRocketCommand01} Konsole einen 'Ungültig'-Fehler an.&quot;</Text>
+      <DisplayFilter>Guides</DisplayFilter>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>RocketShuttlePage</Key>
+      <Title>Raketenshuttle</Title>
+      <Text>Dies sind die Raketenmodule, die für die Reise zwischen den Welten benutzt werden. {THING:StructureLaunchPad} wird benötigt.
+        {HEADER:List of Rocket Shuttle Modules}
+        {LIST_OF_ROCKET_SHUTTLE}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
       <Key>WeatherPage</Key>
       <Title>Wetter</Title>
-      <DisplayFilter>Guides</DisplayFilter>
       <Text>Die Planeten des Sonnensystems sind nicht so ruhig, wie sie scheinen. Nach sieben Tagen auf einer Welt mit Atmosphäre treten die unergründlichen Kräfte der Natur in Aktion und treffen unachtsame Stationeers mit Schneestürmen, Staubstürmen und vulkanischen Events.
-Daher empfiehlt der {LINK:ODA;ODA}, dass frisch entsandte Stationeers innerhalb von 7 Tagen nach der Landung eine luftdichte Basis errichten.
-Alle dynamischen Objekte, die in einem Sturm draußen gelassen werden - auf dem Mars, Loulan, Vulkan oder Europa - laufen Gefahr, weit, weit weggeweht zu werden, auch dein Lander.
-Sei dir auch bewusst, dass die Photovoltaikzellen zerbrechlich sind und ihr Glas zersplittert oder manchmal sogar von einem ausreichend heftigen Sturm zerstört werden kann. Bei Stürmen wird auch ihre Leistung drastisch reduziert.</Text>
+        Daher empfiehlt der {LINK:ODA;ODA}, dass frisch entsandte Stationeers innerhalb von 7 Tagen nach der Landung eine luftdichte Basis errichten.
+        Alle dynamischen Objekte, die in einem Sturm draußen gelassen werden - auf dem Mars, Loulan, Vulkan oder Europa - laufen Gefahr, weit, weit weggeweht zu werden, auch dein Lander.
+        Sei dir auch bewusst, dass die Solarzellen zerbrechlich sind und ihr Glas zersplittert oder manchmal sogar von einem ausreichend heftigen Sturm zerstört werden kann. Bei Stürmen wird auch ihre Leistung drastisch reduziert.</Text>
+      <DisplayFilter>Guides</DisplayFilter>
     </StationpediaPage>
-    <!--
-    ~~~~~~~~~~~~~~~~~~~~~~~~~
-    |                     TEMPLATES               |
-    ~~~~~~~~~~~~~~~~~~~~~~~~~
-    -->
     <StationpediaPage>
       <Key>ThingTemplate</Key>
       <Text>{0}
@@ -666,7 +464,6 @@ Sei dir auch bewusst, dass die Photovoltaikzellen zerbrechlich sind und ihr Glas
     </StationpediaPage>
     <StationpediaPage>
       <Key>TierListHeaderTemplate</Key>
-      <Text></Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>CreatorTemplate</Key>
@@ -690,11 +487,9 @@ Sei dir auch bewusst, dass die Photovoltaikzellen zerbrechlich sind und ihr Glas
     </StationpediaPage>
     <StationpediaPage>
       <Key>Lore</Key>
-      <Text></Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>Guides</Key>
-      <Text></Text>
     </StationpediaPage>
     <StationpediaPage>
       <Key>CreatedReagentTemplate</Key>
@@ -731,7 +526,6 @@ Sei dir auch bewusst, dass die Photovoltaikzellen zerbrechlich sind und ihr Glas
     <StationpediaPage>
       <Key>NutritionPage</Key>
       <Title>Hunger und Ernährung</Title>
-      <DisplayFilter>Guides</DisplayFilter>
       <Text>{HEADER:HUNGER}
 
         Stationeers werden irgendwann hungrig, aber nicht alle Nahrungsmittel sind gleich. Außerdem variiert deine Hungerrate je nach Einstellungen und Schwierigkeitsgrad. Wenn du isst, wird nur der Teil eines Gegenstandes verbraucht, der ausreicht, um deinen Hunger wieder auf 100% zu bringen.
@@ -743,12 +537,12 @@ Sei dir auch bewusst, dass die Photovoltaikzellen zerbrechlich sind und ihr Glas
         Der Verzehr von rohen Zutaten stillt den Hunger weniger als Mahlzeiten, d.h. er ersetzt einen kleineren Teil deines Hungers. Die Grundelemente der Nahrung werden in {LINK:OrganicPage;hydroponics} Systemen benutzt. Diese können mit dem {LINK:ApplianceReagentProcessor} zu Rezeptzutaten verarbeitet und dann mit einer {LINK:ApplianceMicrowave} oder {LINK:StructureAutomatedOven} zu Mahlzeiten verarbeitet werden.
 
         Deine Hungerrate kannst du im Hauptmenü der Einstellungen einstellen, indem du den Schieberegler für die Hunger-/Hydratationsrate in den Einstellungen anpasst. Beachte, dass der Hunger-Schieberegler auch deinen {LINK:HydrationPage;Thirst} steuert.</Text>
+      <DisplayFilter>Guides</DisplayFilter>
     </StationpediaPage>
     <StationpediaPage>
       <Key>FarmingPage</Key>
       <Title>Wachsende Nahrung</Title>
-      <DisplayFilter>Guides</DisplayFilter>
-      <Text>"Um auf fremden Welten zu überleben, erwartet die {LINK:ODA;ODA} von allen {LINK:Stationeers;Stationeers}, dass sie lebensfähige {LINK:OrganicPage;hydroponic} Systeme einrichten oder registrierte lokale Rohstoff-{LINK:TradingPage;traders} kontaktieren.
+      <Text>&quot;Um auf fremden Welten zu überleben, erwartet die {LINK:ODA;ODA} von allen {LINK:Stationeers;Stationeers}, dass sie lebensfähige {LINK:OrganicPage;hydroponic} Systeme einrichten oder registrierte lokale Rohstoff-{LINK:TradingPage;traders} kontaktieren.
 
         {HEADER:SETTING UP}
 
@@ -779,13 +573,13 @@ Sei dir auch bewusst, dass die Photovoltaikzellen zerbrechlich sind und ihr Glas
         - {THING:DecayedFood} erhöht die WACHSTUMSGESCHWINDIGKEIT der Pflanzen bis zu 3 Mal
         - {DING:ItemBiomasse} erhöht die ANZAHL DER WACHSTUMSZYKLEN, für die der Dünger reicht, auf maximal 5
 
-        Die Wirkung dieser Bestandteile hängt von ihren jeweiligen Anteilen im Komposter ab, wenn die Verarbeitung aktiviert wird. Der Dünger wird in einem Verhältnis von 1:3 zwischen Dünger und Zutaten hergestellt. Bei der Verarbeitung werden {GAS:Nitrogen} und {GAS:Volatiles} freigesetzt, ebenso wie eine geringe Menge an Wärme."</Text>
+        Die Wirkung dieser Bestandteile hängt von ihren jeweiligen Anteilen im Komposter ab, wenn die Verarbeitung aktiviert wird. Der Dünger wird in einem Verhältnis von 1:3 zwischen Dünger und Zutaten hergestellt. Bei der Verarbeitung werden {GAS:Nitrogen} und {GAS:Volatiles} freigesetzt, ebenso wie eine geringe Menge an Wärme.&quot;</Text>
+      <DisplayFilter>Guides</DisplayFilter>
     </StationpediaPage>
     <StationpediaPage>
       <Key>DecayPage</Key>
       <Title>Verfall der Nahrung</Title>
-      <DisplayFilter>Guides</DisplayFilter>
-      <Text>"Lebensmittel zerfallen mit der Zeit zu {THING:DecayedFood}, wenn sie nicht in einer stabilen Atmosphäre gekühlt werden. Die genaue Geschwindigkeit des Zerfalls variiert individuell nach:
+      <Text>&quot;Lebensmittel zerfallen mit der Zeit zu {THING:DecayedFood}, wenn sie nicht in einer stabilen Atmosphäre gekühlt werden. Die genaue Geschwindigkeit des Zerfalls variiert individuell nach:
 
         - TEMPERATUR - Kühlung verlangsamt den Verfall, aber viele Lebensmittel werden durch extremen Unterdruck und extreme Hitze beschädigt. Die optimale Temperatur ist 0 Kelvin (-272 C).
 
@@ -802,12 +596,12 @@ Sei dir auch bewusst, dass die Photovoltaikzellen zerbrechlich sind und ihr Glas
         &gt; {GAS:Pollutant} x 3
         &gt; {GAS:NitrousOxide} x 1,5
         &gt; {GAS:Water} x 2
-        &gt; Vakuum - siehe DRUCK (oben)."</Text>
+        &gt; Vakuum - siehe DRUCK (oben).&quot;</Text>
+      <DisplayFilter>Guides</DisplayFilter>
     </StationpediaPage>
     <StationpediaPage>
       <Key>HydrationPage</Key>
       <Title>Durst und Flüssigkeitszufuhr</Title>
-      <DisplayFilter>Guides</DisplayFilter>
       <Text>Der durchschnittliche Stationeer muss regelmäßig Wasser trinken. Allerdings haben obskure und möglicherweise fehlgeleitete {LINK:ODA;ODA} Gesundheits- und Sicherheitsbestimmungen den Stationeers lange Zeit das Recht auf eine eigene Trinkvorrichtung verwehrt. Stattdessen müssen sie regelmäßig Trinkpausen einlegen, um ihren Helm zu öffnen und Wasser zu trinken. In einer drucklosen Umgebung ist das nicht ratsam.
 
         Wie oft sollte man trinken? Das hängt von deinem Schwierigkeitsgrad, der Hitze des Planeten und davon ab, wie viel du dich bewegen möchtest.
@@ -815,11 +609,11 @@ Sei dir auch bewusst, dass die Photovoltaikzellen zerbrechlich sind und ihr Glas
         Wasser gibt es in vielen Formen. Stationeers erhalten bei der Landung auf neuen Planeten mindestens eine {THING:ItemWaterBottle} als Teil ihrer Rationen, weitere befinden sich in den Kisten deiner Lander. Diese können mit einem {THING:ItemWaterBottleFiller} aufgefüllt werden, der seinerseits an ein Netzwerk von Flüssigkeitsleitungen angeschlossen sein muss. Das Netzwerk selbst kannst du mit einem {THING:StructureIceCrusher} mit einem geeigneten Vorrat an Eis benutzen.
 
         Deine Durstrate kannst du im Haupteinstellungsmenü einstellen, indem du den Schieberegler für die Hunger-/Hydratationsrate anpasst.</Text>
+      <DisplayFilter>Guides</DisplayFilter>
     </StationpediaPage>
     <StationpediaPage>
       <Key>EVAPage</Key>
-      <Title>Raumanzüge</Title>
-      <DisplayFilter>Guides</DisplayFilter>
+      <Title>EVA-Anzüge</Title>
       <Text>Dein Raumanzug bietet dir eine tragbare Atmosphäre mit einstellbaren Druck- und Klimaeinstellungen (Temperatur) sowie ein Warnsystem, das dich warnt, wenn die Atmosphäre im Anzug gefährlich wird. Damit er richtig funktioniert, brauchst du einen geeigneten Helm sowie geeignete Gaskanister und Filter in den verschiedenen Slots des Anzugs. Diese müssen regelmäßig ausgetauscht werden und können auch mit einem {THING:StructureSuitStorage} wieder aufgeladen (oder entleert) werden.
 
         Es gibt verschiedene Anzüge, darunter den {THING:ItemEvaSuit} und den druck- und temperaturbeständigeren {THING:ItemHardSuit}.
@@ -843,9 +637,10 @@ Sei dir auch bewusst, dass die Photovoltaikzellen zerbrechlich sind und ihr Glas
 
         Temperatur: Normalerweise wird sie auf 18-21°C eingestellt, wobei Menschen im Spiel 10-29°C bevorzugen, 0-39°C tolerieren und bis zu 49°C überleben können. Bei höheren Temperaturen verbraucht deine Klimaanlage mehr Energie, um die Innentemperatur zu halten.
 
-        Filter: Der Standardfilter ist der {GAS:CarbonDioxide}-Filter, der das Gas auffängt, das die Menschen beim Ausatmen erzeugen. Wenn du nicht 100% {GAS:Oxygen} in deinem Atemgas benutzt, füge zusätzliche Filter hinzu, z.B. wenn du 25% {GAS: Oxygen} + 75% {GAS:Nitrogen} mischst, wird sich der Stickstoff mit der Zeit in deinem Anzug ansammeln und dich ersticken, es sei denn, du hast einen Stickstofffilter. Wenn du die richtigen Filter und Atemgas hast, aber trotzdem Probleme auftreten, benutze die "Spülen"-Funktion deines Weltraumhelms. Wenn deine Filter nicht mehr funktionieren, ertönt eine Warnung bei niedrigem/kritischem Sauerstoffgehalt.
+        Filter: Der Standardfilter ist der {GAS:CarbonDioxide}-Filter, der das Gas auffängt, das die Menschen beim Ausatmen erzeugen. Wenn du nicht 100% {GAS:Oxygen} in deinem Atemgas benutzt, füge zusätzliche Filter hinzu, z.B. wenn du 25% {GAS: Oxygen} + 75% {GAS:Nitrogen} mischst, wird sich der Stickstoff mit der Zeit in deinem Anzug ansammeln und dich ersticken, es sei denn, du hast einen Stickstofffilter. Wenn du die richtigen Filter und Atemgas hast, aber trotzdem Probleme auftreten, benutze die &quot;Spülen&quot;-Funktion deines Weltraumhelms. Wenn deine Filter nicht mehr funktionieren, ertönt eine Warnung bei niedrigem/kritischem Sauerstoffgehalt.
 
         Wenn dein Anzug beschädigt ist, kannst du ihn flicken, indem du Klebeband in der Hand hältst und die Taste 'Aktivieren' benutzt.</Text>
+      <DisplayFilter>Guides</DisplayFilter>
     </StationpediaPage>
   </HelpPage>
 </Language>

@@ -1,8 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>Deutsch</Name>
   <Code>DE</Code>
-  <Font>font_extended</Font>
   <ScreenSpaceToolTips>
     <Record>
       <Key>StatusIconToxinName</Key>
@@ -46,7 +43,7 @@
     </Record>
     <Record>
       <Key>StatusIconOxygenWarning</Key>
-      <Value>Der Tank des Anzugs geht zur Neige und benötigt Aufmerksamkeit</Value>
+      <Value>Der Tank des Anzugs ist fast leer und muss repariert werden</Value>
     </Record>
     <Record>
       <Key>StatusIconOxyegnCritical</Key>
@@ -82,7 +79,7 @@
     </Record>
     <Record>
       <Key>StatusIconTempuratureCritical</Key>
-      <Value>Anzeige des aktuellen Toxizitätslevels</Value>
+      <Value>Zeigt das aktuelle Toxizitätslevel an</Value>
     </Record>
     <Record>
       <Key>StatusIconLeakingName</Key>
@@ -91,10 +88,6 @@
     <Record>
       <Key>StatusIconPowerName</Key>
       <Value>Energieversorgung des Anzugs</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconPowerDesc</Key>
-      <Value>Die Energie wird knapp</Value>
     </Record>
     <Record>
       <Key>StatusIconGravityName</Key>
@@ -138,11 +131,7 @@
     </Record>
     <Record>
       <Key>StatusIconJetpackWarningName</Key>
-      <Value>Jetpack-Treibstoff</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconJetpackWarningDesc</Key>
-      <Value>Treibstoff wird knapp</Value>
+      <Value>Treibstoff-Kapazität</Value>
     </Record>
     <Record>
       <Key>StatusIconFilterName</Key>
@@ -151,10 +140,6 @@
     <Record>
       <Key>StatusIconWasteName</Key>
       <Value>Abfall-Kapazität</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconWasteDesc</Key>
-      <Value>Abfalltank fast voll</Value>
     </Record>
     <Record>
       <Key>StatusIconHealthName</Key>
@@ -167,14 +152,6 @@
     <Record>
       <Key>StatusIconUnconsciousName</Key>
       <Value>Bewusstlos</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconMoodName</Key>
-      <Value>Aktuelle Stimmung</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconHygieneName</Key>
-      <Value>Aktuelle Hygiene</Value>
     </Record>
     <Record>
       <Key>DeconstructCanisterFull</Key>
