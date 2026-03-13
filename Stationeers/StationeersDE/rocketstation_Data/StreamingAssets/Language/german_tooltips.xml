@@ -1,33 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Deutsch</Name>
   <Code>DE</Code>
+  <Font>font_extended</Font>
   <ScreenSpaceToolTips>
     <Record>
       <Key>StatusIconToxinName</Key>
-      <Value>Toxins</Value>
-    </Record>    
+      <Value>Toxine</Value>
+    </Record>
     <Record>
       <Key>StatusIconToxinDesc</Key>
-      <Value>Aktuelle Toxizität</Value>
+      <Value>Aktuelles Toxizitätslevel</Value>
     </Record>
     <Record>
       <Key>StatusIconToxinWarning</Key>
-      <Value>Erfordert Aufmerksamkeit</Value>
+      <Value>Benötigt Aufmerksamkeit</Value>
     </Record>
-        <Record>
+    <Record>
       <Key>StatusIconHydrationDesc</Key>
-      <Value>Die Flüssigkeitszufuhr geht zur Neige</Value>
+      <Value>Die Hydratation ist niedrig</Value>
     </Record>
     <Record>
       <Key>StatusIconHydrationKey</Key>
-      <Value>Hydration Low</Value>
+      <Value>Hydratation niedrig</Value>
     </Record>
     <Record>
       <Key>HydrationCaution</Key>
-      <Value>Hydration Caution</Value>
+      <Value>Hydratation Vorsicht</Value>
     </Record>
     <Record>
       <Key>HydrationCritical</Key>
-      <Value>Hydration Critical</Value>
+      <Value>Hydratation kritisch</Value>
     </Record>
     <Record>
       <Key>StatusIconToxinCritical</Key>
@@ -35,127 +38,147 @@
     </Record>
     <Record>
       <Key>StatusIconOxygenName</Key>
-      <Value>Oxygen Supply</Value>
+      <Value>Sauerstoffversorgung</Value>
     </Record>
     <Record>
       <Key>StatusIconOxygenDesc</Key>
-      <Value>The atmosphere you are breathing is causing damage to your lungs.</Value>
+      <Value>Die Atmosphäre, die du einatmest, schädigt deine Lunge.</Value>
     </Record>
     <Record>
       <Key>StatusIconOxygenWarning</Key>
-      <Value>Suit's tank is getting low and needs attention</Value>
+      <Value>Der Tank des Anzugs geht zur Neige und benötigt Aufmerksamkeit</Value>
     </Record>
     <Record>
       <Key>StatusIconOxyegnCritical</Key>
-      <Value>Suit's tank is critical, replace your oxygen tank</Value>
+      <Value>Der Tank des Anzugs ist kritisch, ersetze deine Sauerstoffflasche</Value>
     </Record>
     <Record>
       <Key>StatusIconPressureName</Key>
-      <Value>Internal Pressure</Value>
+      <Value>Innendruck</Value>
     </Record>
     <Record>
       <Key>StatusIconPressureDesc</Key>
-      <Value>Current pressure level, check suit pressure</Value>
+      <Value>Aktuelles Drucklevel, überprüfe den Anzugdruck</Value>
     </Record>
     <Record>
       <Key>StatusIconPressureWarning</Key>
-      <Value>Suit pressure is low</Value>
+      <Value>Anzugdruck ist niedrig</Value>
     </Record>
     <Record>
       <Key>StatusIconPressureCritical</Key>
-      <Value>Suit pressure is critically low</Value>
+      <Value>Der Druck im Anzug ist kritisch niedrig</Value>
     </Record>
     <Record>
       <Key>StatusIconTemperatureName</Key>
-      <Value>Internal Tempurature</Value>
+      <Value>Innentemperatur</Value>
     </Record>
     <Record>
       <Key>StatusIconTemperatureDesc</Key>
-      <Value>Current temperature inside your suit</Value>
+      <Value>Aktuelle Temperatur im Inneren deines Anzugs</Value>
     </Record>
     <Record>
       <Key>StatusIconTempuratureWarning</Key>
-      <Value>Displays Current Toxicity Level</Value>
+      <Value>Anzeige des aktuellen Toxizitätslevels</Value>
     </Record>
     <Record>
       <Key>StatusIconTempuratureCritical</Key>
-      <Value>Displays Current Toxicity Level</Value>
+      <Value>Anzeige des aktuellen Toxizitätslevels</Value>
     </Record>
     <Record>
       <Key>StatusIconLeakingName</Key>
-      <Value>Suit's Leaking</Value>
+      <Value>Anzug ist undicht</Value>
     </Record>
     <Record>
       <Key>StatusIconPowerName</Key>
-      <Value>Suit's Power Supply</Value>
+      <Value>Energieversorgung des Anzugs</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconPowerDesc</Key>
+      <Value>Die Energie wird knapp</Value>
     </Record>
     <Record>
       <Key>StatusIconGravityName</Key>
-      <Value>Zero Gravity</Value>
+      <Value>Schwerelosigkeit</Value>
     </Record>
     <Record>
       <Key>StatusIconJetpackName</Key>
-      <Value>Jetpack Active</Value>
+      <Value>Jetpack aktiv</Value>
     </Record>
     <Record>
       <Key>StatusIconClimbingName</Key>
-      <Value>Climbing</Value>
+      <Value>Klettern</Value>
     </Record>
     <Record>
       <Key>StatusIconLightName</Key>
-      <Value>Toggle Headlight</Value>
+      <Value>Scheinwerfer umschalten</Value>
     </Record>
     <Record>
       <Key>StatusIconInternalsName</Key>
-      <Value>Toggle Helmet Open/Close</Value>
+      <Value>Helm öffnen/schließen</Value>
     </Record>
     <Record>
       <Key>StatusIconHandPowerName</Key>
-      <Value>Toggle Item in-hand On/Off</Value>
+      <Value>Gegenstand in der Hand ein-/ausschalten</Value>
     </Record>
     <Record>
       <Key>StatusIconInSlotName</Key>
-      <Value>You are inside a slot</Value>
+      <Value>Du befindest dich in einem Slot</Value>
     </Record>
     <Record>
       <Key>StatusIconHungerName</Key>
-      <Value>Current Hunger</Value>
+      <Value>Aktueller Hunger</Value>
     </Record>
     <Record>
       <Key>StatusIconStunName</Key>
-      <Value>Stun Percentage</Value>
+      <Value>Betäubungsprozent</Value>
     </Record>
     <Record>
       <Key>StatusIconAirTankName</Key>
-      <Value>Current AirTank Capacity</Value>
+      <Value>Aktuelle Lufttank-Kapazität</Value>
     </Record>
     <Record>
       <Key>StatusIconJetpackWarningName</Key>
-      <Value>Propellant Capacity</Value>
+      <Value>Jetpack-Treibstoff</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconJetpackWarningDesc</Key>
+      <Value>Treibstoff wird knapp</Value>
     </Record>
     <Record>
       <Key>StatusIconFilterName</Key>
-      <Value>Filter Capacity</Value>
+      <Value>Filter-Kapazität</Value>
     </Record>
     <Record>
       <Key>StatusIconWasteName</Key>
-      <Value>Waste Capacity</Value>
+      <Value>Abfall-Kapazität</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconWasteDesc</Key>
+      <Value>Abfalltank fast voll</Value>
     </Record>
     <Record>
       <Key>StatusIconHealthName</Key>
-      <Value>Current Health</Value>
+      <Value>Aktuelle Gesundheit</Value>
     </Record>
     <Record>
       <Key>StatusIconHydrationName</Key>
-      <Value>Current Hydration</Value>
+      <Value>Derzeitige Hydratation</Value>
     </Record>
     <Record>
       <Key>StatusIconUnconsciousName</Key>
-      <Value>Unconscious</Value>
+      <Value>Bewusstlos</Value>
     </Record>
-	<Record>
+    <Record>
+      <Key>StatusIconMoodName</Key>
+      <Value>Aktuelle Stimmung</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHygieneName</Key>
+      <Value>Aktuelle Hygiene</Value>
+    </Record>
+    <Record>
       <Key>DeconstructCanisterFull</Key>
-      <Value>Cannot deconstruct. Canister needs to be empty</Value>
+      <Value>Kann nicht abgebaut werden. Der Kanister muss leer sein</Value>
     </Record>
   </ScreenSpaceToolTips>
 </Language>
