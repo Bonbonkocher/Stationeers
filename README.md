@@ -15,11 +15,11 @@ Alle Inhalte in denn xml-Dateien
 
 |  xml-Datei  |  Übertragen  | Übersetztung  |
 |  ------------- | ------------- | ------------- |
-| german.xml  |  - [X]  |  - []  |
-| german_help.xml  |  - [x]  |  - []  |
-| german_keys.xml  |  - [x]  |  - []  |
-| german_tips.xml  |  - [x]  |  - []  |
-| german_tooltips.xml  | - [x] |  - []  |
+| german.xml  |  [X]  |  []  |
+| german_help.xml  |  [x]  |  []  |
+| german_keys.xml  |  [x]  |  []  |
+| german_tips.xml  |  [x]  |  []  |
+| german_tooltips.xml  | [x] |  []  |
 
 Weitere Links:
 - [GitHub](https://github.com/Bonbonkocher/Stationeers/ "https://github.com/Bonbonkocher/Stationeers/")
