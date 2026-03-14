@@ -1,5 +1,4 @@
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>English</Name>
   <Code>DE</Code>
   <ScreenSpaceToolTips>
     <Record>
@@ -91,10 +90,6 @@
       <Value>Energieversorgung des Anzugs</Value>
     </Record>
     <Record>
-      <Key>StatusIconPowerDesc</Key>
-      <Value>Power is running low</Value>
-        </Record>
-    <Record>
       <Key>StatusIconGravityName</Key>
       <Value>Schwerelosigkeit</Value>
     </Record>
@@ -139,10 +134,6 @@
       <Value>Treibstoff-Kapazität</Value>
     </Record>
     <Record>
-      <Key>StatusIconJetpackWarningDesc</Key>
-      <Value>Propellant is running low</Value>
-    </Record>
-    <Record>
       <Key>StatusIconFilterName</Key>
       <Value>Filter-Kapazität</Value>
     </Record>
@@ -151,16 +142,8 @@
       <Value>Abfall-Kapazität</Value>
     </Record>
     <Record>
-      <Key>StatusIconWasteDesc</Key>
-      <Value>Waste tank nearly full</Value>
-    </Record>
-    <Record>
       <Key>StatusIconHealthName</Key>
       <Value>Aktuelle Gesundheit</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconHealthDesc</Key>
-      <Value>Gesundheit ist niedrig</Value>
     </Record>
     <Record>
       <Key>StatusIconHydrationName</Key>
@@ -171,40 +154,8 @@
       <Value>Bewusstlos</Value>
     </Record>
     <Record>
-      <Key>StatusIconMoodName</Key>
-      <Value>Current Mood</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconHygieneName</Key>
-      <Value>Current Hygiene</Value>
-    </Record>
-	<Record>
       <Key>DeconstructCanisterFull</Key>
       <Value>Kann nicht abgebaut werden. Der Kanister muss leer sein</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconLeavingAreaName</Key>
-      <Value>Leaving Mission Area</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconLeavingAreaDesc</Key>
-      <Value>Out of bounds, turn around</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconRespawnStressName</Key>
-      <Value>Respawn Stress</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconRespawnStressDesc</Key>
-      <Value>Affects action speeds</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconCoolantName</Key>
-      <Value>Coolant tank temperature</Value>
-    </Record>
-    <Record>
-      <Key>StatusIconCoolantDesc</Key>
-      <Value>Coolant Temperature is too high</Value>
     </Record>
   </ScreenSpaceToolTips>
 </Language>

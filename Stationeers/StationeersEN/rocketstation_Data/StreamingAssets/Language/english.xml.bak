@@ -19346,7 +19346,7 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     <Record>
       <Key>PhaseDiagramPressuredisplay</Key>
       <Value>Pressure:</Value>
-    </Record>
+    </Record>s
     <Record>
       <Key>PhaseChangeCelsius</Key>
       <Value>Use Celsius</Value>

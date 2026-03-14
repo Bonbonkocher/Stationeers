@@ -1,18 +1,10 @@
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Code>DE</Code>
   <HelpPage>
-    <!--
-    ~~~~~~~~~~~~~~~~~~~~~~~~~
-    |                 MASTER PAGES            |
-    ~~~~~~~~~~~~~~~~~~~~~~~~~
-    -->  
-
     <StationpediaPage>
-    <!--LEAVE THIS ALONE NEEDED FOR THOSE PAGES-->
       <Key>Home</Key>
       <Title>Home</Title>
     </StationpediaPage>
-    <!--LEAVE THIS ALONE NEEDED FOR THOSE PAGES-->
     <StationpediaPage>
       <Key>Search</Key>
       <Title>Suche</Title>
@@ -65,9 +57,9 @@
     </StationpediaPage>
     <StationpediaPage>
       <Key>LorePage</Key>
-      <DisplayFilter>Lore</DisplayFilter>
       <Title>Fraktionen</Title>
       <Text>{LIST_OF_FACTIONS}</Text>
+      <DisplayFilter>Lore</DisplayFilter>
     </StationpediaPage>
     <StationpediaPage>
       <Key>FabricatorPage</Key>
@@ -89,7 +81,6 @@
     </StationpediaPage>
     <StationpediaPage>
       <Key>SmeltingPage</Key>
-	  <DisplayFilter>Guides</DisplayFilter>
       <Title>Schmelzen</Title>
       <Text>Sobald du {LINK:OrePage;ore} hast, musst du es in {LINK:IngotPage; ingots} verwandeln, damit du ihre {LINK:ReagentPage;reagents} benutzen kannst. Beim Schmelzen entstehen oft {LINK:GasPage;gases}. Dies geschieht entweder im {THING:StructureArcFurnace} (für einfache Rezepte) oder im {THING:StructureFurnace} für kompliziertere {LINK:AlloyPage;Alloys}, und schließlich im {THING:StructureAdvancedFurnace} für sehr komplizierte {LINK:SuperAlloyPage;Superalloys}. Für die komplexen Legierungen musst du Mischungen mit perfekten Verhältnissen, {LINK: TemperaturePage;Temperature}, und {LINK:PressurePage;Pressure} erreichen.</Text>
     </StationpediaPage>
@@ -114,7 +105,6 @@
     <StationpediaPage>
       <Key>ConstructionPage</Key>
       <Title>Konstruktion</Title>
-      <DisplayFilter>Guides</DisplayFilter>
       <Text>{HEADER:Getting Started}
         Normalerweise benutzt du {LINK:KitPage;kits}, um mit dem Bau zu beginnen und dann eine Reihe von {LINK:ToolPage;tools} und {LINK:ResourcePage;resources}, um ihn abzuschließen. Achte genau darauf, wie viele deiner Bausätze du brauchst, um das ausgewählte Bauwerk zu errichten, denn für manche Bauwerke brauchst du mehr als einen der Bausätze. Für manche Bausätze gibt es mehrere Optionen. Benutze das {COLORRED:Scroll Wheel}, um die aktuelle Variante zu ändern, die du bauen möchtest.
 

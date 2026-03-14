@@ -1,32 +1,40 @@
-# Stationeers
+# Status
+> [!NOTE]
+> Ich bin wie viele andere im Real Leben Arbeitstätig, bitte um Verständniss
 
-EN: Construct and manage your own space station and ships either by yourself in singleplayer or with friends online! Fully functioning atmospherics, science, power, engineering, medical, and agricultural systems. Explore to find asteroids and construct elaborate factories to harvest your resources! 
+> [!WARNING]
+> Diese Übersetztung ist nicht Komplett
 
-DE: Errichte und verwalte deine eigene Raumstation und Schiffe – entweder allein im Einzelspielermodus oder online mit Freunden! Voll funktionsfähige Systeme für Atmosphäre, Wissenschaft, Energie, Technik, Medizin und Landwirtschaft stehen dir zur Verfügung. Erkunde das All, finde Asteroiden und errichte komplexe Fabriken, um deine Ressourcen zu gewinnen!
+> [!CAUTION]
+> Bitte bevor sie ihrgend was ersetzen, immer eine Sicherung der dateien anlegen
 
-Spiel:
-- [Steam](https://store.steampowered.com/app/544550/Stationeers/ "Titel, der beim Überfahren mit der Maus angezeigt wird")
-- [Homepage](https://stationeers.com/ "Titel, der beim Überfahren mit der Maus angezeigt wird")
-- [Discord](https://discordapp.com/invite/CxR3mRy "Titel, der beim Überfahren mit der Maus angezeigt wird")
+Mod-Version: v0.0.2
+Spiel-Version: v0.2.6182.26959
 
-Inspiriert
-- Mod [[BETA] Deutsche Übersetzung](https://steamcommunity.com/sharedfiles/filedetails/?id=3032318024 "[BETA] Deutsche Übersetzung von JonasVerzockt")
+Alle Inhalte in denn xml-Dateien
+
+|  xml-Datei  |  Übertragen  | Übersetztung  |
+|  ------------- | ------------- | ------------- |
+| german.xml  |  - [x]  |  - []  |
+| german_help.xml  |  - [x]  |  - []  |
+| german_keys.xml  |  - [x]  |  - []  |
+| german_tips.xml  |  - [x]  |  - []  |
+| german_tooltips.xml  | - [x] |  - []  |
 
 Weitere Links:
 - [GitHub](https://github.com/Bonbonkocher/Stationeers/ "https://github.com/Bonbonkocher/Stationeers/")
 - [Steam Workshop] in Plannung
 
-Installiere:
-1. Downloade die releases version [Releases](https://github.com/Bonbonkocher/Stationeers/releases "https://github.com/Bonbonkocher/Stationeers/releases")
-2. Enpacke die Dateien der zip Dateien
-3. die im ordner xml, alle dateien einfügen nach Installationsverzeichnis (Steam): "C:\Program Files (x86)\Steam\steamapps\common\Stationeers\rocketstation_Data\StreamingAssets\Language"
-4. bitte sicherung vor dem Ersetzen der dateien german.xml, german_help.xml, german_keys.xml, german_tips.xml, german_tooltips.xml (z.B. Desktop Neuer Ordner Original)
-5. Spiel starten untereinstellung spiel auf Deutsch stellen fertig
-
-EN: Created to translate the languages
-DE: Erstellt, um die Sprachen zu übersetzen
+> [!IMPORTANT]
+> Installiere:
+> 1. Downloade die releases version [Releases](https://github.com/Bonbonkocher/Stationeers/releases "https://github.com/Bonbonkocher/Stationeers/releases")
+> 2. Enpacke die Dateien der zip Dateien, in ordner StationeersDE/ sind die bearbeitete Dateien
+> 3. die im ordner xml, alle dateien einfügen nach Installationsverzeichnis (Steam): "C:\Program Files (x86)\Steam\steamapps\common\Stationeers\rocketstation_Data\StreamingAssets\Language"
+> 4. bitte sicherung vor dem Ersetzen der dateien german.xml, german_help.xml, german_keys.xml, german_tips.xml, german_tooltips.xml (z.B. Desktop Neuer Ordner Original)
+> 5. Spiel starten untereinstellung spiel auf Deutsch stellen fertig
 
 - English [Hauptbereich] Wird Benötigt um Text/Sprachübersetzung Update und enfertungenz su sehen
 - German [Übersetzte Bereiche] Der teil in der sprache Über setzt wird
 
-
+Inspiriert von
+- Mod [[BETA] Deutsche Übersetzung](https://steamcommunity.com/sharedfiles/filedetails/?id=3032318024 "[BETA] Deutsche Übersetzung von JonasVerzockt")
