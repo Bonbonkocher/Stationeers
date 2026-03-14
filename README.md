@@ -15,7 +15,7 @@ Alle Inhalte in denn xml-Dateien
 
 |  xml-Datei  |  Übertragen  | Übersetztung  |
 |  ------------- | ------------- | ------------- |
-| german.xml  |  - [x]  |  - []  |
+| german.xml  |  - [X]  |  - []  |
 | german_help.xml  |  - [x]  |  - []  |
 | german_keys.xml  |  - [x]  |  - []  |
 | german_tips.xml  |  - [x]  |  - []  |
