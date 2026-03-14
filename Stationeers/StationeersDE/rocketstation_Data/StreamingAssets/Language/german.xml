@@ -6040,6 +6040,10 @@
       <Description>Dieses Kit produziert eine {THING:CrateMkII}.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>ContainerConnection</Key>
+      <Value>Kisten Halterung</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemEmptyCan</Key>
       <Value>Leere Dose</Value>
       <Description>Sie wird in der {THING:AppliancePackagingMachine} oder der {THING:StructureAdvancedPackagingMachine} zur Herstellung von Suppen benutzt, wenn sie mit Lebensmitteln kombiniert wird. Konserven haben einen relativ hohen Nährwert und verfallen nicht {LINK:DecayPage;decay}.</Description>

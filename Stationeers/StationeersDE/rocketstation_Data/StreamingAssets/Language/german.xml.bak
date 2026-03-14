@@ -25971,5 +25971,4120 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Key>VisualiserState</Key>
       <Value>Visualisierer {LOCAL:State}</Value>
     </Record>
+    <Record>
+      <Key>UnitSeconds</Key>
+      <Value>{LOCAL:Value} seconds</Value>
+    </Record>
+    <Record>
+      <Key>UnitSecond</Key>
+      <Value>{LOCAL:Value} second</Value>
+    </Record>
+    <Record>
+      <Key>UnitMinutes</Key>
+      <Value>{LOCAL:Value} minutes</Value>
+    </Record>
+    <Record>
+      <Key>UnitMinute</Key>
+      <Value>{LOCAL:Value} minute</Value>
+    </Record>
+    <Record>
+      <Key>UnitHours</Key>
+      <Value>{LOCAL:Value} hours</Value>
+    </Record>
+    <Record>
+      <Key>UnitHour</Key>
+      <Value>{LOCAL:Value} hour</Value>
+    </Record>
+    <Record>
+      <Key>UnitDays</Key>
+      <Value>{LOCAL:Value} days</Value>
+    </Record>
+    <Record>
+      <Key>UnitDay</Key>
+      <Value>{LOCAL:Value} day</Value>
+    </Record>
+    <Record>
+      <Key>UnitWeeks</Key>
+      <Value>{LOCAL:Value} weeks</Value>
+    </Record>
+    <Record>
+      <Key>UnitWeek</Key>
+      <Value>{LOCAL:Value} week</Value>
+    </Record>
+    <Record>
+      <Key>UnitMonths</Key>
+      <Value>{LOCAL:Value} months</Value>
+    </Record>
+    <Record>
+      <Key>UnitMonth</Key>
+      <Value>{LOCAL:Value} month</Value>
+    </Record>
+    <Record>
+      <Key>UnitYears</Key>
+      <Value>{LOCAL:Value} years</Value>
+    </Record>
+    <Record>
+      <Key>UnitYear</Key>
+      <Value>{LOCAL:Value} year</Value>
+    </Record>
+    <Record>
+      <Key>WaterWrongTemp</Key>
+      <Value>&lt;color=red&gt;Error!&lt;/color&gt; Water must be between &lt;color=yellow&gt;0 and 100 degrees C&lt;/color&gt;&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>NoWaterAvailable</Key>
+      <Value>&lt;color=red&gt;Error!&lt;/color&gt; there is no &lt;color=yellow&gt;Water Pressure&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PowerControlSetTo</Key>
+      <Value>Set &lt;b&gt;{LOCAL:Category}&lt;/b&gt; {LOCAL:OnState}</Value>
+    </Record>
+    <Record>
+      <Key>InternalPressureIs</Key>
+      <Value>Pressure is &lt;color=yellow&gt;{LOCAL:Value}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>ThingOverPressure</Key>
+      <Value>The &lt;color=green&gt;{LOCAL:Thing}&lt;/color&gt; is &lt;color=red&gt;Over Pressure&lt;/color&gt;!</Value>
+    </Record>
+    <Record>
+      <Key>PressureSafteySetTo</Key>
+      <Value>The &lt;color=green&gt;{LOCAL:Location} Safety&lt;/color&gt; is set to &lt;color=yellow&gt;{LOCAL:Value}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>AtmosphereExternal</Key>
+      <Value>External</Value>
+    </Record>
+    <Record>
+      <Key>AtmosphereInternal</Key>
+      <Value>Internal</Value>
+    </Record>
+    <Record>
+      <Key>IngotIsType</Key>
+      <Value>This is a &lt;color=yellow&gt;{LOCAL:Type}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>CannotBePickedUpRightNow</Key>
+      <Value>Cannot be picked up right now</Value>
+    </Record>
+    <Record>
+      <Key>CurrentlyOnFire</Key>
+      <Value>Currently &lt;color=red&gt;On Fire&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>IsDestroyed</Key>
+      <Value>Is &lt;color=red&gt;Destroyed&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>InputChatMessage</Key>
+      <Value>Enter Message to Send</Value>
+    </Record>
+    <Record>
+      <Key>TypeOfSlot</Key>
+      <Value>This is a &lt;color=yellow&gt;{LOCAL:SlotType}&lt;/color&gt; slot</Value>
+    </Record>
+    <Record>
+      <Key>ItemInSlotStack</Key>
+      <Value>Stack of &lt;color=yellow&gt;{LOCAL:StackSize}&lt;/color&gt; x {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>ItemInSlotValue</Key>
+      <Value>The {LOCAL:Thing} is at &lt;color=yellow&gt;{LOCAL:Value}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>DoorIsWelded</Key>
+      <Value>The {LOCAL:Thing} cannot be operated while it is &lt;color=yellow&gt;welded&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>MoleMixtureMustBePure</Key>
+      <Value>Requires a &lt;color=#44AD83&gt;pure gas mixture&lt;/color&gt; of only the listed types</Value>
+    </Record>
+    <Record>
+      <Key>GridBlockedByStructure</Key>
+      <Value>Placement is blocked by &lt;color=green&gt;{LOCAL:Structure}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>FaceBlockedByStructure</Key>
+      <Value>Placement is blocked by &lt;color=green&gt;{LOCAL:Structure}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PlacementBlockedByStructure</Key>
+      <Value>Placement is blocked by &lt;color=green&gt;{LOCAL:Structure}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PlacementRequiresHydroponicsTray</Key>
+      <Value>Placement requires a Hydroponics tray below</Value>
+    </Record>
+    <Record>
+      <Key>CannotMergeTwoOperationalElevatorShafts</Key>
+      <Value>Can not merge two operational elevator shafts</Value>
+    </Record>
+    <Record>
+      <Key>ElevatorShaftRotationFail</Key>
+      <Value>All Elevator building pieces must be rotated the same direction</Value>
+    </Record>
+    <Record>
+      <Key>PlacementBlockedByAdjacentDevice</Key>
+      <Value>Cannot place adjacent to &lt;color=green&gt;{LOCAL:Device}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PlacementBlockedByUnknownDevice</Key>
+      <Value>Cannot place adjacent to another Device</Value>
+    </Record>
+    <Record>
+      <Key>PlacementBlockedBySmallGrid</Key>
+      <Value>Placement is blocked by &lt;color=green&gt;{LOCAL:SmallGrid}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PlacementRequiresPipeValve</Key>
+      <Value>Must be placed after a pipe valve (or any other atmospherics device)</Value>
+    </Record>
+    <Record>
+      <Key>PipeContentTypeIncorrect</Key>
+      <Value>Pipe content type does not match content type of &lt;color=green&gt;{LOCAL:DevicePipeMounted}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>CannotMergeWithSmallGrid</Key>
+      <Value>Cannot merge with &lt;color=green&gt;{LOCAL:SmallGrid}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>CannotPlaceOnBrokenCable</Key>
+      <Value>Cannot Place on broken cable</Value>
+    </Record>
+    <Record>
+      <Key>CannotPlaceOnBurstPipe</Key>
+      <Value>Cannot Place on burst pipe</Value>
+    </Record>
+    <Record>
+      <Key>MustMountToCable</Key>
+      <Value>Must be mounted to a straight cable</Value>
+    </Record>
+    <Record>
+      <Key>MustMountToPipe</Key>
+      <Value>Must be mounted to a straight pipe</Value>
+    </Record>
+    <Record>
+      <Key>CannotMergeIMergeable</Key>
+      <Value>This {LOCAL:IMergeable} cannot be merged</Value>
+    </Record>
+    <Record>
+      <Key>CannotMergeIMergeableOfDifferentType</Key>
+      <Value>Cannot merge with {LOCAL:IMergeable} as it is a different type</Value>
+    </Record>
+    <Record>
+      <Key>MergeRequiresTool</Key>
+      <Value>Merging requires &lt;color=green&gt;{LOCAL:Tool}&lt;/color&gt; in other hand</Value>
+    </Record>
+    <Record>
+      <Key>EntityIsCurrentlyState</Key>
+      <Value>{LOCAL:Thing} is currently &lt;color=yellow&gt;{LOCAL:State}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>EntityIsDead</Key>
+      <Value>{LOCAL:Thing} is &lt;color=red&gt;Dead&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PlacementRequiresModularRocket</Key>
+      <Value>Placement requires a modular rocket piece below</Value>
+    </Record>
+    <Record>
+      <Key>CannotPlaceOnCommandModule</Key>
+      <Value>Cannot place this rocket piece above a command module piece</Value>
+    </Record>
+    <Record>
+      <Key>CouplerBetweenTwoRocketPieces</Key>
+      <Value>Coupling Unit must be placed at the intersection of two rocket pieces</Value>
+    </Record>
+    <Record>
+      <Key>RocketRotationFail</Key>
+      <Value>All rocket pieces must be rotated the same direction</Value>
+    </Record>
+    <Record>
+      <Key>PlacementRequiresLaunchPad</Key>
+      <Value>Placement requires Launchpad below</Value>
+    </Record>
+    <Record>
+      <Key>WeldingWillLockDoor</Key>
+      <Value>&lt;color=yellow&gt;Welding&lt;/color&gt; the {LOCAL:Thing} will lock it in place</Value>
+    </Record>
+    <Record>
+      <Key>UnweldingWillUnLockDoor</Key>
+      <Value>&lt;color=yellow&gt;Unwelding&lt;/color&gt; the {LOCAL:Thing} will unlock it</Value>
+    </Record>
+    <Record>
+      <Key>ClearStacker</Key>
+      <Value>Clear Stacker</Value>
+    </Record>
+    <Record>
+      <Key>QuantityOfGasTypeInMix</Key>
+      <Value>&lt;color=yellow&gt;{LOCAL:Quantity}&lt;/color&gt; x {LOCAL:GasType}</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenDeserializeWorldLog</Key>
+      <Value>Deserializing World Log</Value>
+    </Record>
+    <Record>
+      <Key>ActionFixLeak</Key>
+      <Value>Fix Leak</Value>
+    </Record>
+    <Record>
+      <Key>ActionExtinguish</Key>
+      <Value>Extinguish</Value>
+    </Record>
+    <Record>
+      <Key>ActionWeld</Key>
+      <Value>Weld</Value>
+    </Record>
+    <Record>
+      <Key>ActionDrag</Key>
+      <Value>Drag</Value>
+    </Record>
+    <Record>
+      <Key>ActionUnweld</Key>
+      <Value>Unweld</Value>
+    </Record>
+    <Record>
+      <Key>LightDeficient</Key>
+      <Value>Light Deficient</Value>
+    </Record>
+    <Record>
+      <Key>DarknessDeficient</Key>
+      <Value>Dark Deficient</Value>
+    </Record>
+    <Record>
+      <Key>NoDeficiency</Key>
+      <Value>No Deficiency</Value>
+    </Record>
+    <Record>
+      <Key>RequiredContinueConstruction</Key>
+      <Value>required to &lt;color=yellow&gt;continue construction&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>RequiredUpgradeDevice</Key>
+      <Value>required to &lt;color=yellow&gt;upgrade the device&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>RequiredToRepair</Key>
+      <Value>required to &lt;color=yellow&gt;repair&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>OnlyHumansCanDragThings</Key>
+      <Value>{LOCAL:Thing} does not allow dragging</Value>
+    </Record>
+    <Record>
+      <Key>CannotDragWhileAlive</Key>
+      <Value>{LOCAL:Thing} cannot be dragged while &lt;color=yellow&gt;alive&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>ThingWillDecayIn</Key>
+      <Value>Will decay completely in &lt;color=yellow&gt;{0}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>CannotConstructWhenDamaged</Key>
+      <Value>Cannot continue construction of {LOCAL:Thing} while it is damaged</Value>
+    </Record>
+    <Record>
+      <Key>SlotOccupiedBy</Key>
+      <Value>Currently occupied by {LOCAL:DynamicThing}</Value>
+    </Record>
+    <Record>
+      <Key>DeviceDoesNotAllowInternals</Key>
+      <Value>Cannot enter device while wearing a {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>DeviceDoesNotAllowItemsInHands</Key>
+      <Value>Cannot enter device while {LOCAL:Thing} is in {LOCAL:Slot}</Value>
+    </Record>
+    <Record>
+      <Key>PlantDead</Key>
+      <Value>The {LOCAL:Plant} is &lt;color=red&gt;dead&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>TraderCrashedEvent</Key>
+      <Value>The {LOCAL:Name} trader has crashed into {LOCAL:Collision} at position {LOCAL:Position}.</Value>
+    </Record>
+    <Record>
+      <Key>TraderLeftRangeEvent</Key>
+      <Value>The {LOCAL:Name} trader has left contact range.</Value>
+    </Record>
+    <Record>
+      <Key>TraderEnteredRangeEvent</Key>
+      <Value>The {LOCAL:Name} trader has entered contact range.</Value>
+    </Record>
+    <Record>
+      <Key>Recharge</Key>
+      <Value>Recharge</Value>
+    </Record>
+    <Record>
+      <Key>FullyCharged</Key>
+      <Value>Fully Charged</Value>
+    </Record>
+    <Record>
+      <Key>Repair</Key>
+      <Value>Repair</Value>
+    </Record>
+    <Record>
+      <Key>HandSlotOccupied</Key>
+      <Value>Hand slot is occupied</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionSrl</Key>
+      <Value>Performs a bitwise logical right shift operation on the binary representation of a value. It shifts the bits to the right and fills the vacated leftmost bits with zeros</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionSra</Key>
+      <Value>Performs a bitwise arithmetic right shift operation on the binary representation of a value. It shifts the bits to the right and fills the vacated leftmost bits with a copy of the sign bit (the most significant bit).</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionSll</Key>
+      <Value>Performs a bitwise logical left shift operation on the binary representation of a value. It shifts the bits to the left and fills the vacated rightmost bits with zeros.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionSla</Key>
+      <Value>Performs a bitwise arithmetic left shift operation on the binary representation of a value. It shifts the bits to the left and fills the vacated rightmost bits with a copy of the sign bit (the most significant bit).</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionNot</Key>
+      <Value>Performs a bitwise logical NOT operation flipping each bit of the input value, resulting in a binary complement. If a bit is 1, it becomes 0, and if a bit is 0, it becomes 1.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionAnd</Key>
+      <Value>Performs a bitwise logical AND operation on the binary representation of two values. Each bit of the result is determined by evaluating the corresponding bits of the input values. If both bits are 1, the resulting bit is set to 1. Otherwise the resulting bit is set to 0.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionOr</Key>
+      <Value>Performs a bitwise logical OR operation on the binary representation of two values. Each bit of the result is determined by evaluating the corresponding bits of the input values. If either bit is 1, the resulting bit is set to 1. If both bits are 0, the resulting bit is set to 0.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionXor</Key>
+      <Value>Performs a bitwise logical XOR (exclusive OR) operation on the binary representation of two values. Each bit of the result is determined by evaluating the corresponding bits of the input values. If the bits are different (one bit is 0 and the other is 1), the resulting bit is set to 1. If the bits are the same (both 0 or both 1), the resulting bit is set to 0.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionNor</Key>
+      <Value>Performs a bitwise logical NOR (NOT OR) operation on the binary representation of two values. Each bit of the result is determined by evaluating the corresponding bits of the input values. If both bits are 0, the resulting bit is set to 1. Otherwise, if at least one bit is 1, the resulting bit is set to 0.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionSbn</Key>
+      <Value>Stores register value to LogicType on all output network devices with provided type hash and name.</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturesAppliesMultiplier</Key>
+      <Value>&lt;color=orange&gt;{LOCAL:ModifierName}&lt;/color&gt; operates at &lt;color=yellow&gt;{LOCAL:Percent}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturesAtTier</Key>
+      <Value>Manufactures at &lt;color=yellow&gt;{LOCAL:MachineTier}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaBuildStateUpgrade</Key>
+      <Value>&lt;color=yellow&gt;Device Upgrade&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>NotEnoughSprayPaint</Key>
+      <Value>Not enough paint in {LOCAL:SprayCanister}</Value>
+    </Record>
+    <Record>
+      <Key>ThingWillBeSprayed</Key>
+      <Value>The {LOCAL:Thing} will be painted {LOCAL:Color}</Value>
+    </Record>
+    <Record>
+      <Key>CannotUseWhenNotOn</Key>
+      <Value>Cannot use {LOCAL:Thing} as it is not &lt;color=yellow&gt;turned on&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>InputSetting</Key>
+      <Value>Setting</Value>
+    </Record>
+    <Record>
+      <Key>Thrust</Key>
+      <Value>Thrust</Value>
+    </Record>
+    <Record>
+      <Key>CondensationInGasPipe</Key>
+      <Value>Condensation is happening in the pipe</Value>
+    </Record>
+    <Record>
+      <Key>LiquidInGasPipe</Key>
+      <Value>There is &lt;color=red&gt;Liquid&lt;/color&gt; in the pipe</Value>
+    </Record>
+    <Record>
+      <Key>PipeStressed</Key>
+      <Value>The pressure of the pipe is dangerously high</Value>
+    </Record>
+    <Record>
+      <Key>LiquidStress</Key>
+      <Value>Liquid Stress: </Value>
+    </Record>
+    <Record>
+      <Key>SaveVersionWarning</Key>
+      <Value>WARNING. Old save version detected</Value>
+    </Record>
+    <Record>
+      <Key>StateChangePopup</Key>
+      <Value>Gas-to-Liquid State Change: This save is from version 0.2.4120.19431 or older and may not be be compatible with the new atmospherics state change system. Would you like Stationeers to attempt to modify the contents of atmospheric networks in the loaded game to prevent immediate explosions and overpressure events due to liquid-gas state change? (some gas/liquid may be deleted and/or have its temperature modified by this process)</Value>
+    </Record>
+    <Record>
+      <Key>PipeVolumeChangePopup</Key>
+      <Value>Pipe Volume Balance change: This save is from version 0.2.4120.19448 or older and may not be be compatible with new balance changes to pipe volumes. Would you like Stationeers to attempt to modify the contents atmospheric networks in the loaded game to prevent immediate explosions and overpressure events due these changes? (some gas/liquid may be deleted by this process)</Value>
+    </Record>
+    <Record>
+      <Key>AttemptToFix</Key>
+      <Value>Attempt To Fix</Value>
+    </Record>
+    <Record>
+      <Key>DoNothing</Key>
+      <Value>Do Nothing</Value>
+    </Record>
+    <Record>
+      <Key>ToxicLiquidsInPipe</Key>
+      <Value>&lt;color=red&gt;Error!&lt;/color&gt; Toxins present in pipe network</Value>
+    </Record>
+    <Record>
+      <Key>CryoPressureOk</Key>
+      <Value>&lt;color=green&gt;Pressure pressure ok&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>CryoPressureTooLow</Key>
+      <Value>&lt;color=red&gt;Pressure too low&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>OutputVolumeRatio</Key>
+      <Value>Output Fullness &lt;color=green&gt;{0}%&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>EvaporationChamberLiquidConnection</Key>
+      <Value>Liquid input connection</Value>
+    </Record>
+    <Record>
+      <Key>EvaporationChamberGasConnection</Key>
+      <Value>Gas output connection</Value>
+    </Record>
+    <Record>
+      <Key>EvaporationChamberHeatConnection</Key>
+      <Value>Gas heat exchange connection</Value>
+    </Record>
+    <Record>
+      <Key>PipeDamageModePressure</Key>
+      <Value>Damaged by an &lt;color=red&gt;overpressure&lt;/color&gt; event</Value>
+    </Record>
+    <Record>
+      <Key>PipeDamageModeLiquid</Key>
+      <Value>Damaged due to the &lt;color=red&gt;presence of liquid&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PipeDamageModeFrozen</Key>
+      <Value>Damaged due to &lt;color=red&gt;liquids or gasses freezing&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PlacementBlockedByRocket</Key>
+      <Value>Placement is blocked by a rocket</Value>
+    </Record>
+    <Record>
+      <Key>ProcessedMoles</Key>
+      <Value>Processed Input {LOCAL:Moles}</Value>
+    </Record>
+    <Record>
+      <Key>PressureDifferential</Key>
+      <Value>Pressure Differential &lt;color=green&gt;{LOCAL:PressureDelta} kPa&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PipeFailModePressure</Key>
+      <Value>Destroyed due to an &lt;color=red&gt;overpressure&lt;/color&gt; event</Value>
+    </Record>
+    <Record>
+      <Key>PipeFailModeLiquid</Key>
+      <Value>Destroyed due to the &lt;color=red&gt;presence of liquid&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PipeFailModeFrozen</Key>
+      <Value>Destroyed due to &lt;color=red&gt;liquids or gasses freezing&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>TargetPressureKPA</Key>
+      <Value>Target Pressure &lt;color=green&gt;{0} kPa&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>CondensationChamberLiquidConnection</Key>
+      <Value>Liquid output connection</Value>
+    </Record>
+    <Record>
+      <Key>CondensationChamberGasConnection</Key>
+      <Value>Gas input connection</Value>
+    </Record>
+    <Record>
+      <Key>RequireDlcToFabricate</Key>
+      <Value>You do not have the required DLC to print this item.</Value>
+    </Record>
+    <Record>
+      <Key>HeatExchangerHeatExchangeAreaTooltip</Key>
+      <Value>Heat Exchange Rate: {LOCAL:EnergyResult} W</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionNameHash</Key>
+      <Value>Provides the hash value for the name of the object as a 32 bit integer.</Value>
+    </Record>
+    <Record>
+      <Key>CodeEditorFileSize</Key>
+      <Value>Size {LOCAL:Size} / {LOCAL:MaxSize} bytes</Value>
+    </Record>
+    <Record>
+      <Key>UplinkConnectedTo</Key>
+      <Value>Connected to {LOCAL:Downlink}</Value>
+    </Record>
+    <Record>
+      <Key>UplinkNotConnected</Key>
+      <Value>Not connected to any downlink</Value>
+    </Record>
+    <Record>
+      <Key>UplinkConnectedToRocket</Key>
+      <Value>Accessing {LOCAL:Rocket} via {LOCAL:RocketAvionics}</Value>
+    </Record>
+    <Record>
+      <Key>CelestialTrackerSetTo</Key>
+      <Value>Tracker set to {LOCAL:Celestial}</Value>
+    </Record>
+    <Record>
+      <Key>CelestialTrackerRequiresOrbit</Key>
+      <Value>Cannot track this celestial while not in orbit</Value>
+    </Record>
+    <Record>
+      <Key>DeviceShortCircuited</Key>
+      <Value>Short circuited</Value>
+    </Record>
+    <Record>
+      <Key>DeviceIndexSetTo</Key>
+      <Value>Index {LOCAL:Index}</Value>
+    </Record>
+    <Record>
+      <Key>NoCelestialFound</Key>
+      <Value>No Celestial Objects found</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoPlanetaryBody</Key>
+      <Value>Orbiting {LOCAL:ParentBody}</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoZeroGravity</Key>
+      <Value>Has &lt;color=red&gt;zero gravity&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoGravity</Key>
+      <Value>&lt;color=yellow&gt;Gravity&lt;/color&gt; is {LOCAL:Gravity} of &lt;color=white&gt;Earth&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoRotationPeriod</Key>
+      <Value>{LOCAL:PrimaryBody} transits &lt;color=yellow&gt;sky&lt;/color&gt; every {LOCAL:RotationPeriod} at {LOCAL:SolarAngle}</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoSiderealPeriod</Key>
+      <Value>Orbits {LOCAL:PrimaryBody} every {LOCAL:SiderealPeriod}</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoSolarEnergy</Key>
+      <Value>{LOCAL:PrimaryBody} provides {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoSolarEnergyRange</Key>
+      <Value>{LOCAL:PrimaryBody} provides {LOCAL:LowValue} to {LOCAL:HighValue}</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoNoSolarEnergy</Key>
+      <Value>{LOCAL:PrimaryBody} provides &lt;color=red&gt;no sunlight&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoIsVacuum</Key>
+      <Value>Has &lt;color=red&gt;no atmosphere&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoTemperatureRange</Key>
+      <Value>&lt;color=yellow&gt;Temperature&lt;/color&gt; from {LOCAL:LowValue} to {LOCAL:HighValue}</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoTemperature</Key>
+      <Value>&lt;color=yellow&gt;Temperature&lt;/color&gt; is {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoPressureRange</Key>
+      <Value>&lt;color=yellow&gt;Pressure&lt;/color&gt; from {LOCAL:LowValue} to {LOCAL:HighValue}</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoPressure</Key>
+      <Value>&lt;color=yellow&gt;Pressure&lt;/color&gt; is {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>WorldInfoPlanetWeather</Key>
+      <Value>Will experience {LOCAL:Weather} events</Value>
+    </Record>
+    <Record>
+      <Key>ThingDamageIsAt</Key>
+      <Value>{LOCAL:DamageType} is at {LOCAL:Percent}</Value>
+    </Record>
+    <Record>
+      <Key>DirtCanisterDirtIsAt</Key>
+      <Value>Currently contains {LOCAL:Quantity} of dirt</Value>
+    </Record>
+    <Record>
+      <Key>IsCurrentlyMelting</Key>
+      <Value>Is currently &lt;color=yellow&gt;melting&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>ContainsItemInSlotAtQuantity</Key>
+      <Value>Contains {LOCAL:Item} in {LOCAL:Slot} at {LOCAL:QuantityState}</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionGeneric</Key>
+      <Value>Connection</Value>
+    </Record>
+    <Record>
+      <Key>CanConnectTo</Key>
+      <Value>Provides {LOCAL:NetworkType} connection</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionForThing</Key>
+      <Value>Connection for {LOCAL:ParentThing}</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionToThing</Key>
+      <Value>Connected to {LOCAL:ConnectedThing}</Value>
+    </Record>
+    <Record>
+      <Key>ThingIsHeating</Key>
+      <Value>The {LOCAL:Thing} is &lt;color=green&gt;heating&lt;/color&gt; its atmosphere to {LOCAL:Temperature}</Value>
+    </Record>
+    <Record>
+      <Key>ScrubberVentOpen</Key>
+      <Value>&lt;color=yellow&gt;Vent&lt;/color&gt; is &lt;color=green&gt;open&lt;/color&gt;, internal atmosphere will be released</Value>
+    </Record>
+    <Record>
+      <Key>ScrubberNoFilters</Key>
+      <Value>No &lt;color=yellow&gt;Filters&lt;/color&gt; loaded, will pass all atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>ScrubberConnectToPipe</Key>
+      <Value>Connect to pipe network to release pressure.</Value>
+    </Record>
+    <Record>
+      <Key>CanBeUnfastenedWithWrench</Key>
+      <Value>A &lt;color=green&gt;Wrench&lt;/color&gt; can be used to unfasten</Value>
+    </Record>
+    <Record>
+      <Key>ThingCanBeDestroyedByWeather</Key>
+      <Value>The {LOCAL:Thing} will be damaged by {LOCAL:WeatherEvent} events</Value>
+    </Record>
+    <Record>
+      <Key>HeatingEnergyAmount</Key>
+      <Value>The {LOCAL:Thing} is &lt;color=green&gt;heating&lt;/color&gt; at {LOCAL:Temperature}</Value>
+    </Record>
+    <Record>
+      <Key>CoolingEnergyAmount</Key>
+      <Value>The {LOCAL:Thing} is &lt;color=green&gt;cooling&lt;/color&gt; at {LOCAL:Temperature}</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyCannotEatThroughHelmet</Key>
+      <Value>&lt;color=yellow&gt;Eating&lt;/color&gt; through &lt;color=white&gt;Helmet&lt;/color&gt; is &lt;color=red&gt;disabled&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyCannotDrinkThroughHelmet</Key>
+      <Value>&lt;color=yellow&gt;Drinking&lt;/color&gt; through &lt;color=white&gt;Helmet&lt;/color&gt; is &lt;color=red&gt;disabled&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyCannotEatOrDrinkThroughHelmet</Key>
+      <Value>&lt;color=yellow&gt;Eating&lt;/color&gt; and &lt;color=yellow&gt;drinking&lt;/color&gt; through &lt;color=white&gt;Helmet&lt;/color&gt; is &lt;color=red&gt;disabled&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyValueRate</Key>
+      <Value>{LOCAL:Type} rate {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyValueYield</Key>
+      <Value>{LOCAL:Type} yield {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyValueStatus</Key>
+      <Value>{LOCAL:Type} is {LOCAL:Status}</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyThingStatus</Key>
+      <Value>{LOCAL:Type} to {LOCAL:Thing} is {LOCAL:Status}</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyThingValueRate</Key>
+      <Value>{LOCAL:Type} to {LOCAL:Thing} rate {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>PassedMolesDescription</Key>
+      <Value>The number of moles that passed through this device on the previous simulation tick</Value>
+    </Record>
+    <Record>
+      <Key>ExhaustVelocityDescription</Key>
+      <Value>The velocity of the exhaust gas in m/s</Value>
+    </Record>
+    <Record>
+      <Key>FlightControlRuleDescription</Key>
+      <Value>Flight control rule of rocket. None = 0, No AutoPilot. Normal = 1, Target Decent Apex of 60m. Alternate = 2, Velocity to High - Full throttle. Alternate2 = 3, Target an appropriate decent velocity as velocity is too low. FinalApproach = 4, Descend towards launch mount in a controlled manner.</Value>
+    </Record>
+    <Record>
+      <Key>ReEntryAltitudeDescription</Key>
+      <Value>The altitude that the rocket will begin its decent to the pad. Must be between 25km and 120km</Value>
+    </Record>
+    <Record>
+      <Key>OperationalTemperatureEfficiency</Key>
+      <Value>Operational Temperature Efficiency {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>TemperatureDifferentialEfficiency</Key>
+      <Value>Temperature Differential Efficiency {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>PressureEfficiency</Key>
+      <Value>Pressure Efficiency {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>ConversionEfficiency</Key>
+      <Value>Conversion Efficiency {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionSemiMajorAxis</Key>
+      <Value>The longest radius of an elliptical orbit in astronomical units, measuring half the major axis. Determines the size of the orbit.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionEccentricity</Key>
+      <Value>A measure of how elliptical (oval) an orbit is. Ranges from 0 (a perfect circle) to 1 (a parabolic trajectory).</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionInclination</Key>
+      <Value>The tilt of an orbit's plane relative to the equatorial plane, measured in degrees. Defines the orbital plane's angle.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionPeriod</Key>
+      <Value>The time it takes for an object to complete one full orbit around another object, measured in days. Indicates the duration of the orbital cycle.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionDistanceAu</Key>
+      <Value>The current distance to the celestial object, measured in astronomical units.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionDistanceKm</Key>
+      <Value>The current distance to the celestial object, measured in kilometers.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionAlignmentError</Key>
+      <Value>The angular discrepancy between the telescope's current orientation and the target. Indicates how 'off target' the telescope is. Returns NaN when no target.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionCelestialParentHash</Key>
+      <Value>The hash for the name of the parent the celestial is orbiting, 0 if there is no parent celestial.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionTrueAnomaly</Key>
+      <Value>An angular parameter that defines the position of a body moving along a Keplerian orbit. It is the angle between the direction of periapsis and the current position of the body, as seen from the main focus of the ellipse (the point around which the object orbits).</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionDiscover</Key>
+      <Value>Progress status of Discovery scan at the rocket's target Space Map Location. Returns a clamped normalised value. If Discovery scan is not available returns -1.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionChart</Key>
+      <Value>Progress status of Chart scan at the rocket's target Space Map Location. Returns a clamped normalised value. If Chart scan is not available returns -1.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionSurvey</Key>
+      <Value>Progress status of Survey scan at the rocket's target Space Map Location. Returns a normalised value where 100% surveyed is equal to 1. If Survey scan is not available returns -1.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionNavPoints</Key>
+      <Value>The number of NavPoints at the rocket's target Space Map Location.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionChartedNavPoints</Key>
+      <Value>The number of charted NavPoints at the rocket's target Space Map Location.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionSites</Key>
+      <Value>The number of Sites that have been discovered at the rockets target Space Map location.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionCurrentCode</Key>
+      <Value>The Space Map Address of the rockets current Space Map Location</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionDestinationCode</Key>
+      <Value>The Space Map Address of the rockets target Space Map Location</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionSize</Key>
+      <Value>The size of the rocket's target site's mine-able deposit.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionRichness</Key>
+      <Value>The richness of the rocket's target site's mine-able deposit.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionDensity</Key>
+      <Value>The density of the rocket's target site's mine-able deposit.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionTotalQuantity</Key>
+      <Value>The estimated total quantity of resources available to mine at the rocket's target Space Map Site.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionMinedQuantity</Key>
+      <Value>The total number of resources that have been mined at the rocket's target Space Map Site.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionBestContactFilter</Key>
+      <Value>Filters the satellite's auto selection of targets to a single reference ID.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionCelestialHash</Key>
+      <Value>The current hash of the targeted celestial object.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionEntityState</Key>
+      <Value>The current entity state, such as whether it is dead, unconscious or alive, expressed as a state integer.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionApex</Key>
+      <Value>The lowest altitude that the rocket will reach before it starts travelling upwards again.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionIndex</Key>
+      <Value>The current index for the device.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionDrillCondition</Key>
+      <Value>The current condition of the drill head in this devices drill slot. Expressed as a ratio between 0 and 1.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionVelocityX</Key>
+      <Value>The world velocity of the entity in the X axis</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionVelocityY</Key>
+      <Value>The world velocity of the entity in the Y axis</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionVelocityZ</Key>
+      <Value>The world velocity of the entity in the Z axis</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionOrientation</Key>
+      <Value>The orientation of the entity in degrees in a plane relative towards the north origin</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionForward</Key>
+      <Value>The direction the entity is facing expressed as a normalized vector</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionReferenceId</Key>
+      <Value>Unique Reference Identifier for this object</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionGet</Key>
+      <Value>Using the provided device, attempts to read the stack value at the provided address, and places it in the register.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionClr</Key>
+      <Value>Clears the stack memory for the provided device.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionClrD</Key>
+      <Value>Seeks directly for the provided device id and clears the stack memory of that device</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionPut</Key>
+      <Value>Using the provided device, attempts to write the provided value to the stack at the provided address.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionGetD</Key>
+      <Value>Seeks directly for the provided device id, attempts to read the stack value at the provided address, and places it in the register.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionPutD</Key>
+      <Value>Seeks directly for the provided device id, attempts to write the provided value to the stack at the provided address.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionPoke</Key>
+      <Value>Stores the provided value at the provided address in the stack.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionRMap</Key>
+      <Value>Given a reagent hash, store the corresponding prefab hash that the device expects to fulfill the reagent requirement. For example, on an autolathe, the hash for Iron will store the hash for ItemIronIngot.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceMeltThing</Key>
+      <Value>{LOCAL:Thing} can be melted by pressing &lt;color=yellow&gt;Activate&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>ThingOverTemperature</Key>
+      <Value>The {LOCAL:Thing} is &lt;color=red&gt;Over Heating&lt;/color&gt;!</Value>
+    </Record>
+    <Record>
+      <Key>HeatingFromInternal</Key>
+      <Value>The {LOCAL:Thing} is &lt;color=white&gt;Heating&lt;/color&gt; from {LOCAL:Source} at {LOCAL:Energy}</Value>
+    </Record>
+    <Record>
+      <Key>HeatingFromElement</Key>
+      <Value>The {LOCAL:Thing} is &lt;color=white&gt;Heating&lt;/color&gt; from &lt;color=yellow&gt;Element&lt;/color&gt; at {LOCAL:Energy}</Value>
+    </Record>
+    <Record>
+      <Key>CoolantFrozen</Key>
+      <Value>The {LOCAL:Thing} is &lt;color=blue&gt;Frozen&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>WorldEnvironmentTooHot</Key>
+      <Value>The operating environment is &lt;color=orange&gt;too hot&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>WorldEnvironmentTooCold</Key>
+      <Value>The operating environment is &lt;color=blue&gt;too cold&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>CoolingFromInternal</Key>
+      <Value>The {LOCAL:Thing} is &lt;color=white&gt;Cooling&lt;/color&gt; from {LOCAL:Source} at {LOCAL:Energy}</Value>
+    </Record>
+    <Record>
+      <Key>DeviceWorldGridBlocked</Key>
+      <Value>The &lt;color=white&gt;Output&lt;/color&gt; of {LOCAL:Thing} is &lt;color=red&gt;Blocked&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>TemperatureTooHotForThing</Key>
+      <Value>The temperature is too hot for {LOCAL:Thing} to operate</Value>
+    </Record>
+    <Record>
+      <Key>TemperatureTooColdForThing</Key>
+      <Value>The temperature is too cold for {LOCAL:Thing} to operate</Value>
+    </Record>
+    <Record>
+      <Key>ItemInSlot</Key>
+      <Value>Stack of &lt;color=yellow&gt;{LOCAL:StackSize}&lt;/color&gt; x {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>PlacementRequiresFrame</Key>
+      <Value>Placement requires a &lt;color=green&gt;Frame&lt;/color&gt; below for support</Value>
+    </Record>
+    <Record>
+      <Key>PlacementRequiresFrameOrTower</Key>
+      <Value>Placement requires a &lt;color=green&gt;Frame&lt;/color&gt; or &lt;color=green&gt;Launch Tower&lt;/color&gt; below for support</Value>
+    </Record>
+    <Record>
+      <Key>PlacementMustBeOnTerrain</Key>
+      <Value>Placement requires &lt;color=yellow&gt;Terrain&lt;/color&gt; below</Value>
+    </Record>
+    <Record>
+      <Key>PlacementRequiresFrameOrGround</Key>
+      <Value>Placement requires a &lt;color=green&gt;Frame&lt;/color&gt; or solid ground below for support</Value>
+    </Record>
+    <Record>
+      <Key>InvalidAttachmentsDeconstruct</Key>
+      <Value>Cannot deconstruct while {LOCAL:Device} is attached to it</Value>
+    </Record>
+    <Record>
+      <Key>PlacementIsNotUmbilicalConnector</Key>
+      <Value>Only another &lt;color=yellow&gt;Umbilical&lt;/color&gt; can connect to this side of {LOCAL:Device}</Value>
+    </Record>
+    <Record>
+      <Key>CannotDeconstructLaunchMount</Key>
+      <Value>Cannot deconstruct {LOCAL:Mount} as {LOCAL:Rocket} is interacting with it</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenDeserializingSpaceMap</Key>
+      <Value>Deserializing Space Map</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenDeserializingRockets</Key>
+      <Value>Deserializing Rockets</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenDeserializingRocketLog</Key>
+      <Value>Deserializing Rocket Log</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenDeserializeRocketLog</Key>
+      <Value>Deserializing Rocket Log</Value>
+    </Record>
+    <Record>
+      <Key>CantPaintSameColour</Key>
+      <Value>The {LOCAL:Thing} is already painted {LOCAL:Color}</Value>
+    </Record>
+    <Record>
+      <Key>AtmosphereVolume</Key>
+      <Value>Capacity</Value>
+    </Record>
+    <Record>
+      <Key>LiquidsVolume</Key>
+      <Value>Liquids Volume</Value>
+    </Record>
+    <Record>
+      <Key>StirlingTemperatureHot</Key>
+      <Value>Temperature Hot Side</Value>
+    </Record>
+    <Record>
+      <Key>GeneratingPower</Key>
+      <Value>Generating</Value>
+    </Record>
+    <Record>
+      <Key>StirlingTemperatureCold</Key>
+      <Value>Temperature Cold Side</Value>
+    </Record>
+    <Record>
+      <Key>StirlingOperatingEfficiency</Key>
+      <Value>Environment Operating Efficiency</Value>
+    </Record>
+    <Record>
+      <Key>StirlingPressureDifferential</Key>
+      <Value>Pressure Differential</Value>
+    </Record>
+    <Record>
+      <Key>StirlingGasEfficiency</Key>
+      <Value>Working Gas Efficiency</Value>
+    </Record>
+    <Record>
+      <Key>StirlingHelperText</Key>
+      <Value>Connect input and output pipe networks and supply input network with hot high pressure gas</Value>
+    </Record>
+    <Record>
+      <Key>StirlingMissingCanister</Key>
+      <Value>&lt;color=red&gt;Missing a &lt;color=green&gt;Gas Canister&lt;/color&gt; for working gas&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>SlotContainsItem</Key>
+      <Value>{LOCAL:Slot} contains {LOCAL:Item}</Value>
+    </Record>
+    <Record>
+      <Key>ThingIsFastenedIn</Key>
+      <Value>Fastened in {LOCAL:Slot} on {LOCAL:Parent}</Value>
+    </Record>
+    <Record>
+      <Key>ThingIsState</Key>
+      <Value>The {LOCAL:Thing} is {LOCAL:State}</Value>
+    </Record>
+    <Record>
+      <Key>LaunchTowerAlreadyExists</Key>
+      <Value>A &lt;color=green&gt;Launch Tower&lt;/color&gt; already exists in this grid</Value>
+    </Record>
+    <Record>
+      <Key>ProcessingThing</Key>
+      <Value>Processing {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>ProduceQuantityOfResource</Key>
+      <Value>Will produce {LOCAL:Quantity} x {LOCAL:Resource} of {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>ProduceResource</Key>
+      <Value>Will produce {LOCAL:Size} of {LOCAL:Resource}</Value>
+    </Record>
+    <Record>
+      <Key>ProduceAnotherResource</Key>
+      <Value>And {LOCAL:Size} of {LOCAL:Resource}</Value>
+    </Record>
+    <Record>
+      <Key>TooltipDeviceUnpowered</Key>
+      <Value>Unpowered</Value>
+    </Record>
+    <Record>
+      <Key>DeviceError</Key>
+      <Value>Cannot interact as the device is in an error state</Value>
+    </Record>
+    <Record>
+      <Key>ArmExplosive</Key>
+      <Value>Arm</Value>
+    </Record>
+    <Record>
+      <Key>DisarmExplosive</Key>
+      <Value>Disarm</Value>
+    </Record>
+    <Record>
+      <Key>AnimalHungry</Key>
+      <Value>Hungry</Value>
+    </Record>
+    <Record>
+      <Key>AnimalVeryHungry</Key>
+      <Value>Very hungry</Value>
+    </Record>
+    <Record>
+      <Key>AnimalOld</Key>
+      <Value>Getting old</Value>
+    </Record>
+    <Record>
+      <Key>AnimalVeryOld</Key>
+      <Value>Getting very old</Value>
+    </Record>
+    <Record>
+      <Key>UnviableEgg</Key>
+      <Value>Unviable</Value>
+    </Record>
+    <Record>
+      <Key>ViableEgg</Key>
+      <Value>Viable</Value>
+    </Record>
+    <Record>
+      <Key>TransactionErrorNonTradable</Key>
+      <Value>Non tradable item in inventory:</Value>
+    </Record>
+    <Record>
+      <Key>TransactionFailInventory</Key>
+      <Value>Cannot complete transaction. Connect a &lt;color=green&gt;Vending Machine&lt;/color&gt; or have a free &lt;color=yellow&gt;Left Hand&lt;/color&gt; or &lt;color=yellow&gt;Right Hand&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>TransactionIncompleteTransaction</Key>
+      <Value>Incomplete transaction as there was not enough space. You have only been changed for what there was inventory space for. Connect a &lt;color=green&gt;Vending Machine&lt;/color&gt; or have a free &lt;color=yellow&gt;Left Hand&lt;/color&gt; or &lt;color=yellow&gt;Right Hand&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>TransactionFailItem</Key>
+      <Value>Cannot complete transaction. Traded item is invalid.</Value>
+    </Record>
+    <Record>
+      <Key>TradeGasQuantityComparison</Key>
+      <Value>Contains {LOCAL:ComparisonOperator} {LOCAL:ValueToCompare}</Value>
+    </Record>
+    <Record>
+      <Key>TradeOperatorAny</Key>
+      <Value>Any of the following</Value>
+    </Record>
+    <Record>
+      <Key>TradeOperatorNone</Key>
+      <Value>None of the following</Value>
+    </Record>
+    <Record>
+      <Key>TradeOperatorAll</Key>
+      <Value>All of the following</Value>
+    </Record>
+    <Record>
+      <Key>TradeItemStackChild</Key>
+      <Value>Includes {LOCAL:Quantity} x {LOCAL:Item}</Value>
+    </Record>
+    <Record>
+      <Key>TradeItemNutrition</Key>
+      <Value>Provides {LOCAL:Value} nutrition</Value>
+    </Record>
+    <Record>
+      <Key>TradeItemQuantity</Key>
+      <Value>Quantity is {LOCAL:ItemAsUnit}</Value>
+    </Record>
+    <Record>
+      <Key>TradeItemParent</Key>
+      <Value>{LOCAL:Item} with the following</Value>
+    </Record>
+    <Record>
+      <Key>TradeItemContains</Key>
+      <Value>The {LOCAL:OrePrefab} contains the following</Value>
+    </Record>
+    <Record>
+      <Key>TradeRatio</Key>
+      <Value>{LOCAL:GasType} ratio must be {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>TradeQuantity</Key>
+      <Value>Quantity {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>TradeDecay</Key>
+      <Value>Decay {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>TradeEnergyRatio</Key>
+      <Value>Energy ratio {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>TradeEnergyState</Key>
+      <Value>Energy state {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyState</Key>
+      <Value>Difficulty {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>SpeciesState</Key>
+      <Value>Player Species {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>TradeChildItem</Key>
+      <Value>Contains a {LOCAL:Item}</Value>
+    </Record>
+    <Record>
+      <Key>TradeChildItemInSlot</Key>
+      <Value>Contains a {LOCAL:Item} in the {LOCAL:Slot} slot</Value>
+    </Record>
+    <Record>
+      <Key>TradeTemperatureBetween</Key>
+      <Value>Temperature between {LOCAL:MinTemp} and {LOCAL:MaxTemp}</Value>
+    </Record>
+    <Record>
+      <Key>Unpack</Key>
+      <Value>Unpack</Value>
+    </Record>
+    <Record>
+      <Key>FlowRate</Key>
+      <Value>Flow Rate</Value>
+    </Record>
+    <Record>
+      <Key>ExhaustVelocity</Key>
+      <Value>Exhaust Velocity</Value>
+    </Record>
+    <Record>
+      <Key>ExhaustTemperature</Key>
+      <Value>Exhaust Temperature</Value>
+    </Record>
+    <Record>
+      <Key>PipeFail</Key>
+      <Value>&lt;color=green&gt;{LOCAL:DisplayName}&lt;/color&gt; was destroyed due to {Local:Reason}</Value>
+    </Record>
+    <Record>
+      <Key>OverPressure</Key>
+      <Value>Over pressure</Value>
+    </Record>
+    <Record>
+      <Key>Frozen</Key>
+      <Value>Liquids or gasses Freezing</Value>
+    </Record>
+    <Record>
+      <Key>PresenceOfLiquid</Key>
+      <Value>Presence of liquid</Value>
+    </Record>
+    <Record>
+      <Key>PlacementConnectingNeedsFuselage</Key>
+      <Value>Placement that connects to a &lt;color=green&gt;Rocket&lt;/color&gt; needs to be inside a &lt;color=green&gt;Fuselage&lt;/color&gt; or via &lt;color=green&gt;Umbilical&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>MachinePressureDifferential</Key>
+      <Value>Pressure Differential {LOCAL:PressureDelta}</Value>
+    </Record>
+    <Record>
+      <Key>PassedMolesInput1</Key>
+      <Value>Input 1 throughput &lt;color=green&gt;{LOCAL:PressureDelta} mol&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>PassedMolesInput2</Key>
+      <Value>Input 2 throughput &lt;color=green&gt;{LOCAL:PressureDelta} mol&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>HeatExchangerEnergyTransfer</Key>
+      <Value>Heat Exchange Rate: {LOCAL:EnergyResult}</Value>
+    </Record>
+    <Record>
+      <Key>FlowRateStatus</Key>
+      <Value>Flow-rate is &lt;color={LOCAL:color}&gt;{LOCAL:flowRate}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>IncreasePipeVolumePressure</Key>
+      <Value>Increase output pipe-network capacity or pressure</Value>
+    </Record>
+    <Record>
+      <Key>PressureCloseToTarget</Key>
+      <Value>Pressure close to External target</Value>
+    </Record>
+    <Record>
+      <Key>PressureCloseToInternalTarget</Key>
+      <Value>Pressure close to Internal target</Value>
+    </Record>
+    <Record>
+      <Key>Rocket</Key>
+      <Value>Rocket {LOCAL:id}</Value>
+    </Record>
+    <Record>
+      <Key>InvalidFuselagePlacement</Key>
+      <Value>Fuselage must be constructed on top of another fuselage</Value>
+    </Record>
+    <Record>
+      <Key>InvalidAdjacentFuselagePlacement</Key>
+      <Value>Rockets can not be placed next to each other</Value>
+    </Record>
+    <Record>
+      <Key>InvalidFuselageDeconstruct</Key>
+      <Value>Fuselage cannot be deconstructed as it is supporting &lt;color=green&gt;{LOCAL:Other}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>Left</Key>
+      <Value>Left</Value>
+    </Record>
+    <Record>
+      <Key>Center</Key>
+      <Value>Center</Value>
+    </Record>
+    <Record>
+      <Key>Right</Key>
+      <Value>Right</Value>
+    </Record>
+    <Record>
+      <Key>UmbilicalError</Key>
+      <Value>Cannot open when in error state</Value>
+    </Record>
+    <Record>
+      <Key>DestinationCode</Key>
+      <Value>Destination Code: {LOCAL:Code}</Value>
+    </Record>
+    <Record>
+      <Key>None</Key>
+      <Value>None</Value>
+    </Record>
+    <Record>
+      <Key>TheGround</Key>
+      <Value>the ground</Value>
+    </Record>
+    <Record>
+      <Key>Unknown</Key>
+      <Value>Unknown</Value>
+    </Record>
+    <Record>
+      <Key>GroundVelocity</Key>
+      <Value>Ground Velocity</Value>
+    </Record>
+    <Record>
+      <Key>TransferVelocity</Key>
+      <Value>Transfer Velocity</Value>
+    </Record>
+    <Record>
+      <Key>Orbit</Key>
+      <Value>Orbit</Value>
+    </Record>
+    <Record>
+      <Key>SpaceName</Key>
+      <Value>Space</Value>
+    </Record>
+    <Record>
+      <Key>TimeToImpact</Key>
+      <Value>&lt;color=red&gt;Impact&lt;/color&gt;:</Value>
+    </Record>
+    <Record>
+      <Key>TimeToArrest</Key>
+      <Value>Decent Arrest:</Value>
+    </Record>
+    <Record>
+      <Key>TimeToArrival</Key>
+      <Value>ETA:</Value>
+    </Record>
+    <Record>
+      <Key>RocketMapIconTooltip</Key>
+      <Value>Rocket: &lt;color=green&gt;{LOCAL:name}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>MediumRocketSize</Key>
+      <Value>Medium</Value>
+    </Record>
+    <Record>
+      <Key>LargeRocketSize</Key>
+      <Value>Large</Value>
+    </Record>
+    <Record>
+      <Key>RocketAdjacentFail</Key>
+      <Value>Rockets can not be placed next to each other</Value>
+    </Record>
+    <Record>
+      <Key>FuselageRequiresLaunchMount</Key>
+      <Value>Fuselage must be constructed on top of a fully constructed launch mount</Value>
+    </Record>
+    <Record>
+      <Key>PlacementRequiresMultipleSupportPillars</Key>
+      <Value>Placement requires a support frame below each pillar. &lt;color=yellow&gt;{0}&lt;/color&gt; out of &lt;color=green&gt;{1}&lt;/color&gt; supports are present.</Value>
+    </Record>
+    <Record>
+      <Key>MiningHeadSpeedMultiplierTooltip</Key>
+      <Value>Speed Multiplier: &lt;color=yellow&gt;{LOCAL:Multiplier}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>MiningHeadReagentYieldMultiplierTooltip</Key>
+      <Value>Reagent Yield Multiplier: &lt;color=yellow&gt;{LOCAL:Multiplier}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>MiningHeadIceYieldMultiplierTooltip</Key>
+      <Value>Ice Yield Multiplier: &lt;color=yellow&gt;{LOCAL:Multiplier}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>MiningHeadHealthMultiplierTooltip</Key>
+      <Value>Health Multiplier: &lt;color=yellow&gt;{LOCAL:Multiplier}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>MiningHeadPowerConsuptionSpeedTooltip</Key>
+      <Value>Power Consumption Multiplier: &lt;color=yellow&gt;{LOCAL:Multiplier}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>ChartFailure</Key>
+      <Value>No Further Nav-Points to chart</Value>
+    </Record>
+    <Record>
+      <Key>MiningFailure</Key>
+      <Value>No available mine-able deposit</Value>
+    </Record>
+    <Record>
+      <Key>NoRocketMiner</Key>
+      <Value>This Rocket has no mining device</Value>
+    </Record>
+    <Record>
+      <Key>NoRocketScanner</Key>
+      <Value>This Rocket has no scanning device</Value>
+    </Record>
+    <Record>
+      <Key>SurveyCompleted</Key>
+      <Value>Survey completed at {Local:DisplayName}</Value>
+    </Record>
+    <Record>
+      <Key>SiteCapacityReached</Key>
+      <Value>Site capacity reached at {Local:DisplayName}</Value>
+    </Record>
+    <Record>
+      <Key>SelectRocketCurrentLocationTooltip</Key>
+      <Value>Select rocket's current location</Value>
+    </Record>
+    <Record>
+      <Key>DepositIsDepleted</Key>
+      <Value>Deposit is depleted. No further resources can be mined at this location.</Value>
+    </Record>
+    <Record>
+      <Key>EstimatedTotalResources</Key>
+      <Value>Estimated Total Resources </Value>
+    </Record>
+    <Record>
+      <Key>TotalMass</Key>
+      <Value>Total Mass </Value>
+    </Record>
+    <Record>
+      <Key>FuelMass</Key>
+      <Value>Fuel Mass </Value>
+    </Record>
+    <Record>
+      <Key>FuselageMass</Key>
+      <Value>Fuselage Mass </Value>
+    </Record>
+    <Record>
+      <Key>EngineMass</Key>
+      <Value>Engine Mass </Value>
+    </Record>
+    <Record>
+      <Key>PayloadMass</Key>
+      <Value>Payload Mass </Value>
+    </Record>
+    <Record>
+      <Key>RocketDryMassTotal</Key>
+      <Value>Total Dry Mass </Value>
+    </Record>
+    <Record>
+      <Key>DepositDensityToolTip</Key>
+      <Value>Density effects the total resources available and mining speed</Value>
+    </Record>
+    <Record>
+      <Key>MineOperationSpeedToolTip</Key>
+      <Value>Mine Speed </Value>
+    </Record>
+    <Record>
+      <Key>RichnessOperationAmountToolTip</Key>
+      <Value>Richness is increasing Yield by {LOCAL:RichnessMultiplier} from {LOCAL:BaseLine} to {LOCAL:RichnessQuantity}</Value>
+    </Record>
+    <Record>
+      <Key>CollectionQuantityToolTip</Key>
+      <Value>Base Yield </Value>
+    </Record>
+    <Record>
+      <Key>DensityReductionToolTip</Key>
+      <Value>Density Degradation </Value>
+    </Record>
+    <Record>
+      <Key>RichnessReductionToolTip</Key>
+      <Value>Richness Degradation </Value>
+    </Record>
+    <Record>
+      <Key>DepositSizeToolTip</Key>
+      <Value>Size increases the Base Yield and decreases the degradation rate of Density and Richness</Value>
+    </Record>
+    <Record>
+      <Key>DepositRichnessToolTip</Key>
+      <Value>Richness provides a short-term boost to the Yield</Value>
+    </Record>
+    <Record>
+      <Key>NoDownlinkFound</Key>
+      <Value>No down-link found for up-link {LOCAL:DisplayName}</Value>
+    </Record>
+    <Record>
+      <Key>NoAvionicsFound</Key>
+      <Value>No avionics found for down-link {LOCAL:DisplayName}</Value>
+    </Record>
+    <Record>
+      <Key>NoRocketsConnected</Key>
+      <Value>No rockets connected</Value>
+    </Record>
+    <Record>
+      <Key>RocketLandAborted</Key>
+      <Value>Rocket landing aborted. Auto-Land Controller could not calculate a safe landing trajectory.</Value>
+    </Record>
+    <Record>
+      <Key>RocketEnginePlacementRule</Key>
+      <Value>{LOCAL:Device} must be placed inside an &lt;color=yellow&gt;Engine Fuselage&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>RocketCurrentLocation</Key>
+      <Value>Current Location</Value>
+    </Record>
+    <Record>
+      <Key>RocketTargetLocation</Key>
+      <Value>Target Location</Value>
+    </Record>
+    <Record>
+      <Key>RocketFuelTime</Key>
+      <Value>Fuel Time</Value>
+    </Record>
+    <Record>
+      <Key>RocketAcceleration</Key>
+      <Value>Acceleration</Value>
+    </Record>
+    <Record>
+      <Key>RocketGravity</Key>
+      <Value>Gravity</Value>
+    </Record>
+    <Record>
+      <Key>RocketEngineAcceleration</Key>
+      <Value>Engines</Value>
+    </Record>
+    <Record>
+      <Key>RocketTargetVelocity</Key>
+      <Value>Target Velocity</Value>
+    </Record>
+    <Record>
+      <Key>RocketAltitude</Key>
+      <Value>Altitude</Value>
+    </Record>
+    <Record>
+      <Key>RocketNextLocationETA</Key>
+      <Value>Next Location ETA</Value>
+    </Record>
+    <Record>
+      <Key>RocketNextLocation</Key>
+      <Value>Next Location</Value>
+    </Record>
+    <Record>
+      <Key>RocketMass</Key>
+      <Value>Mass</Value>
+    </Record>
+    <Record>
+      <Key>RocketDryMass</Key>
+      <Value>Dry Mass</Value>
+    </Record>
+    <Record>
+      <Key>RocketThrust</Key>
+      <Value>Thrust</Value>
+    </Record>
+    <Record>
+      <Key>RocketWeight</Key>
+      <Value>Weight</Value>
+    </Record>
+    <Record>
+      <Key>RocketThrustToWeight</Key>
+      <Value>Thrust to Weight</Value>
+    </Record>
+    <Record>
+      <Key>RocketOxidizer</Key>
+      <Value>Oxidizer</Value>
+    </Record>
+    <Record>
+      <Key>RocketVolatiles</Key>
+      <Value>Volatiles</Value>
+    </Record>
+    <Record>
+      <Key>RocketBatteryPercentage</Key>
+      <Value>Battery</Value>
+    </Record>
+    <Record>
+      <Key>CentrifugeSpinningError</Key>
+      <Value>Error! {LOCAL:Thing} must be stopped before it can export</Value>
+    </Record>
+    <Record>
+      <Key>CentrifugeFull</Key>
+      <Value>Error! {LOCAL:Thing} is full. Empty to continue processing</Value>
+    </Record>
+    <Record>
+      <Key>RocketMinerHasNoDrillHead</Key>
+      <Value>{LOCAL:Thing} has no mining drill head</Value>
+    </Record>
+    <Record>
+      <Key>RocketMinerDrillHeadWornOut</Key>
+      <Value>{LOCAL:Thing} mining drill head is worn out</Value>
+    </Record>
+    <Record>
+      <Key>RocketScannerHasNoScanningHead</Key>
+      <Value>{LOCAL:Thing} has no scanning head</Value>
+    </Record>
+    <Record>
+      <Key>RocketScannerHeadWornOut</Key>
+      <Value>{LOCAL:Thing} scanning head is worn out</Value>
+    </Record>
+    <Record>
+      <Key>DeviceOffOrUnpowered</Key>
+      <Value>{LOCAL:Thing} is off or un-powered</Value>
+    </Record>
+    <Record>
+      <Key>ExportSlotBlocked</Key>
+      <Value>{LOCAL:Thing} Export slot is blocked</Value>
+    </Record>
+    <Record>
+      <Key>Charted</Key>
+      <Value>Charted</Value>
+    </Record>
+    <Record>
+      <Key>UnchartedLocation</Key>
+      <Value>???</Value>
+    </Record>
+    <Record>
+      <Key>UnknownDepositValue</Key>
+      <Value>???</Value>
+    </Record>
+    <Record>
+      <Key>AutoShutOffTooltip</Key>
+      <Value>Auto-Shut Off</Value>
+    </Record>
+    <Record>
+      <Key>AutoLandDisabledTooltip</Key>
+      <Value>Auto-Land is Disabled</Value>
+    </Record>
+    <Record>
+      <Key>AutoLandEnabledTooltip</Key>
+      <Value>Auto-Land is Enabled</Value>
+    </Record>
+    <Record>
+      <Key>SurveyDifficultyTooltip</Key>
+      <Value>Total points required to fully survey this location</Value>
+    </Record>
+    <Record>
+      <Key>DiscoverDifficultyTooltip</Key>
+      <Value>Total points required to discover a new location</Value>
+    </Record>
+    <Record>
+      <Key>ChartDifficultyTooltip</Key>
+      <Value>Total points required to fully chart this location</Value>
+    </Record>
+    <Record>
+      <Key>SitesDiscoveredTooltip</Key>
+      <Value>Sites discovered at this location</Value>
+    </Record>
+    <Record>
+      <Key>NavPointsChartedTooltip</Key>
+      <Value>Nav points charted at this location</Value>
+    </Record>
+    <Record>
+      <Key>SurveyProgressTooltip</Key>
+      <Value>Total survey points generated at this location</Value>
+    </Record>
+    <Record>
+      <Key>DiscoverProgressTooltip</Key>
+      <Value>Total discover points generated at this location</Value>
+    </Record>
+    <Record>
+      <Key>ChartProgressTooltip</Key>
+      <Value>Total chart points generated at this location</Value>
+    </Record>
+    <Record>
+      <Key>RocketLogArrived</Key>
+      <Value>{LOCAL:DisplayName} has arrived at {LOCAL:Destination}</Value>
+    </Record>
+    <Record>
+      <Key>RocketLogOutOfFuel</Key>
+      <Value>{LOCAL:DisplayName} has run out of fuel</Value>
+    </Record>
+    <Record>
+      <Key>RocketCrashed</Key>
+      <Value>{LOCAL:DisplayName} crashed into {LOCAL:CrashedInto}</Value>
+    </Record>
+    <Record>
+      <Key>RocketLogOutOfBattery</Key>
+      <Value>{LOCAL:DisplayName} has depleted its batteries</Value>
+    </Record>
+    <Record>
+      <Key>RocketLogCharted</Key>
+      <Value>A new nav-point has been charted: {LOCAL:ChartedName}</Value>
+    </Record>
+    <Record>
+      <Key>RocketLogDeviceFull</Key>
+      <Value>{LOCAL:Thing} is full</Value>
+    </Record>
+    <Record>
+      <Key>LiquidFuelInput</Key>
+      <Value>Liquid Fuel Input</Value>
+    </Record>
+    <Record>
+      <Key>HeatExchangerLiquidInput</Key>
+      <Value>Heat Exchanger Liquid Input</Value>
+    </Record>
+    <Record>
+      <Key>Throttle</Key>
+      <Value>Throttle</Value>
+    </Record>
+    <Record>
+      <Key>ImportCountTooltip</Key>
+      <Value>Import Count</Value>
+    </Record>
+    <Record>
+      <Key>ExportCountTooltip</Key>
+      <Value>Export Count</Value>
+    </Record>
+    <Record>
+      <Key>TooltipInternalQuantity</Key>
+      <Value>Internal Quantity {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>TooltipOutputSetting</Key>
+      <Value>Output Setting {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>ToolRequiredToOpen</Key>
+      <Value>&lt;color=green&gt;{Local:Tool}&lt;/color&gt; required to open</Value>
+    </Record>
+    <Record>
+      <Key>ToolRequiredToClose</Key>
+      <Value>&lt;color=green&gt;{Local:Tool}&lt;/color&gt; required to close</Value>
+    </Record>
+    <Record>
+      <Key>RocketTowerPlacementRule</Key>
+      <Value>{LOCAL:Thing} must be built inside a Rocket Tower</Value>
+    </Record>
+    <Record>
+      <Key>FailedToLoadGameData</Key>
+      <Value>Failed to load game data at {LOCAL:Path}</Value>
+    </Record>
+    <Record>
+      <Key>RocketFuselageHasInternals</Key>
+      <Value>Cannot deconstruct fuselage as it contains internal components</Value>
+    </Record>
+    <Record>
+      <Key>On</Key>
+      <Value>On</Value>
+    </Record>
+    <Record>
+      <Key>Off</Key>
+      <Value>Off</Value>
+    </Record>
+    <Record>
+      <Key>RocketScanActionInfo</Key>
+      <Value>Scanner: {LOCAL:OnOff}, Scanner Strength: {LOCAL:Strength}, Scan Cycle Time: {LOCAL:CycleTime}</Value>
+    </Record>
+    <Record>
+      <Key>RocketMineActionInfo</Key>
+      <Value>Miner: {LOCAL:OnOff}, Mining Head: {LOCAL:HeadQuality}, Next Yield: {LOCAL:Yield} Ore</Value>
+    </Record>
+    <Record>
+      <Key>RocketScanNoHeadInfo</Key>
+      <Value>Scanner is inoperable due to having no scanning head attached.</Value>
+    </Record>
+    <Record>
+      <Key>RocketMineNoHeadInfo</Key>
+      <Value>Miner is inoperable due to having no drill head attached.</Value>
+    </Record>
+    <Record>
+      <Key>RocketNoDataConnection</Key>
+      <Value>No motherboard connection to avionics through datalink</Value>
+    </Record>
+    <Record>
+      <Key>RocketNoOperableAvionics</Key>
+      <Value>No operable avionics detected</Value>
+    </Record>
+    <Record>
+      <Key>RocketActionMining</Key>
+      <Value>Mining</Value>
+    </Record>
+    <Record>
+      <Key>RocketActionSurveying</Key>
+      <Value>Surveying</Value>
+    </Record>
+    <Record>
+      <Key>RocketActionDiscovering</Key>
+      <Value>Discovering</Value>
+    </Record>
+    <Record>
+      <Key>RocketActionCharting</Key>
+      <Value>Charting</Value>
+    </Record>
+    <Record>
+      <Key>RocketActionSurveyProgress</Key>
+      <Value>Survey Progress</Value>
+    </Record>
+    <Record>
+      <Key>RocketActionDiscoverProgress</Key>
+      <Value>Discover Progress</Value>
+    </Record>
+    <Record>
+      <Key>RocketActionChartProgress</Key>
+      <Value>Chart Progress</Value>
+    </Record>
+    <Record>
+      <Key>RocketActionMiningTotalOre</Key>
+      <Value>Estimated Ore at Location: {LOCAL:Total}</Value>
+    </Record>
+    <Record>
+      <Key>RocketActionMiningTotalOreMined</Key>
+      <Value>Total Ore Mined at Location: {LOCAL:Total}</Value>
+    </Record>
+    <Record>
+      <Key>VeryHighConfidence</Key>
+      <Value>Very High</Value>
+    </Record>
+    <Record>
+      <Key>HighConfidence</Key>
+      <Value>High</Value>
+    </Record>
+    <Record>
+      <Key>ModerateConfidence</Key>
+      <Value>Moderate</Value>
+    </Record>
+    <Record>
+      <Key>LowConfidence</Key>
+      <Value>Low</Value>
+    </Record>
+    <Record>
+      <Key>NoConfidence</Key>
+      <Value>Failure</Value>
+    </Record>
+    <Record>
+      <Key>AutoLandNoConfidence</Key>
+      <Value>&lt;color=red&gt;Landing Aborted!&lt;/color&gt; Auto-Land has no confidence in achieving landing success</Value>
+    </Record>
+    <Record>
+      <Key>LandingBeginAltitudeToolTip</Key>
+      <Value>Landing Altitude {LOCAL:Altitude}</Value>
+    </Record>
+    <Record>
+      <Key>AutoLandThrustRequired</Key>
+      <Value>Confidence {LOCAL:Confidence}. {LOCAL:Thrust} of thrust required. Max thrust estimated at {LOCAL:ExpectedThrust}</Value>
+    </Record>
+    <Record>
+      <Key>NoDataLinkActive</Key>
+      <Value>Not connected to an Uplink</Value>
+    </Record>
+    <Record>
+      <Key>ConnectedRocketAvionics</Key>
+      <Value>Avionics: {LOCAL:Avionics}</Value>
+    </Record>
+    <Record>
+      <Key>ConnectedRocketUplinks</Key>
+      <Value>Uplinks: {LOCAL:Uplinks}</Value>
+    </Record>
+    <Record>
+      <Key>ConnectedRocketDownlink</Key>
+      <Value>Downlink: {LOCAL:Downlink}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDisabledTitle</Key>
+      <Value>Tutorials Disabled</Value>
+    </Record>
+    <Record>
+      <Key>TutorialDisabled</Key>
+      <Value>Tutorials have been temporarily disabled due to recent overhauls of core game systems. If you wish to play the tutorials please switch to the beta branch: previous - pre phase change</Value>
+    </Record>
+    <Record>
+      <Key>OkayConfirmation</Key>
+      <Value>Okay</Value>
+    </Record>
+    <Record>
+      <Key>PlayerStatsMoodDeltaState</Key>
+      <Value>Mood is {LOCAL:Delta}</Value>
+    </Record>
+    <Record>
+      <Key>PlayerStatsHygieneDeltaState</Key>
+      <Value>Hygiene is {LOCAL:Delta}</Value>
+    </Record>
+    <Record>
+      <Key>PlayerStatsTooltipTitle</Key>
+      <Value>Player Stats</Value>
+    </Record>
+    <Record>
+      <Key>PlayerStatsIncreasing</Key>
+      <Value>increasing</Value>
+    </Record>
+    <Record>
+      <Key>PlayerStatsDecreasing</Key>
+      <Value>decreasing</Value>
+    </Record>
+    <Record>
+      <Key>PlayerStatsStable</Key>
+      <Value>not increasing</Value>
+    </Record>
+    <Record>
+      <Key>PlayerStatsLowHygiene</Key>
+      <Value>low hygiene</Value>
+    </Record>
+    <Record>
+      <Key>PlayerStatsHygieneOk</Key>
+      <Value>good hygiene</Value>
+    </Record>
+    <Record>
+      <Key>PlayerStatsRoomStateOk</Key>
+      <Value>in a room</Value>
+    </Record>
+    <Record>
+      <Key>PlayerStatsSuitOrHelmetOn</Key>
+      <Value>suit or helmet on</Value>
+    </Record>
+    <Record>
+      <Key>PlayerStatsNoSuitOrHelmet</Key>
+      <Value>no suit or helmet</Value>
+    </Record>
+    <Record>
+      <Key>PlayerStatsFoodQuality</Key>
+      <Value>Food quality {LOCAL:Quality}</Value>
+    </Record>
+    <Record>
+      <Key>DrinkingFountainNotEnoughWater</Key>
+      <Value>Not enough water</Value>
+    </Record>
+    <Record>
+      <Key>DrinkingFountainWaterTooHot</Key>
+      <Value>Water is too hot</Value>
+    </Record>
+    <Record>
+      <Key>DrinkingFountainWaterTooCold</Key>
+      <Value>Water is too cold</Value>
+    </Record>
+    <Record>
+      <Key>DrinkingFountainWaterPolluted</Key>
+      <Value>Water is unfit for drinking</Value>
+    </Record>
+    <Record>
+      <Key>DrinkFromFountain</Key>
+      <Value>Drink</Value>
+    </Record>
+    <Record>
+      <Key>DrinkNotThirsty</Key>
+      <Value>Not thirsty</Value>
+    </Record>
+    <Record>
+      <Key>ShowerNotEnoughWater</Key>
+      <Value>Not enough water</Value>
+    </Record>
+    <Record>
+      <Key>ShowerWaterTooHot</Key>
+      <Value>Water is too hot</Value>
+    </Record>
+    <Record>
+      <Key>ShowerWaterTooCold</Key>
+      <Value>Water is too cold</Value>
+    </Record>
+    <Record>
+      <Key>ShowerWaterPolluted</Key>
+      <Value>Water is polluted</Value>
+    </Record>
+    <Record>
+      <Key>ShowerOutputFull</Key>
+      <Value>Output Pipe is full</Value>
+    </Record>
+    <Record>
+      <Key>ShowerNetworksInvalid</Key>
+      <Value>Pipes not connected</Value>
+    </Record>
+    <Record>
+      <Key>SanitizerActionMessage</Key>
+      <Value>Clean yourself</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaNoFoodQuality</Key>
+      <Value>None</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaLowFoodQuality</Key>
+      <Value>Low (-25% hydration capacity)</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaOkFoodQuality</Key>
+      <Value>Ok</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaGoodFoodQuality</Key>
+      <Value>Good (+25% hydration capacity)</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaSuperiorFoodQuality</Key>
+      <Value>Best (+75% hydration capacity)</Value>
+    </Record>
+    <Record>
+      <Key>TooltipLowFoodQuality</Key>
+      <Value>Low &lt;color=red&gt;-25% hydration&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>TooltipOkFoodQuality</Key>
+      <Value>Ok</Value>
+    </Record>
+    <Record>
+      <Key>TooltipGoodFoodQuality</Key>
+      <Value>Good &lt;color=green&gt;+25% hydration &lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>TooltipSuperiorFoodQuality</Key>
+      <Value>Best &lt;color=green&gt;+75% hydration&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>WaterPurifierCharcoalErrorMsg</Key>
+      <Value>Requires &lt;color=green&gt;{LOCAL:Prefab}&lt;/color&gt; in Import Slot to Operate</Value>
+    </Record>
+    <Record>
+      <Key>UpgradeConstructionAction</Key>
+      <Value>Upgrade to &lt;color=green&gt;{LOCAL:Prefab}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>EntityCantEnterNonEntitySlot</Key>
+      <Value>Entity can't enter non-entity slot</Value>
+    </Record>
+    <Record>
+      <Key>CantEnterOwnHierarchy</Key>
+      <Value>Can't enter own hierarchy</Value>
+    </Record>
+    <Record>
+      <Key>CantPickUp</Key>
+      <Value>This this is unable to be picked up</Value>
+    </Record>
+    <Record>
+      <Key>CantEnterSelf</Key>
+      <Value>Can't enter self</Value>
+    </Record>
+    <Record>
+      <Key>IsAttachedToBench</Key>
+      <Value>Can't move - detach from bench first</Value>
+    </Record>
+    <Record>
+      <Key>CantNestBoxes</Key>
+      <Value>Can't nest cardboard boxes</Value>
+    </Record>
+    <Record>
+      <Key>MagazineTypeDoesNotMatch</Key>
+      <Value>Magazine type does not match</Value>
+    </Record>
+    <Record>
+      <Key>SlotDoesNotAllowDragging</Key>
+      <Value>Slot does not allow dragging</Value>
+    </Record>
+    <Record>
+      <Key>SuitDoesNotSupportThisItem</Key>
+      <Value>Suit does not support this item</Value>
+    </Record>
+    <Record>
+      <Key>DetonateExplosives</Key>
+      <Value>Detonate</Value>
+    </Record>
+    <Record>
+      <Key>DropExplosive</Key>
+      <Value>Drop</Value>
+    </Record>
+    <Record>
+      <Key>LinkAndDropExplosive</Key>
+      <Value>Link and Drop</Value>
+    </Record>
+    <Record>
+      <Key>UnableToLinkExplosive</Key>
+      <Value>This device is already linked to another Remote Detonator</Value>
+    </Record>
+    <Record>
+      <Key>StructureNetworkTypeNone</Key>
+      <Value>None</Value>
+    </Record>
+    <Record>
+      <Key>StructureNetworkTypeLandingPad</Key>
+      <Value>Landing Pad</Value>
+    </Record>
+    <Record>
+      <Key>StructureNetworkTypePipe</Key>
+      <Value>Pipe</Value>
+    </Record>
+    <Record>
+      <Key>StructureNetworkTypeChute</Key>
+      <Value>Chute</Value>
+    </Record>
+    <Record>
+      <Key>StructureNetworkTypeRocket</Key>
+      <Value>Rocket</Value>
+    </Record>
+    <Record>
+      <Key>StructureNetworkTypeLaunchPad</Key>
+      <Value>Launch Pad</Value>
+    </Record>
+    <Record>
+      <Key>StructureNetworkTypeRoboticArm</Key>
+      <Value>Robotic Arm</Value>
+    </Record>
+    <Record>
+      <Key>StructureNetworkTypeCable</Key>
+      <Value>Cable</Value>
+    </Record>
+    <Record>
+      <Key>SpeciesNone</Key>
+      <Value>None</Value>
+    </Record>
+    <Record>
+      <Key>SpeciesHuman</Key>
+      <Value>Human</Value>
+    </Record>
+    <Record>
+      <Key>SpeciesZrilian</Key>
+      <Value>Zrilian</Value>
+    </Record>
+    <Record>
+      <Key>SpeciesRobot</Key>
+      <Value>Robot</Value>
+    </Record>
+    <Record>
+      <Key>MachineTierUndefined</Key>
+      <Value>Undefined</Value>
+    </Record>
+    <Record>
+      <Key>MachineTierTierOne</Key>
+      <Value>Tier One</Value>
+    </Record>
+    <Record>
+      <Key>MachineTierTierTwo</Key>
+      <Value>Tier Two</Value>
+    </Record>
+    <Record>
+      <Key>MachineTierTierThree</Key>
+      <Value>Tier Three</Value>
+    </Record>
+    <Record>
+      <Key>MachineTierMax</Key>
+      <Value>Max</Value>
+    </Record>
+    <Record>
+      <Key>RoomTypeUndefined</Key>
+      <Value>Undefined</Value>
+    </Record>
+    <Record>
+      <Key>RoomTypeDefault</Key>
+      <Value>Default</Value>
+    </Record>
+    <Record>
+      <Key>RoomTypeManufacturing</Key>
+      <Value>Manufacturing</Value>
+    </Record>
+    <Record>
+      <Key>RoomTypeKitchen</Key>
+      <Value>Kitchen</Value>
+    </Record>
+    <Record>
+      <Key>RoomTypeBedroom</Key>
+      <Value>Bedroom</Value>
+    </Record>
+    <Record>
+      <Key>RoomTypeHydroponics</Key>
+      <Value>Hydroponics</Value>
+    </Record>
+    <Record>
+      <Key>ButtonSearch</Key>
+      <Value>Search</Value>
+    </Record>
+    <Record>
+      <Key>HeaderCreativeSpawnMenu</Key>
+      <Value>Creative Spawn Menu</Value>
+    </Record>
+    <Record>
+      <Key>EnabledLower</Key>
+      <Value>enabled</Value>
+    </Record>
+    <Record>
+      <Key>DisabledLower</Key>
+      <Value>disabled</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthDays</Key>
+      <Value> days, </Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthHours</Key>
+      <Value> hours, </Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthMinutes</Key>
+      <Value> minutes, </Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthSeconds</Key>
+      <Value> seconds</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyValuePeriod</Key>
+      <Value>{LOCAL:Type} period {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyValueStatusAre</Key>
+      <Value>{LOCAL:Type} are {LOCAL:Status}</Value>
+    </Record>
+    <Record>
+      <Key>AltitudeDescription</Key>
+      <Value>The altitude that the rocket above the planet's surface. -1 if the rocket is in space.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionTargetSlotIndex</Key>
+      <Value>The slot index that the target device that this device will try to interact with</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionTargetPrefabHash</Key>
+      <Value>The prefab</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionExtended</Key>
+      <Value>Extended</Value>
+    </Record>
+    <Record>
+      <Key>AchievementUnlocked</Key>
+      <Value>Achievement '{LOCAL:Name}' unlocked</Value>
+    </Record>
+    <Record>
+      <Key>InteractableActionToState</Key>
+      <Value>Set {LOCAL:InteractableAction} {LOCAL:State}</Value>
+    </Record>
+    <Record>
+      <Key>StructureIsCompleted</Key>
+      <Value>Must be fully constructed</Value>
+    </Record>
+    <Record>
+      <Key>StructureCanManufacture</Key>
+      <Value>BuildState can manufacture</Value>
+    </Record>
+    <Record>
+      <Key>PlantRecordCondition</Key>
+      <Value>{LOCAL:StatusType} record must be {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>PlantStatusCondition</Key>
+      <Value>{LOCAL:StatusType} status must be {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>GrowthStateCondition</Key>
+      <Value>Growth state must be {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>PreSpawnedCondition</Key>
+      <Value>Was pre-spawned: {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>HumanCondition</Key>
+      <Value>Player is {LOCAL:IsOnline} {LOCAL:State}</Value>
+    </Record>
+    <Record>
+      <Key>TemperatureComparableCondition</Key>
+      <Value>Temperature must be {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenDeserializeTerraformingValues</Key>
+      <Value>Deserializing Terraforming values</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenDeserializingWorldObjectives</Key>
+      <Value>Deserializing World Objectives</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenLoadingTerrain</Key>
+      <Value>Loading Terrain Data</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenSeedingMinables</Key>
+      <Value>Seeding Minables</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenGeneratingMinables</Key>
+      <Value>Generating Minables</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenValidatingMinables</Key>
+      <Value>Validating Minables</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenRegisteringMinables</Key>
+      <Value>Registering Minables</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenApplyingMinedMinables</Key>
+      <Value>Minable Deltas</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenPreparingTerrain</Key>
+      <Value>Preparing Terrain</Value>
+    </Record>
+    <Record>
+      <Key>ScriptEditorAuthorInfo</Key>
+      <Value>Created by &lt;color=white&gt;{LOCAL:Author}&lt;/color&gt;
+{LOCAL:Description}</Value>
+    </Record>
+    <Record>
+      <Key>ScriptEditorLoadTitle</Key>
+      <Value>Load Instructions</Value>
+    </Record>
+    <Record>
+      <Key>ScriptEditorLoadDescription</Key>
+      <Value>Are you sure you want to load this script into your computer? This will replace whatever is on screen.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptEditorOverwriteTitle</Key>
+      <Value>Overwrite Instructions</Value>
+    </Record>
+    <Record>
+      <Key>ScriptEditorOverwriteDescription</Key>
+      <Value>Are you sure you want to overwrite this script with the data you have on the computer screen? This will replace what is in your source code library.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptEditorPublishTitle</Key>
+      <Value>Publish Instructions</Value>
+    </Record>
+    <Record>
+      <Key>ScriptEditorPublishDescription</Key>
+      <Value>Are you sure you want to publish this instruction set to the Steam Workshop?</Value>
+    </Record>
+    <Record>
+      <Key>ScriptEditorDeleteTitle</Key>
+      <Value>Delete Instructions</Value>
+    </Record>
+    <Record>
+      <Key>ScriptEditorDeleteDescription</Key>
+      <Value>Are you sure you want to delete this script from the library? You cannot undo this.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptEditorInstructionCancelled</Key>
+      <Value>Instructions list query cancelled</Value>
+    </Record>
+    <Record>
+      <Key>InputKPA</Key>
+      <Value>Input &lt;color=green&gt;{0} kPa&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>InputVolumeRatio</Key>
+      <Value>Input fullness &lt;color=green&gt;{0}%&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmBusy</Key>
+      <Value>Currently busy</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmObstructed</Key>
+      <Value>The arm is obstructed</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmCantSetPositionWhenClosed</Key>
+      <Value>Can't change position when bypassed</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmJunction</Key>
+      <Value>Station {LOCAL:Index}</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmTargetIndex</Key>
+      <Value>Target Index {LOCAL:Index}</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmCargoSetSlotIndex</Key>
+      <Value>Slot Index {LOCAL:Index}</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmSetStartingDock</Key>
+      <Value>Set starting dock</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmFull</Key>
+      <Value>The arm's storage is full</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmEmpty</Key>
+      <Value>The arm's storage is empty</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmExtended</Key>
+      <Value>Extended</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmMoving</Key>
+      <Value>Moving</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmDocked</Key>
+      <Value>Docked</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmFaceBlocked</Key>
+      <Value>Arm action blocked</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmFaceBlockedInfo</Key>
+      <Value>Arm action blocked. Not enough room for arm to extend</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmIdle</Key>
+      <Value>Idle</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmPosition</Key>
+      <Value>Position {LOCAL:Position}</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmIndex</Key>
+      <Value>Destination Index {LOCAL:Index}</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmState</Key>
+      <Value>State {LOCAL:State}</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmVentDirection</Key>
+      <Value>Vent Direction {LOCAL:direction}</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmArmDisplayStateHasSpace</Key>
+      <Value>Storage Available</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmArmDisplayStateFull</Key>
+      <Value>Storage Full</Value>
+    </Record>
+    <Record>
+      <Key>TargetSlotInfo</Key>
+      <Value>Targeting {LOCAL:SlotName} {LOCAL:Occupant}</Value>
+    </Record>
+    <Record>
+      <Key>TargetSlot</Key>
+      <Value>Target Slot</Value>
+    </Record>
+    <Record>
+      <Key>Proxy</Key>
+      <Value>Proxy</Value>
+    </Record>
+    <Record>
+      <Key>SizeTwoDCondition</Key>
+      <Value>Size must be {LOCAL:Condition} {LOCAL:SizeX} x {LOCAL:SizeY}</Value>
+    </Record>
+    <Record>
+      <Key>BuildNetworkCondition</Key>
+      <Value>Build a {LOCAL:NetworkType} network</Value>
+    </Record>
+    <Record>
+      <Key>TraderContactCondition</Key>
+      <Value>{LOCAL:Action} a trader contact</Value>
+    </Record>
+    <Record>
+      <Key>ResolveAction</Key>
+      <Value>Resolve</Value>
+    </Record>
+    <Record>
+      <Key>InterrogateAction</Key>
+      <Value>Interrogate</Value>
+    </Record>
+    <Record>
+      <Key>LandAction</Key>
+      <Value>Land</Value>
+    </Record>
+    <Record>
+      <Key>PressureCondition</Key>
+      <Value>Pressure must be {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>CreateThingCondition</Key>
+      <Value>Create a {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>PartialPressureCondition</Key>
+      <Value>Partial pressure {LOCAL:GasType} must be {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>HelperHintExpand</Key>
+      <Value>Expand</Value>
+    </Record>
+    <Record>
+      <Key>HelperHintCollapse</Key>
+      <Value>Collapse</Value>
+    </Record>
+    <Record>
+      <Key>HelperHintDismiss</Key>
+      <Value>Dismiss</Value>
+    </Record>
+    <Record>
+      <Key>HelperHintRestore</Key>
+      <Value>Restore</Value>
+    </Record>
+    <Record>
+      <Key>HelperHintOpenStationpedia</Key>
+      <Value>Open Stationpedia</Value>
+    </Record>
+    <Record>
+      <Key>HelperHintCreateThingCondition</Key>
+      <Value>Create a &lt;link="{LOCAL:PrefabName}"&gt;&lt;color=green&gt;{LOCAL:DisplayName}&lt;/color&gt;&lt;/link&gt;</Value>
+    </Record>
+    <Record>
+      <Key>HelperHintContainsItem</Key>
+      <Value>Contains a &lt;link="{LOCAL:PrefabName}"&gt;&lt;color=green&gt;{LOCAL:DisplayName}&lt;/color&gt;&lt;/link&gt;</Value>
+    </Record>
+    <Record>
+      <Key>HelperHintContainsItemInSlot</Key>
+      <Value>Contains a &lt;link="{LOCAL:PrefabName}"&gt;&lt;color=green&gt;{LOCAL:DisplayName}&lt;/color&gt;&lt;/link&gt; in the &lt;color=orange&gt;{LOCAL:SlotName}&lt;/color&gt; slot</Value>
+    </Record>
+    <Record>
+      <Key>HelperHintRoomState</Key>
+      <Value>In a &lt;color=yellow&gt;{LOCAL:RoomType}&lt;/color&gt; room</Value>
+    </Record>
+    <Record>
+      <Key>HelperHintAnyRoomState</Key>
+      <Value>Build a room</Value>
+    </Record>
+    <Record>
+      <Key>HelperHintQuantityComparison</Key>
+      <Value>Quantity {LOCAL:ComparisonOperator} </Value>
+    </Record>
+    <Record>
+      <Key>HelperHintPressureCondition</Key>
+      <Value>Pressure must be {LOCAL:ComparisonOperator} </Value>
+    </Record>
+    <Record>
+      <Key>HelperHintRatioMustBeComparison</Key>
+      <Value> ratio must be {LOCAL:ComparisonOperator} </Value>
+    </Record>
+    <Record>
+      <Key>HelperHintMustBeComparison</Key>
+      <Value> must be {LOCAL:ComparisonOperator} </Value>
+    </Record>
+    <Record>
+      <Key>HelperHintPartialPressure</Key>
+      <Value>Partial pressure </Value>
+    </Record>
+    <Record>
+      <Key>HelperHintDecayComparison</Key>
+      <Value>Decay {LOCAL:ComparisonOperator} </Value>
+    </Record>
+    <Record>
+      <Key>HelperHintSpeciesState</Key>
+      <Value>Player Species </Value>
+    </Record>
+    <Record>
+      <Key>HelperHintContainsComparison</Key>
+      <Value>Contains {LOCAL:ComparisonOperator} </Value>
+    </Record>
+    <Record>
+      <Key>HelperHintHumanCondition</Key>
+      <Value>todo</Value>
+    </Record>
+    <Record>
+      <Key>HelperHintInCellCondition</Key>
+      <Value>Thing is in cell: {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>NoRocketCargoBay</Key>
+      <Value>This Rocket has no cargo bay to deploy from</Value>
+    </Record>
+    <Record>
+      <Key>RocketDeployActionInfo</Key>
+      <Value>Payload Bay: {LOCAL:OnOff}, State: {LOCAL:Open}, Progress: {LOCAL:Progress}</Value>
+    </Record>
+    <Record>
+      <Key>TutorialYouDied</Key>
+      <Value>You Died</Value>
+    </Record>
+    <Record>
+      <Key>TutorialExitToMainMenu</Key>
+      <Value>Exit to Main Menu</Value>
+    </Record>
+    <Record>
+      <Key>RoomState</Key>
+      <Value>in a {LOCAL:RoomType}</Value>
+    </Record>
+    <Record>
+      <Key>BrutalStartConditionDescription</Key>
+      <Value>The bare minimum to survive</Value>
+    </Record>
+    <Record>
+      <Key>StartScreenHeaderInWorldSpawns</Key>
+      <Value>In-World Spawns</Value>
+    </Record>
+    <Record>
+      <Key>StartScreenHeaderPlayerLandingCapsule</Key>
+      <Value>Player Landing Capsule</Value>
+    </Record>
+    <Record>
+      <Key>ObjectiveIsCompletedCondition</Key>
+      <Value>{LOCAL:Objective} must first be completed</Value>
+    </Record>
+    <Record>
+      <Key>InteractableMustBeOn</Key>
+      <Value>Switch on</Value>
+    </Record>
+    <Record>
+      <Key>InteractableMustBeOff</Key>
+      <Value>Switch off</Value>
+    </Record>
+    <Record>
+      <Key>InteractableMustBeOpen</Key>
+      <Value>Must be open</Value>
+    </Record>
+    <Record>
+      <Key>InteractableMustBeClosed</Key>
+      <Value>Must be closed</Value>
+    </Record>
+    <Record>
+      <Key>InteractableMustBePowered</Key>
+      <Value>Must be powered</Value>
+    </Record>
+    <Record>
+      <Key>InteractableMustBeUnpowered</Key>
+      <Value>Must be unpowered</Value>
+    </Record>
+    <Record>
+      <Key>CustomNameCondition</Key>
+      <Value>Name must be &lt;color=green&gt;{LOCAL:Name}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>RoomMinSizeCondition</Key>
+      <Value>Size greater than &lt;color=green&gt;{LOCAL:Size}&lt;/color&gt; grids</Value>
+    </Record>
+    <Record>
+      <Key>RoomMaxSizeCondition</Key>
+      <Value>Size less than &lt;color=green&gt;{LOCAL:Size}&lt;/color&gt; grids</Value>
+    </Record>
+    <Record>
+      <Key>Infinity</Key>
+      <Value>Infinity</Value>
+    </Record>
+    <Record>
+      <Key>SurvivalPropertyCondition</Key>
+      <Value>{LOCAL:Property} {LOCAL:ComparisonOperator} {LOCAL:PercentValue}</Value>
+    </Record>
+    <Record>
+      <Key>AtmosphereModeCondition</Key>
+      <Value>Target atmosphere is {LOCAL:Mode}</Value>
+    </Record>
+    <Record>
+      <Key>NoneSelected</Key>
+      <Value>None</Value>
+    </Record>
+    <Record>
+      <Key>CarbonDioxideRatio</Key>
+      <Value>CarbonDioxide Ratio &lt;color=green&gt;{LOCAL:Ratio}&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>StressedToFailure</Key>
+      <Value>&lt;color=red&gt;Stressed To Failure &lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>MachineTemperature</Key>
+      <Value>Machine Temperature</Value>
+    </Record>
+    <Record>
+      <Key>DispersalTowerNotEnoughPressure</Key>
+      <Value>The InternalPressure must be above {LOCAL:Target}</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticCreativeMode</Key>
+      <Value>Creative mode</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticAchievements</Key>
+      <Value>Achievements</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticWeatherDamage</Key>
+      <Value>Weather damage</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticCalmWeather</Key>
+      <Value>Calm weather</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticMetabolism</Key>
+      <Value>Metabolism</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticHungerRate</Key>
+      <Value>Nutrition</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticHydrationRate</Key>
+      <Value>Hydration</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticBreathing</Key>
+      <Value>Breathing</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticRobotBattery</Key>
+      <Value>Robot battery</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticMoonReduction</Key>
+      <Value>Moon reduction</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticHygeineReduction</Key>
+      <Value>Hygiene reduction</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticFoodDecay</Key>
+      <Value>Food decay</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticJetpackConsumption</Key>
+      <Value>Jetpack consumption</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticMining</Key>
+      <Value>Mining</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticLungDamage</Key>
+      <Value>Lung damage</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticOfflineMetabolism</Key>
+      <Value>Offline metabolism</Value>
+    </Record>
+    <Record>
+      <Key>DownlinkConnectedToNothing</Key>
+      <Value>No connection</Value>
+    </Record>
+    <Record>
+      <Key>DownlinkConnectedTo</Key>
+      <Value>Connected to </Value>
+    </Record>
+    <Record>
+      <Key>AvionicsDeviceParentRocket</Key>
+      <Value>Parent {LOCAL:RocketName}</Value>
+    </Record>
+    <Record>
+      <Key>AvionicsDeviceRocketMass</Key>
+      <Value>Mass {LOCAL:Mass}</Value>
+    </Record>
+    <Record>
+      <Key>AvionicsDeviceRocketWeight</Key>
+      <Value>Weight {LOCAL:Weight}</Value>
+    </Record>
+    <Record>
+      <Key>AvionicsDeviceRocketThrustToWeight</Key>
+      <Value>Thrust to Weight {LOCAL:ThrustToWeight}</Value>
+    </Record>
+    <Record>
+      <Key>MolesPerHour</Key>
+      <Value>{LOCAL:Value} Moles per hour</Value>
+    </Record>
+    <Record>
+      <Key>InhaledGassesStationpedia</Key>
+      <Value>Inhaled Gasses</Value>
+    </Record>
+    <Record>
+      <Key>ExhaledGassesStationpedia</Key>
+      <Value>Exhaled Gasses</Value>
+    </Record>
+    <Record>
+      <Key>ToxicGassesStatiopedia</Key>
+      <Value>Toxic Gasses</Value>
+    </Record>
+    <Record>
+      <Key>StartGameFailurePromptTitle</Key>
+      <Value>Failure</Value>
+    </Record>
+    <Record>
+      <Key>StartGameFailurePromptEmptyName</Key>
+      <Value>Can not create a new save with empty name</Value>
+    </Record>
+    <Record>
+      <Key>StartGameFailurePromptNameExists</Key>
+      <Value>A save already exists with this name</Value>
+    </Record>
+    <Record>
+      <Key>OverwriteConfirmation</Key>
+      <Value>Overwrite</Value>
+    </Record>
+    <Record>
+      <Key>JetpackStabilizerState</Key>
+      <Value>Stabilizer {LOCAL:State}</Value>
+    </Record>
+    <Record>
+      <Key>MiningDrillModeDefault</Key>
+      <Value>Default</Value>
+    </Record>
+    <Record>
+      <Key>MiningDrillModeFlatten</Key>
+      <Value>Flatten</Value>
+    </Record>
+    <Record>
+      <Key>FlashLightModeLowPower</Key>
+      <Value>Low Power</Value>
+    </Record>
+    <Record>
+      <Key>FlashLightModeHighPower</Key>
+      <Value>High Power</Value>
+    </Record>
+    <Record>
+      <Key>VentDirectionInward</Key>
+      <Value>Inward</Value>
+    </Record>
+    <Record>
+      <Key>VentDirectionOutward</Key>
+      <Value>Outward</Value>
+    </Record>
+    <Record>
+      <Key>InputPanelSelectRecipe</Key>
+      <Value>Select Recipe</Value>
+    </Record>
+    <Record>
+      <Key>GasTemperature</Key>
+      <Value>Temperature: {LOCAL:Value}K</Value>
+    </Record>
+    <Record>
+      <Key>RoboticArmInvalid</Key>
+      <Value>Invalid</Value>
+    </Record>
+    <Record>
+      <Key>RadiatorHeatingEfficiency</Key>
+      <Value>Heating Efficiency {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>ThingHealth</Key>
+      <Value>Health {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>CannotPlaceOutsideRocket</Key>
+      <Value>Cannot place outside of a rocket</Value>
+    </Record>
+    <Record>
+      <Key>DamageTypeDecay</Key>
+      <Value>Decay</Value>
+    </Record>
+    <Record>
+      <Key>DamageTypeDamage</Key>
+      <Value>Damage</Value>
+    </Record>
+    <Record>
+      <Key>And</Key>
+      <Value> and </Value>
+    </Record>
+    <Record>
+      <Key>AdvancedComposterCurrentlyProcessing</Key>
+      <Value>Currently processing...</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedComposterItemsLeftToGrind</Key>
+      <Value>Items left to grind: {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedComposterItemsLeftToProcess</Key>
+      <Value>Items left to process: {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>CableAnalyserActual</Key>
+      <Value>Actual {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>CableAnalyserRequired</Key>
+      <Value>Required {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>CableAnalyserPotential</Key>
+      <Value>Potential {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>CableAnalyserNoCableNetworkFound</Key>
+      <Value>No cable network found</Value>
+    </Record>
+    <Record>
+      <Key>EntityDehydrated</Key>
+      <Value>Dehydrated</Value>
+    </Record>
+    <Record>
+      <Key>EntityWheezing</Key>
+      <Value>Wheezing</Value>
+    </Record>
+    <Record>
+      <Key>EntityHungry</Key>
+      <Value>Hungry</Value>
+    </Record>
+    <Record>
+      <Key>EntityHurt</Key>
+      <Value>Hurt</Value>
+    </Record>
+    <Record>
+      <Key>AirControlStatusOffline</Key>
+      <Value>OFFLINE</Value>
+    </Record>
+    <Record>
+      <Key>AirControlStatusPressure</Key>
+      <Value>PRESSURE</Value>
+    </Record>
+    <Record>
+      <Key>AirControlStatusDraught</Key>
+      <Value>DRAUGHT</Value>
+    </Record>
+    <Record>
+      <Key>AirControlStatusError</Key>
+      <Value>ERROR</Value>
+    </Record>
+    <Record>
+      <Key>AirControlModeButton</Key>
+      <Value>Mode
+&lt;b&gt;{LOCAL:Value}&lt;/b&gt;</Value>
+    </Record>
+    <Record>
+      <Key>AirControlVent</Key>
+      <Value>VENT</Value>
+    </Record>
+    <Record>
+      <Key>AirControlSensor</Key>
+      <Value>SENSOR</Value>
+    </Record>
+    <Record>
+      <Key>AirControlModeOffline</Key>
+      <Value>Offline</Value>
+    </Record>
+    <Record>
+      <Key>AirControlModeDraught</Key>
+      <Value>Draught</Value>
+    </Record>
+    <Record>
+      <Key>AirControlModePressure</Key>
+      <Value>Pressure</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardMasterLabel</Key>
+      <Value>MASTER</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardSlaveLabel</Key>
+      <Value>SLAVE</Value>
+    </Record>
+    <Record>
+      <Key>CircuitboardMakeSlaveLabel</Key>
+      <Value>MAKE SLAVE</Value>
+    </Record>
+    <Record>
+      <Key>InputPanelFilterDevicesTitle</Key>
+      <Value>Filter Devices</Value>
+    </Record>
+    <Record>
+      <Key>SolarControlPanelsCount</Key>
+      <Value>{LOCAL:Value} PANELS</Value>
+    </Record>
+    <Record>
+      <Key>GasDisplayModeButton</Key>
+      <Value>Mode: &lt;b&gt;{LOCAL:Value}&lt;/b&gt;</Value>
+    </Record>
+    <Record>
+      <Key>GasDisplayModeTitlePressure</Key>
+      <Value>PRESSURE</Value>
+    </Record>
+    <Record>
+      <Key>GasDisplayModeTitleTemperature</Key>
+      <Value>TEMPERATURE</Value>
+    </Record>
+    <Record>
+      <Key>GasDisplayModePressure</Key>
+      <Value>Pressure</Value>
+    </Record>
+    <Record>
+      <Key>GasDisplayModeTemperature</Key>
+      <Value>Temperature</Value>
+    </Record>
+    <Record>
+      <Key>NaN</Key>
+      <Value>NaN</Value>
+    </Record>
+    <Record>
+      <Key>AirlockErrorState</Key>
+      <Value>ERROR</Value>
+    </Record>
+    <Record>
+      <Key>AirlockInConfigString</Key>
+      <Value>IN CONFIG</Value>
+    </Record>
+    <Record>
+      <Key>AirlockCancelButton</Key>
+      <Value>CANCEL</Value>
+    </Record>
+    <Record>
+      <Key>AirlockPressurize</Key>
+      <Value>PRESSURIZE</Value>
+    </Record>
+    <Record>
+      <Key>AirlockDepressurize</Key>
+      <Value>DEPRESSURIZE</Value>
+    </Record>
+    <Record>
+      <Key>AirlockCycle</Key>
+      <Value>CYCLE</Value>
+    </Record>
+    <Record>
+      <Key>AirlockToExterior</Key>
+      <Value>TO EXTERIOR</Value>
+    </Record>
+    <Record>
+      <Key>AirlockToInterior</Key>
+      <Value>TO INTERIOR</Value>
+    </Record>
+    <Record>
+      <Key>ModeControlActive</Key>
+      <Value>ACTIVE</Value>
+    </Record>
+    <Record>
+      <Key>ModeControlInactive</Key>
+      <Value>INACTIVE</Value>
+    </Record>
+    <Record>
+      <Key>ModeControlMode</Key>
+      <Value>MODE</Value>
+    </Record>
+    <Record>
+      <Key>ModeControlToggle</Key>
+      <Value>TOGGLE</Value>
+    </Record>
+    <Record>
+      <Key>PowerControlPower</Key>
+      <Value>POWER</Value>
+    </Record>
+    <Record>
+      <Key>PowerControlPowerOff</Key>
+      <Value>OFF</Value>
+    </Record>
+    <Record>
+      <Key>PowerControlPowerOn</Key>
+      <Value>ON</Value>
+    </Record>
+    <Record>
+      <Key>SolarPanelEfficiency</Key>
+      <Value>Efficiency</Value>
+    </Record>
+    <Record>
+      <Key>FlowIndicatorStateMax</Key>
+      <Value>Max</Value>
+    </Record>
+    <Record>
+      <Key>FlowIndicatorStateInwardsLimited</Key>
+      <Value>Inwards Limited</Value>
+    </Record>
+    <Record>
+      <Key>FlowIndicatorStateInwardsVeryLimited</Key>
+      <Value>Inwards Very Limited</Value>
+    </Record>
+    <Record>
+      <Key>FlowIndicatorStateOutwardsLimited</Key>
+      <Value>Outwards Limited</Value>
+    </Record>
+    <Record>
+      <Key>FlowIndicatorStateOutwardsVeryLimited</Key>
+      <Value>Outwards Very Limited</Value>
+    </Record>
+    <Record>
+      <Key>FlowIndicatorStateIdle</Key>
+      <Value>Idle</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedAirlockStatePressurizingInternal</Key>
+      <Value>Pressurizing Internal</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedAirlockStatePressurizedInternal</Key>
+      <Value>Pressurized Internal</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedAirlockStateDepressurizingInternal</Key>
+      <Value>Depressurizing Internal</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedAirlockStatePressurizingExternal</Key>
+      <Value>Pressurizing External</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedAirlockStatePressurizedExternal</Key>
+      <Value>Pressurized External</Value>
+    </Record>
+    <Record>
+      <Key>AdvancedAirlockStateDepressurizingExternal</Key>
+      <Value>Depressurizing External</Value>
+    </Record>
+    <Record>
+      <Key>AirlockControlStateDisabled</Key>
+      <Value>Disabled</Value>
+    </Record>
+    <Record>
+      <Key>AirlockControlStatePressurizing</Key>
+      <Value>Pressurizing</Value>
+    </Record>
+    <Record>
+      <Key>AirlockControlStatePressurized</Key>
+      <Value>Pressurized</Value>
+    </Record>
+    <Record>
+      <Key>AirlockControlStateDepressurizing</Key>
+      <Value>Depressurizing</Value>
+    </Record>
+    <Record>
+      <Key>AirlockControlStateDepressurized</Key>
+      <Value>Depressurized</Value>
+    </Record>
+    <Record>
+      <Key>AirlockControlStateOverrideCount</Key>
+      <Value>Override Count</Value>
+    </Record>
+    <Record>
+      <Key>AirlockControlStateOverride</Key>
+      <Value>Override</Value>
+    </Record>
+    <Record>
+      <Key>IngotTypeBasic</Key>
+      <Value>Basic</Value>
+    </Record>
+    <Record>
+      <Key>IngotTypeAlloy</Key>
+      <Value>Alloy</Value>
+    </Record>
+    <Record>
+      <Key>IngotTypeSuperAlloy</Key>
+      <Value>Super Alloy</Value>
+    </Record>
+    <Record>
+      <Key>SPDASlotType</Key>
+      <Value>Type: </Value>
+    </Record>
+    <Record>
+      <Key>SPDASlotIndex</Key>
+      <Value>Index: </Value>
+    </Record>
+    <Record>
+      <Key>SPDAManufacturerRequirements</Key>
+      <Value>Requirements:</Value>
+    </Record>
+    <Record>
+      <Key>RecipeEnergy</Key>
+      <Value>Energy</Value>
+    </Record>
+    <Record>
+      <Key>RecipeReagentFrom</Key>
+      <Value> from </Value>
+    </Record>
+    <Record>
+      <Key>RecipeTemperatureRangeSeporator</Key>
+      <Value> to </Value>
+    </Record>
+    <Record>
+      <Key>ConstructableInRocketsTrue</Key>
+      <Value>True</Value>
+    </Record>
+    <Record>
+      <Key>YesPaintable</Key>
+      <Value>Yes</Value>
+    </Record>
+    <Record>
+      <Key>NoPaintable</Key>
+      <Value>No</Value>
+    </Record>
+    <Record>
+      <Key>SiloItemCount</Key>
+      <Value>Silo Item Count: {LOCAL:TotalItemsCurrentlyStored}/{LOCAL:MaxItems}</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionRoleNone</Key>
+      <Value>None</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionRoleInput</Key>
+      <Value>Input</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionRoleInput2</Key>
+      <Value>Input 2</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionRoleOutput</Key>
+      <Value>Output</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionRoleOutput2</Key>
+      <Value>Output 2</Value>
+    </Record>
+    <Record>
+      <Key>ConnectionRoleWaste</Key>
+      <Value>Waste</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypePipe</Key>
+      <Value>Pipe</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypePower</Key>
+      <Value>Power</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypeData</Key>
+      <Value>Data</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypeChute</Key>
+      <Value>Chute</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypeElevator</Key>
+      <Value>Elevator</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypePipeLiquid</Key>
+      <Value>Pipe Liquid</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypeLandingPad</Key>
+      <Value>Landing Pad</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypeLaunchPad</Key>
+      <Value>Launch Pad</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypeRoboticArmRail</Key>
+      <Value>Robotic Arm Rail</Value>
+    </Record>
+    <Record>
+      <Key>NetworkTypePowerAndData</Key>
+      <Value>Power and Data</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorModeDefault</Key>
+      <Value>Default</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorModeHorizontal</Key>
+      <Value>Horizontal</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorModeVertical</Key>
+      <Value>Vertical</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorGridSunlight</Key>
+      <Value>Grid Sunlight {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorSolarAngle</Key>
+      <Value>Solar Angle {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorSolarIrradiance</Key>
+      <Value>Solar Irradiance {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorHorizontal</Key>
+      <Value>Horizontal {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorVertical</Key>
+      <Value>Vertical {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorMode</Key>
+      <Value>Mode {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>DaylightSensorModeError</Key>
+      <Value>Mode {LOCAL:Value} ERROR</Value>
+    </Record>
+    <Record>
+      <Key>BatteryCellStateEmpty</Key>
+      <Value>Empty</Value>
+    </Record>
+    <Record>
+      <Key>BatteryCellStateCritical</Key>
+      <Value>Critical</Value>
+    </Record>
+    <Record>
+      <Key>BatteryCellStateLow</Key>
+      <Value>Low</Value>
+    </Record>
+    <Record>
+      <Key>BatteryCellStateVeryLow</Key>
+      <Value>Very Low</Value>
+    </Record>
+    <Record>
+      <Key>BatteryCellStateMedium</Key>
+      <Value>Medium</Value>
+    </Record>
+    <Record>
+      <Key>BatteryCellStateHigh</Key>
+      <Value>High</Value>
+    </Record>
+    <Record>
+      <Key>BatteryCellStateFull</Key>
+      <Value>Full</Value>
+    </Record>
+    <Record>
+      <Key>CommsMotherboardCurrentlyTrading</Key>
+      <Value>Currently trading</Value>
+    </Record>
+    <Record>
+      <Key>CommsMotherboardTimeTillResolveUnknown</Key>
+      <Value>Time till resolve unknown</Value>
+    </Record>
+    <Record>
+      <Key>CommsMotherboardSecondsTillResolve</Key>
+      <Value>{LOCAL:Value} s till resolve</Value>
+    </Record>
+    <Record>
+      <Key>CommsMotherboardDegreesFromContact</Key>
+      <Value>{LOCAL:Value}° from contact</Value>
+    </Record>
+    <Record>
+      <Key>CommsMotherboardPercentInterogated</Key>
+      <Value>{LOCAL:Value} % interrogated</Value>
+    </Record>
+    <Record>
+      <Key>CommsMotherboardContacted</Key>
+      <Value>Contacted</Value>
+    </Record>
+    <Record>
+      <Key>CommsTerminalInterrogationInProgressAnother</Key>
+      <Value>Interrogation in progress by another dish</Value>
+    </Record>
+    <Record>
+      <Key>CommsTerminalInterrogationInProgress</Key>
+      <Value>Interrogation in progress</Value>
+    </Record>
+    <Record>
+      <Key>CommTerminalWattageOnContact</Key>
+      <Value>{LOCAL:Value}W/{LOCAL:Setting}W are reaching the contact</Value>
+    </Record>
+    <Record>
+      <Key>CommTerminalEstimatedSecondsUntilInterrogated</Key>
+      <Value>estimated {LOCAL:Value}s until interrogated</Value>
+    </Record>
+    <Record>
+      <Key>CommsTerminalDishInUse</Key>
+      <Value>Dish in use: {LOCAL:DishName}</Value>
+    </Record>
+    <Record>
+      <Key>CommsTerminalLandTraderButton</Key>
+      <Value>Land</Value>
+    </Record>
+    <Record>
+      <Key>CommsTerminalContactingComplete</Key>
+      <Value>Contacting complete, continue to call down trader</Value>
+    </Record>
+    <Record>
+      <Key>CommsTerminalContactRequires</Key>
+      <Value>Contact requires {LOCAL:Value}W for {LOCAL:Time}s</Value>
+    </Record>
+    <Record>
+      <Key>CommsTerminalDishBusy</Key>
+      <Value>Highest wattage dish busy. Please wait, or use a separate Comms Terminal</Value>
+    </Record>
+    <Record>
+      <Key>CommsTerminalInterrogateButton</Key>
+      <Value>Interrogate</Value>
+    </Record>
+    <Record>
+      <Key>CommsTerminalNotEnoughEnergy</Key>
+      <Value>Not enough energy pointed at contact to interrogate</Value>
+    </Record>
+    <Record>
+      <Key>TradeActionCharge</Key>
+      <Value>Charge {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>LogicWrite</Key>
+      <Value>Write</Value>
+    </Record>
+    <Record>
+      <Key>LogicRead</Key>
+      <Value>Read</Value>
+    </Record>
+    <Record>
+      <Key>LogicReadWrite</Key>
+      <Value>Read Write</Value>
+    </Record>
+    <Record>
+      <Key>MemoryAccessNone</Key>
+      <Value>None</Value>
+    </Record>
+    <Record>
+      <Key>RocketApex</Key>
+      <Value>Apex</Value>
+    </Record>
+    <Record>
+      <Key>RocketImpactVelocity</Key>
+      <Value>Impact Velocity</Value>
+    </Record>
+    <Record>
+      <Key>ReEntryProfileNone</Key>
+      <Value>None</Value>
+    </Record>
+    <Record>
+      <Key>ReEntryProfileLow</Key>
+      <Value>Low</Value>
+    </Record>
+    <Record>
+      <Key>ReEntryProfileMedium</Key>
+      <Value>Medium</Value>
+    </Record>
+    <Record>
+      <Key>ReEntryProfileHigh</Key>
+      <Value>High</Value>
+    </Record>
+    <Record>
+      <Key>ReEntryProfileMax</Key>
+      <Value>Max</Value>
+    </Record>
+    <Record>
+      <Key>SpaceMapUknownDeltaV</Key>
+      <Value>???</Value>
+    </Record>
+    <Record>
+      <Key>RocketLocationCurrentAction</Key>
+      <Value>Current Action: {LOCAL:Mode}</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthInfiniteSeconds</Key>
+      <Value>infinite seconds</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthZeroSeconds</Key>
+      <Value>0 seconds</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthLessThan1Millisecond</Key>
+      <Value>&lt; 1 millisecond</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthMillisecond</Key>
+      <Value>millisecond</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthSecond</Key>
+      <Value>second</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthMinute</Key>
+      <Value>minute</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthHour</Key>
+      <Value>hour</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthDay</Key>
+      <Value>day</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthWeek</Key>
+      <Value>week</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthMonth</Key>
+      <Value>month</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthYear</Key>
+      <Value>year</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthCentury</Key>
+      <Value>century</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthCenturies</Key>
+      <Value>centuries</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthMillennium</Key>
+      <Value>millennium</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthMillennia</Key>
+      <Value>millennia</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthEon</Key>
+      <Value>eon</Value>
+    </Record>
+    <Record>
+      <Key>TimeLengthAeons</Key>
+      <Value>aeons</Value>
+    </Record>
+    <Record>
+      <Key>FabricatorFindRecipe</Key>
+      <Value>Find Recipe</Value>
+    </Record>
+    <Record>
+      <Key>FabricatorUknownRecipe</Key>
+      <Value>Unknown Recipe</Value>
+    </Record>
+    <Record>
+      <Key>EntityDeceased</Key>
+      <Value>Deceased</Value>
+    </Record>
+    <Record>
+      <Key>EntityUnconsious</Key>
+      <Value>Unconscious</Value>
+    </Record>
+    <Record>
+      <Key>LoadingScreenRequestingCharacter</Key>
+      <Value>Requesting Character</Value>
+    </Record>
+    <Record>
+      <Key>SaveInvalidTerrainDataModified</Key>
+      <Value>Terrain save data invalid. This world has been modified.</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticMoodReduction</Key>
+      <Value>Mood reduction</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticHygieneReduction</Key>
+      <Value>Hygiene reduction</Value>
+    </Record>
+    <Record>
+      <Key>PressToExit</Key>
+      <Value>Press {KEY:ExitKey} to exit</Value>
+    </Record>
+    <Record>
+      <Key>LeavingPlayableArea</Key>
+      <Value>Leaving playable area</Value>
+    </Record>
+    <Record>
+      <Key>ResetTerrainButton</Key>
+      <Value>Reset Terrain</Value>
+    </Record>
+    <Record>
+      <Key>CancelLoadButton</Key>
+      <Value>Cancel</Value>
+    </Record>
+    <Record>
+      <Key>LandingGear</Key>
+      <Value>Landing Gear</Value>
+    </Record>
+    <Record>
+      <Key>Activate</Key>
+      <Value>Activate</Value>
+    </Record>
+    <Record>
+      <Key>Deactivate</Key>
+      <Value>Deactivate</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionStackSize</Key>
+      <Value>Returns the stack size of the devices internal memory.</Value>
+    </Record>
+    <Record>
+      <Key>CantEquipThisBackpack</Key>
+      <Value>{LOCAL:InvalidItem} can not be equipped when wearing {LOCAL:CurrentlyEquipped}</Value>
+    </Record>
+    <Record>
+      <Key>ProportionalGainDescription</Key>
+      <Value>The proportional gain of the PID controller. This value determines how aggressively the controller responds to the error between the setpoint and the process variable. A higher value results in a faster response but may lead to overshoot or instability.</Value>
+    </Record>
+    <Record>
+      <Key>IntegralGainDescription</Key>
+      <Value>The integral gain of the PID controller. This value determines how much the controller responds to the accumulated error over time. A higher value can help eliminate steady-state errors but may also lead to oscillations or instability.</Value>
+    </Record>
+    <Record>
+      <Key>DerivativeGainDescription</Key>
+      <Value>The derivative gain of the PID controller. This value determines how much the controller responds to the rate of change of the error. A higher value can help dampen oscillations and improve stability, but may also lead to noise amplification.</Value>
+    </Record>
+    <Record>
+      <Key>ResetDescription</Key>
+      <Value>Resets the PID controller's internal state, clearing any accumulated error and resetting the output to zero. This is useful for starting fresh or recovering from an unstable state.</Value>
+    </Record>
+    <Record>
+      <Key>SetpointDescription</Key>
+      <Value>The desired value that the PID controller aims to achieve. This is the target value for the process variable, and the controller will adjust its output to minimize the difference between the setpoint and the process variable.</Value>
+    </Record>
+    <Record>
+      <Key>MinimumDescription</Key>
+      <Value>Minimum value for provided logic device.</Value>
+    </Record>
+    <Record>
+      <Key>NetworkFaultDescription</Key>
+      <Value>Attached network is experiencing a fault, such as a pipe burst or other failure.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionMaturityRatio</Key>
+      <Value>How far the plant is towards maturity represented as a fraction between 0 and 1, with 1 being mature and ready for harvest.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionSeedingRatio</Key>
+      <Value>How far the plant is towards seeding represented as a fraction between 0 and 1, with 1 being seeding and will supply seeds when harvested.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionBdnvl</Key>
+      <Value>Will branch to line a if the provided device not valid for a load instruction for the provided logic type.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionBdnvs</Key>
+      <Value>Will branch to line a if the provided device not valid for a store instruction for the provided logic type.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionPow</Key>
+      <Value>Stores the result of raising a to the power of b in the register. Follows IEEE-754 standard for floating point arithmetic.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionExt</Key>
+      <Value>Extracts a bit field from a, beginning at b for c length and placed in the provided register. Payload cannot exceed 53 bits in final length.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionIns</Key>
+      <Value>Inserts a bit field of a into the provided register, beginning at b for c length. Payload cannot exceed 53 bits in final length.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionLerp</Key>
+      <Value>Linearly interpolates between a and b by the ratio c, and places the result in the register provided. The ratio c will be clamped between 0 and 1.</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherState</Key>
+      <Value>Ice Crusher Status</Value>
+    </Record>
+    <Record>
+      <Key>InternalAtmosphere</Key>
+      <Value>Internal Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherSetting</Key>
+      <Value>Will Heat if below {LOCAL:Temperature}</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherHeater</Key>
+      <Value>Heating Element</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherHeating</Key>
+      <Value>Operation slowed while heating to {LOCAL:Temperature} target</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherIndicatorHeat</Key>
+      <Value>Heating</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherIndicatorIdle</Key>
+      <Value>Idle</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherAtmosFull</Key>
+      <Value>Internal Atmosphere is Full</Value>
+    </Record>
+    <Record>
+      <Key>BreathingAtmosphere</Key>
+      <Value>Occupant Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>CryogenicLiquid</Key>
+      <Value>Cryogenic Liquid</Value>
+    </Record>
+    <Record>
+      <Key>NotPureLiquidNitrogen</Key>
+      <Value>Liquid is not pure Liquid Nitrogen</Value>
+    </Record>
+    <Record>
+      <Key>CryoLiquidVolumeTooLow</Key>
+      <Value>Cryogenic Liquid volume must be above {LOCAL:Volume}</Value>
+    </Record>
+    <Record>
+      <Key>CryoLiquidTemperatureTooHigh</Key>
+      <Value>Cryogenic liquid must be below {LOCAL:Temperature}</Value>
+    </Record>
+    <Record>
+      <Key>CryoWillRevive</Key>
+      <Value>Will regenerate deceased patients</Value>
+    </Record>
+    <Record>
+      <Key>CryoState</Key>
+      <Value>Cryogenic Status</Value>
+    </Record>
+    <Record>
+      <Key>SleeperState</Key>
+      <Value>Sleeper Status</Value>
+    </Record>
+    <Record>
+      <Key>SleeperMetabolicSuspension</Key>
+      <Value>Metabolic Suspension Active</Value>
+    </Record>
+    <Record>
+      <Key>SleeperDoorIsOpen</Key>
+      <Value>Operation disabled while door open</Value>
+    </Record>
+    <Record>
+      <Key>CryoWillHeal</Key>
+      <Value>Will heal damaged patients</Value>
+    </Record>
+    <Record>
+      <Key>Vacuum</Key>
+      <Value>Vacuum</Value>
+    </Record>
+    <Record>
+      <Key>Null</Key>
+      <Value>Null</Value>
+    </Record>
+    <Record>
+      <Key>VehicleIsNotDamaged</Key>
+      <Value>{LOCAL:Rover} is not damaged</Value>
+    </Record>
+    <Record>
+      <Key>PatchingRecipe</Key>
+      <Value>{LOCAL:ModName} is patching recipe for {LOCAL:PrefabName}</Value>
+    </Record>
+    <Record>
+      <Key>UnknownMod</Key>
+      <Value>Unknown</Value>
+    </Record>
+    <Record>
+      <Key>ActionRepairRover</Key>
+      <Value>Repair Vehicle</Value>
+    </Record>
+    <Record>
+      <Key>SlotVacant</Key>
+      <Value>Vacant</Value>
+    </Record>
+    <Record>
+      <Key>SlotOccupant</Key>
+      <Value>Occupant</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNotForSpecies</Key>
+      <Value>Device cannot be occupied by {LOCAL:Species}</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNotConstructed</Key>
+      <Value>{LOCAL:Thing} has not been fully constructed</Value>
+    </Record>
+    <Record>
+      <Key>DevicePressureTooHigh</Key>
+      <Value>{LOCAL:Thing} exceeds its internal pressure rating</Value>
+    </Record>
+    <Record>
+      <Key>RocketGasCollectActionInfo</Key>
+      <Value>Collector: {LOCAL:OnOff}, Next Yield: {LOCAL:Yield}</Value>
+    </Record>
+    <Record>
+      <Key>CryoAtmosphereIsUnsafe</Key>
+      <Value>Breathing Atmosphere is unsafe</Value>
+    </Record>
+    <Record>
+      <Key>CryoNoAtmosphericInput</Key>
+      <Value>No Breathing Gas Network</Value>
+    </Record>
+    <Record>
+      <Key>CryoNoLiquidInput</Key>
+      <Value>No Cryogenic Liquid Network</Value>
+    </Record>
+    <Record>
+      <Key>TradeActionData</Key>
+      <Value>Includes {LOCAL:Value} of data</Value>
+    </Record>
+    <Record>
+      <Key>RegionName</Key>
+      <Value>Region: {LOCAL:Name}</Value>
+    </Record>
+    <Record>
+      <Key>OldSaveDetected</Key>
+      <Value>1 Old Save Detected</Value>
+    </Record>
+    <Record>
+      <Key>OldSavesDetected</Key>
+      <Value>{LOCAL:Count} Old Saves Detected</Value>
+    </Record>
+    <Record>
+      <Key>DeleteOldSave</Key>
+      <Value>Are you sure you want to delete 1 old save?</Value>
+    </Record>
+    <Record>
+      <Key>DeleteOldSaves</Key>
+      <Value>Are you sure you want to delete {LOCAL:Count} old saves?</Value>
+    </Record>
+    <Record>
+      <Key>SuitOperatingRangeText</Key>
+      <Value>{LOCAL:Minimum} to {LOCAL:Maximum}</Value>
+    </Record>
+    <Record>
+      <Key>RespawnHere</Key>
+      <Value>Spawn Point Set</Value>
+    </Record>
+    <Record>
+      <Key>Hydration</Key>
+      <Value>Hydration</Value>
+    </Record>
+    <Record>
+      <Key>Nutrition</Key>
+      <Value>Nutrition</Value>
+    </Record>
+    <Record>
+      <Key>Oxygenation</Key>
+      <Value>Oxygenation</Value>
+    </Record>
+    <Record>
+      <Key>Stun</Key>
+      <Value>Stun</Value>
+    </Record>
+    <Record>
+      <Key>NextWeatherHashDescription</Key>
+      <Value>NextWeatherHash provides the hash value for the name of the next weather event as a 32 bit integer.</Value>
+    </Record>
+    <Record>
+      <Key>WeatherEventComing</Key>
+      <Value>A weather event is incoming</Value>
+    </Record>
+    <Record>
+      <Key>DeviceMustBeOutside</Key>
+      <Value>The {LOCAL:Device} will not function indoors</Value>
+    </Record>
+    <Record>
+      <Key>DeviceConfigMode</Key>
+      <Value>Set to Configure</Value>
+    </Record>
+    <Record>
+      <Key>DeviceOperateMode</Key>
+      <Value>Set to Operate</Value>
+    </Record>
+    <Record>
+      <Key>SlotItemProvidesPower</Key>
+      <Value>The {LOCAL:Item} provide {LOCAL:Power} of power</Value>
+    </Record>
+    <Record>
+      <Key>CanReplaceFuselage</Key>
+      <Value>Can replace other fuselages when holding a {LOCAL:Tool}</Value>
+    </Record>
+    <Record>
+      <Key>ShowerWillClean</Key>
+      <Value>Will clean {LOCAL:Occupant}</Value>
+    </Record>
+    <Record>
+      <Key>ShowerNotInPosition</Key>
+      <Value>{LOCAL:Occupant} is not close enough to shower</Value>
+    </Record>
+    <Record>
+      <Key>ShowerCannotWhenWearing</Key>
+      <Value>Cannot shower wearing {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>NamedThingDamageIsAt</Key>
+      <Value>{LOCAL:Thing} {LOCAL:DamageType} is at {LOCAL:Percent}</Value>
+    </Record>
+    <Record>
+      <Key>CoolingAmount</Key>
+      <Value>Cooling {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>HeatingAmount</Key>
+      <Value>Heating {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionFreeSlots</Key>
+      <Value>The number of free slots available in this object.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionTotalSlots</Key>
+      <Value>The total number of slots available in this object.</Value>
+    </Record>
+    <Record>
+      <Key>UnidentifiedPlayer</Key>
+      <Value>Unidentified player</Value>
+    </Record>
+    <Record>
+      <Key>PlayerHasAlreadyRespawned</Key>
+      <Value>&lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; has &lt;color=yellow&gt;respawned&lt;/color&gt; and cannot be revived.</Value>
+    </Record>
+    <Record>
+      <Key>PlayerBodyBagDead</Key>
+      <Value>&lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; is &lt;color=red&gt;dead&lt;/color&gt; in the body bag and waiting to be revived.</Value>
+    </Record>
+    <Record>
+      <Key>PlayerIsOnline</Key>
+      <Value>&lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; is &lt;color=green&gt;online&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>PlayerIsOffline</Key>
+      <Value>&lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; is &lt;color=yellow&gt;offline&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>BodyBagName</Key>
+      <Value>Body Bag(&lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt;)</Value>
+    </Record>
+    <Record>
+      <Key>PlayerBelongings</Key>
+      <Value>Belongings</Value>
+    </Record>
+    <Record>
+      <Key>PlayerReviveInCryotube</Key>
+      <Value>Place &lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; in a &lt;color=green&gt;Cryotube&lt;/color&gt; to revive.</Value>
+    </Record>
+    <Record>
+      <Key>PlayerRequestHelpUnconscious</Key>
+      <Value>{LOCAL:UserName} is in trouble and needs help.</Value>
+    </Record>
+    <Record>
+      <Key>PlayerRequestHelpDead</Key>
+      <Value>{LOCAL:UserName} is dead. They have requested they be revived in a Cryotube.</Value>
+    </Record>
+    <Record>
+      <Key>FoodContainerDecayReduction</Key>
+      <Value>Decay reduced to {LOCAL:Percent} inside {LOCAL:Container}</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNotClosed</Key>
+      <Value>The {LOCAL:Device} must be closed to operate</Value>
+    </Record>
+    <Record>
+      <Key>CannotInteract</Key>
+      <Value>Cannot interact</Value>
+    </Record>
+    <Record>
+      <Key>EnergyTransfer</Key>
+      <Value>Energy Transfer</Value>
+    </Record>
+    <Record>
+      <Key>HeatExchangeArea</Key>
+      <Value>Surface Area</Value>
+    </Record>
+    <Record>
+      <Key>HeatExchangeFromTo</Key>
+      <Value>Exchanging from {LOCAL:Input1} to {LOCAL:Input2}</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNoPayload</Key>
+      <Value>{LOCAL:Thing} has no payload</Value>
+    </Record>
+    <Record>
+      <Key>EntityStarving</Key>
+      <Value>Starving</Value>
+    </Record>
+    <Record>
+      <Key>EntityRespawnStress</Key>
+      <Value>Fatigued from respawn</Value>
+    </Record>
+    <Record>
+      <Key>ConsumptionSpeed</Key>
+      <Value>Consumption Speed</Value>
+    </Record>
+    <Record>
+      <Key>ToolUseSpeed</Key>
+      <Value>Tool Speed</Value>
+    </Record>
+    <Record>
+      <Key>TradePenalty</Key>
+      <Value>Trade Penalty</Value>
+    </Record>
+    <Record>
+      <Key>DeviceIsNotOperable</Key>
+      <Value>Device is not operable</Value>
+    </Record>
+    <Record>
+      <Key>PumpIntoPad</Key>
+      <Value>Pump into landingpad</Value>
+    </Record>
+    <Record>
+      <Key>PumpIntoTank</Key>
+      <Value>Pump into tank</Value>
+    </Record>
+    <Record>
+      <Key>Inward</Key>
+      <Value>Inward</Value>
+    </Record>
+    <Record>
+      <Key>Outward</Key>
+      <Value>Outward</Value>
+    </Record>
+    <Record>
+      <Key>Warning</Key>
+      <Value>Warning</Value>
+    </Record>
+    <Record>
+      <Key>Critical</Key>
+      <Value>Critical</Value>
+    </Record>
+    <Record>
+      <Key>PartialPressureO2</Key>
+      <Value>Oxygen Partial Pressure</Value>
+    </Record>
+    <Record>
+      <Key>LungsEfficiency</Key>
+      <Value>Breathing Efficiency</Value>
+    </Record>
+    <Record>
+      <Key>ToxinDamage</Key>
+      <Value>Toxin Damage</Value>
+    </Record>
+    <Record>
+      <Key>BurnDamage</Key>
+      <Value>Burn Damage</Value>
+    </Record>
+    <Record>
+      <Key>VacuumDamage</Key>
+      <Value>Vacuum Damage</Value>
+    </Record>
+    <Record>
+      <Key>DamageFromLackOfFood</Key>
+      <Value>Loosing Health due to lack of Food</Value>
+    </Record>
+    <Record>
+      <Key>DamageFromLackOfWater</Key>
+      <Value>Loosing Health due to lack of Water</Value>
+    </Record>
+    <Record>
+      <Key>RobotHasNoBattery</Key>
+      <Value>Battery missing</Value>
+    </Record>
+    <Record>
+      <Key>RobotBatteryNoCharge</Key>
+      <Value>Battery has no charge</Value>
+    </Record>
+    <Record>
+      <Key>PartialPressureN2O</Key>
+      <Value>Partial Pressure Nitrous Oxide</Value>
+    </Record>
+    <Record>
+      <Key>Refreshed</Key>
+      <Value>Refreshed</Value>
+    </Record>
+    <Record>
+      <Key>MovementSpeed</Key>
+      <Value>Movement Speed</Value>
+    </Record>
+    <Record>
+      <Key>Hygiene</Key>
+      <Value>Hygiene</Value>
+    </Record>
+    <Record>
+      <Key>UnviableEggNotice</Key>
+      <Value>The {LOCAL:Name} is unviable</Value>
+    </Record>
+    <Record>
+      <Key>WillHatchInto</Key>
+      <Value>Will hatch into a {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>ViableEggNotice</Key>
+      <Value>Incubation requires {LOCAL:MinTemp} to {LOCAL:MaxTemp}</Value>
+    </Record>
+    <Record>
+      <Key>PlayerStateMoodDecreasing</Key>
+      <Value>Mood is Decreasing</Value>
+    </Record>
+    <Record>
+      <Key>PlayerStateMoodIncreasing</Key>
+      <Value>Mood is Increasing</Value>
+    </Record>
+    <Record>
+      <Key>PlayerStateHygieneDecreasing</Key>
+      <Value>Hygiene is Decreasing</Value>
+    </Record>
+    <Record>
+      <Key>PlayerStateHygieneIncreasing</Key>
+      <Value>Hygiene is Increasing</Value>
+    </Record>
+    <Record>
+      <Key>EggIsTooCold</Key>
+      <Value>Egg is too cold</Value>
+    </Record>
+    <Record>
+      <Key>EggIsTooHot</Key>
+      <Value>Egg is too hot</Value>
+    </Record>
+    <Record>
+      <Key>FertilizedEggProcess</Key>
+      <Value>The {LOCAL:Thing} is {LOCAL:Percent} to hatching</Value>
+    </Record>
+    <Record>
+      <Key>ThisDeviceNotOpen</Key>
+      <Value>{LOCAL:Thing} must be open to operate</Value>
+    </Record>
+    <Record>
+      <Key>RocketLogDeploy</Key>
+      <Value>{LOCAL:DisplayName} has successfully deployed {LOCAL:Thing} to x: {LOCAL:X} z:{LOCAL:Z}</Value>
+    </Record>
+    <Record>
+      <Key>RocketDeployFailNotInLowOrbit</Key>
+      <Value>{LOCAL:Payload} Can only be deployed in Low Orbit</Value>
+    </Record>
+    <Record>
+      <Key>RocketDeployFailNoPayload</Key>
+      <Value>No payload to deploy</Value>
+    </Record>
+    <Record>
+      <Key>ConstructionBlockedByDynamic</Key>
+      <Value>Construction blocked by {LOCAL:Thing}</Value>
+    </Record>
   </GameStrings>
+  <GameTip />
 </Language>
