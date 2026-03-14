@@ -14,8 +14,8 @@ Spiel-Version: v0.2.6182.26959
 Alle Inhalte in denn xml-Dateien
 
 |  xml-Datei  |  Übertragen  | Übersetztung  |
-|  ------------- | ------------- | ------------- |
-| german.xml  |  [X]  |  []  |
+|  :---: | :---: | :---: |
+| german.xml  |  [x]  |  []  |
 | german_help.xml  |  [x]  |  []  |
 | german_keys.xml  |  [x]  |  []  |
 | german_tips.xml  |  [x]  |  []  |
