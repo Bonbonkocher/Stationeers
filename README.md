@@ -8,12 +8,12 @@
 > [!CAUTION]
 > Bitte bevor sie ihrgend was ersetzen, immer eine Sicherung der dateien anlegen
 
-Mod-Version: v0.0.2
-Spiel-Version: v0.2.6182.26959
+Spiel-Version: v0.2.6217.27046
 
 Alle Inhalte in denn xml-Dateien
 
-|  xml-Datei  |  Übertragen  | Übersetztung  |
+|  xml  |  Übertragen  | Übersetztung  |
+|  Dateien  |  Ohne Übersetzung  | Übersetztung  |
 |  :---: | :---: | :---: |
 | german.xml  |  [x]  |  []  |
 | german_help.xml  |  [x]  |  []  |
@@ -31,7 +31,7 @@ Weitere Links:
 > 2. Enpacke die Dateien der zip Dateien, in ordner StationeersDE/ sind die bearbeitete Dateien
 > 3. die im ordner xml, alle dateien einfügen nach Installationsverzeichnis (Steam): "C:\Program Files (x86)\Steam\steamapps\common\Stationeers\rocketstation_Data\StreamingAssets\Language"
 > 4. bitte sicherung vor dem Ersetzen der dateien german.xml, german_help.xml, german_keys.xml, german_tips.xml, german_tooltips.xml (z.B. Desktop Neuer Ordner Original)
-> 5. Spiel starten untereinstellung spiel auf Deutsch stellen fertig
+> 5. Spiel starten untereinstellung spiel auf Deutsch stellen fertig, wenn es hier zur fehler kommt und nicht läd bitte um kontakt aufnahme.
 
 - English [Hauptbereich] Wird Benötigt um Text/Sprachübersetzung Update und enfertungenz su sehen
 - German [Übersetzte Bereiche] Der teil in der sprache Über setzt wird

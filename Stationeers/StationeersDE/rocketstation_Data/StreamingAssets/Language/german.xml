@@ -312,6 +312,50 @@
       <Key>Fuel</Key>
       <Value>Kraftstoffgemisch</Value>
     </Record>
+    <Record>
+      <Key>Hydrazine</Key>
+      <Value>Hydrazin</Value>
+    </Record>
+    <Record>
+      <Key>LiquidHydrazine</Key>
+      <Value>Flüssig Hydrazin </Value>
+    </Record>
+    <Record>
+      <Key>LiquidAlcohol</Key>
+      <Value>Flüssig Alkohol</Value>
+    </Record>
+    <Record>
+      <Key>Helium</Key>
+      <Value>Helium</Value>
+    </Record>
+    <Record>
+      <Key>LiquidSodiumChloride</Key>
+      <Value>Flüssig Natriumchlorid</Value>
+    </Record>
+    <Record>
+      <Key>Silanol</Key>
+      <Value>Silanol</Value>
+    </Record>
+    <Record>
+      <Key>LiquidSilanol</Key>
+      <Value>Flüssig Silanol</Value>
+    </Record>
+    <Record>
+      <Key>HydrochloricAcid</Key>
+      <Value>Salzsäure</Value>
+    </Record>
+    <Record>
+      <Key>LiquidHydrochloricAcid</Key>
+      <Value>Flüssig Salzsäure</Value>
+    </Record>
+    <Record>
+      <Key>Ozone</Key>
+      <Value>Ozon</Value>
+    </Record>
+    <Record>
+      <Key>LiquidOzone</Key>
+      <Value>Flüssig Ozon</Value>
+    </Record>
   </Gases>
   <Actions>
     <Record>
@@ -4371,7 +4415,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemWearLamp</Key>
-      <Value>Stirnlampe</Value>
+      <Value>lampe</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5156,7 +5200,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ManualGetResearchPodsRequired</Key>
-      <Value>PodTypeToSearchFor</Value>
+      <Value>Pod-Typ zum Suchen</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5344,16 +5388,16 @@
       <Value>Modulares Raketenkommando</Value>
       <Description>Das Kommandomodul muss oben auf der Rakete platziert werden und wird die Flugbereitschaft der Rakete prüfen. Wenn alle Bedingungen erfüllt sind, kann die Rakete gestartet werden, wenn alle Spieler im Modul sitzen, indem du 'ZÜNDUNG' auf der Konsole drückst.
 
-  Die folgenden Bedingungen müssen für den Start erfüllt sein:
+      Die folgenden Bedingungen müssen für den Start erfüllt sein:
 
-  - Treibstoff voll
-  - Das Mischungsverhältnis des Treibstoffs muss stimmen - ein 2:1-Gemisch aus {GAS:Methane} und {GAS:Oxygen}.
-  - Alle Spieler sitzen auf ihren Plätzen
-  - Das {THING: StructureLaunchPad} wird mit Energie versorgt
-  - Vollständig gebaute Rakete
+      - Treibstoff voll
+      - Das Mischungsverhältnis des Treibstoffs muss stimmen - ein 2:1-Gemisch aus {GAS:Methane} und {GAS:Oxygen}.
+      - Alle Spieler sitzen auf ihren Plätzen
+      - Das {THING: StructureLaunchPad} wird mit Energie versorgt
+      - Vollständig gebaute Rakete
 
-  Die {THING:StructureModularRocketCommand01} Konsole zeigt den aktuellen Stand dieser Bedingungen an. Für den Start wird keine Atmosphäre benötigt - die Atmosphäre deines Anzugs ist ausreichend.
-  Bei der Landung setzt die Rakete einen Lander und die im Modul {THING:StructureModularRocketCargo01} enthaltene Fracht ab.</Description>
+      Die {THING:StructureModularRocketCommand01} Konsole zeigt den aktuellen Stand dieser Bedingungen an. Für den Start wird keine Atmosphäre benötigt - die Atmosphäre deines Anzugs ist ausreichend.
+      Bei der Landung setzt die Rakete einen Lander und die im Modul {THING:StructureModularRocketCargo01} enthaltene Fracht ab.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicModularRocketCommand01</Key>
@@ -6123,7 +6167,7 @@
       <Key>StructureWindTurbine</Key>
       <Value>Windturbine</Value>
       <Description>Die Stationeers-Windturbine wurde von den Atmosphäreningenieuren von Norsec entwickelt, um ein windgetriebenes System zur Energieerzeugung zu schaffen, das auch auf Welten mit extrem niedriger Atmosphäre funktioniert. Die ultraleichten Flügel reagieren auf extrem niedrige atmosphärische Dichten und sind gleichzeitig stark genug, um auch unter großer Belastung in viel anspruchsvolleren Umgebungen zu funktionieren.
-  Obwohl die Windturbine so optimiert ist, dass sie auch auf Welten mit niedriger Atmosphäre Energie (bis zu 500 W) produziert, funktioniert sie am besten in dichteren Umgebungen. Die Ausgabe variiert mit der Windgeschwindigkeit und kann bei Stürmen dramatisch ansteigen (bis zu 10.000 W), also solltest du deine Netzwerke für die Energieversorgung entsprechend planen.</Description>
+      Obwohl die Windturbine so optimiert ist, dass sie auch auf Welten mit niedriger Atmosphäre Energie (bis zu 500 W) produziert, funktioniert sie am besten in dichteren Umgebungen. Die Ausgabe variiert mit der Windgeschwindigkeit und kann bei Stürmen dramatisch ansteigen (bis zu 10.000 W), also solltest du deine Netzwerke für die Energieversorgung entsprechend planen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWindTurbine</Key>
@@ -6209,8 +6253,8 @@
       <Key>StructureIceCrusher</Key>
       <Value>Eiscrusher</Value>
       <Description>Der {LINK:Recurso;Recurso} KoolAuger wandelt verschiedene Eissorten in ihre jeweiligen {LINK:GasPage;gases} und Flüssigkeiten um.
-  Er ist ein bemerkenswert intelligentes und kompaktes Sublimationsschmelzgerät, das je nach verarbeitetem Eis Gas oder Flüssigkeit produziert. Der obere Ausgang ist für Gas, der untere für Flüssigkeit. Du kannst zwar jedes beliebige Rohr an einen der beiden Ausgänge anschließen, aber das Gerät funktioniert nur, wenn das richtige Netzwerk angeschlossen ist. Außerdem leitet er nur dann Gas oder Flüssigkeit in ein Netzwerk, wenn er mit Energie versorgt wird und eingeschaltet ist.
-  Wenn der KoolAuger voll ist, nimmt er kein weiteres Eis mehr an, bis der Gas- oder Flüssigkeitsinhalt abgelassen wurde. In diesem Zustand blinkt ein gelber Fehlerstatus auf dem Aktivierungsschalter.</Description>
+      Er ist ein bemerkenswert intelligentes und kompaktes Sublimationsschmelzgerät, das je nach verarbeitetem Eis Gas oder Flüssigkeit produziert. Der obere Ausgang ist für Gas, der untere für Flüssigkeit. Du kannst zwar jedes beliebige Rohr an einen der beiden Ausgänge anschließen, aber das Gerät funktioniert nur, wenn das richtige Netzwerk angeschlossen ist. Außerdem leitet er nur dann Gas oder Flüssigkeit in ein Netzwerk, wenn er mit Energie versorgt wird und eingeschaltet ist.
+      Wenn der KoolAuger voll ist, nimmt er kein weiteres Eis mehr an, bis der Gas- oder Flüssigkeitsinhalt abgelassen wurde. In diesem Zustand blinkt ein gelber Fehlerstatus auf dem Aktivierungsschalter.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitIceCrusher</Key>
@@ -6231,7 +6275,7 @@
       <Key>StructureLiquidPipeRadiator</Key>
       <Value>Flüssigkeitsrohr-Konvektionsstrahler</Value>
       <Description>Rohrheizkörper sind ein einfacher Wärmetauscher, der an Rohren angebracht werden kann, um je nach Temperatur der umgebenden Atmosphäre Wärme abzugeben oder zu gewinnen. Wenn die Atmosphäre heißer ist, wird der Flüssigkeit im Netzwerk Wärme zugeführt, und umgekehrt, wenn sie kälter ist. In einem Vakuum wird die Wärme abgestrahlt. 
-  Die Geschwindigkeit des Wärmegewinns oder -verlusts hängt von der jeweiligen Flüssigkeit ab. Wenn du mehrere Heizkörper hinzufügst, wird die Wärmeübertragung beschleunigt.</Description>
+      Die Geschwindigkeit des Wärmegewinns oder -verlusts hängt von der jeweiligen Flüssigkeit ab. Wenn du mehrere Heizkörper hinzufügst, wird die Wärmeübertragung beschleunigt.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeLiquidRadiator</Key>
@@ -6327,7 +6371,7 @@
       <Key>ItemMKIIDuctTape</Key>
       <Value>Mk II Isolierband</Value>
       <Description>In der fernen Vergangenheit lehrte einer der großen Champions der Erde eine Generation von &quot;Reparierleuten&quot;, dass Isolierband die Antwort auf jedes Problem ist. {Stationeers;Stationeers} haben bewiesen, dass das stimmt, solange es sich um einen beschädigten {THING:ItemEvaSuit}, {THING:ItemJetpackBasic}, {THING:ItemSpaceHelmet} oder sogar ein {THING:StructureSolarPanel} handelt.
-  Für dich selbst benutzen: Nimm Isolierband in deine aktive Hand und halte die rechte Maustaste gedrückt, um den Schaden automatisch zu reparieren.</Description>
+      Für dich selbst benutzen: Nimm Isolierband in deine aktive Hand und halte die rechte Maustaste gedrückt, um den Schaden automatisch zu reparieren.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWaterBottleFiller</Key>
@@ -6547,7 +6591,7 @@
 
       &gt; {GAS:Oxygen} x 1,3
       &gt; {GAS:Nitrogen} x 0,6
-     &gt; {GAS:CarbonDioxide} x 0,8
+      &gt; {GAS:CarbonDioxide} x 0,8
       &gt; {GAS:Methane} x 1
       &gt; {GAS:Pollutant} x 3
       &gt; {GAS:NitrousOxide} x 1,5
@@ -6664,26 +6708,26 @@
       <Key>Fertilizer</Key>
       <Value>Dünger</Value>
       <Description>Dünger verändert die Wachstumsprozesse von Pflanzen und wird durch den Basiskomposter und den {LINK:StructureAdvancedComposter} unter Benutzung von {LINK:OrganicPage;organic} Stoffen hergestellt.
-  Die Wirkung von Dünger hängt von seinen Inhaltsstoffen ab:
+      Die Wirkung von Dünger hängt von seinen Inhaltsstoffen ab:
 
-  - {LINK:OrganicPage;food} erhöht die Pflanzenausbeute bis zu zwei Mal
-  - {THING:DecayedFood} erhöht die WUCHSGESCHWINDIGKEIT der Pflanzen bis zu zwei Mal
-  - {THING:ItemBiomass} erhöht die ANZAHL DER WACHSTUMSZYKLEN, für die der Dünger reicht
+      - {LINK:OrganicPage;food} erhöht die Pflanzenausbeute bis zu zwei Mal
+      - {THING:DecayedFood} erhöht die WUCHSGESCHWINDIGKEIT der Pflanzen bis zu zwei Mal
+      - {THING:ItemBiomass} erhöht die ANZAHL DER WACHSTUMSZYKLEN, für die der Dünger reicht
 
-  Die Wirkung dieser Zutaten hängt von ihren jeweiligen Anteilen im Komposter ab, wenn die Verarbeitung aktiviert wird.</Description>
+      Die Wirkung dieser Zutaten hängt von ihren jeweiligen Anteilen im Komposter ab, wenn die Verarbeitung aktiviert wird.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAdvancedComposter</Key>
       <Value>Erweiterter Komposter</Value>
       <Description>Der fortschrittliche Komposter erzeugt {THING:Fertilizer} aus organischem Material. Er akzeptiert {LINK:OrganicPage;food}, {THING:DecayedFood} oder {THING:ItemBiomass}. Er benötigt {GAS:Water} und Energie zum Betrieb und beschleunigt den natürlichen Kompostierungsprozess.
-  Bei der Verarbeitung werden Stickstoff und flüchtige Stoffe sowie eine geringe Menge Wärme freigesetzt. 
+      Bei der Verarbeitung werden Stickstoff und flüchtige Stoffe sowie eine geringe Menge Wärme freigesetzt. 
 
-  {HEADER:Compost composition}
-  Der Dünger wird in einem Verhältnis von 1:3 zu den Inhaltsstoffen produziert. Die Wirkung des Düngers auf die Pflanzen hängt von den jeweiligen Anteilen der Inhaltsstoffe ab.
+      {HEADER:Compost composition}
+      Der Dünger wird in einem Verhältnis von 1:3 zu den Inhaltsstoffen produziert. Die Wirkung des Düngers auf die Pflanzen hängt von den jeweiligen Anteilen der Inhaltsstoffe ab.
 
-  - {LINK:OrganicPage;food} erhöht die Pflanzenausbeute bis zu zwei Mal
-  - {THING:DecayedFood} erhöht die WACHSTUMSGESCHWINDIGKEIT der Pflanzen bis zu zwei Mal
-  - {THING:ItemBiomass} erhöht die ANZAHL DER WACHSTUMSZYKLEN, für die der Dünger reicht, bis zu fünf Mal.</Description>
+      - {LINK:OrganicPage;food} erhöht die Pflanzenausbeute bis zu zwei Mal
+      - {THING:DecayedFood} erhöht die WACHSTUMSGESCHWINDIGKEIT der Pflanzen bis zu zwei Mal
+      - {THING:ItemBiomass} erhöht die ANZAHL DER WACHSTUMSZYKLEN, für die der Dünger reicht, bis zu fünf Mal.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAdvancedComposter</Key>
@@ -6709,31 +6753,31 @@
       <Key>PortableComposter</Key>
       <Value>Tragbarer Komposter</Value>
       <Description>Der Basiskomposter ist ein einfaches Kompostiergerät, das {THING:Fertilizer} aus organischem Material herstellt. Er nimmt {LINK:OrganicPage;food}, {THING:DecayedFood} oder {THING:ItemBiomass} auf. Er benötigt einen vollen {THING:ItemLiquidCanisterEmpty} und eine Batterie zum Betrieb und beschleunigt den natürlichen Kompostierungsprozess.
-  Bei der Verarbeitung setzt er Stickstoff und flüchtige Stoffe sowie eine geringe Menge Wärme frei.
+      Bei der Verarbeitung setzt er Stickstoff und flüchtige Stoffe sowie eine geringe Menge Wärme frei.
 
-  {HEADER:Compost composition}
-  Der Dünger wird in einem Verhältnis von 1:3 zu den Inhaltsstoffen produziert. Die Wirkung des Düngers auf die Pflanzen hängt von den jeweiligen Anteilen der Inhaltsstoffe ab.
+      {HEADER:Compost composition}
+      Der Dünger wird in einem Verhältnis von 1:3 zu den Inhaltsstoffen produziert. Die Wirkung des Düngers auf die Pflanzen hängt von den jeweiligen Anteilen der Inhaltsstoffe ab.
 
-  - {LINK:OrganicPage;food} erhöht die Pflanzenausbeute bis zu zwei Mal
-  - {THING:DecayedFood} erhöht die WACHSTUMSGESCHWINDIGKEIT der Pflanzen bis zu zwei Mal
-  - {THING:ItemBiomass} erhöht die ANZAHL DER WACHSTUMSZYKLEN, für die der Dünger reicht</Description>
+      - {LINK:OrganicPage;food} erhöht die Pflanzenausbeute bis zu zwei Mal
+      - {THING:DecayedFood} erhöht die WACHSTUMSGESCHWINDIGKEIT der Pflanzen bis zu zwei Mal
+      - {THING:ItemBiomass} erhöht die ANZAHL DER WACHSTUMSZYKLEN, für die der Dünger reicht</Description>
     </RecordThing>
     <RecordThing>
       <Key>AppliancePackagingMachine</Key>
       <Value>Einfache Verpackungsmaschine</Value>
       <Description>Der {LINK:Xigo;Xigo} Kannifizierer benötigt {THING:ItemEmptyCan} und gekochte {LINK:OrganicPage;food}, um {LINK:DecayPage;long-lasting}, leicht zu lagernde Nahrung zu erzeugen. Beachte, dass der Kannifizierer an eine {THING:StructureBench} geschraubt werden muss, um Energie zu erhalten, und nur gekochte Nahrung und Blechdosen akzeptiert.
 
-  {HEADER:OPERATION}
+      {HEADER:OPERATION}
 
-  1. Gib die richtigen Zutaten über den Trichter oben in das Gerät.
+      1. Gib die richtigen Zutaten über den Trichter oben in das Gerät.
 
-  2. Schließe das Gerät mit dem herunterklappbaren Griff.
+      2. Schließe das Gerät mit dem herunterklappbaren Griff.
 
-  3. Aktiviere das Gerät.
+      3. Aktiviere das Gerät.
 
-  4. Entferne die Konserven aus dem Auslass in der FRONT.
+      4. Entferne die Konserven aus dem Auslass in der FRONT.
 
-  Hinweis: Der Kannifizierer zeigt eine Fehlermeldung auf seinem Aktivierungsschalter an, wenn du versuchst, ihn zu aktivieren, bevor du ihn geschlossen hast.</Description>
+      Hinweis: Der Kannifizierer zeigt eine Fehlermeldung auf seinem Aktivierungsschalter an, wenn du versuchst, ihn zu aktivieren, bevor du ihn geschlossen hast.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPlanter</Key>
@@ -6862,7 +6906,7 @@
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_DargaFern</Key>
-      <Value>Darga Fern Seeds</Value>
+      <Value>Darga-Farn Samen</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7059,12 +7103,12 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWindowShutter</Key>
-      <Value>Composite Window Shutter</Value>
+      <Value>Verbund-Fensterrollladen</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeWindowShutterController</Key>
-      <Value>Composite Window Shutter Controller</Value>
+      <Value>Verbund-Fensterrollladensteuerung</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7082,14 +7126,14 @@
       <Value>OGRE</Value>
       <Description>Der {LINK:Recurso;Recurso} OGRE (Orthogonal grundrotierender Erdbagger) ist eine Basisstruktur mit angeschlossenem Minenfahrzeug, das einen horizontalen Schacht von bis zu X Metern Länge abbaut. Wenn das Fahrzeug voll ist, kehrt es zur Basis zurück, um sich zu entleeren, bevor es wieder graben kann. Wenn es auf leeren Raum stößt, kehrt es ebenfalls zur Basis zurück und wartet auf Anweisungen. Bei Deaktivierung kehrt das Gerät zurück.
         
-  Der OGRE kann an ein Schachtsystem angeschlossen werden und ist über ein logisches Netzwerk steuerbar. Beachte, dass der OGRE aufgrund der effizienteren Verarbeitung mehr {LINK:OrePage;ore} auf der gleichen Fläche ausgibt als ein herkömmlicher {THING:ItemMiningDrill}.
+      Der OGRE kann an ein Schachtsystem angeschlossen werden und ist über ein logisches Netzwerk steuerbar. Beachte, dass der OGRE aufgrund der effizienteren Verarbeitung mehr {LINK:OrePage;ore} auf der gleichen Fläche ausgibt als ein herkömmlicher {THING:ItemMiningDrill}.
 
-  {HEADER:MODES}
-  Leerlauf - 0
-  Bergbau - 1
-  Zurückkehren - 2
-  AblagerndesErz - 3
-  Beendet - 4</Description>
+      {HEADER:MODES}
+      Leerlauf - 0
+      Bergbau - 1
+      Zurückkehren - 2
+      AblagerndesErz - 3
+      Beendet - 4</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureReinforcedCompositeWindow</Key>
@@ -7131,7 +7175,7 @@
       <Value>Laptop</Value>
       <Description>Der Laptop funktioniert als tragbarer IC-Editor. Um den Laptop zu betreiben, muss er mit einer Batterie betrieben werden, einen {THING:MotherboardProgrammableChip} im Motherboard Slot und einen {THING:ItemIntegratedCircuit10} im Programmierbaren Chip-Slot haben.
 
-  Du musst den Laptop abstellen, um mit der Bildschirmoberfläche zu interagieren.</Description>
+      Du musst den Laptop abstellen, um mit der Bildschirmoberfläche zu interagieren.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPlantEndothermic_Genepool1</Key>
@@ -7155,22 +7199,22 @@
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_HadesAlpha</Key>
-      <Value>Hades Seed (Alpha strain)</Value>
+      <Value>Hades Samen (Alpha-Stamm)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_HadesBeta</Key>
-      <Value>Hades Seed (Beta strain)</Value>
+      <Value>Hades Samen (Beta-Stamm)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_WinterspawnAlpha</Key>
-      <Value>Winterspawn Seed (Alpha strain)</Value>
+      <Value>Winterbrut Samen (Alpha-Stamm)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_WinterspawnBeta</Key>
-      <Value>Winterspawn Seed (Beta strain)</Value>
+      <Value>Winterbrut Samen (Beta-Stamm)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7183,21 +7227,21 @@
       <Value>Stirling-Motor</Value>
       <Description>Der {LINK:Recurso;Recurso} &quot;Libra&quot; Stirlingmotor nutzt eine uralte thermische Eigenschaft und erzeugt Energie durch die Ausdehnung und Kontraktion eines Arbeitsgases, um Kolben anzutreiben, die einen elektrischen Generator betreiben.
         
-  Wenn heißes Gas unter hohem Druck in die Eingangsleitung eingespeist wird, erhitzt es die heiße Seite des Aggregats und gelangt dann in die Ausgangsleitung. Die kühlere Seite benutzt die Umgebungsluft des Raumes, die auf einer niedrigeren Temperatur und einem niedrigeren Druck gehalten werden muss, um eine Differenz zu erzeugen. Füge ein Arbeitsgas hinzu, indem du einen {SLOT:GasCanister} einsetzt. Die Einheit muss beim Hinzufügen oder Entfernen von Kanistern deaktiviert werden, da sonst das Arbeitsgas in die Umgebung entweichen kann.
+      Wenn heißes Gas unter hohem Druck in die Eingangsleitung eingespeist wird, erhitzt es die heiße Seite des Aggregats und gelangt dann in die Ausgangsleitung. Die kühlere Seite benutzt die Umgebungsluft des Raumes, die auf einer niedrigeren Temperatur und einem niedrigeren Druck gehalten werden muss, um eine Differenz zu erzeugen. Füge ein Arbeitsgas hinzu, indem du einen {SLOT:GasCanister} einsetzt. Die Einheit muss beim Hinzufügen oder Entfernen von Kanistern deaktiviert werden, da sonst das Arbeitsgas in die Umgebung entweichen kann.
    
-  Gase mit einer geringen Molekülmasse sind die effizientesten Arbeitsgase. Eine höhere Molzahl des Arbeitsgases kann zu einer höheren potenziellen Energie-Ausgabe führen. Ein zu hoher Druck kann jedoch zu ... suboptimalen Ergebnissen führen.</Description>
+      Gase mit einer geringen Molekülmasse sind die effizientesten Arbeitsgase. Eine höhere Molzahl des Arbeitsgases kann zu einer höheren potenziellen Energie-Ausgabe führen. Ein zu hoher Druck kann jedoch zu ... suboptimalen Ergebnissen führen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePowerTransmitter</Key>
       <Value>Sender für Mikrowellenenergie</Value>
       <Description>Der {LINK:Norsec;Norsec} Wireless Power Transmitter ist ein unidirektionales A-to-B-Fernfeld-Mikrowellenübertragungssystem, das einen schmalen, nicht tödlichen Mikrowellenstrahl an einen speziellen Basisempfänger sendet.
-  Der Sender muss auf die Basisstation ausgerichtet werden, um Energie zu übertragen. Die Helligkeit des Kollimatorbogens des Senders gibt einen Hinweis auf die Sendeintensität. Bei größeren Entfernungen lässt die Energie nach, so dass das Gerät mehr Energie benötigt, um die gleiche Ausgabe zu liefern.</Description>
+      Der Sender muss auf die Basisstation ausgerichtet werden, um Energie zu übertragen. Die Helligkeit des Kollimatorbogens des Senders gibt einen Hinweis auf die Sendeintensität. Bei größeren Entfernungen lässt die Energie nach, so dass das Gerät mehr Energie benötigt, um die gleiche Ausgabe zu liefern.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePowerTransmitterReceiver</Key>
       <Value>Mikrowellen-Energie-Empfänger</Value>
       <Description>Der {LINK:Norsec;Norsec} Wireless Power Transmitter ist ein unidirektionales A-to-B-Fernfeld-Mikrowellenübertragungssystem, das einen schmalen, nicht tödlichen Mikrowellenstrahl an einen speziellen Basisempfänger sendet.
-  Der Sender muss auf die Basisstation ausgerichtet werden, um Energie zu übertragen. Die Helligkeit des Kollimatorbogens des Senders gibt einen Hinweis auf die Sendeintensität. Bei größeren Entfernungen lässt die Energie nach, so dass das Gerät mehr Energie benötigt, um die gleiche Ausgabe zu liefern.</Description>
+      Der Sender muss auf die Basisstation ausgerichtet werden, um Energie zu übertragen. Die Helligkeit des Kollimatorbogens des Senders gibt einen Hinweis auf die Sendeintensität. Bei größeren Entfernungen lässt die Energie nach, so dass das Gerät mehr Energie benötigt, um die gleiche Ausgabe zu liefern.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureOverheadShortCornerLocker</Key>
@@ -7324,7 +7368,7 @@
       <Value>Eis (Nitrit)</Value>
       <Description>Nitrit ist der Spitzname für festes {GAS:Nitrogen} Eis, das auf vielen Planeten und Monden im Sonnensystem zu finden ist. Da der von ihm produzierte {GAS:Nitrogen} inert ist, ist das Eis nützlich, um atmungsaktive Atmosphären mit geringer Entflammbarkeit herzustellen.
 
-  Es ist sehr temperaturempfindlich und beginnt zu schmelzen, sobald es abgebaut wird, es sei denn, die Temperatur liegt unter Null oder es wird im {THING:ItemMiningBelt}, {THING:ItemMiningBeltAdvanced} oder in Geräten wie dem {THING:StructureIceCrusher} oder {THING:StructureFridgeSmall} gelagert.</Description>
+      Es ist sehr temperaturempfindlich und beginnt zu schmelzen, sobald es abgebaut wird, es sei denn, die Temperatur liegt unter Null oder es wird im {THING:ItemMiningBelt}, {THING:ItemMiningBeltAdvanced} oder in Geräten wie dem {THING:StructureIceCrusher} oder {THING:StructureFridgeSmall} gelagert.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPassiveLargeRadiator</Key>
@@ -7378,8 +7422,13 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureH2Combustor</Key>
-      <Value>Aufbau H2 Brenner</Value>
+      <Value>H2 Verbrenner</Value>
       <Description>Der {GAS:Methane} Combustor wurde leicht von seinem ursprünglichen {LINK:Recurso;Recurso} Design abgewandelt. Combustor tut genau das, was sein Name sagt - er verbrennt eine Mischung aus flüchtigen Stoffen und {GAS:Oxygen}, um Wasser zu erzeugen. Er ist in heißen oder trockenen Umgebungen sehr nützlich, aber die Benutzer müssen sich darüber im Klaren sein, dass der Combustor erhebliche Abwärme ausgibt. Der Wirkungsgrad des Geräts ist auch nicht perfekt, was dazu führt, dass sich die flüchtigen Stoffe in der Kammer selbst entzünden und Abgase entstehen, die beseitigt werden müssen.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>H2Combustor</Key>
+      <Value>H2 Verbrenner</Value>
+      <Description>Der Verbrenner ermöglicht die kontrollierte Verbrennung flüchtiger Gase. Bei Zufuhr von {GAS:Hydrogen} und {GAS:Oxygen} erzeugt er Wasserdampf, der zur Trinkwassergewinnung oder für die Hydrokultur gekühlt werden kann.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeRadiatorFlat</Key>
@@ -7398,7 +7447,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureMediumRadiator</Key>
-      <Value>Medium Radiator</Value>
+      <Value>Mittlerer Heizkörper</Value>
       <Description>Ein eigenständiger Heizkörper, der für die Wärmeabstrahlung im Vakuum und in Niederdruckumgebungen optimiert ist.</Description>
     </RecordThing>
     <RecordThing>
@@ -9973,7 +10022,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </RecordThing>
     <RecordThing>
       <Key>StructureDrinkingFountain2x1</Key>
-      <Value>Drinking Fountain</Value>
+      <Value>Trinkbrunnen</Value>
       <Description>The Drinking Fountain can be interacted with directly to increase hydration. It needs a {GAS:Water} supply.</Description>
     </RecordThing>
     <RecordThing>
@@ -10011,7 +10060,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </RecordThing>
     <RecordThing>
       <Key>StructureCrewModule</Key>
-      <Value>Crew Module</Value>
+      <Value>Besatzung Modul</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -10026,7 +10075,202 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </RecordThing>
     <RecordThing>
       <Key>StructureCrewUmbilical</Key>
-      <Value>Umbilical (Crew)</Value>
+      <Value>Nabelschnur (Besatzung)</Value>
+      <Description />
+    </RecordThing>
+   <RecordThing>
+      <Key>ItemOreDetector</Key>
+      <Value>Erz Detektor</Value>
+      <Description>A device for locating specific ores. The closer the player is to the selected type of ore, the more indicators will light up.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitFermenter</Key>
+      <Value>Kit Gärbehälter</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFermenter</Key>
+      <Value>Gärbehälter</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterAlcohol</Key>
+      <Value>Filter (Alkohol)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterAlcoholInfinite</Key>
+      <Value>Katalytisch Filter (Alkohol)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterAlcoholL</Key>
+      <Value>Schwerer Filter (Alkohol)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterAlcoholM</Key>
+      <Value>Mittlerer Filter (Alkohol)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHCl</Key>
+      <Value>Filter (Salzsäure)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHClInfinite</Key>
+      <Value>Katalytisch Filter (Salzsäure)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHClL</Key>
+      <Value>Schwerer Filter (Salzsäure)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHClM</Key>
+      <Value>Mittlerer Filter (Salzsäure)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHelium</Key>
+      <Value>Filter (Helium)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHeliumInfinite</Key>
+      <Value>Catalytic Filter (Helium)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHeliumL</Key>
+      <Value>Schwerer Filter (Helium)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHeliumM</Key>
+      <Value>Mittlerer Filter (Helium)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHydrazine</Key>
+      <Value>Filter (Hydrazin)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHydrazineInfinite</Key>
+      <Value>Katalytisch Filter (Hydrazin)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHydrazineL</Key>
+      <Value>Schwerer Filter (Hydrazin)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHydrazineM</Key>
+      <Value>Mittlerer Filter (Hydrazin)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHydrogen</Key>
+      <Value>Filter (Wasserstoff)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHydrogenInfinite</Key>
+      <Value>Katalytisch Filter (Wasserstoff)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHydrogenL</Key>
+      <Value>Schwerer Filter (Wasserstoff)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHydrogenM</Key>
+      <Value>Mittlerer Filter (Wasserstoff)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterOzone</Key>
+      <Value>Filter (Ozon)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterOzoneInfinite</Key>
+      <Value>Katalytisch Filter (Ozon)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterOzoneL</Key>
+      <Value>Schwerer Filter (Ozon)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterOzoneM</Key>
+      <Value>Mittlerer Filter (Ozon)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterPollutedWater</Key>
+      <Value>Filter (Verschmutztes Wasser)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterPollutedWaterInfinite</Key>
+      <Value>Katalytisch Filter (Verschmutztes Wasser)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterPollutedWaterL</Key>
+      <Value>Schwerer Filter (Verschmutztes Wasser)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterPollutedWaterM</Key>
+      <Value>Mittlerer Filter (Verschmutztes Wasser)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterSalt</Key>
+      <Value>Filter (Salz)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterSaltInfinite</Key>
+      <Value>Katalytisch Filter (Salz)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterSaltL</Key>
+      <Value>Schwerer Filter (Salz)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterSaltM</Key>
+      <Value>Mittlerer Filter (Salz)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterSilanol</Key>
+      <Value>Filter (Silanol)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterSilanolInfinite</Key>
+      <Value>Katalytisch Filter (Silanol)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterSilanolL</Key>
+      <Value>Schwerer Filter (Silanol)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterSilanolM</Key>
+      <Value>Mittlerer Filter (Silanol)</Value>
       <Description />
     </RecordThing>
   </Things>
@@ -10169,11 +10413,11 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>Payload</Key>
-      <Value>Payload</Value>
+      <Value>Fracht</Value>
     </Record>
     <Record>
       <Key>Recipient</Key>
-      <Value>Recipient</Value>
+      <Value>Empfänger</Value>
     </Record>
     <Record>
       <Key>Import</Key>
@@ -10201,7 +10445,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>FriesSlot</Key>
-      <Value>Fries</Value>
+      <Value>Fritten</Value>
     </Record>
     <Record>
       <Key>DrillSlot</Key>
@@ -10365,7 +10609,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>CoolantTank</Key>
-      <Value>Coolant Tank</Value>
+      <Value>Kühlmittelbehälter</Value>
     </Record>
     <Record>
       <Key>Mod</Key>
@@ -10393,7 +10637,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>Door</Key>
-      <Value>Door</Value>
+      <Value>Tür</Value>
     </Record>
     <Record>
       <Key>ArmSlot</Key>
@@ -10409,11 +10653,11 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>Appliance</Key>
-      <Value>Appliance</Value>
+      <Value>Gerät</Value>
     </Record>
     <Record>
       <Key>SoundCartridge</Key>
-      <Value>SoundCartridge</Value>
+      <Value>Tonabnehmerkassette</Value>
     </Record>
     <Record>
       <Key>LiquidBottle</Key>
@@ -10437,13 +10681,13 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>Crate</Key>
-      <Value>Crate Slot</Value>
+      <Value>Kiste Slot</Value>
     </Record>
   </Slots>
   <Interactables>
     <Record>
       <Key>Poke</Key>
-      <Value>Poke</Value>
+      <Value>Sack</Value>
     </Record>
     <Record>
       <Key>Activate</Key>
@@ -10939,29 +11183,29 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>DecrementIndex</Key>
-      <Value>Decrement</Value>
+      <Value>Verringern</Value>
     </Record>
     <Record>
       <Key>IncrementIndex</Key>
-      <Value>Increment</Value>
+      <Value>Erhöhen</Value>
     </Record>
   </Interactables>
   <Interface>
     <Record>
       <Key>InventorySort</Key>
-      <Value>Sort</Value>
+      <Value>Sortieren</Value>
     </Record>
     <Record>
       <Key>InventoryClose</Key>
-      <Value>Close</Value>
+      <Value>Schliesen</Value>
     </Record>
     <Record>
       <Key>VenusPoiRegionFumaroleSteppeName</Key>
-      <Value>Fumarole Steppe</Value>
+      <Value>Exhalationsstelle</Value>
     </Record>
     <Record>
       <Key>VenusPoiRegionFumaroleSteppeDescription</Key>
-      <Value>Sulfur Flats</Value>
+      <Value>Schwefelebenen</Value>
     </Record>
     <Record>
       <Key>VenusPoiRegionAureliaFlatsName</Key>
@@ -10969,7 +11213,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>VenusPoiRegionAureliaFlatsDescription</Key>
-      <Value>Sulfur Flats</Value>
+      <Value>Schwefelebenen</Value>
     </Record>
     <Record>
       <Key>VenusPoiRegionIshtarPlateName</Key>
@@ -13761,7 +14005,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>Rpm</Key>
-      <Value>Rpm</Value>
+      <Value>U/min</Value>
     </Record>
     <Record>
       <Key>Stress</Key>
@@ -13785,31 +14029,31 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>PipesCategory</Key>
-      <Value>Pipes</Value>
+      <Value>Rohre</Value>
     </Record>
     <Record>
       <Key>ChuteCategory</Key>
-      <Value>Chutes</Value>
+      <Value>Schacht</Value>
     </Record>
     <Record>
       <Key>UmbilicalCategory</Key>
-      <Value>Umbilicals</Value>
+      <Value>Versorgungsleitung</Value>
     </Record>
     <Record>
       <Key>RocketPayloadCategory</Key>
-      <Value>Rocket Payloads</Value>
+      <Value>Raketen Fracht</Value>
     </Record>
     <Record>
       <Key>CargoCategory</Key>
-      <Value>Rocket Payloads</Value>
+      <Value>Raketen Fracht</Value>
     </Record>
     <Record>
       <Key>GasCanisterCategory</Key>
-      <Value>Canisters</Value>
+      <Value>Kanister</Value>
     </Record>
     <Record>
       <Key>RocketEngineCategory</Key>
-      <Value>Engines</Value>
+      <Value>Motoren</Value>
     </Record>
     <Record>
       <Key>DoorCategory</Key>
@@ -13881,7 +14125,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>PureIceHeader</Key>
-      <Value>Pure Ices</Value>
+      <Value>Reines Eis</Value>
     </Record>
     <Record>
       <Key>CartridgeCategory</Key>
@@ -14001,7 +14245,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>FileLoadSave</Key>
-      <Value>Load Save</Value>
+      <Value>Lade Speicherstand</Value>
     </Record>
     <Record>
       <Key>MainMenuJoinWorld</Key>
@@ -14013,7 +14257,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>MainMenuLocal</Key>
-      <Value>Local</Value>
+      <Value>Lokal</Value>
     </Record>
     <Record>
       <Key>MainMenuSettings</Key>
@@ -14089,7 +14333,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>JoinMenuButtonDirectConnect</Key>
-      <Value>Direct Connect</Value>
+      <Value>Direkte Verbindung</Value>
     </Record>
     <Record>
       <Key>JoinMenuServerListName</Key>
@@ -14129,7 +14373,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>StartConditionsButton</Key>
-      <Value>Starting Conditions</Value>
+      <Value>Startbedingungen</Value>
     </Record>
     <Record>
       <Key>NewWorldAreaTitle</Key>
@@ -14141,15 +14385,15 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>NewWorldAlienWorld</Key>
-      <Value>Terrain Test - Alien World</Value>
+      <Value>Terrain Test - Alien Welt</Value>
     </Record>
     <Record>
       <Key>NewWorldMoon1kWorld</Key>
-      <Value>Terrain Test - Moon 1k</Value>
+      <Value>Terrain Test - Mond 1k</Value>
     </Record>
     <Record>
       <Key>NewWorldMoon2kWorld</Key>
-      <Value>Terrain Test - Moon 2k</Value>
+      <Value>Terrain Test - Mond 2k</Value>
     </Record>
     <Record>
       <Key>NewWorldMoon4kWorld</Key>
@@ -14157,7 +14401,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>NewWorldMoon8kWorld</Key>
-      <Value>Terrain Test - Moon 8k</Value>
+      <Value>Terrain Test - Mond 8k</Value>
     </Record>
     <Record>
       <Key>ButtonTest</Key>
@@ -14205,11 +14449,11 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>NewWorldAreaVenus</Key>
-      <Value>Venus</Value>
+      <Value>Venus: Miasma</Value>
     </Record>
     <Record>
       <Key>NewWorldAreaMars</Key>
-      <Value>Mars</Value>
+      <Value>Mars: Der Canyon</Value>
     </Record>
     <Record>
       <Key>Mars</Key>
@@ -14529,7 +14773,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>SettingsDistantShadows</Key>
-      <Value>Distant Shadows</Value>
+      <Value>Schatten Reichweite</Value>
     </Record>
     <Record>
       <Key>SettingsShadowResolution</Key>
@@ -14601,7 +14845,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>PlayerHasConnected</Key>
-      <Value>Player Connected</Value>
+      <Value>Spieler verbunden</Value>
     </Record>
     <Record>
       <Key>GamePaused</Key>
@@ -14633,7 +14877,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>ButtonDontShowAgain</Key>
-      <Value>Don't Show Again</Value>
+      <Value>Nicht mehr anzeigen</Value>
     </Record>
     <Record>
       <Key>ButtonOk</Key>
@@ -16319,7 +16563,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>LogicTypeSolarConstant</Key>
-      <Value>Solar constant of the world</Value>
+      <Value>Solarkonstante der Welt</Value>
     </Record>
     <Record>
       <Key>LogicTypeMaximum</Key>
@@ -16385,20 +16629,20 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Key>LogicTypeColor</Key>
       <Value>Ob aus Gründen der Übersichtlichkeit, der Sicherheit oder der einfachen Ästhetik, {LINK:Stationeers;Stationeers} haben Zugang zu einem kleinen Regenbogen von Farben für ihre Konstruktionen. Dies sind die Farbeinstellungen für Geräte, dargestellt als ganze Zahl.
 
-  0: Blau
-  1: Grau
-  2: Grün
-  3: Orange
-  4: Rot
-  5: Gelb
-  6: Weiß
-  7: Schwarz
-  8: Braun
-  9: Khaki
-  10: Rosa
-  11: Lila
+      0: Blau
+      1: Grau
+      2: Grün
+      3: Orange
+      4: Rot
+      5: Gelb
+      6: Weiß
+      7: Schwarz
+      8: Braun
+      9: Khaki
+      10: Rosa
+      11: Lila
 
-          Es ist ein unumstößliches universelles Gesetz, dass alles, was höher als 11 ist, lila ist. Der {LINK:ODA;ODA} ist machtlos, dies zu ändern. Genauso wird alles, was niedriger als 0 ist, blau sein.</Value>
+      Es ist ein unumstößliches universelles Gesetz, dass alles, was höher als 11 ist, lila ist. Der {LINK:ODA;ODA} ist machtlos, dies zu ändern. Genauso wird alles, was niedriger als 0 ist, blau sein.</Value>
     </Record>
     <Record>
       <Key>LogicTypeElevatorSpeed</Key>
@@ -16937,6 +17181,50 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>The index of the slot in which the trader has spawned. This defines the class of the trader i.e. Utility, Small, Medium etc.</Value>
     </Record>
     <Record>
+      <Key>LogicTypeRatioHydrazine</Key>
+      <Value>The ratio of {GAS:Hydrazine} in device's Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrazine</Key>
+      <Value>The ratio of {GAS:LiquidHydrazine} in device's Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidAlcohol</Key>
+      <Value>The ratio of {GAS:LiquidAlcohol} in device's Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHelium</Key>
+      <Value>The ratio of {GAS:Helium} in device's Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSodiumChloride</Key>
+      <Value>The ratio of {GAS:LiquidSodiumChloride} in device's Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioSilanol</Key>
+      <Value>The ratio of {GAS:Silanol} in device's Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSilanol</Key>
+      <Value>The ratio of {GAS:LiquidSilanol} in device's Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrochloricAcid</Key>
+      <Value>The ratio of {GAS:HydrochloricAcid} in device's Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrochloricAcid</Key>
+      <Value>The ratio of {GAS:LiquidHydrochloricAcid} in device's Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioOzone</Key>
+      <Value>The ratio of {GAS:Ozone} in device's Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidOzone</Key>
+      <Value>The ratio of {GAS:LiquidOzone} in device's Atmosphere</Value>
+    </Record>
+    <Record>
       <Key>AppearanceButtonRandomize</Key>
       <Value>Randomize</Value>
     </Record>
@@ -17042,7 +17330,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>TraderOrganics</Key>
-      <Value>Organicon</Value>
+      <Value>Bioon</Value>
     </Record>
     <Record>
       <Key>TraderBasic</Key>
@@ -17058,7 +17346,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>TraderMicrowave</Key>
-      <Value>Microwares</Value>
+      <Value>Mikroware</Value>
     </Record>
     <Record>
       <Key>TraderChemistry</Key>
@@ -17070,7 +17358,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>TraderPaint</Key>
-      <Value>Color Corp Farben</Value>
+      <Value>Farbton Corp Farbenmaterial</Value>
     </Record>
     <Record>
       <Key>TraderTool</Key>
@@ -17086,7 +17374,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>TraderGas</Key>
-      <Value>GasTrade</Value>
+      <Value>GasKammer</Value>
     </Record>
     <Record>
       <Key>TraderCustom</Key>
@@ -17142,7 +17430,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>ButtonAbandonRocket</Key>
-      <Value>Abandon</Value>
+      <Value>Verlassen/Abandon</Value><!--Weiss nicht-->
     </Record>
     <Record>
       <Key>SettingsShowSlotTooltips</Key>
@@ -18827,8 +19115,8 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>AgrizeroDesc</Key>
       <Value>Agrizero ist ein landwirtschaftliches Biotech-Unternehmen, das sich auf die Erforschung und den Einsatz von Technologien für die Landwirtschaft außerhalb der Erde konzentriert. Das Ziel des Unternehmens ist es, ein Netzwerk von autarken, in sich geschlossenen &quot;BioHersteller&quot; zu schaffen, das letztendlich 1 Million Menschen im Weltraum ernähren soll.
-  Das Unternehmen, das aus den Umweltkatastrophen des späten 21. Jahrhunderts hervorgegangen ist, hat seine Wurzeln in Chinas Initiativen zur Rettung der Welt durch künstliche Landwirtschaft und hat sich nun auf Einrichtungen im Asteroidengürtel ausgedehnt, wo der Vorrat an Eis-Asteroiden die vertikale Landwirtschaft und die Landwirtschaft unter kontrollierten Bedingungen äußerst vielversprechend macht.
-  Obwohl sich viele ihrer Anlagen noch im Bau befinden, ist Agrizero bereits einer der Hauptlieferanten von außerweltlichen Konzernen wie {LINK:ODA;ODA}, {LINK:Sinotai;Sinotai} und {LINK:ExMin;ExMin} durch das ständig wachsende Netzwerk von Händlern.</Value>
+      Das Unternehmen, das aus den Umweltkatastrophen des späten 21. Jahrhunderts hervorgegangen ist, hat seine Wurzeln in Chinas Initiativen zur Rettung der Welt durch künstliche Landwirtschaft und hat sich nun auf Einrichtungen im Asteroidengürtel ausgedehnt, wo der Vorrat an Eis-Asteroiden die vertikale Landwirtschaft und die Landwirtschaft unter kontrollierten Bedingungen äußerst vielversprechend macht.
+      Obwohl sich viele ihrer Anlagen noch im Bau befinden, ist Agrizero bereits einer der Hauptlieferanten von außerweltlichen Konzernen wie {LINK:ODA;ODA}, {LINK:Sinotai;Sinotai} und {LINK:ExMin;ExMin} durch das ständig wachsende Netzwerk von Händlern.</Value>
     </Record>
     <Record>
       <Key>Asura</Key>
@@ -18837,9 +19125,9 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>AsuraDesc</Key>
       <Value>Asura Biomedia wurde Anfang des 22. Jahrhunderts von dem in Mumbai ansässigen Billionär Ashan Gurwaja gegründet. Das Unternehmen hat sich zwar auf Biotechnologie spezialisiert, hatte aber schon immer eine &quot;dehnbare&quot; Vorstellung davon, was genau das bedeutet: von Pharmazeutika bis hin zu Haustier-Nahrung.
-  Gurwajas Hintergrund in Biotech-Firmen brachte das Unternehmen von Anfang an in die oberste Liga der Biowissenschaftsbranche, und es wuchs genau so, wie es sein Gründer beabsichtigte: schnell und zuverlässig, mit einer Struktur, die darauf ausgerichtet war, alle kleineren Firmen zu schlucken, die sich ihm in den Weg stellten.
-  Um die Mitte des Jahrhunderts entwickelte Asura seine Ambitionen weiter, um ganze Gesundheitssysteme zu übernehmen - heute ist es der größte Anbieter von Gesundheitsdienstleistungen auf der Erde, der Krankenhäuser und Grundversorgung mit medizinischem Bedarf, pharmazeutischer Produktion und Einzelhandel, häuslicher Pflege und Bestattungsdiensten integriert.
-  Im Jahr 2150 war das Geschäft von Asura ein einfaches Angebot, das in ihrem berühmten - wenn nicht sogar berüchtigten - Werbeslogan zum Ausdruck kommt: &quot;Wir sind in dir&quot;.</Value>
+      Gurwajas Hintergrund in Biotech-Firmen brachte das Unternehmen von Anfang an in die oberste Liga der Biowissenschaftsbranche, und es wuchs genau so, wie es sein Gründer beabsichtigte: schnell und zuverlässig, mit einer Struktur, die darauf ausgerichtet war, alle kleineren Firmen zu schlucken, die sich ihm in den Weg stellten.
+      Um die Mitte des Jahrhunderts entwickelte Asura seine Ambitionen weiter, um ganze Gesundheitssysteme zu übernehmen - heute ist es der größte Anbieter von Gesundheitsdienstleistungen auf der Erde, der Krankenhäuser und Grundversorgung mit medizinischem Bedarf, pharmazeutischer Produktion und Einzelhandel, häuslicher Pflege und Bestattungsdiensten integriert.
+      Im Jahr 2150 war das Geschäft von Asura ein einfaches Angebot, das in ihrem berühmten - wenn nicht sogar berüchtigten - Werbeslogan zum Ausdruck kommt: &quot;Wir sind in dir&quot;.</Value>
     </Record>
     <Record>
       <Key>CHAC</Key>
@@ -18848,8 +19136,8 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>CHACDesc</Key>
       <Value>Das Unternehmen wurde 2085 gegründet, um Waffen für die {LINK:Sinotai;Sinotai}-Weltraumstreitkräfte zu produzieren, und ist bekannt für die Herstellung äußerst zuverlässiger und erschwinglicher Waffen für den Einsatz außerhalb der Welt.
-  Ihr pragmatischer Ansatz spiegelt sich in ihrem Fokus auf Designs wider, die für den 3D-Druck und die Massenproduktion geeignet sind, sowie in der hohen Wiederverwendung von Komponenten in verschiedenen Modellen und Waffenklassen.
-  Obwohl die CHAC-Waffen in keiner bestimmten Kategorie überragend sind und man ihnen nie Gier vorgeworfen hat, weisen sie keine großen Schwächen auf und sind nach den meisten bekannten Maßstäben gut genug, um ihren Konstrukteuren den inoffiziellen Titel 'Waffenschmied des Sonnensystems' zu verleihen.</Value>
+      Ihr pragmatischer Ansatz spiegelt sich in ihrem Fokus auf Designs wider, die für den 3D-Druck und die Massenproduktion geeignet sind, sowie in der hohen Wiederverwendung von Komponenten in verschiedenen Modellen und Waffenklassen.
+      Obwohl die CHAC-Waffen in keiner bestimmten Kategorie überragend sind und man ihnen nie Gier vorgeworfen hat, weisen sie keine großen Schwächen auf und sind nach den meisten bekannten Maßstäben gut genug, um ihren Konstrukteuren den inoffiziellen Titel 'Waffenschmied des Sonnensystems' zu verleihen.</Value>
     </Record>
     <Record>
       <Key>ExMin</Key>
@@ -18858,8 +19146,8 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>ExMinDesc</Key>
       <Value>Nach der Sisyphus-Katastrophe auf dem Mars im Jahr 2079 wurde die Asteroidenverschiebung offiziell von der {LINK:ODA;ODA} verboten. Diese Wende zwang die neugeborene Weltraumbergbauindustrie, ihre Strategien zu überdenken, aber bis zur Eröffnung des Manaus Weltraumlifts war der Abbau von Rohstoffen außerhalb der Erde aus wirtschaftlichen Gründen praktisch unmöglich.
-  ExMin wurde 2095 von einem alteingesessenen schweizerisch-deutschen Bergbaukonglomerat und einem Konsortium anderer Interessen gegründet und war mehrere Jahrzehnte lang eher eine Idee als eine kommerzielle Realität. Als ExMin mit der Gewissheit gegründet wurde, dass es irgendwann einen Weltraumlift geben würde, war es eines der ersten Unternehmen, das den damit verbundenen Zugang nutzte. Seitdem ist es zu einem der mächtigsten kommerziellen Unternehmen im Sonnensystem geworden.
-  Mit dem gesicherten Zugang zum Weltraum wurde ExMin zu einem zentralen Spieler für den Fluss von Rohstoffen in das Innere System. Es hat Konkurrenz bekommen, vor allem vom brasilianischen Bergbaugiganten {LINK:Recurso;Recurso}, aber das Unternehmen hat seinen Vorsprung im außerweltlichen Bergbau nie ganz verloren. Als Synonym für Seltene Erden und Pionier im Abbau von Rohstoffen außerhalb der Erde steht es an der Spitze der Entwicklung im gesamten Sonnensystem.</Value>
+      ExMin wurde 2095 von einem alteingesessenen schweizerisch-deutschen Bergbaukonglomerat und einem Konsortium anderer Interessen gegründet und war mehrere Jahrzehnte lang eher eine Idee als eine kommerzielle Realität. Als ExMin mit der Gewissheit gegründet wurde, dass es irgendwann einen Weltraumlift geben würde, war es eines der ersten Unternehmen, das den damit verbundenen Zugang nutzte. Seitdem ist es zu einem der mächtigsten kommerziellen Unternehmen im Sonnensystem geworden.
+      Mit dem gesicherten Zugang zum Weltraum wurde ExMin zu einem zentralen Spieler für den Fluss von Rohstoffen in das Innere System. Es hat Konkurrenz bekommen, vor allem vom brasilianischen Bergbaugiganten {LINK:Recurso;Recurso}, aber das Unternehmen hat seinen Vorsprung im außerweltlichen Bergbau nie ganz verloren. Als Synonym für Seltene Erden und Pionier im Abbau von Rohstoffen außerhalb der Erde steht es an der Spitze der Entwicklung im gesamten Sonnensystem.</Value>
     </Record>
     <Record>
       <Key>GeFabrik</Key>
@@ -18868,8 +19156,8 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>GeFabrikDesc</Key>
       <Value>Die GeFabrik, offiziell als Gewehrfabrik GmbH bekannt, ist eine der ältesten und angesehensten Rüstungsfirmen der Welt, die für die Produktion außergewöhnlich präziser und hochwertiger Schusswaffen bekannt ist.
-  Im Zuge des Zusammenbruchs der europäischen Waffenproduktion in den 2030er Jahren gründete eine Gruppe arbeitsloser Rüstungsarbeiter die GeFabrik. Das Unternehmen, das sich der Erneuerung der ursprünglichen Konstruktionsprinzipien verschrieben hat, ist legendär für seine ausgiebigen Tests, die manchmal bis zu 10 Jahre dauern, um &quot;ganz&quot; neue Waffenformate zu produzieren.
-  Die GeFabrik wird weithin als das Unternehmen angesehen, das den Ruf der deutschen Rüstungsindustrie im Alleingang gerettet hat, ohne dabei seinen Sinn für Humor zu verlieren.</Value>
+      Im Zuge des Zusammenbruchs der europäischen Waffenproduktion in den 2030er Jahren gründete eine Gruppe arbeitsloser Rüstungsarbeiter die GeFabrik. Das Unternehmen, das sich der Erneuerung der ursprünglichen Konstruktionsprinzipien verschrieben hat, ist legendär für seine ausgiebigen Tests, die manchmal bis zu 10 Jahre dauern, um &quot;ganz&quot; neue Waffenformate zu produzieren.
+      Die GeFabrik wird weithin als das Unternehmen angesehen, das den Ruf der deutschen Rüstungsindustrie im Alleingang gerettet hat, ohne dabei seinen Sinn für Humor zu verlieren.</Value>
     </Record>
     <Record>
       <Key>Hiiragi</Key>
@@ -18878,7 +19166,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>HiiragiDesc</Key>
       <Value>Gegründet von Noboru Hiiragi nach der Wirtschaftsblase des Jahres 2110, übernahm Hiiragi Communications mehrere prominente außerweltliche Unternehmen und wurde so schnell zum meistbenutzten Netzwerk für die Kommunikation über das Solarsystem.
-  Wenn du in letzter Zeit mit Freunden und Verwandten außerhalb der Welt kommuniziert hast, dann geschah dies über das Netzwerk von Hiiragi, auch wenn es unter dem Namen eines der vielen Tochterunternehmen lief. Hiiragi ist auch der größte Verkäufer von PCDs (Personal Communication Devices) und ein bedeutender, wenn auch schwer einzuschätzender Investor in terrestrische Telekommunikationsnetzwerke.</Value>
+      Wenn du in letzter Zeit mit Freunden und Verwandten außerhalb der Welt kommuniziert hast, dann geschah dies über das Netzwerk von Hiiragi, auch wenn es unter dem Namen eines der vielen Tochterunternehmen lief. Hiiragi ist auch der größte Verkäufer von PCDs (Personal Communication Devices) und ein bedeutender, wenn auch schwer einzuschätzender Investor in terrestrische Telekommunikationsnetzwerke.</Value>
     </Record>
     <Record>
       <Key>Norsec</Key>
@@ -18887,8 +19175,8 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>NorsecDesc</Key>
       <Value>Norsec (auch bekannt als Northern Security Systems) hat seine Wurzeln in der Rüstungsindustrie des frühen 20. Jahrhunderts und war schon früh in den Asteroidenabbau involviert - einer seiner Schlepper war in den berüchtigten Sisyphusangriff auf die junge Marskolonie Sanders verwickelt.
-  Norsec wurde offiziell von jeglichem Fehlverhalten freigesprochen, aber als die {LINK:ODA;ODA} die Umsiedlung auf Asteroiden verbot, verlagerte das Unternehmen seinen Schwerpunkt auf Infrastruktur und Produktion.
-  Die im Orbit ansässige Abteilung für Raumfahrtsysteme von Norsec ist für die Entwicklung und Produktion der wichtigsten Transportsysteme der {LINK:ODA;ODA} verantwortlich und soll Gerüchten zufolge auch eine große Beteiligung an {LINK:ExMin;ExMin} haben. Das Unternehmen ist auch für seine Bereitschaft bekannt, sich an experimenteller Robotertechnologie zu beteiligen.</Value>
+      Norsec wurde offiziell von jeglichem Fehlverhalten freigesprochen, aber als die {LINK:ODA;ODA} die Umsiedlung auf Asteroiden verbot, verlagerte das Unternehmen seinen Schwerpunkt auf Infrastruktur und Produktion.
+      Die im Orbit ansässige Abteilung für Raumfahrtsysteme von Norsec ist für die Entwicklung und Produktion der wichtigsten Transportsysteme der {LINK:ODA;ODA} verantwortlich und soll Gerüchten zufolge auch eine große Beteiligung an {LINK:ExMin;ExMin} haben. Das Unternehmen ist auch für seine Bereitschaft bekannt, sich an experimenteller Robotertechnologie zu beteiligen.</Value>
     </Record>
     <Record>
       <Key>ODA</Key>
@@ -18897,8 +19185,8 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>ODADesc</Key>
       <Value>Nach der Erdkrise hat die Menschheit ihr Augenmerk weniger auf den Weltraum gerichtet. Doch viele waren der Meinung, dass unsere Spezies ohne Ambitionen jenseits unseres Heimatplaneten ins Wanken geraten könnte.
-  Die Offworld Development Agency, die 2070CE von den neu gegründeten Vereinten Nationen ins Leben gerufen wurde, hatte ein ganz bestimmtes Ziel: Sie sollte die Erforschung des Weltraums durch die Menschen anleiten und fördern, während der Kosmos in der öffentlichen Wahrnehmung immer mehr in den Hintergrund trat. 
-  Sie eröffnete das {LINK:Stationeers;Stationeer} Programm im Jahr 2095. Da die ODA wusste, dass die Finanzierung schwierig sein würde, konzipierte sie das Programm als eine langsam brennende, wenig aufwändige Weltrauminitiative. Während einige die Stationeers als &quot;billige kosmische Schiffbrüchige&quot; verspotteten, ist der Erfolg des Programms ein Beweis für die Weisheit und den Pragmatismus der ODA-Vision.</Value>
+      Die Offworld Development Agency, die 2070CE von den neu gegründeten Vereinten Nationen ins Leben gerufen wurde, hatte ein ganz bestimmtes Ziel: Sie sollte die Erforschung des Weltraums durch die Menschen anleiten und fördern, während der Kosmos in der öffentlichen Wahrnehmung immer mehr in den Hintergrund trat. 
+      Sie eröffnete das {LINK:Stationeers;Stationeer} Programm im Jahr 2095. Da die ODA wusste, dass die Finanzierung schwierig sein würde, konzipierte sie das Programm als eine langsam brennende, wenig aufwändige Weltrauminitiative. Während einige die Stationeers als &quot;billige kosmische Schiffbrüchige&quot; verspotteten, ist der Erfolg des Programms ein Beweis für die Weisheit und den Pragmatismus der ODA-Vision.</Value>
     </Record>
     <Record>
       <Key>Recurso</Key>
@@ -18907,9 +19195,9 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>RecursoDesc</Key>
       <Value>Dieser traditionsreiche brasilianische Bergbaukonzern expandierte Ende des 21. Jahrhunderts in den Weltraum.
-  Das Unternehmen, das sich vor allem auf den Abbau von Mineralien und Metallen konzentriert, kann am besten als verlängerter Arm der brasilianischen Regierung verstanden werden - es gibt nur wenige hochrangige politische Persönlichkeiten im modernen Brasilien, die nicht in den einen oder anderen Arm dieses Industriegiganten verwickelt sind.
-  Durch die Verflechtung mit der südamerikanischen Politik hat das Unternehmen großen Einfluss auf den Weltraumfahrstuhl in Manaus. Diese tiefgreifende staatliche Kontrolle hat dazu geführt, dass andere Gruppen - auch die {LINK:ODA;ODA} - eine gewisse &quot;Flexibilität&quot; gegenüber Recurso an den Tag legen.
-  Anschuldigungen wegen illegaler Asteroidenverschiebung, Sicherheitsverletzungen und zahlreicher kommerzieller Verstöße haben ihn kaum berührt. Verteidiger weisen darauf hin, dass vor Gericht nur sehr wenig bewiesen wurde und Recurso kaum allein ist - daher die Binsenweisheit: &quot;Im Weltraum leben wir alle in Glashäusern.&quot;</Value>
+      Das Unternehmen, das sich vor allem auf den Abbau von Mineralien und Metallen konzentriert, kann am besten als verlängerter Arm der brasilianischen Regierung verstanden werden - es gibt nur wenige hochrangige politische Persönlichkeiten im modernen Brasilien, die nicht in den einen oder anderen Arm dieses Industriegiganten verwickelt sind.
+      Durch die Verflechtung mit der südamerikanischen Politik hat das Unternehmen großen Einfluss auf den Weltraumfahrstuhl in Manaus. Diese tiefgreifende staatliche Kontrolle hat dazu geführt, dass andere Gruppen - auch die {LINK:ODA;ODA} - eine gewisse &quot;Flexibilität&quot; gegenüber Recurso an den Tag legen.
+      Anschuldigungen wegen illegaler Asteroidenverschiebung, Sicherheitsverletzungen und zahlreicher kommerzieller Verstöße haben ihn kaum berührt. Verteidiger weisen darauf hin, dass vor Gericht nur sehr wenig bewiesen wurde und Recurso kaum allein ist - daher die Binsenweisheit: &quot;Im Weltraum leben wir alle in Glashäusern.&quot;</Value>
     </Record>
     <Record>
       <Key>Sinotai</Key>
@@ -18918,8 +19206,8 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>SinotaiDesc</Key>
       <Value>Als einziges &quot;traditionelles&quot; Staatsgebilde, das die Politik außerhalb der Erde überlebt hat, ist Sinotai in seiner Reichweite und Energie nur von der {LINK:ODA;ODA} selbst übertroffen worden. In vielerlei Hinsicht ein Relikt - eine Unterbehörde einer unglaublich komplizierten, erdgebundenen Konzernbürokratie - hat Sinotai dank seiner Struktur unglaubliche Dinge erreicht.
-  Anfang des 21. Jahrhunderts hat Sinotai die ersten Menschen auf den Mars gebracht, das erste außerirdische Gigawatt-Energiesystem errichtet und die erste weltraumgestützte Treibstoffraffinerie gebaut - nur wenige Raumfahrtorganisationen haben eine gewisse Beziehung zu Sinotai. Ein gängiger Witz besagt, dass es unmöglich ist, ohne sie etwas im Weltraum zu unternehmen.
-  Unabhängig davon, ob das stimmt oder nicht, hat Sinotai bei der Entwicklung des Weltraums einen &quot;Soft Power&quot;-Ansatz verfolgt, der von Absichtserklärungen mit {LINK:Recurso;Recurso} (die ihnen bevorzugten Zugang zum Weltraumlift in Manaus gewähren) bis hin zu undurchsichtigen Allianzen mit einer Reihe von Händlerkonzernen reicht.</Value>
+      Anfang des 21. Jahrhunderts hat Sinotai die ersten Menschen auf den Mars gebracht, das erste außerirdische Gigawatt-Energiesystem errichtet und die erste weltraumgestützte Treibstoffraffinerie gebaut - nur wenige Raumfahrtorganisationen haben eine gewisse Beziehung zu Sinotai. Ein gängiger Witz besagt, dass es unmöglich ist, ohne sie etwas im Weltraum zu unternehmen.
+      Unabhängig davon, ob das stimmt oder nicht, hat Sinotai bei der Entwicklung des Weltraums einen &quot;Soft Power&quot;-Ansatz verfolgt, der von Absichtserklärungen mit {LINK:Recurso;Recurso} (die ihnen bevorzugten Zugang zum Weltraumlift in Manaus gewähren) bis hin zu undurchsichtigen Allianzen mit einer Reihe von Händlerkonzernen reicht.</Value>
     </Record>
     <Record>
       <Key>TK</Key>
@@ -18928,8 +19216,8 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>TKDesc</Key>
       <Value>Ursprünglich war das tansanische Unternehmen Kinetic Systems ein Verteidigungsunternehmen, das sich auf die Herstellung von Waffen mit hoher Leistung spezialisiert hatte, und wurde in Friedenszeiten zum führenden Konstrukteur von Hochgeschwindigkeits-Förderanlagen in Afrika.
-  Heute produziert TK eine Reihe von Netzwerken und Komponenten für Rutschen und hat dank der afro-chinesischen Partnerschaften im späten 21. Jahrhundert eine starke außerweltliche Präsenz. Das Unternehmen mit Sitz im &quot;wiedererstandenen&quot; Kigamboni-Bezirk von Dar E Salaam geht regelmäßig Entwicklungspartnerschaften mit {LINK:CHAC;CHAC} ein, so dass viele ihrer Produkte deutliche Ähnlichkeiten aufweisen.
-          Denn was ist eine Waffe anderes als ein &quot;Hochgeschwindigkeitsförderer&quot;.</Value>
+      Heute produziert TK eine Reihe von Netzwerken und Komponenten für Rutschen und hat dank der afro-chinesischen Partnerschaften im späten 21. Jahrhundert eine starke außerweltliche Präsenz. Das Unternehmen mit Sitz im &quot;wiedererstandenen&quot; Kigamboni-Bezirk von Dar E Salaam geht regelmäßig Entwicklungspartnerschaften mit {LINK:CHAC;CHAC} ein, so dass viele ihrer Produkte deutliche Ähnlichkeiten aufweisen.
+      Denn was ist eine Waffe anderes als ein &quot;Hochgeschwindigkeitsförderer&quot;.</Value>
     </Record>
     <Record>
       <Key>Xigo</Key>
@@ -18938,9 +19226,9 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>XigoDesc</Key>
       <Value>Eine Umfrage von 2150CE ergab, dass das Xigo 'X' eines der bekanntesten Symbole der Welt ist. Doch nur wenige Teilnehmer konnten den tatsächlichen Umfang des Unternehmens klar beschreiben.
-  Wo genau das Unternehmen anfängt und wo es aufhört, ist Gegenstand endloser Theorien, Finanzstudien und Gerichtsverfahren - ursprünglich war es eine Website für Preisvergleiche, dann expandierte das Konglomerat in den Bereich der Daten, dann in den Vertrieb und schließlich in die Produktion.
-  Es war eine scheinbar wahllose Expansion, die sich nicht auf eine Branche, sondern auf alle Branchen konzentrierte - und so viele Bereiche umfasste, dass Wirtschaftsanalysten die Vorstellung von Xigo als einem einzigen Unternehmen weitgehend ablehnen. Vielmehr ist es eine begriffliche Gruppierung für einen Zweig menschlicher Aktivitäten. Und obwohl solche Statistiken naturgemäß schwer zu bestätigen sind, gehen aktuelle Schätzungen davon aus, dass über 1,5 % der gesamten Menschheit bei Xigo beschäftigt sind.
-  Es genügt zu sagen, dass es fast alles produziert.</Value>
+      Wo genau das Unternehmen anfängt und wo es aufhört, ist Gegenstand endloser Theorien, Finanzstudien und Gerichtsverfahren - ursprünglich war es eine Website für Preisvergleiche, dann expandierte das Konglomerat in den Bereich der Daten, dann in den Vertrieb und schließlich in die Produktion.
+      Es war eine scheinbar wahllose Expansion, die sich nicht auf eine Branche, sondern auf alle Branchen konzentrierte - und so viele Bereiche umfasste, dass Wirtschaftsanalysten die Vorstellung von Xigo als einem einzigen Unternehmen weitgehend ablehnen. Vielmehr ist es eine begriffliche Gruppierung für einen Zweig menschlicher Aktivitäten. Und obwohl solche Statistiken naturgemäß schwer zu bestätigen sind, gehen aktuelle Schätzungen davon aus, dass über 1,5 % der gesamten Menschheit bei Xigo beschäftigt sind.
+      Es genügt zu sagen, dass es fast alles produziert.</Value>
     </Record>
     <Record>
       <Key>Stationeers</Key>
@@ -18949,11 +19237,11 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>StationeersDesc</Key>
       <Value>Im frühen 22. Jahrhundert wurde die Erde von einer Katastrophe heimgesucht. Die Rohstoffe waren aufgebraucht, die Bevölkerung geschrumpft und der Wiederaufbau war das Gebot der Stunde.
-  Das von der {LINK:ODA;Offworld Development Agency} (ODA) im Jahr 2095CE ins Leben gerufene Stationeers-Programm war einem einzigen Ideal gewidmet: die Menschheit zu den Sternen zu führen.
-  Stationeers sind alles: Astronauten, Ingenieure und Entdecker, die mit begrenzter Ausrüstung und Werkzeugen auskommen müssen und darauf trainiert sind, mit weniger mehr zu erreichen. Ihre Aufgabe ist es, die Umwelt zu ihrem Vorteil zu nutzen und eine Infrastruktur für die Menschen im Weltraum zu schaffen, und zwar zu einem Bruchteil der Kosten herkömmlicher Raumfahrtprogramme.
-  Stationeers sind in der Lage, Basen auf dem Mond, auf Mimas und darüber hinaus zu errichten und zu unterhalten und sind unsere Vorhut im Kosmos. Ausgebildet in den Bereichen Überleben außerhalb der Erde, Bergbau- und Bautechniken, Metallurgie, Elektronik, Raketentechnik, Hydrokultur und anderen &quot;geheimen&quot; Wissenschaften, tun Stationeers, was sie tun müssen, um zu überleben und zu gedeihen.
-  Da es keine Aufnahmekriterien gibt, gibt es auch keinen &quot;typischen&quot; Stationeers. Psychologische Profile zeigen, dass erfolgreiche Kadetten einen gewissen Pragmatismus und Zielstrebigkeit an den Tag legen, aber einige der berühmtesten Stationeers besitzen keine dieser Eigenschaften.
-  Das Stationeer-Programm ist grundsätzlich für alle Menschen offen, egal ob sie aus dem Bauwesen, dem Militär, der Luft- und Raumfahrtindustrie, der Softwareentwicklung, dem Bergbau, der Wissenschaft oder sogar aus religiösen Gemeinschaften kommen.</Value>
+      Das von der {LINK:ODA;Offworld Development Agency} (ODA) im Jahr 2095CE ins Leben gerufene Stationeers-Programm war einem einzigen Ideal gewidmet: die Menschheit zu den Sternen zu führen.
+      Stationeers sind alles: Astronauten, Ingenieure und Entdecker, die mit begrenzter Ausrüstung und Werkzeugen auskommen müssen und darauf trainiert sind, mit weniger mehr zu erreichen. Ihre Aufgabe ist es, die Umwelt zu ihrem Vorteil zu nutzen und eine Infrastruktur für die Menschen im Weltraum zu schaffen, und zwar zu einem Bruchteil der Kosten herkömmlicher Raumfahrtprogramme.
+      Stationeers sind in der Lage, Basen auf dem Mond, auf Mimas und darüber hinaus zu errichten und zu unterhalten und sind unsere Vorhut im Kosmos. Ausgebildet in den Bereichen Überleben außerhalb der Erde, Bergbau- und Bautechniken, Metallurgie, Elektronik, Raketentechnik, Hydrokultur und anderen &quot;geheimen&quot; Wissenschaften, tun Stationeers, was sie tun müssen, um zu überleben und zu gedeihen.
+      Da es keine Aufnahmekriterien gibt, gibt es auch keinen &quot;typischen&quot; Stationeers. Psychologische Profile zeigen, dass erfolgreiche Kadetten einen gewissen Pragmatismus und Zielstrebigkeit an den Tag legen, aber einige der berühmtesten Stationeers besitzen keine dieser Eigenschaften.
+      Das Stationeer-Programm ist grundsätzlich für alle Menschen offen, egal ob sie aus dem Bauwesen, dem Militär, der Luft- und Raumfahrtindustrie, der Softwareentwicklung, dem Bergbau, der Wissenschaft oder sogar aus religiösen Gemeinschaften kommen.</Value>
     </Record>
     <Record>
       <Key>ControlMouseControl</Key>
@@ -19212,16 +19500,20 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>Spezifische Wärme:</Value>
     </Record>
     <Record>
+      <Key>StationpediaAutoIgnition</Key>
+      <Value>Automatische Zündung:</Value>
+    </Record>
+    <Record>
       <Key>StationpediaLatentHeatHeader</Key>
-      <Value>Latent Heat:</Value>
+      <Value>Latente Wärme:</Value>
     </Record>
     <Record>
       <Key>StationpediaMolesPerLitreHeader</Key>
-      <Value>Mols per Litre:</Value>
+      <Value>Mols pro Liter:</Value>
     </Record>
     <Record>
       <Key>StationpediaMolesPerLitreInWorldHeader</Key>
-      <Value>Mols per Litre In-World:</Value>
+      <Value>Mols pro Liter In-World:</Value>
     </Record>
     <Record>
       <Key>StationpediaShatterHeader</Key>
@@ -19237,19 +19529,19 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>FreezeTemperature</Key>
-      <Value>Freezing Temperature:</Value>
+      <Value>Gefriertemperatur:</Value>
     </Record>
     <Record>
       <Key>BoilingTemperature</Key>
-      <Value>Boiling Temperature:</Value>
+      <Value>Siedetemperatur:</Value>
     </Record>
     <Record>
       <Key>MaxLiquidTemperature</Key>
-      <Value>Max Liquid Temperature:</Value>
+      <Value>Maximale Flüssigkeitstemperatur:</Value>
     </Record>
     <Record>
       <Key>MinLiquidPressure</Key>
-      <Value>Min Condensation Pressure:</Value>
+      <Value>Mindestkondensationsdruck:</Value>
     </Record>
     <Record>
       <Key>StationpediaConstructedFrom</Key>
@@ -19273,7 +19565,11 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>StationpediaGasHeader</Key>
-      <Value>Gase</Value>
+      <Value>Gase und Flüssigkeiten</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaFermentationHeader</Key>
+      <Value>Fermentationsergebnisse</Value>
     </Record>
     <Record>
       <Key>StationpediaResoucesHeader</Key>
@@ -19282,6 +19578,10 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>StationpediaUsedIn</Key>
       <Value>Benutzt in</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaCombustion</Key>
+      <Value>Verbrenner</Value>
     </Record>
     <Record>
       <Key>StationpediaManufactures</Key>
@@ -19349,19 +19649,19 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>MoodLow</Key>
-      <Value>Mood Low</Value>
+      <Value>Stimmungstief</Value>
     </Record>
     <Record>
       <Key>MoodCritical</Key>
-      <Value>Mood Critical</Value>
+      <Value>Stimmung kritisch</Value>
     </Record>
     <Record>
       <Key>HygieneLow</Key>
-      <Value>Hygiene Low</Value>
+      <Value>Niedrige Hygiene</Value>
     </Record>
     <Record>
       <Key>HygieneCritical</Key>
-      <Value>Hygiene Critical</Value>
+      <Value>Hygiene kritisch</Value>
     </Record>
     <Record>
       <Key>Guides</Key>
@@ -19477,7 +19777,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>StationpediaMoodBonus</Key>
-      <Value>Mood Bonus:</Value>
+      <Value>Stimmungsbonus:</Value>
     </Record>
     <Record>
       <Key>StationpediaGrowthTime</Key>
@@ -19559,6 +19859,50 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>MoleSteamDescription</Key>
       <Value>Evaporated {GAS:Water}. It can be created by rasing the temperature of {GAS:Water} to its boiling point. When introduced into a pipe {GAS:Steam} will condense back into {GAS:Water} if it's temperature is below it's boiling point. Steam can be created by combusting {GAS:Methane} and oxygen using the {THING:H2Combustor}</Value>
+    </Record>
+    <Record>
+     <Key>MoleHydrazineDescription</Key>
+      <Value>{GAS:Hydrazine} is the perfect fuel for space exploration as it requires no oxidiser to combust, only needing heat or a spark. It is more commonly stored in it's liquid form {GAS:LiquidHydrazine} which is stable at room temperature. It is extremely toxic to all forms of life.</Value>
+    </Record>
+    <Record>
+      <Key>MoleLiquidHydrazineDescription</Key>
+      <Value>{GAS:Hydrazine} in its liquid form. It is stable at room temperature and makes for an excellent rocket fuel.</Value>
+    </Record>
+    <Record>
+      <Key>MoleHeliumDescription</Key>
+      <Value>{GAS:Helium} is a fully inert gas that will neither freeze or condense into liquid, making it an excellent working gas in atmospherics systems that must avoid phase-change.</Value>
+    </Record>
+    <Record>
+      <Key>MoleLiquidAlcoholDescription</Key>
+      <Value>{GAS:LiquidAlcohol} is a relatively safe and versatile volatile liquid at room temperatures. When exposed to a vacuum it will decompose into {GAS:Methane} to form a small head pressure.</Value>
+    </Record>
+    <Record>
+      <Key>MoleLiquidSodiumChlorideDescription</Key>
+      <Value>{GAS:LiquidSodiumChloride} is unique in that it will remain in liquid form at extremely high temperatures making it an excellent medium for storing heat energy. When exposed to a vacuum it will decompose into {GAS:Pollutant} to form a small head pressure. At room temperature it exists as solid {THING:ItemPureIceLiquidSodiumChloride}.</Value>
+    </Record>
+    <Record>
+      <Key>MoleSilanolDescription</Key>
+      <Value>{GAS:Silanol} is the premium refrigerant gas for utilising phase change to pump heat. It has a wide liquid range an is more commonly found in it's liquid form {GAS:LiquidSilanol}.</Value>
+    </Record>
+    <Record>
+      <Key>MoleLiquidSilanolDescription</Key>
+      <Value>{GAS:Silanol} in its liquid form is the premium refrigerant gas for utilising phase change to pump heat. With its extremely high heat capacity it also makes an excellent coolant, able to absorb large quantities of heat energy with minimal temperature fluctuation.</Value>
+    </Record>
+    <Record>
+      <Key>MoleHydrochloricAcidDescription</Key>
+      <Value>A highly toxic gas.</Value>
+    </Record>
+    <Record>
+      <Key>MoleLiquidHydrochloricAcidDescription</Key>
+      <Value>A highly toxic liquid.</Value>
+    </Record>
+    <Record>
+      <Key>MoleOzoneDescription</Key>
+      <Value>{GAS:Ozone} is a highly energetic oxidiser. As with {GAS:NitrousOxide}, when mixed with a volatile gas {GAS:Ozone} will create extra hot combustion.</Value>
+    </Record>
+    <Record>
+      <Key>MoleLiquidOzoneDescription</Key>
+      <Value>{GAS:Ozone} in its liquid form.</Value>
     </Record>
     <Record>
       <Key>SettingsSmoothTerrain</Key>
@@ -21642,6 +21986,10 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>Fuel Tank</Value>
     </Record>
     <Record>
+      <Key>SpawnDataHydrogenFuelTank</Key>
+      <Value>Hydrogen Fuel Tank</Value>
+    </Record>
+    <Record>
       <Key>SpawnDataOxygenTank</Key>
       <Value>Oxygen Tank</Value>
     </Record>
@@ -21656,6 +22004,10 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>SpawnDataLiquidOxygenTank</Key>
       <Value>Liquid Oxygen Tank</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataLiquidVolatilesTank</Key>
+      <Value>Liquid Volatiles Tank</Value>
     </Record>
     <Record>
       <Key>SpawnDataLiquidMethaneTank</Key>
@@ -21708,6 +22060,10 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>SpawnDataOxygenCanister</Key>
       <Value>Oxygen Canister</Value>
+    </Record>
+    <Record>
+      <Key>SpawnDataVolatilesCanister</Key>
+      <Value>Volatiles Canister</Value>
     </Record>
     <Record>
       <Key>SpawnDataMethaneCanister</Key>
@@ -22090,6 +22446,14 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>Bulk Carbon Dioxide</Value>
     </Record>
     <Record>
+      <Key>BuyDataBulkCarbonDioxideVenus</Key>
+      <Value>Carbon Dioxide from Venus</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBulkCarbonDioxideMars</Key>
+      <Value>Carbon Dioxide from Mars</Value>
+    </Record>
+    <Record>
       <Key>BuyDataBulkWater</Key>
       <Value>Bulk Water</Value>
     </Record>
@@ -22170,6 +22534,10 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>Bulk Methane</Value>
     </Record>
     <Record>
+      <Key>BuyDataBulkHydrogen</Key>
+      <Value>Hydrogen from Vulcan</Value>
+    </Record>
+    <Record>
       <Key>BuyDataBulkOxygen</Key>
       <Value>Bulk Oxygen</Value>
     </Record>
@@ -22186,12 +22554,24 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>Bulk Nitrogen</Value>
     </Record>
     <Record>
+      <Key>SellDataBulkHelium</Key>
+      <Value>Bulk Helium</Value>
+    </Record>
+    <Record>
       <Key>SellDataBulkCarbonDioxide</Key>
       <Value>Bulk Carbon Dioxide</Value>
     </Record>
     <Record>
       <Key>SellDataBulkMethane</Key>
       <Value>Bulk Methane</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkHydrogen</Key>
+      <Value>Bulk Hydrogen</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkSilanol</Key>
+      <Value>Bulk Silanol</Value>
     </Record>
     <Record>
       <Key>SellDataBulkPollutants</Key>
@@ -22222,6 +22602,10 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>Fuel Canister</Value>
     </Record>
     <Record>
+      <Key>SellDataLiquidHydrazineCanister</Key>
+      <Value>Liquid Hydrazine Canister</Value>
+    </Record>
+    <Record>
       <Key>SellDataWaterCanister</Key>
       <Value>Water Canister</Value>
     </Record>
@@ -22248,6 +22632,22 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>SellDataBulkLiquidMethane</Key>
       <Value>Bulk Liquid Methane</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkLiquidHydrogen</Key>
+      <Value>Bulk Liquid Hydrogen</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkLiquidOzone</Key>
+      <Value>Bulk Liquid Ozone</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkLiquidHydrochloricAcid</Key>
+      <Value>Bulk Liquid HydrochloricAcid</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkLiquidHydrazine</Key>
+      <Value>Bulk Liquid Hydrazine</Value>
     </Record>
     <Record>
       <Key>SellDataLiquidNitrogenCanister</Key>
@@ -22824,7 +23224,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
                 
       We know losing saves is frustrating, but this rewrite lays the foundation for the future of Stationeers.
       Thank you for your understanding, and we can’t wait for you to experience what’s new.
-            </Value>
+      </Value>
     </Record>
     <Record>
       <Key>StationpediaPowerCapacity</Key>
@@ -22853,6 +23253,14 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>ButtonLink</Key>
       <Value>Link</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaFermentation</Key>
+      <Value>Ferments into: </Value>
+    </Record>
+    <Record>
+      <Key>StationpediaFermentable</Key>
+      <Value>Fermentable:</Value>
     </Record>
   </Interface>
   <Colors>
@@ -25977,15 +26385,15 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>UnitSeconds</Key>
-      <Value>{LOCAL:Value} seconds</Value>
+      <Value>{LOCAL:Value} sekunden</Value>
     </Record>
     <Record>
       <Key>UnitSecond</Key>
-      <Value>{LOCAL:Value} second</Value>
+      <Value>{LOCAL:Value} sekunde</Value>
     </Record>
     <Record>
       <Key>UnitMinutes</Key>
-      <Value>{LOCAL:Value} minutes</Value>
+      <Value>{LOCAL:Value} minuten</Value>
     </Record>
     <Record>
       <Key>UnitMinute</Key>
@@ -25993,43 +26401,43 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>UnitHours</Key>
-      <Value>{LOCAL:Value} hours</Value>
+      <Value>{LOCAL:Value} stunden</Value>
     </Record>
     <Record>
       <Key>UnitHour</Key>
-      <Value>{LOCAL:Value} hour</Value>
+      <Value>{LOCAL:Value} stunde</Value>
     </Record>
     <Record>
       <Key>UnitDays</Key>
-      <Value>{LOCAL:Value} days</Value>
+      <Value>{LOCAL:Value} tage</Value>
     </Record>
     <Record>
       <Key>UnitDay</Key>
-      <Value>{LOCAL:Value} day</Value>
+      <Value>{LOCAL:Value} tag</Value>
     </Record>
     <Record>
       <Key>UnitWeeks</Key>
-      <Value>{LOCAL:Value} weeks</Value>
+      <Value>{LOCAL:Value} wochen</Value>
     </Record>
     <Record>
       <Key>UnitWeek</Key>
-      <Value>{LOCAL:Value} week</Value>
+      <Value>{LOCAL:Value} woche</Value>
     </Record>
     <Record>
       <Key>UnitMonths</Key>
-      <Value>{LOCAL:Value} months</Value>
+      <Value>{LOCAL:Value} monate</Value>
     </Record>
     <Record>
       <Key>UnitMonth</Key>
-      <Value>{LOCAL:Value} month</Value>
+      <Value>{LOCAL:Value} monat</Value>
     </Record>
     <Record>
       <Key>UnitYears</Key>
-      <Value>{LOCAL:Value} years</Value>
+      <Value>{LOCAL:Value} jahre</Value>
     </Record>
     <Record>
       <Key>UnitYear</Key>
-      <Value>{LOCAL:Value} year</Value>
+      <Value>{LOCAL:Value} jahr</Value>
     </Record>
     <Record>
       <Key>WaterWrongTemp</Key>
@@ -27578,6 +27986,10 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>RocketOxidizer</Key>
       <Value>Oxidizer</Value>
+    </Record>
+    <Record>
+      <Key>RocketVolatiles</Key>
+      <Value>Volatiles</Value>
     </Record>
     <Record>
       <Key>RocketMethane</Key>
