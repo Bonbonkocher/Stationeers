@@ -4371,7 +4371,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemWearLamp</Key>
-      <Value>Scheinwerfer</Value>
+      <Value>Stirnlampe</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9883,7 +9883,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </RecordThing>
     <RecordThing>
       <Key>CardboardBoxLarge</Key>
-      <Value>Large Cardboard Box</Value>
+      <Value>Große Pappschachtel</Value>
       <Description />
     </RecordThing>
     <RecordThing>
