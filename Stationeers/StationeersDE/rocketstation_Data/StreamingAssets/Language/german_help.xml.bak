@@ -249,7 +249,6 @@
     </StationpediaPage>
     <StationpediaPage>
       <Key>GeneticsPage</Key>
-      <DisplayFilter>Guides</DisplayFilter>
       <Title>Genetik</Title>
       <Text>Pflanzen haben eine Reihe von Genen, die ihr Verhalten verändern. Die Gene einer Pflanze können auf verschiedene Weise manipuliert werden, sowohl auf natürliche als auch auf künstliche Weise. Wenn eine Pflanze Früchte oder Samen produziert, gibt sie ihre Gene mit einer kleinen Zufallsmutation weiter.
 
@@ -287,7 +286,6 @@
     </StationpediaPage>
     <StationpediaPage>
       <Key>AutomatedRocketPage</Key>
-      <Title>Raketen</Title>
       <DisplayFilter>Guides</DisplayFilter>
       <Title>Automatisierte Raketenmodule (A.R.M.)</Title>
       <Text>&quot;Automatisierte Raketen sind unbemannte Fahrzeuge, die außerhalb der Welten entsandt werden können, um eine Reihe von Rohstoffen zu holen. Die Rakete kann von {LINK:LogicUnitPage;logic} oder {LINK:LogicUnitPage;IC} oder einer Mischung aus diesen Systemen gesteuert werden.

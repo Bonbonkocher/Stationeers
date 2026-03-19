@@ -249,8 +249,8 @@
       <Value>Stickstoff</Value>
     </Record>
     <Record>
-      <Key>Volatiles</Key>
-      <Value>Flüchtige Stoffe</Value>
+      <Key>Methane</Key>
+      <Value>Methan</Value>
     </Record>
     <Record>
       <Key>Pollutant</Key>
@@ -277,7 +277,7 @@
       <Value>Flüssiges Sauerstoff</Value>
     </Record>
     <Record>
-      <Key>LiquidVolatiles</Key>
+      <Key>LiquidMethane</Key>
       <Value>Flüssiges Flüchtige Stoffe</Value>
     </Record>
     <Record>
@@ -952,9 +952,9 @@
       <Description>Tragbare Tanks speichern Gas. Wenn du einen Tank auffüllen musst, schraubst du ihn mit einem {THING:ItemTankConnector} an einen {THING:ItemWrench} und verbindest ihn dann mit einem Netzwerk von Leitungen. Vermeide es, den Druck auf über 10 MPa zu erhöhen, sonst kannst du dir die Splitter des Tanks aus dem Gesicht kratzen. Du kannst einen {THING:ItemGasCanisterOxygen} nachfüllen, indem du ihn an den gestreiften Teil des Tanks anschließt. Oder du kannst ihn in einen versiegelten Raum ablassen, um eine Atmosphäre zu schaffen. Oder du malst ihn rosa an, nennst ihn Steve und füllst den traurigen Raum in deinem Herzen.</Description>
     </RecordThing>
     <RecordThing>
-      <Key>DynamicGasCanisterVolatiles</Key>
+      <Key>DynamicGasCanisterMethane</Key>
       <Value>Tragbarer Gastank (flüchtige Stoffe)</Value>
-      <Description>Tragbare Tanks speichern Gas. Um ihn aufzufüllen, schraubst du ihn mit einem {THING:ItemTankConnector} an einen {THING:ItemWrench} und schließt ihn dann an ein Netzwerk an. Fülle ihn nicht mit mehr als 10 MPa, es sei denn, du liebst komplizierte, entflammbare Notfälle. Du kannst einen {THING:ItemGasCanisterVolatiles} nachfüllen, indem du ihn an den gestreiften Teil des Tanks anschließt. Oder du kannst einen {THING:ItemWrench} benutzen, um ihn an einer Rakete zu befestigen und im Sonnensystem herumzuzeigen.</Description>
+      <Description>Tragbare Tanks speichern Gas. Um ihn aufzufüllen, schraubst du ihn mit einem {THING:ItemTankConnector} an einen {THING:ItemWrench} und schließt ihn dann an ein Netzwerk an. Fülle ihn nicht mit mehr als 10 MPa, es sei denn, du liebst komplizierte, entflammbare Notfälle. Du kannst einen {THING:ItemGasCanisterMethane} nachfüllen, indem du ihn an den gestreiften Teil des Tanks anschließt. Oder du kannst einen {THING:ItemWrench} benutzen, um ihn an einer Rakete zu befestigen und im Sonnensystem herumzuzeigen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterWater</Key>
@@ -1224,11 +1224,11 @@
     <RecordThing>
       <Key>ItemGasCanisterFuel</Key>
       <Value>Kanister (Kraftstoff)</Value>
-      <Description>Der orangefarbene tragbare {LINK:GasPage;fuel} {SLOT:GasCanister} liefert ein 64 l-Gemisch aus 66% {GAS:Volatiles}/34% {GAS:Oxygen} für die Energieversorgung von Gegenständen wie dem {THING:ItemWeldingTorch} und dem {THING:DynamicGenerator}. Alle Gaskanister sind bei der Herstellung bis zu einem Druck von 8000kPa (80 Atmosphären) gefüllt und können zum Nachfüllen an einem {THING:DynamicGasCanisterAir} oder {THING:StructureGasTankStorage} befestigt werden.
+      <Description>Der orangefarbene tragbare {LINK:GasPage;fuel} {SLOT:GasCanister} liefert ein 64 l-Gemisch aus 66% {GAS:Methane}/34% {GAS:Oxygen} für die Energieversorgung von Gegenständen wie dem {THING:ItemWeldingTorch} und dem {THING:DynamicGenerator}. Alle Gaskanister sind bei der Herstellung bis zu einem Druck von 8000kPa (80 Atmosphären) gefüllt und können zum Nachfüllen an einem {THING:DynamicGasCanisterAir} oder {THING:StructureGasTankStorage} befestigt werden.
       Achte darauf, den Druck nicht über 10MPa zu erhöhen, sonst könnte es &quot;knallen&quot;.</Description>
     </RecordThing>
     <RecordThing>
-      <Key>ItemGasCanisterVolatiles</Key>
+      <Key>ItemGasCanisterMethane</Key>
       <Value>Kanister (flüchtige Stoffe)</Value>
       <Description />
     </RecordThing>
@@ -1275,9 +1275,9 @@
       <Description>{LINK:Sinotai;Sinotai} haben den Markt für Filterdesign erobert. Ihre markenrechtlich geschützten Vorlagen sind einfach zu drucken und hocheffizient beim Auffangen verschiedener Gase, die dann entsorgt oder anderweitig benutzt werden können. {GAS:Oxygen} ist ein gewöhnliches Nebenprodukt bei der Verhüttung verschiedener Erze, muss aber mit diesem Filter und verschiedenen Geräten wie dem {THING:ItemDynamicScrubber} von Verunreinigungen wie {GAS: Nitrogen} befreit werden.</Description>
     </RecordThing>
     <RecordThing>
-      <Key>ItemGasFilterVolatiles</Key>
+      <Key>ItemGasFilterMethane</Key>
       <Value>Filter (flüchtige Stoffe)</Value>
-      <Description>Filter werden benutzt, um verschiedene Gase aufzufangen, die dann entsorgt oder anderweitig benutzt werden können. {GAS:Volatiles} werden erzeugt, indem {THING:ItemVolatiles} der Hitze ausgesetzt wird. Das Produkt kann dann aufgefangen und mit {GAS:Oxygen} kombiniert werden, um Treibstoff zu erzeugen, oder es wird in einem {LINK:StructureFurnace} benutzt, um Erze zu schmelzen und {LINK:IngotPage;alloys} herzustellen.</Description>
+      <Description>Filter werden benutzt, um verschiedene Gase aufzufangen, die dann entsorgt oder anderweitig benutzt werden können. {GAS:Methane} werden erzeugt, indem {THING:ItemMethane} der Hitze ausgesetzt wird. Das Produkt kann dann aufgefangen und mit {GAS:Oxygen} kombiniert werden, um Treibstoff zu erzeugen, oder es wird in einem {LINK:StructureFurnace} benutzt, um Erze zu schmelzen und {LINK:IngotPage;alloys} herzustellen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterWater</Key>
@@ -1756,7 +1756,7 @@
       <Key>ItemSteelIngot</Key>
       <Value>Barren (Stahl)</Value>
       <Description>Stahlbarren sind eine Metalllegierung, die in einem {THING:StructureFurnace} durch Schmelzen von {THING:ItemIronOre} und {THING:ItemCoalOre} im Verhältnis 3:1 hergestellt wird.
-  Es mag nicht elegant sein, aber {THING:ItemOxite} und {THING:ItemVolatiles} können in einem Verhältnis von 1:2 in einem Ofen kombiniert werden, um das notwendige Gasgemisch für die Verhüttung zu erzeugen.</Description>
+  Es mag nicht elegant sein, aber {THING:ItemOxite} und {THING:ItemMethane} können in einem Verhältnis von 1:2 in einem Ofen kombiniert werden, um das notwendige Gasgemisch für die Verhüttung zu erzeugen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSteelSheets</Key>
@@ -2251,8 +2251,8 @@
     <RecordThing>
       <Key>StructureFurnace</Key>
       <Value>Ofen</Value>
-      <Description>Der Zhurong-Ofen verwendet ein Hochtemperatur-Gasgemisch aus {GAS:Oxygen} und {GAS:Volatiles}, um {LINK:IngotPage;ingots} und eine Reihe von {LINK:IngotPage;alloys} als Rohmaterial für {LINK:FabricatorPage;fabricators} zu schmelzen.
-      Ein grundlegendes Gasgemisch kann durch die Zugabe von {THING:ItemOxite} und {THING:ItemVolatiles} im Verhältnis 1:2 direkt in den Ofen erreicht werden, aber komplexere Legierungen erfordern ein sorgfältiges Management eines speziellen Gasmischnetzwerks. Das genaue Mischungsverhältnis der Bestandteile muss beachtet werden. Ebenso produziert das Schmelzen von Erzen bei unzureichenden Temperaturen {LINK:ReagentPage;reagents}, die recycelt werden müssen.
+      <Description>Der Zhurong-Ofen verwendet ein Hochtemperatur-Gasgemisch aus {GAS:Oxygen} und {GAS:Methane}, um {LINK:IngotPage;ingots} und eine Reihe von {LINK:IngotPage;alloys} als Rohmaterial für {LINK:FabricatorPage;fabricators} zu schmelzen.
+      Ein grundlegendes Gasgemisch kann durch die Zugabe von {THING:ItemOxite} und {THING:ItemMethane} im Verhältnis 1:2 direkt in den Ofen erreicht werden, aber komplexere Legierungen erfordern ein sorgfältiges Management eines speziellen Gasmischnetzwerks. Das genaue Mischungsverhältnis der Bestandteile muss beachtet werden. Ebenso produziert das Schmelzen von Erzen bei unzureichenden Temperaturen {LINK:ReagentPage;reagents}, die recycelt werden müssen.
       Wenn Wasser im Ofen vorhanden ist, sammelt es sich dort, bis der Ofen an ein Netzwerk von Flüssigkeitsleitungen angeschlossen wird.</Description>
     </RecordThing>
     <RecordThing>
@@ -2737,7 +2737,7 @@
       <Value>Lichtbogenofen</Value>
       <Description>Das einfachste Schmelzsystem, das dem durchschnittlichen {LINK:Stationeers;Stationeer} zur Verfügung steht, der {LINK:Recurso;Recurso's} Lichtbogenofen, wurde in den Tiefen des Sonnensystems geschmiedet, um Geologen bei der Erkundung der Reinheit potenzieller asteroidaler Abbauziele zu helfen.
   Er wurde von der {LINK:ODA;ODA} übernommen und bietet den Stationeers nun die Möglichkeit, reine Barren aus verschiedenen Rohstoffen zu produzieren.
-  Beim Schmelzprozess werden auch eine Reihe von Nebenprodukten {LINK:GasPage;gases} freigesetzt, vor allem {GAS:Nitrogen}, {GAS:CarbonDioxide}, {GAS:Volatiles} und {GAS:Oxygen} in unterschiedlichen Verhältnissen. Diese können durch Filterung aus der Atmosphäre zurückgewonnen werden, machen den Lichtbogenofen aber auch zu einem Risiko in geschlossenen Umgebungen. 
+  Beim Schmelzprozess werden auch eine Reihe von Nebenprodukten {LINK:GasPage;gases} freigesetzt, vor allem {GAS:Nitrogen}, {GAS:CarbonDioxide}, {GAS:Methane} und {GAS:Oxygen} in unterschiedlichen Verhältnissen. Diese können durch Filterung aus der Atmosphäre zurückgewonnen werden, machen den Lichtbogenofen aber auch zu einem Risiko in geschlossenen Umgebungen. 
   Anders als der fortschrittlichere {THING:StructureFurnace} kann der Lichtbogenofen keine {LINK:IngotPage;alloys} herstellen.</Description>
     </RecordThing>
     <RecordThing>
@@ -2906,11 +2906,11 @@
       <Description>Der Elektronikdrucker stellt jedes {LINK:ElectronicPage;electronic} Teil her, das du brauchst. Von Leiterplatten und elektronischen Geräten bis hin zu Solarzellen. Du hast die Wahl. Verbessere das Gerät mit einem {THING:ElectronicPrinterMod} für zusätzliche Rezepte und schnellere Verarbeitungsgeschwindigkeiten.</Description>
     </RecordThing>
     <RecordThing>
-      <Key>ItemVolatiles</Key>
+      <Key>ItemMethane</Key>
       <Value>Eis (flüchtige Stoffe)</Value>
       <Description>Ein extrem reaktives Eis, in dem zahlreiche Kohlenwasserstoffe eingeschlossen sind. Der Einfachheit halber werden diese von Geräten wie dem {THING:CartridgeAtmosAnalyser} oft als H2 angezeigt.
         
-  Flüchtige Stoffe verbrennen in einem Verhältnis von 2:1 mit {GAS:Oxygen} und erzeugen dabei {GAS:CarbonDioxide} und Schadstoffe. Wenn sie jedoch mit Geräten wie dem {THING:H2Combustor} in Anwesenheit von {GAS:Oxygen} katalysiert werden, produzieren sie Wasser und Wärme mit einer geringen Menge an {GAS:CarbonDioxide} und {GAS:Pollutant} durch die Selbstzündung der flüchtigen Stoffe in der Kammer. Neben {GAS:Oxygen} ist {GAS:Volatiles} auch der Hauptbestandteil des Brennstoffs für Geräte wie den {THING:ItemWeldingTorch}.</Description>
+  Flüchtige Stoffe verbrennen in einem Verhältnis von 2:1 mit {GAS:Oxygen} und erzeugen dabei {GAS:CarbonDioxide} und Schadstoffe. Wenn sie jedoch mit Geräten wie dem {THING:H2Combustor} in Anwesenheit von {GAS:Oxygen} katalysiert werden, produzieren sie Wasser und Wärme mit einer geringen Menge an {GAS:CarbonDioxide} und {GAS:Pollutant} durch die Selbstzündung der flüchtigen Stoffe in der Kammer. Neben {GAS:Oxygen} ist {GAS:Methane} auch der Hauptbestandteil des Brennstoffs für Geräte wie den {THING:ItemWeldingTorch}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemOxite</Key>
@@ -4582,12 +4582,12 @@
       <Description />
     </RecordThing>
     <RecordThing>
-      <Key>ItemGasFilterVolatilesL</Key>
+      <Key>ItemGasFilterMethaneL</Key>
       <Value>Schwerer Filter (flüchtige Stoffe)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
-      <Key>ItemGasFilterVolatilesM</Key>
+      <Key>ItemGasFilterMethaneM</Key>
       <Value>Mittlerer Filter (flüchtige Stoffe)</Value>
       <Description />
     </RecordThing>
@@ -5347,7 +5347,7 @@
   Die folgenden Bedingungen müssen für den Start erfüllt sein:
 
   - Treibstoff voll
-  - Das Mischungsverhältnis des Treibstoffs muss stimmen - ein 2:1-Gemisch aus {GAS:Volatiles} und {GAS:Oxygen}.
+  - Das Mischungsverhältnis des Treibstoffs muss stimmen - ein 2:1-Gemisch aus {GAS:Methane} und {GAS:Oxygen}.
   - Alle Spieler sitzen auf ihren Plätzen
   - Das {THING: StructureLaunchPad} wird mit Energie versorgt
   - Vollständig gebaute Rakete
@@ -5368,7 +5368,7 @@
     <RecordThing>
       <Key>H2Combustor</Key>
       <Value>H2 Combustor</Value>
-      <Description>Der {GAS:Volatiles} Combustor wurde leicht von seinem ursprünglichen {LINK:Recurso;Recurso} Design abgewandelt. Combustor tut genau das, was sein Name sagt - er verbrennt eine Mischung aus {GAS:Volatiles} und {GAS:Oxygen}, um Wasser zu erzeugen. Er ist in heißen oder trockenen Umgebungen sehr nützlich, aber die Benutzer müssen sich darüber im Klaren sein, dass der Combustor erhebliche Abwärme ausgibt. Außerdem ist das Gerät nicht ganz effizient, da sich die flüchtigen Stoffe in der Kammer selbst entzünden und Abgase entstehen, die entsorgt werden müssen.</Description>
+      <Description>Der {GAS:Methane} Combustor wurde leicht von seinem ursprünglichen {LINK:Recurso;Recurso} Design abgewandelt. Combustor tut genau das, was sein Name sagt - er verbrennt eine Mischung aus {GAS:Methane} und {GAS:Oxygen}, um Wasser zu erzeugen. Er ist in heißen oder trockenen Umgebungen sehr nützlich, aber die Benutzer müssen sich darüber im Klaren sein, dass der Combustor erhebliche Abwärme ausgibt. Außerdem ist das Gerät nicht ganz effizient, da sich die flüchtigen Stoffe in der Kammer selbst entzünden und Abgase entstehen, die entsorgt werden müssen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeStraight</Key>
@@ -6548,7 +6548,7 @@
       &gt; {GAS:Oxygen} x 1,3
       &gt; {GAS:Nitrogen} x 0,6
      &gt; {GAS:CarbonDioxide} x 0,8
-      &gt; {GAS:Volatiles} x 1
+      &gt; {GAS:Methane} x 1
       &gt; {GAS:Pollutant} x 3
       &gt; {GAS:NitrousOxide} x 1,5
       &gt; {GAS:Water} x 2
@@ -7136,22 +7136,22 @@
     <RecordThing>
       <Key>ItemPlantEndothermic_Genepool1</Key>
       <Value>Winterspawn (Alpha-Variante)</Value>
-      <Description>{LINK:Agrizero;Agrizero's} Der atmosphärische Bioprozessor Winterspawn ist die jüngste Ergänzung ihres Katalogs an genesplizierten Umweltdekorationen. Der Winterspawn benutzt die Umgebungswärme, um {GAS:Water} in {GAS:Volatiles} und {GAS:Oxygen} aufzuspalten, und kühlt seine Umgebung, wenn genügend {GAS:Nitrogen} zugeführt wird. Die Beta-Variante hat eine maximale Kühl- und Elektrolyseleistung von 150 Watt und arbeitet am effizientesten bei Lufttemperaturen von 0 bis 40 Grad Celsius.</Description>
+      <Description>{LINK:Agrizero;Agrizero's} Der atmosphärische Bioprozessor Winterspawn ist die jüngste Ergänzung ihres Katalogs an genesplizierten Umweltdekorationen. Der Winterspawn benutzt die Umgebungswärme, um {GAS:Water} in {GAS:Methane} und {GAS:Oxygen} aufzuspalten, und kühlt seine Umgebung, wenn genügend {GAS:Nitrogen} zugeführt wird. Die Beta-Variante hat eine maximale Kühl- und Elektrolyseleistung von 150 Watt und arbeitet am effizientesten bei Lufttemperaturen von 0 bis 40 Grad Celsius.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPlantEndothermic_Genepool2</Key>
       <Value>Winterspawn (Beta-Variante)</Value>
-      <Description>{LINK:Agrizero;Agrizero's} Der atmosphärische Bioprozessor Winterspawn ist die jüngste Ergänzung ihres Katalogs an genesplizierten Umweltdekorationen. Der Winterspawn benutzt die Umgebungswärme, um {GAS:Water} in {GAS:Volatiles} und {GAS:Oxygen} aufzuspalten, und kühlt seine Umgebung, wenn genügend {GAS:Nitrogen} zugeführt wird. Die Beta-Variante hat eine maximale Kühl- und Elektrolyseleistung von 150 Watt und arbeitet am effizientesten bei Lufttemperaturen von 14 bis 24 Grad Celsius.</Description>
+      <Description>{LINK:Agrizero;Agrizero's} Der atmosphärische Bioprozessor Winterspawn ist die jüngste Ergänzung ihres Katalogs an genesplizierten Umweltdekorationen. Der Winterspawn benutzt die Umgebungswärme, um {GAS:Water} in {GAS:Methane} und {GAS:Oxygen} aufzuspalten, und kühlt seine Umgebung, wenn genügend {GAS:Nitrogen} zugeführt wird. Die Beta-Variante hat eine maximale Kühl- und Elektrolyseleistung von 150 Watt und arbeitet am effizientesten bei Lufttemperaturen von 14 bis 24 Grad Celsius.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPlantThermogenic_Genepool1</Key>
       <Value>Todesblume (Alpha-Variante)</Value>
-      <Description>Die {LINK:Agrizero;Agrizero's} kreierte Hades-Blume ist das Ergebnis eines zweifelhaften Experiments, bei dem die Anziehungskraft tropischer Pflanzen mit dem Komfort und der Gemütlichkeit einer Wärmepumpe kombiniert wurde. Die Pflanze nimmt eine 1:3-Mischung aus {GAS:Volatiles} und {GAS:Oxygen} auf und stößt erhitzte {GAS:Pollutant} aus.</Description>
+      <Description>Die {LINK:Agrizero;Agrizero's} kreierte Hades-Blume ist das Ergebnis eines zweifelhaften Experiments, bei dem die Anziehungskraft tropischer Pflanzen mit dem Komfort und der Gemütlichkeit einer Wärmepumpe kombiniert wurde. Die Pflanze nimmt eine 1:3-Mischung aus {GAS:Methane} und {GAS:Oxygen} auf und stößt erhitzte {GAS:Pollutant} aus.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPlantThermogenic_Genepool2</Key>
       <Value>Todesblume (Beta-Variante)</Value>
-      <Description>Die {LINK:Agrizero;Agrizero's} kreierte Hades-Blume ist das Ergebnis eines zweifelhaften Experiments, bei dem die Anziehungskraft tropischer Pflanzen mit dem Komfort und der Gemütlichkeit einer Wärmepumpe kombiniert wurde. Die Pflanze nimmt eine 1:3-Mischung aus {GAS:Volatiles} und {GAS:Oxygen} auf und stößt erhitzte {GAS:Pollutant} aus. Die Beta-Variante ist deutlich effizienter als die frühere, experimentellere Alpha-Variante.</Description>
+      <Description>Die {LINK:Agrizero;Agrizero's} kreierte Hades-Blume ist das Ergebnis eines zweifelhaften Experiments, bei dem die Anziehungskraft tropischer Pflanzen mit dem Komfort und der Gemütlichkeit einer Wärmepumpe kombiniert wurde. Die Pflanze nimmt eine 1:3-Mischung aus {GAS:Methane} und {GAS:Oxygen} auf und stößt erhitzte {GAS:Pollutant} aus. Die Beta-Variante ist deutlich effizienter als die frühere, experimentellere Alpha-Variante.</Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_HadesAlpha</Key>
@@ -7379,7 +7379,7 @@
     <RecordThing>
       <Key>StructureH2Combustor</Key>
       <Value>Aufbau H2 Brenner</Value>
-      <Description>Der {GAS:Volatiles} Combustor wurde leicht von seinem ursprünglichen {LINK:Recurso;Recurso} Design abgewandelt. Combustor tut genau das, was sein Name sagt - er verbrennt eine Mischung aus flüchtigen Stoffen und {GAS:Oxygen}, um Wasser zu erzeugen. Er ist in heißen oder trockenen Umgebungen sehr nützlich, aber die Benutzer müssen sich darüber im Klaren sein, dass der Combustor erhebliche Abwärme ausgibt. Der Wirkungsgrad des Geräts ist auch nicht perfekt, was dazu führt, dass sich die flüchtigen Stoffe in der Kammer selbst entzünden und Abgase entstehen, die beseitigt werden müssen.</Description>
+      <Description>Der {GAS:Methane} Combustor wurde leicht von seinem ursprünglichen {LINK:Recurso;Recurso} Design abgewandelt. Combustor tut genau das, was sein Name sagt - er verbrennt eine Mischung aus flüchtigen Stoffen und {GAS:Oxygen}, um Wasser zu erzeugen. Er ist in heißen oder trockenen Umgebungen sehr nützlich, aber die Benutzer müssen sich darüber im Klaren sein, dass der Combustor erhebliche Abwärme ausgibt. Der Wirkungsgrad des Geräts ist auch nicht perfekt, was dazu führt, dass sich die flüchtigen Stoffe in der Kammer selbst entzünden und Abgase entstehen, die beseitigt werden müssen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeRadiatorFlat</Key>
@@ -7753,9 +7753,9 @@
       <Description>A filter that selectively targets Pollutants. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it a long lasting lifecycle.</Description>
     </RecordThing>
     <RecordThing>
-      <Key>ItemGasFilterVolatilesInfinite</Key>
-      <Value>Catalytic Filter (Volatiles)</Value>
-      <Description>A filter that selectively targets {GAS:Volatiles}. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it a long lasting lifecycle.</Description>
+      <Key>ItemGasFilterMethaneInfinite</Key>
+      <Value>Catalytic Filter (Methane)</Value>
+      <Description>A filter that selectively targets {GAS:Methane}. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it a long lasting lifecycle.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterWaterInfinite</Key>
@@ -8082,9 +8082,9 @@
       <Description>A frozen chunk of pure {GAS:Pollutant}</Description>
     </RecordThing>
     <RecordThing>
-      <Key>ItemPureIceVolatiles</Key>
-      <Value>Pure Ice Volatiles</Value>
-      <Description>A frozen chunk of pure {GAS:Volatiles}</Description>
+      <Key>ItemPureIceMethane</Key>
+      <Value>Pure Ice Methane</Value>
+      <Description>A frozen chunk of pure {GAS:Methane}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceLiquidCarbonDioxide</Key>
@@ -8112,9 +8112,9 @@
       <Description>A frozen chunk of pure {GAS:LiquidPollutant}</Description>
     </RecordThing>
     <RecordThing>
-      <Key>ItemPureIceLiquidVolatiles</Key>
-      <Value>Pure Ice Liquid Volatiles</Value>
-      <Description>A frozen chunk of pure {GAS:LiquidVolatiles}</Description>
+      <Key>ItemPureIceLiquidMethane</Key>
+      <Value>Pure Ice Liquid Methane</Value>
+      <Description>A frozen chunk of pure {GAS:LiquidMethane}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceSteam</Key>
@@ -8646,7 +8646,7 @@
     <RecordThing>
       <Key>StructurePumpedLiquidEngine</Key>
       <Value>Pumped Liquid Engine</Value>
-      <Description>Liquid propellants bring greater efficiencies with Pumped Liquid Engine. Two inputs are provided so Stationeers can seperate their fuels, the Setting variable controls the mixing ratio of the inputs. The engine is designed to run on {GAS:LiquidVolatiles} and {GAS:LiquidOxygen}, some Stationeers have reported excessive thrust values by switching to {GAS:LiquidNitrousOxide}</Description>
+      <Description>Liquid propellants bring greater efficiencies with Pumped Liquid Engine. Two inputs are provided so Stationeers can seperate their fuels, the Setting variable controls the mixing ratio of the inputs. The engine is designed to run on {GAS:LiquidMethane} and {GAS:LiquidOxygen}, some Stationeers have reported excessive thrust values by switching to {GAS:LiquidNitrousOxide}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPumpedLiquidEngine</Key>
@@ -8656,7 +8656,7 @@
     <RecordThing>
       <Key>StructureGovernedGasEngine</Key>
       <Value>Pumped Gas Engine</Value>
-      <Description>The most reliable of all the rocket engines, the Pumped Gas Engine runs on a 2:1 mix of {GAS:Volatiles} to {GAS:Oxygen} gas.</Description>
+      <Description>The most reliable of all the rocket engines, the Pumped Gas Engine runs on a 2:1 mix of {GAS:Methane} to {GAS:Oxygen} gas.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPressureFedGasEngine</Key>
@@ -8666,7 +8666,7 @@
     <RecordThing>
       <Key>StructurePressureFedGasEngine</Key>
       <Value>Pressure Fed Gas Engine</Value>
-      <Description>Inefficient but very powerful, the Pressure Fed Gas Engine moves gas from each of its two inputs based on the pressure of the input pipes. Control the mixing ratio of fuels by tweaking the input pressures to target a 2:1 mix of {GAS:Volatiles} to {GAS:Oxygen} gas. Chilling propellant gasses or using {GAS:NitrousOxide} as an oxydizer will result in even higher thrust outputs.</Description>
+      <Description>Inefficient but very powerful, the Pressure Fed Gas Engine moves gas from each of its two inputs based on the pressure of the input pipes. Control the mixing ratio of fuels by tweaking the input pressures to target a 2:1 mix of {GAS:Methane} to {GAS:Oxygen} gas. Chilling propellant gasses or using {GAS:NitrousOxide} as an oxydizer will result in even higher thrust outputs.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPressureFedLiquidEngine</Key>
@@ -8686,7 +8686,7 @@
     <RecordThing>
       <Key>StructurePressureFedGasEngineHeavy</Key>
       <Value>Heavy Pressure Fed Gas Engine</Value>
-      <Description>A larger more powerful variant of the {THING:StructurePressureFedGasEngine}. It sacrifices a small amount of efficiency for greatly increased thrust. Pressure Fed Gas Engines move gas from each of their inputs based on the pressure of the input pipes. Control the mixing ratio of fuels by tweaking the input pressures to target a 2:1 mix of {GAS:Volatiles} to {GAS:Oxygen} gas. Chilling propellant gasses or using {GAS:NitrousOxide} as an oxydizer will result in even higher thrust outputs.</Description>
+      <Description>A larger more powerful variant of the {THING:StructurePressureFedGasEngine}. It sacrifices a small amount of efficiency for greatly increased thrust. Pressure Fed Gas Engines move gas from each of their inputs based on the pressure of the input pipes. Control the mixing ratio of fuels by tweaking the input pressures to target a 2:1 mix of {GAS:Methane} to {GAS:Oxygen} gas. Chilling propellant gasses or using {GAS:NitrousOxide} as an oxydizer will result in even higher thrust outputs.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPressureFedLiquidEngineHeavy</Key>
@@ -16138,7 +16138,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>Das Verhältnis von Schadstoffen in der Geräteatmosphäre</Value>
     </Record>
     <Record>
-      <Key>LogicTypeRatioVolatiles</Key>
+      <Key>LogicTypeRatioMethane</Key>
       <Value>Das Verhältnis der flüchtigen Stoffe in der Geräteatmosphäre</Value>
     </Record>
     <Record>
@@ -16178,7 +16178,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>Das Verhältnis der Schadstoffe im Eingangsnetzwerk des Geräts</Value>
     </Record>
     <Record>
-      <Key>LogicTypeRatioVolatilesInput</Key>
+      <Key>LogicTypeRatioMethaneInput</Key>
       <Value>Das Verhältnis der flüchtigen Stoffe im Eingangsnetzwerk des Geräts</Value>
     </Record>
     <Record>
@@ -16214,7 +16214,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>Das Verhältnis der Schadstoffe im Input2 Netzwerk des Geräts</Value>
     </Record>
     <Record>
-      <Key>LogicTypeRatioVolatilesInput2</Key>
+      <Key>LogicTypeRatioMethaneInput2</Key>
       <Value>Das Verhältnis der flüchtigen Stoffe im Input2 Netzwerk des Geräts</Value>
     </Record>
     <Record>
@@ -16250,7 +16250,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>Das Verhältnis der Schadstoffe im Netzwerk der Ausgabe des Geräts</Value>
     </Record>
     <Record>
-      <Key>LogicTypeRatioVolatilesOutput</Key>
+      <Key>LogicTypeRatioMethaneOutput</Key>
       <Value>Das Verhältnis der flüchtigen Stoffe im Netzwerk der Ausgabe des Geräts</Value>
     </Record>
     <Record>
@@ -16286,7 +16286,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>Das Verhältnis der Schadstoffe im Output2 Netzwerk des Geräts</Value>
     </Record>
     <Record>
-      <Key>LogicTypeRatioVolatilesOutput2</Key>
+      <Key>LogicTypeRatioMethaneOutput2</Key>
       <Value>Das Verhältnis der flüchtigen Stoffe im Output2 Netzwerk des Geräts</Value>
     </Record>
     <Record>
@@ -16765,24 +16765,24 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>The ratio of {GAS:LiquidOxygen} in device's Output2 Atmopshere</Value>
     </Record>
     <Record>
-      <Key>LogicTypeRatioLiquidVolatiles</Key>
-      <Value>The ratio of {GAS:LiquidVolatiles} in device's Atmosphere</Value>
+      <Key>LogicTypeRatioLiquidMethane</Key>
+      <Value>The ratio of {GAS:LiquidMethane} in device's Atmosphere</Value>
     </Record>
     <Record>
-      <Key>LogicTypeRatioLiquidVolatilesInput</Key>
-      <Value>The ratio of {GAS:LiquidVolatiles} in device's Input Atmosphere</Value>
+      <Key>LogicTypeRatioLiquidMethaneInput</Key>
+      <Value>The ratio of {GAS:LiquidMethane} in device's Input Atmosphere</Value>
     </Record>
     <Record>
-      <Key>LogicTypeRatioLiquidVolatilesInput2</Key>
-      <Value>The ratio of {GAS:LiquidVolatiles} in device's Input2 Atmosphere</Value>
+      <Key>LogicTypeRatioLiquidMethaneInput2</Key>
+      <Value>The ratio of {GAS:LiquidMethane} in device's Input2 Atmosphere</Value>
     </Record>
     <Record>
-      <Key>LogicTypeRatioLiquidVolatilesOutput</Key>
-      <Value>The ratio of {GAS:LiquidVolatiles} in device's device's Output Atmosphere</Value>
+      <Key>LogicTypeRatioLiquidMethaneOutput</Key>
+      <Value>The ratio of {GAS:LiquidMethane} in device's device's Output Atmosphere</Value>
     </Record>
     <Record>
-      <Key>LogicTypeRatioLiquidVolatilesOutput2</Key>
-      <Value>The ratio of {GAS:LiquidVolatiles} in device's Output2 Atmopshere</Value>
+      <Key>LogicTypeRatioLiquidMethaneOutput2</Key>
+      <Value>The ratio of {GAS:LiquidMethane} in device's Output2 Atmopshere</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioSteam</Key>
@@ -17473,7 +17473,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>Nitrit</Value>
     </Record>
     <Record>
-      <Key>ElectronicReaderVolatiles</Key>
+      <Key>ElectronicReaderMethane</Key>
       <Value>Flüchtige Stoffe</Value>
     </Record>
     <Record>
@@ -19499,12 +19499,12 @@ All the rack's pipes must be connected or the unit will show an error state, but
   {THING:StructureWallCooler}. {GAS:Water} ist besser, hat aber normalerweise wichtigere Verwendungen.</Value>
     </Record>
     <Record>
-      <Key>MoleVolatilesDescription</Key>
-      <Value>Flüchtige Stoffe sind ein extrem reaktives, komplexes organisches Molekül, das in Verbindung mit Sauerstoff als brennbarer Brennstoff benutzt werden kann. Es wird aus {THING:ItemVolatiles} raffiniert.
+      <Key>MoleMethaneDescription</Key>
+      <Value>Flüchtige Stoffe sind ein extrem reaktives, komplexes organisches Molekül, das in Verbindung mit Sauerstoff als brennbarer Brennstoff benutzt werden kann. Es wird aus {THING:ItemMethane} raffiniert.
         
-  Aufgrund obskurer und weitgehend vergessener {LINK:ODA;ODA} Vorschriften werden flüchtige Stoffe von verschiedenen Gegenständen der Technik manchmal als &quot;H2&quot; bezeichnet. Sie ähneln zwar dem Wasserstoff, sind aber nicht &quot;wirklich&quot; Wasserstoff. {GAS:Volatiles} produzieren kein {GAS:Water}, wenn sie nicht mit einem Katalysator verbrannt werden (siehe {THING:H2Combustor}). Allein erzeugen sie {GAS:Pollutant}s und {GAS:CarbonDioxide}, wenn sie in folgendem Verhältnis gebrannt werden:
+  Aufgrund obskurer und weitgehend vergessener {LINK:ODA;ODA} Vorschriften werden flüchtige Stoffe von verschiedenen Gegenständen der Technik manchmal als &quot;H2&quot; bezeichnet. Sie ähneln zwar dem Wasserstoff, sind aber nicht &quot;wirklich&quot; Wasserstoff. {GAS:Methane} produzieren kein {GAS:Water}, wenn sie nicht mit einem Katalysator verbrannt werden (siehe {THING:H2Combustor}). Allein erzeugen sie {GAS:Pollutant}s und {GAS:CarbonDioxide}, wenn sie in folgendem Verhältnis gebrannt werden:
         
-  2 {GAS:Volatiles} + 1 {GAS:Oxygen} -&gt; 3 {GAS:Pollutant} + 6 {GAS:CarbonDioxide} + Wärme.</Value>
+  2 {GAS:Methane} + 1 {GAS:Oxygen} -&gt; 3 {GAS:Pollutant} + 6 {GAS:CarbonDioxide} + Wärme.</Value>
     </Record>
     <Record>
       <Key>MolePollutantDescription</Key>
@@ -19514,7 +19514,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>MoleWaterDescription</Key>
-      <Value>Du kannst Wasser durch Schmelzen oder Zerkleinern von {THING:ItemIce} mit einem {THING:StructureFurnace} oder einem {THING:StructureIceCrusher} oder durch Verbrennung von {GAS:Volatiles} und Sauerstoff mit dem {THING:H2Combustor} gewinnen.
+      <Value>Du kannst Wasser durch Schmelzen oder Zerkleinern von {THING:ItemIce} mit einem {THING:StructureFurnace} oder einem {THING:StructureIceCrusher} oder durch Verbrennung von {GAS:Methane} und Sauerstoff mit dem {THING:H2Combustor} gewinnen.
         
   {GAS:Water} ist wichtig für {LINK:OrganicPage;plants}, um am Leben zu bleiben und {LINK:NutritionPage;food} wachsen zu lassen. Außerdem ist es ein hervorragendes Kühlmittel mit einer sehr hohen spezifischen Wärmekapazität.
 
@@ -19533,8 +19533,8 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>{GAS:Oxygen} in its liquid form. It can be created by lowering the temperature of {GAS:Oxygen} gas below it's boiling point. This can be achieved using a {THING:StructureHeatExchangerGastoGas} or a {THING:StructureAirConditioner}. {GAS:LiquidOxygen} introduced into the atmosphere will quickly evaporate back into {GAS:Oxygen}.</Value>
     </Record>
     <Record>
-      <Key>MoleLiquidVolatilesDescription</Key>
-      <Value>{GAS:Volatiles} in its liquid form. It can be created by lowering the temperature of {GAS:Volatiles} gas below it's boiling point. This can be achieved using a {THING:StructureHeatExchangerGastoGas} or a {THING:StructureAirConditioner}. {GAS:LiquidVolatiles} introduced into the atmosphere will quickly evaporate back into {GAS:Volatiles}.</Value>
+      <Key>MoleLiquidMethaneDescription</Key>
+      <Value>{GAS:Methane} in its liquid form. It can be created by lowering the temperature of {GAS:Methane} gas below it's boiling point. This can be achieved using a {THING:StructureHeatExchangerGastoGas} or a {THING:StructureAirConditioner}. {GAS:LiquidMethane} introduced into the atmosphere will quickly evaporate back into {GAS:Methane}.</Value>
     </Record>
     <Record>
       <Key>MoleLiquidCarbonDioxideDescription</Key>
@@ -19558,7 +19558,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>MoleSteamDescription</Key>
-      <Value>Evaporated {GAS:Water}. It can be created by rasing the temperature of {GAS:Water} to its boiling point. When introduced into a pipe {GAS:Steam} will condense back into {GAS:Water} if it's temperature is below it's boiling point. Steam can be created by combusting {GAS:Volatiles} and oxygen using the {THING:H2Combustor}</Value>
+      <Value>Evaporated {GAS:Water}. It can be created by rasing the temperature of {GAS:Water} to its boiling point. When introduced into a pipe {GAS:Steam} will condense back into {GAS:Water} if it's temperature is below it's boiling point. Steam can be created by combusting {GAS:Methane} and oxygen using the {THING:H2Combustor}</Value>
     </Record>
     <Record>
       <Key>SettingsSmoothTerrain</Key>
@@ -20938,12 +20938,12 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>Place the {THING:ItemOxite} in the Input slot of the {THING:StructureFurnace}. Then hit the Red Activate Button to melt the ice in the {THING:StructureFurnace} until the door opens again.</Value>
     </Record>
     <Record>
-      <Key>FurnaceTutorialFiringTheFurnaceSplitVolatiles</Key>
-      <Value>Do the same for {THING:ItemVolatiles} in the Red Backpack, and split off 2 {THING:ItemVolatiles}.</Value>
+      <Key>FurnaceTutorialFiringTheFurnaceSplitMethane</Key>
+      <Value>Do the same for {THING:ItemMethane} in the Red Backpack, and split off 2 {THING:ItemMethane}.</Value>
     </Record>
     <Record>
-      <Key>FurnaceTutorialFiringTheFurnacePlaceVolatilesPressStart</Key>
-      <Value>Place the {THING:ItemVolatiles} in the Furnace. This time when you hit the Activate Button, the {THING:StructureFurnace} will ignite. Monitor the pressure gauge on the front.</Value>
+      <Key>FurnaceTutorialFiringTheFurnacePlaceMethanePressStart</Key>
+      <Value>Place the {THING:ItemMethane} in the Furnace. This time when you hit the Activate Button, the {THING:StructureFurnace} will ignite. Monitor the pressure gauge on the front.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialSmeltingOreName</Key>
@@ -21023,11 +21023,11 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>FurnaceTutorialReHeatingInfo</Key>
-      <Value>A 2:1 mix of {GAS:Volatiles}:{GAS:Oxygen} fuel is the most common fuel source and autoignites at 300c, while a 50:50 mix of {GAS:Volatiles}:{GAS:NitrousOxide} will autoignite at 50c but will burn much hotter.</Value>
+      <Value>A 2:1 mix of {GAS:Methane}:{GAS:Oxygen} fuel is the most common fuel source and autoignites at 300c, while a 50:50 mix of {GAS:Methane}:{GAS:NitrousOxide} will autoignite at 50c but will burn much hotter.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialReHeatingInsertMoreFuel</Key>
-      <Value>Input more {THING:ItemVolatiles} and {THING:ItemOxite} Ice into the {THING:StructureFurnace} and ignite it as before.</Value>
+      <Value>Input more {THING:ItemMethane} and {THING:ItemOxite} Ice into the {THING:StructureFurnace} and ignite it as before.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialSteelReloadName</Key>
@@ -21658,8 +21658,8 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>Liquid Oxygen Tank</Value>
     </Record>
     <Record>
-      <Key>SpawnDataLiquidVolatilesTank</Key>
-      <Value>Liquid Volatiles Tank</Value>
+      <Key>SpawnDataLiquidMethaneTank</Key>
+      <Value>Liquid Methane Tank</Value>
     </Record>
     <Record>
       <Key>SpawnDataWaterTank</Key>
@@ -21710,8 +21710,8 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>Oxygen Canister</Value>
     </Record>
     <Record>
-      <Key>SpawnDataVolatilesCanister</Key>
-      <Value>Volatiles Canister</Value>
+      <Key>SpawnDataMethaneCanister</Key>
+      <Value>Methane Canister</Value>
     </Record>
     <Record>
       <Key>SpawnDataHydroponicsSupplies</Key>
@@ -22166,8 +22166,8 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>Resilient Fern</Value>
     </Record>
     <Record>
-      <Key>BuyDataBulkVolatiles</Key>
-      <Value>Bulk Volatiles</Value>
+      <Key>BuyDataBulkMethane</Key>
+      <Value>Bulk Methane</Value>
     </Record>
     <Record>
       <Key>BuyDataBulkOxygen</Key>
@@ -22190,8 +22190,8 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>Bulk Carbon Dioxide</Value>
     </Record>
     <Record>
-      <Key>SellDataBulkVolatiles</Key>
-      <Value>Bulk Volatiles</Value>
+      <Key>SellDataBulkMethane</Key>
+      <Value>Bulk Methane</Value>
     </Record>
     <Record>
       <Key>SellDataBulkPollutants</Key>
@@ -22206,8 +22206,8 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>Bulk Nitrous Oxide</Value>
     </Record>
     <Record>
-      <Key>SellDataBulkDirtyVolatiles</Key>
-      <Value>Bulk Dirty Volatiles</Value>
+      <Key>SellDataBulkDirtyMethane</Key>
+      <Value>Bulk Dirty Methane</Value>
     </Record>
     <Record>
       <Key>SellDataSteam</Key>
@@ -22246,8 +22246,8 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>Bulk Liquid Oxygen</Value>
     </Record>
     <Record>
-      <Key>SellDataBulkLiquidVolatiles</Key>
-      <Value>Bulk Liquid Volatiles</Value>
+      <Key>SellDataBulkLiquidMethane</Key>
+      <Value>Bulk Liquid Methane</Value>
     </Record>
     <Record>
       <Key>SellDataLiquidNitrogenCanister</Key>
@@ -22258,8 +22258,8 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>Liquid Oxygen Canister</Value>
     </Record>
     <Record>
-      <Key>SellDataLiquidVolatilesCanister</Key>
-      <Value>Liquid Volatiles Canister</Value>
+      <Key>SellDataLiquidMethaneCanister</Key>
+      <Value>Liquid Methane Canister</Value>
     </Record>
     <Record>
       <Key>SellDataBoxofSprayCans</Key>
@@ -24229,7 +24229,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>Nitrit</Value>
     </Record>
     <Record>
-      <Key>Volatiles</Key>
+      <Key>Methane</Key>
       <Value>Flüchtige Stoffe</Value>
     </Record>
     <Record>
@@ -27580,8 +27580,8 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>Oxidizer</Value>
     </Record>
     <Record>
-      <Key>RocketVolatiles</Key>
-      <Value>Volatiles</Value>
+      <Key>RocketMethane</Key>
+      <Value>Methane</Value>
     </Record>
     <Record>
       <Key>RocketBatteryPercentage</Key>
