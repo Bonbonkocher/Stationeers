@@ -27987,10 +27987,12 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Key>RocketOxidizer</Key>
       <Value>Oxidizer</Value>
     </Record>
+    <!--
     <Record>
       <Key>RocketVolatiles</Key>
       <Value>Volatiles</Value>
     </Record>
+    -->
     <Record>
       <Key>RocketMethane</Key>
       <Value>Methane</Value>
