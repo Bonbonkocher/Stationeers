@@ -8335,12 +8335,12 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSmallDirectHeatExchanger</Key>
-      <Value>Small Direct Heat Exchanger</Value>
+      <Value>Direkter Wärmetauscher Klein</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLargeDirectHeatExchanger</Key>
-      <Value>Large Direct Heat Exchanger</Value>
+      <Value>Direkter Wärmetauscher Groß</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9159,32 +9159,32 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemPassiveVentInsulated</Key>
-      <Value>Insulated Passive Vent</Value>
+      <Value>Isoliert Passive Belüftung</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructurePassiveVentInsulated</Key>
-      <Value>Insulated Passive Vent</Value>
+      <Value>Isoliert Passive Belüftung</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureDrinkingFountain</Key>
-      <Value>Drinking Fountain</Value>
+      <Value>Trinkbrunnen</Value>
       <Description>The Drinking Fountain can be interacted with directly to increase hydration. It needs a {GAS:Water} supply.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDrinkingFountain</Key>
-      <Value>Drinking Fountain</Value>
+      <Value>Trinkbrunnen</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitShower</Key>
-      <Value>Shower</Value>
+      <Value>Dusche</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureShower</Key>
-      <Value>Shower</Value>
+      <Value>Dusche</Value>
       <Description>The fastest way to remove low hygiene. You must remove your {THING:UniformOrangeJumpSuit} and {THING:ItemEvaSuit} when using the {THING:StructureShower}. It outputs {GAS:PollutedWater} when in use. {GAS:PollutedWater} will interfere with many other {GAS:Water} systems so make sure to collect and treat it using a {THING:StructureWaterPurifier} or dump it.</Description>
     </RecordThing>
     <RecordThing>
@@ -9199,12 +9199,12 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureShowerPowered</Key>
-      <Value>Shower (Powered)</Value>
+      <Value>Dusche (mit Stromanschluss)</Value>
       <Description>The fastest way to remove low hygiene. You must remove your {THING:UniformOrangeJumpSuit} and {THING:ItemEvaSuit} when using the {THING:StructureShowerPowered}. It outputs {GAS:PollutedWater} when in use. {GAS:PollutedWater} will interfere with many other {GAS:Water} systems so make sure to collect and treat it using a {THING:StructureWaterPurifier} or dump it.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemFlashlight</Key>
-      <Value>Flashlight</Value>
+      <Value>Taschenlampe</Value>
       <Description>A flashlight with a narrow and wide beam options.</Description>
     </RecordThing>
     <RecordThing>
@@ -9219,37 +9219,37 @@
     </RecordThing>
     <RecordThing>
       <Key>OrganLungsChicken</Key>
-      <Value>Organ Lungs Chicken</Value>
+      <Value>Organe Lunge Huhn</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedInLineTankGas1x1</Key>
-      <Value>In-Line Tank Small Gas (Insulated)</Value>
+      <Value>Rohr-Gasspeicher Klein (Isoliert)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedInLineTankGas1x2</Key>
-      <Value>In-Line Tank Gas (Insulated)</Value>
+      <Value>Rohr-Gasspeicher (Isoliert)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedInLineTankLiquid1x1</Key>
-      <Value>In-Line Liquid (Insulated)</Value>
+      <Value>Rohr-Flüssigkeitspeicher Klein (Isoliert)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedInLineTankLiquid1x2</Key>
-      <Value>In-Line Tank Liquid (Insulated)</Value>
+      <Value>Rohr-Flüssigkeitspeicher (Isoliert)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitInsulatedPipeUtilityLiquid</Key>
-      <Value>Insulated Pipe Utility Liquid</Value>
+      <Value>Isolierte Rohr-Versorgungsflüssigkeit</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitInsulatedPipeUtility</Key>
-      <Value>Insulated Pipe Utility Gas</Value>
+      <Value>Isolierte Rohr-Versorgungsgas</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9294,8 +9294,8 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicSorter</Key>
-      <Value>Logic Sorter</Value>
-      <Description>Contains an Internal Memory which is assessed to check whether something should be sorted. When an item is in the {SLOT:Import} Slot, the stack is checked and if result is true the thing is moved to the {SLOT:Export2} slot, otherwise it is moved to the {SLOT:Export} slot. The Mode is used in how the stack is assessed, by default the mode is ALL, so every instruction in the stack would need to return true.</Description>
+      <Value>Logiksortierer</Value>
+      <Description>Enthält einen internen Speicher, der überprüft wird, um festzustellen, ob ein Element sortiert werden soll. Befindet sich ein Element im {SLOT:Import}-Slot, wird der Stack überprüft. Ist das Ergebnis wahr, wird das Element in den {SLOT:Export2}-Slot verschoben, andernfalls in den {SLOT:Export}-Slot. Der Modus bestimmt, wie der Stack überprüft wird. Standardmäßig ist der Modus ALL, sodass jede Anweisung im Stack „wahr“ zurückgeben muss.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemJetpackTurbine</Key>
@@ -9304,42 +9304,42 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemCocoaTree</Key>
-      <Value>Cocoa</Value>
+      <Value>Kakao</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_Cocoa</Key>
-      <Value>Cocoa Seeds</Value>
+      <Value>Kakaosamen</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_SugarCane</Key>
-      <Value>Sugarcane Seeds</Value>
+      <Value>Zuckerrohrsamen</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>CerealBarBox</Key>
-      <Value>Cereal Bar Box</Value>
+      <Value>Müsliriegel-Tüte</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemEmergencySuppliesBox</Key>
-      <Value>Emergency Supplies</Value>
+      <Value>Notfallausrüstung</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemCerealBarBox</Key>
-      <Value>Cereal Bar Box</Value>
+      <Value>Müsliriegel-Box</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemCerealBarBag</Key>
-      <Value>Cereal Bar Bag</Value>
+      <Value>Müsliriegel-Tüte</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemInsulatedCanisterPackage</Key>
-      <Value>Insulated Canister Package</Value>
+      <Value>Isolierte Kanisterverpackung</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9359,22 +9359,22 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningPackage</Key>
-      <Value>Mining Supplies Package</Value>
+      <Value>Bergbaubedarfspaket</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemResidentialPackage</Key>
-      <Value>Residential Supplies Package</Value>
+      <Value>Paket mit Haushaltsartikeln</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWaterBottlePackage</Key>
-      <Value>Water Bottle Package</Value>
+      <Value>Wasserflaschen-Paket</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWaterBottleBag</Key>
-      <Value>Water Bottle Bag</Value>
+      <Value>Wasserflaschentasche</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9469,17 +9469,17 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLarreDockHydroponics</Key>
-      <Value>LArRE Dock Hydroponics</Value>
+      <Value>LArRE Dock Hydroponik</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLarreDockCargo</Key>
-      <Value>LArRE Dock Cargo</Value>
+      <Value>LArRE Dock Fracht</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLarreDockCollector</Key>
-      <Value>LArRE Dock Collector</Value>
+      <Value>LArRE Dock Sammler</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9498,21 +9498,21 @@ The base atmospheric logic values point to LArRE's internal gas storage. The Inp
     </RecordThing>
     <RecordThing>
       <Key>StructureLarreDockCargo</Key>
-      <Value>LArRE Dock (Cargo)</Value>
+      <Value>LArRE Dock (Fracht)</Value>
       <Description>The cargo LArRE can take things out of and put things into slots on devices. The dial on the front panel indicates which slot on the device to interact with. The slot variables of the item in the target slot can be read using the Proxy Slot Index (255)
 
 Pressing the activate button while the LArRE arm is at its home dock will move the arm off the main rail. This allows other arms on the same rail to pass by.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLarreDockCollector</Key>
-      <Value>LArRE Dock (Collector)</Value>
+      <Value>LArRE Dock (Sammler)</Value>
       <Description>The collector LArRE can suck up nearby loose items when its mode is set to inward and eject stored items when its mode is set to outward. When set to suck up items, the collector LArRE will automatically stop and retract when full. 
 
 Pressing the activate button while the LArRE arm is at its home dock will move the arm off the main rail. This allows other arms on the same rail to pass by.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLarreDockHydroponics</Key>
-      <Value>LArRE Dock (Hydroponics)</Value>
+      <Value>LArRE Dock (Hydroponik)</Value>
       <Description>The hydroponics LArRE can plant and harvest plants as well as place fertiliser into plant trays. It has an additional hopper slot which will feed items into the 'hand' slot when the hand slot is empty. Harvesting a different plant while the hand slot is full will be possible if the hopper slot is empty. In which case the plant in the hand will be moved into the hopper slot and the new plant will be harvested into the hand slot.
         The slot variables of a plant in the plant tray below can be read using the Proxy Slot Index (255).
 Pressing the activate button while the LArRE arm is at its home dock will move the arm off the main rail. This allows other arms on the same rail to pass by.</Description>
@@ -9549,17 +9549,17 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     </RecordThing>
     <RecordThing>
       <Key>ItemGasMask</Key>
-      <Value>Gas Mask</Value>
+      <Value>Gasmaske</Value>
       <Description>This mask will mix with the world atmosphere but filter out the gasses based on the filters in its two slots.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureGasMaskStorage</Key>
-      <Value>Gas Mask Storage</Value>
+      <Value>Gasmaske-Halter</Value>
       <Description>The Gas Mask Storage is a designated shelf specifically designed to hold a gas mask.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFireExtinguisherStorage</Key>
-      <Value>Fire Extinguisher Storage</Value>
+      <Value>Feuerlöscher-Halter</Value>
       <Description>The Fire Extinguisher Storage is a designated shelf specifically designed to hold a fire extinguisher.</Description>
     </RecordThing>
     <RecordThing>
@@ -9580,11 +9580,11 @@ It is liquid cooled for superb thermal performance and boasts superior resistanc
     </RecordThing>
     <RecordThing>
       <Key>MonsterEgg</Key>
-      <Value>Monster Egg</Value>
+      <Value>Monster-Ei</Value>
     </RecordThing>
     <RecordThing>
       <Key>MonsterQueen</Key>
-      <Value>Monster Queen</Value>
+      <Value>Monsterkönigin</Value>
     </RecordThing>
     <RecordThing>
       <Key>MotherboardMissionControl</Key>
@@ -9596,7 +9596,7 @@ It is liquid cooled for superb thermal performance and boasts superior resistanc
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCorner3HBurnt</Key>
-      <Value>Cable</Value>
+      <Value>Kabel</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCarbonSequester</Key>
@@ -9620,15 +9620,15 @@ It is liquid cooled for superb thermal performance and boasts superior resistanc
     </RecordThing>
     <RecordThing>
       <Key>StructureHeatExchangeLiquidtoGas</Key>
-      <Value>Heat Exchange (Liquid to Gas)</Value>
+      <Value>Wärmetauscher (Flüssigkeit zu Gas)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureHeatExchangerGastoGas</Key>
-      <Value>Heat Exchanger (Gas to Gas)</Value>
+      <Value>Wärmetauscher (Gas zu Gas)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureHeatExchangerLiquidtoLiquid</Key>
-      <Value>Heat Exchanger (Liquid to Liquid)</Value>
+      <Value>Wärmetauscher (Flüssigkeit zu Flüssigkeit)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureIndustrialBurner</Key>
