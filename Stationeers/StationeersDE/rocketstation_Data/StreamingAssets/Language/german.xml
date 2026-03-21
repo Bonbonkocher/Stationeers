@@ -3246,7 +3246,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRecycler</Key>
-      <Value>{THING:StructureRecycler}</Value>
+      <Value>Wiederverwerter</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -4245,7 +4245,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSecurityPrinter</Key>
-      <Value>{THING:StructureSecurityPrinter}</Value>
+      <Value>Sicherheitsdrucker</Value>
       <Description />
     </RecordThing>
     <RecordThing>
