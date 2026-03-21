@@ -242,7 +242,7 @@
     </Record>
     <Record>
       <Key>CarbonDioxide</Key>
-      <Value>Kohlendioxid</Value>
+      <Value>Kohlenstoffdioxid</Value>
     </Record>
     <Record>
       <Key>Nitrogen</Key>
@@ -278,7 +278,7 @@
     </Record>
     <Record>
       <Key>LiquidMethane</Key>
-      <Value>Flüssiges Flüchtige Stoffe</Value>
+      <Value>Flüssiges Methan</Value>
     </Record>
     <Record>
       <Key>Steam</Key>
@@ -286,7 +286,7 @@
     </Record>
     <Record>
       <Key>LiquidCarbonDioxide</Key>
-      <Value>Flüssiges Kohlendioxid</Value>
+      <Value>Flüssiges Kohlenstoffdioxid</Value>
     </Record>
     <Record>
       <Key>LiquidPollutant</Key>
@@ -318,11 +318,11 @@
     </Record>
     <Record>
       <Key>LiquidHydrazine</Key>
-      <Value>Flüssig Hydrazin </Value>
+      <Value>Flüssiges Hydrazin </Value>
     </Record>
     <Record>
       <Key>LiquidAlcohol</Key>
-      <Value>Flüssig Alkohol</Value>
+      <Value>Flüssiges Alkohol</Value>
     </Record>
     <Record>
       <Key>Helium</Key>
@@ -330,7 +330,7 @@
     </Record>
     <Record>
       <Key>LiquidSodiumChloride</Key>
-      <Value>Flüssig Natriumchlorid</Value>
+      <Value>Flüssiges Natriumchlorid</Value>
     </Record>
     <Record>
       <Key>Silanol</Key>
@@ -338,7 +338,7 @@
     </Record>
     <Record>
       <Key>LiquidSilanol</Key>
-      <Value>Flüssig Silanol</Value>
+      <Value>Flüssiges Silanol</Value>
     </Record>
     <Record>
       <Key>HydrochloricAcid</Key>
@@ -346,7 +346,7 @@
     </Record>
     <Record>
       <Key>LiquidHydrochloricAcid</Key>
-      <Value>Flüssig Salzsäure</Value>
+      <Value>Flüssiges Salzsäure</Value>
     </Record>
     <Record>
       <Key>Ozone</Key>
@@ -354,7 +354,7 @@
     </Record>
     <Record>
       <Key>LiquidOzone</Key>
-      <Value>Flüssig Ozon</Value>
+      <Value>Flüssiges Ozon</Value>
     </Record>
   </Gases>
   <Actions>
@@ -412,7 +412,7 @@
     </Record>
     <Record>
       <Key>ConsumeFail</Key>
-      <Value>Gescheitert: Helm geschlossen</Value>
+      <Value>Helm geschlossen</Value>
     </Record>
     <Record>
       <Key>Plant</Key>
@@ -584,7 +584,7 @@
       <Key>ApplianceMicrowave</Key>
       <Value>Mikrowelle</Value>
       <Description>Während in den letzten hundert Jahren unzählige 'bessere' Methoden zum Kochen erfunden wurden, sind nur wenige so langlebig und einfach herzustellen wie die OK-Zoomer-Mikrowelle. Die von {LINK:Xigo;Xigo} lizenzierte Mikrowelle basiert auf einem klassischen Modell aus Mitte des 21. Jahrhunderts, was ihr einen charmanten Retro-Look verleiht. Aber keine Sorge, sie oszilliert {GAS: Water} Moleküle mehr als ausreichend. 
-  Befestige ihn einfach mit einem {THING:ItemWrench} an einer {THING:StructureBench}, um ihn mit Energie zu versorgen, befolge das Rezept und schon kannst du kochen.</Description>
+      Befestige ihn einfach mit einem {THING:ItemWrench} an einer {THING:StructureBench}, um ihn mit Energie zu versorgen, befolge das Rezept und schon kannst du kochen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ApplianceReagentProcessor</Key>
@@ -614,7 +614,7 @@
     <RecordThing>
       <Key>BodyPartAstronautFemaleLegR</Key>
       <Value>Körperteil Astronautin Bein R</Value>
-      <Description>Dies ist das rechte Bein einer Frau. Nach ihrem Zustand zu urteilen, war sie ziemlich gesund, durchschnittlich groß und neigte dazu, auf den Fußballen zu gehen.</Description>
+      <Description>Dies ist das rechte Bein einer Frau. Nach ihrem Zustand zu urteilen, war sie ziemlich gesund, durchschnittlich Groß und neigte dazu, auf den Fußballen zu gehen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>BodyPartAstronautFemaleTorso</Key>
@@ -874,7 +874,7 @@
     <RecordThing>
       <Key>CartridgeNetworkAnalyser</Key>
       <Value>Netzwerk Analyzer</Value>
-      <Description>Der Netzwerkanalysator, ein kleines Meisterwerk der Mikroelektronik, zeigt die Stromstärke, die Spannung und die Wattzahl eines Netzwerks und der daran angeschlossenen Geräte an. Er basiert auf einem weit verbreiteten Design von {LINK:Sinotai;Sinotai} und wird zusammen mit dem OreCore {THING:ItemTablet} benutzt.</Description>
+      <Description>Der Netzwerkanalysator, ein Kleines Meisterwerk der Mikrölektronik, zeigt die Stromstärke, die Spannung und die Wattzahl eines Netzwerks und der daran angeschlossenen Geräte an. Er basiert auf einem weit verbreiteten Design von {LINK:Sinotai;Sinotai} und wird zusammen mit dem OreCore {THING:ItemTablet} benutzt.</Description>
     </RecordThing>
     <RecordThing>
       <Key>Character</Key>
@@ -884,14 +884,14 @@
     <RecordThing>
       <Key>CircuitboardAirControl</Key>
       <Value>Luftkontrolle</Value>
-      <Description>Wenn sie zu einer {THING:StructureConsole} hinzugefügt wird, kannst du mit Luftsteuerungsplatinen ein {THING:StructureActiveVent} programmieren. Wie bei kleinen Hunden und 83% der Menschen gibt es auch bei Luftsteuerungskreisen nur drei Modi: Druck, Zugluft und Offline. Der Druckmodus hält eine Atmosphäre von 100 kPa aufrecht und schaltet die aktive Lüftung zwischen Ein- und Ausströmung um, bis der Solldruck erreicht ist. Im Zugmodus kannst du aktive Entlüftungsöffnungen miteinander verbinden, um die Luft zirkulieren zu lassen. Der Offline-Modus deaktiviert die Entlüftung.</Description>
+      <Description>Wenn sie zu einer {THING:StructureConsole} hinzugefügt wird, kannst du mit Luftsteuerungsplatinen ein {THING:StructureActiveVent} programmieren. Wie bei Kleinen Hunden und 83% der Menschen gibt es auch bei Luftsteuerungskreisen nur drei Modi: Druck, Zugluft und Offline. Der Druckmodus hält eine Atmosphäre von 100 kPa aufrecht und schaltet die aktive Lüftung zwischen Ein- und Ausströmung um, bis der Solldruck erreicht ist. Im Zugmodus kannst du aktive Entlüftungsöffnungen miteinander verbinden, um die Luft zirkulieren zu lassen. Der Offline-Modus deaktiviert die Entlüftung.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardAirlockControl</Key>
       <Value>Luftschleuse</Value>
       <Description>Gerüchten zufolge wurde die Exgress-Schleusensteuerungsplatine von einem verärgerten Ingenieur auf einer {LINK:Norsec;Norsec}-Toilettenwand skizziert. Ihre Vielseitigkeit und einfache Herstellung haben sie zum bevorzugten {LINK:Stationeers;Stationeers}-Steuersystem für THING:StructureAirlock}-Zyklusprotokolle gemacht. 
 
-      Um in den Einrichtungsmodus zu gelangen, steckst du das Board zusammen mit einer Datendisk in eine {THING:StructureConsole}. In diesem Modus kannst du alle datenzugänglichen Objekte sehen, die derzeit mit der {THING:StructureConsole} verbunden sind. Türen, Lichter, Gassensoren und Nebenkonsolen können ausgewählt werden (grün hervorgehoben) und werden kontrolliert, sobald die Datendisk entfernt wird.</Description>
+      Um in den Einrichtungsmodus zu gelangen, steckst du das Board zusammen mit einer Datendisk in eine {THING:StructureConsole}. In diesem Modus kannst du alle datenzugänglichen Objekte sehen, die derzeit mit der {THING:StructureConsole} verbunden sind. Türen, Lichter, Gassensoren und Nebenkonsolen können ausgewählt werden (Grün hervorgehoben) und werden kontrolliert, sobald die Datendisk entfernt wird.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ImGuiCircuitboardAirlockControl</Key>
@@ -987,22 +987,22 @@
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterNitrogen</Key>
-      <Value>Tragbarer Gastank (Stickstoff)</Value>
+      <Value>Tragbarer Gastank (N2)</Value>
       <Description>Tragbare Tanks speichern Gas. Wenn du einen Tank auffüllen musst, schraubst du ihn mit einem {THING:ItemTankConnector} und einem {THING:ItemWrench} an ein Netzwerk von Leitungen. Vermeide es, den Druck auf über 10 MPa zu erhöhen, sonst hast du am Ende {GAS:Nitrogen} an Stellen, mit denen du nicht gerechnet hast. Du kannst einen {THING:ItemGasCanisterNitrogen} nachfüllen, indem du ihn an den gestreiften Abschnitt des Tanks anschließt. Oder du benutzt einen {THING:ItemWrench}, um ihn für später an einem Rover oder einer Rakete zu befestigen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterOxygen</Key>
-      <Value>Tragbarer Gastank (Sauerstoff)</Value>
+      <Value>Tragbarer Gastank (O2)</Value>
       <Description>Tragbare Tanks speichern Gas. Wenn du einen Tank auffüllen musst, schraubst du ihn mit einem {THING:ItemTankConnector} an einen {THING:ItemWrench} und verbindest ihn dann mit einem Netzwerk von Leitungen. Vermeide es, den Druck auf über 10 MPa zu erhöhen, sonst kannst du dir die Splitter des Tanks aus dem Gesicht kratzen. Du kannst einen {THING:ItemGasCanisterOxygen} nachfüllen, indem du ihn an den gestreiften Teil des Tanks anschließt. Oder du kannst ihn in einen versiegelten Raum ablassen, um eine Atmosphäre zu schaffen. Oder du malst ihn rosa an, nennst ihn Steve und füllst den traurigen Raum in deinem Herzen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterMethane</Key>
-      <Value>Tragbarer Gastank (flüchtige Stoffe)</Value>
+      <Value>Tragbarer Gastank (Methan)</Value>
       <Description>Tragbare Tanks speichern Gas. Um ihn aufzufüllen, schraubst du ihn mit einem {THING:ItemTankConnector} an einen {THING:ItemWrench} und schließt ihn dann an ein Netzwerk an. Fülle ihn nicht mit mehr als 10 MPa, es sei denn, du liebst komplizierte, entflammbare Notfälle. Du kannst einen {THING:ItemGasCanisterMethane} nachfüllen, indem du ihn an den gestreiften Teil des Tanks anschließt. Oder du kannst einen {THING:ItemWrench} benutzen, um ihn an einer Rakete zu befestigen und im Sonnensystem herumzuzeigen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterWater</Key>
-      <Value>Tragbarer Flüssigkeitstank (Wasser)</Value>
+      <Value>Tragbarer Flüssigkeitstank (H2O)</Value>
       <Description>Dieser tragbare Tank speichert Flüssigkeit, und zwar nur Flüssigkeit. Du musst ihn nur auffüllen. Dazu schraubst du ihn mit einem {THING:ItemTankConnector} und einem {THING:ItemWrench} an und verbindest ihn dann mit {THING:StructurePipeLiquidStraight}, um ein Netzwerk mit Flüssigkeit zu versorgen. 
       Versuche, den Druck unter 10 MPa zu halten, sonst wirst du am Ende nass, verletzt und traurig sein, ohne dass du etwas von dem Spaß hast.
       Du kannst einen {THING:ItemGasCanisterWater} auffüllen, indem du ihn an den gestreiften Teil des Tanks anschließt. Oder du benutzt einen {THING:ItemWrench}, um ihn an einer Rakete zu befestigen und ihn an einen weit entfernten und trockenen Ort zu bringen, damit du dich gut fühlst.</Description>
@@ -1015,12 +1015,12 @@
     <RecordThing>
       <Key>DynamicGenerator</Key>
       <Value>Tragbarer Generator</Value>
-      <Description>Der beste Freund eines jeden {LINK:Stationeers;Stationeer}, der tragbare Generator, bringt dich schnell wieder zum Laufen. Fülle ihn mit {THING:ItemGasCanisterFuel}, um Energie zu tanken und eine {THING:ItemBatteryCell} aufzuladen, oder schließe ihn an einen {THING:StructurePowerConnector} an, um ihn mit deinem elektrischen Netzwerk zu verbinden. Er ist druckgesteuert und funktioniert daher bei niedrigeren Temperaturen effizienter und bei Unterkühlung WIRKLICH effizient. Auch die Optimierung deines Kraftstoffmixes macht einen großen Unterschied.</Description>
+      <Description>Der beste Freund eines jeden {LINK:Stationeers;Stationeer}, der tragbare Generator, bringt dich schnell wieder zum Laufen. Fülle ihn mit {THING:ItemGasCanisterFuel}, um Energie zu tanken und eine {THING:ItemBatteryCell} aufzuladen, oder schließe ihn an einen {THING:StructurePowerConnector} an, um ihn mit deinem elektrischen Netzwerk zu verbinden. Er ist druckgesteuert und funktioniert daher bei niedrigeren Temperaturen effizienter und bei Unterkühlung WIRKLICH effizient. Auch die Optimierung deines Kraftstoffmixes macht einen Großen Unterschied.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicLight</Key>
       <Value>Tragbares Licht</Value>
-      <Description>Philippe Starck wird vielleicht nicht applaudieren, aber diese batteriebetriebene Lichtquelle bringt Licht ins Dunkel, wenn es an Beleuchtung mangelt. Sie wird mit einer beliebigen Batterie betrieben und kann ohne großen Aufwand kostengünstig hergestellt werden {LINK:Xigo;Xigo}. Es sei denn, du magst Aufregung. In diesem Fall kannst du so viel Aufhebens machen, wie du willst.</Description>
+      <Description>Philippe Starck wird vielleicht nicht applaudieren, aber diese batteriebetriebene Lichtquelle bringt Licht ins Dunkel, wenn es an Beleuchtung mangelt. Sie wird mit einer beliebigen Batterie betrieben und kann ohne Großen Aufwand kostengünstig hergestellt werden {LINK:Xigo;Xigo}. Es sei denn, du magst Aufregung. In diesem Fall kannst du so viel Aufhebens machen, wie du willst.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicScrubber</Key>
@@ -1074,29 +1074,29 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemActiveVent</Key>
-      <Value>Kit (Aktive Entlüftung)</Value>
+      <Value>Aktive Entlüftung</Value>
       <Description>Wenn du diesen Kit baust, platziert er ein {THING:StructureActiveVent} an einer beliebigen Stützstruktur.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemAreaPowerControl</Key>
-      <Value>Kit (Energieregler)</Value>
+      <Value>Energieregler</Value>
       <Description>Dieser Kit platziert ein {THING:StructureAreaPowerControl} (FLR) auf einer beliebigen Stützstruktur. Der FLR-Kit hat zwei Optionen: Du kannst wählen, in welche Richtung die Energie des FLR fließen soll.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBatteryCell</Key>
-      <Value>Batteriezelle (klein)</Value>
-      <Description>Die kleine Batteriezelle, die zu Beginn des 21. Jahrhunderts entwickelt wurde, ist die {LINK:Stationeers;Stationeer's} Grundeinheit für tragbare elektrische Energie. Sie hat zwar nicht die Ladung einer {LINK:ItemBatteryCellLarge} oder {LINK:ItemBatteryCellNuclear}, aber den bescheidenen Vorteil, dass sie aus einfachen Rohstoffen hergestellt werden kann.
+      <Value>Batteriezelle (Klein)</Value>
+      <Description>Die Kleine Batteriezelle, die zu Beginn des 21. Jahrhunderts entwickelt wurde, ist die {LINK:Stationeers;Stationeer's} Grundeinheit für tragbare elektrische Energie. Sie hat zwar nicht die Ladung einer {LINK:ItemBatteryCellLarge} oder {LINK:ItemBatteryCellNuclear}, aber den bescheidenen Vorteil, dass sie aus einfachen Rohstoffen hergestellt werden kann.
 
       {HEADER:POWER OUTPUT}
-      Die kleine Zelle speichert bis zu 36000 Watt Energie.</Description>
+      Die Kleine Zelle speichert bis zu 36000 Watt Energie.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBatteryCellLarge</Key>
-      <Value>Batteriezelle (groß)</Value>
+      <Value>Batteriezelle (Groß)</Value>
       <Description>Das klassische Siliziumanoden-Festkörperdesign, das erstmals 2155 von {LINK:Xigo;Xigo} auf der Grundlage eines nicht bestätigten Prototyps in Serie produziert wurde, erweitert ihren optimalen Temperaturbereich.
 
       {HEADER:POWER OUTPUT}
-      Die große Energiezelle kann eine Leistung von 288 kW abgeben.
+      Die Große Energiezelle kann eine Leistung von 288 kW abgeben.
       </Description>
     </RecordThing>
     <RecordThing>
@@ -1109,7 +1109,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemBatteryCharger</Key>
-      <Value>Kit (Batterieladegerät)</Value>
+      <Value>Batterieladegerät</Value>
       <Description>Dieses Kit produziert einen 5-Slot {THING:ItemBatteryCharger}.</Description>
     </RecordThing>
     <RecordThing>
@@ -1150,7 +1150,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemCoalOre</Key>
-      <Value>Erz (Kohle)</Value>
+      <Value>Kohle-Erz</Value>
       <Description>Ohne die bescheidene, brennbare Kohle hätte es die Menschheit nicht ins All geschafft. Brenne sie in einem {THING:StructureSolidFuelGenerator}, schmelze sie im {THING:StructureFurnace}, um {LINK:AlloysPage;alloys} herzustellen, oder benutze sie im {THING:ApplianceReagentProcessor}, um {THING:ItemSprayCanBlack} herzustellen.</Description>
     </RecordThing>
     <RecordThing>
@@ -1181,7 +1181,7 @@
     <RecordThing>
       <Key>ItemDuctTape</Key>
       <Value>Isolierband</Value>
-      <Description>In der fernen Vergangenheit lehrte einer der großen Champions der Erde eine Generation von &quot;Reparierleuten&quot;, dass Isolierband die Antwort auf jedes Problem ist. {LINK:Stationeers;Stationeers} haben bewiesen, dass das stimmt, solange das Problem ein beschädigter {THING:ItemEvaSuit}, {THING:ItemJetpackBasic}, {THING:ItemSpaceHelmet} oder sogar ein {THING:StructureSolarPanel} ist.
+      <Description>In der fernen Vergangenheit lehrte einer der Großen Champions der Erde eine Generation von &quot;Reparierleuten&quot;, dass Isolierband die Antwort auf jedes Problem ist. {LINK:Stationeers;Stationeers} haben bewiesen, dass das stimmt, solange das Problem ein beschädigter {THING:ItemEvaSuit}, {THING:ItemJetpackBasic}, {THING:ItemSpaceHelmet} oder sogar ein {THING:StructureSolarPanel} ist.
   Um es selbst zu benutzen: Nimm Klebeband in deine aktive Hand und halte die RECHTE MAUSTASTE gedrückt, um den Schaden automatisch zu reparieren.</Description>
     </RecordThing>
     <RecordThing>
@@ -1228,7 +1228,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemFlashingLight</Key>
-      <Value>Kit (Blinklicht)</Value>
+      <Value>Blinklicht</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -1273,7 +1273,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterMethane</Key>
-      <Value>Kanister (flüchtige Stoffe)</Value>
+      <Value>Kanister (Methan)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -1300,7 +1300,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterCarbonDioxide</Key>
-      <Value>Filter (Kohlendioxid)</Value>
+      <Value>Filter (Kohlenstoffdioxid)</Value>
       <Description>Da die Menschheit davon besessen ist, {GAS:CarbonDioxide} auszuatmen, erhalten alle {LINK:Stationeer;Stationeer} zwei grundlegende {LINK:Sinotai;Sinotai} {GAS:CarbonDioxide} {SLOT:GasFilter} als Teil ihres Standard-Einsatzkits (SEK). Diese Filter ermöglichen den Durchgang von {GAS:CarbonDioxide} in den Abfallbehälter des Anzugs {THING:ItemGasCanisterEmpty}, sind aber auch wichtige Bestandteile des {THING:DynamicScrubber} und der {THING:StructureFiltration}. Die {THING:ItemGasFilterCarbonDioxideM} und {THING:ItemGasFilterCarbonDioxideL} sind ebenfalls verfügbar.</Description>
     </RecordThing>
     <RecordThing>
@@ -1320,7 +1320,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterMethane</Key>
-      <Value>Filter (flüchtige Stoffe)</Value>
+      <Value>Filter (Methan)</Value>
       <Description>Filter werden benutzt, um verschiedene Gase aufzufangen, die dann entsorgt oder anderweitig benutzt werden können. {GAS:Methane} werden erzeugt, indem {THING:ItemMethane} der Hitze ausgesetzt wird. Das Produkt kann dann aufgefangen und mit {GAS:Oxygen} kombiniert werden, um Treibstoff zu erzeugen, oder es wird in einem {LINK:StructureFurnace} benutzt, um Erze zu schmelzen und {LINK:IngotPage;alloys} herzustellen.</Description>
     </RecordThing>
     <RecordThing>
@@ -1330,12 +1330,12 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemGasTankStorage</Key>
-      <Value>Kit (Kanisterlagerung)</Value>
+      <Value>Kanisterlagerung</Value>
       <Description>Dieser Kit erzeugt einen {THING:ItemGasTankStorage} zum Auffüllen eines {THING:ItemGasCanisterEmpty}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidTankStorage</Key>
-      <Value>Kit (Lagerung von Flüssigkeitskanistern)</Value>
+      <Value>Lagerung von Flüssigkeitskanistern</Value>
       <Description>Dieser Kit produziert einen {THING:ItemLiquidTankStorage}, um einen {THING:ItemLiquidCanisterEmpty} wieder aufzufüllen.</Description>
     </RecordThing>
     <RecordThing>
@@ -1345,22 +1345,22 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemCopperIngot</Key>
-      <Value>Barren (Kupfer)</Value>
+      <Value>Kupfer-Barren</Value>
       <Description>Kupferbarren werden durch Schmelzen von {THING:ItemCopperOre} im {THING:StructureFurnace} und {THING:StructureArcFurnace} hergestellt und zur Herstellung einer Vielzahl von Gegenständen benutzt.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCopperOre</Key>
-      <Value>Erz (Kupfer)</Value>
+      <Value>Kupfer-Erz</Value>
       <Description>Kupfer ist ein chemisches Element mit dem Symbol &quot;Cu&quot;. Dieses gewöhnliche und hoch leitfähige Material ist auf den meisten Himmelskörpern zu finden und wird in einer Vielzahl von Herstellungsprozessen benutzt, darunter elektronische Bauteile, Legierungen und Drähte.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGoldIngot</Key>
-      <Value>Barren (Gold)</Value>
+      <Value>Gold-Barren</Value>
       <Description>Dem Projekt {LINK:Stationeers;Stationeers} liegt ein dauerhaftes Paradox zugrunde: Eine Initiative, die als &quot;geschliffene Weltraumforschung&quot; konzipiert wurde, benutzt {REAGENT:Gold} als grundlegenden Bestandteil für die Herstellung eines Großteils ihrer Ausrüstung und ihres Materials.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGoldOre</Key>
-      <Value>Erz (Gold)</Value>
+      <Value>Gold-Erz</Value>
       <Description>Es wird angenommen, dass {REAGENT:Gold} im Herzen von Supernovas entstanden ist und sich in den frühen Stufen der Sonnenentstehung als Staub angesammelt hat, der dann in die langsam anwachsenden Planetenkörper integriert wurde. Heute ist {REAGENT:Gold} ein geschätztes Element im {LINK:Stationeers;Stationeer} Bau und wird nicht wegen seiner Schönheit, sondern wegen seiner Zuverlässigkeit geschätzt: träge, langlebig, leitfähig und hochstabil - die Stärke von Gold ist, dass es nichts tut.</Description>
     </RecordThing>
     <RecordThing>
@@ -1376,7 +1376,7 @@
     <RecordThing>
       <Key>ItemHealPill</Key>
       <Value>Heilungspille</Value>
-      <Description>Drei Jahrhunderte pharmazeutischer Technologie komprimiert in einer kleinen, leicht einzunehmenden Pille: Die Heilpille, auch Protonenpille oder Mr. Happy genannt, enthält aktive Enzyme, therapeutische Proteine, modifizierte mikrobielle Stämme und Säugetierzelllinien-Analoga in einer einzigen Dosis mit hoher Reinheit, Wirksamkeit und Potenz, die eine schnelle parasympathische Immunreaktion potenziert.</Description>
+      <Description>Drei Jahrhunderte pharmazeutischer Technologie komprimiert in einer Kleinen, leicht einzunehmenden Pille: Die Heilpille, auch Protonenpille oder Mr. Happy genannt, enthält aktive Enzyme, therapeutische Proteine, modifizierte mikrobielle Stämme und Säugetierzelllinien-Analoga in einer einzigen Dosis mit hoher Reinheit, Wirksamkeit und Potenz, die eine schnelle parasympathische Immunreaktion potenziert.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemHEMDroidRepairKit</Key>
@@ -1390,7 +1390,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemHydroponicTray</Key>
-      <Value>Kit (Hydroponisches Tablett)</Value>
+      <Value>Hydroponisches Tablett</Value>
       <Description>Dieser Kit erstellt ein {THING:StructureHydroponicsTray} für den Anbau verschiedener Pflanzen.</Description>
     </RecordThing>
     <RecordThing>
@@ -1400,7 +1400,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemIgniter</Key>
-      <Value>Kit (Entflammung)</Value>
+      <Value>Entflammung</Value>
       <Description>Dieses Kit erzeugt eine {THING:ItemIgniter} Einheit.</Description>
     </RecordThing>
     <RecordThing>
@@ -1410,142 +1410,142 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemIronIngot</Key>
-      <Value>Barren (Eisen)</Value>
+      <Value>Eisen-Barren</Value>
       <Description>Eisenbarren sind die grundlegendste Baueinheit, die der {LINK:Stationeers;Stationeer}-Art zur Verfügung steht. Sie werden durch Verhüttung von {THING:ItemIronOre} im {THING:StructureFurnace} und {THING:StructureArcFurnace} hergestellt und zur Herstellung einer Vielzahl von Gegenständen benutzt.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemIronOre</Key>
-      <Value>Erz (Eisen)</Value>
+      <Value>Eisen-Erz</Value>
       <Description>Eisen ist im gesamten Sonnensystem reichlich vorhanden und wird am häufigsten von {LINK:Stationeers;Stationeers} benutzt, die außerweltliche Basen errichten. Es kann sowohl zu {LINK:ItemIronIngot}s als auch zu {LINK:ItemSteelIngot}s verhüttet werden.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAirlock</Key>
-      <Value>Kit (Luftschleuse)</Value>
+      <Value>Luftschleuse</Value>
       <Description>Dieser Kit erzeugt ein einzelnes {THING:StructureAirlock} Portal.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAtmospherics</Key>
-      <Value>Kit (Atmosphären)</Value>
+      <Value>Atmosphären</Value>
       <Description>Dieser Kit erzeugt einen {THING:StructureAirConditioner}, {THING:StructureElectrolyzer}, {THING:StructureFiltration}, {THING:StructureNitrolyzer} oder {THING:H2Combustor}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitBattery</Key>
-      <Value>Kit (Batterie)</Value>
+      <Value>Batterie</Value>
       <Description>Dieser Kit produziert eine einzelne Station {THING:StructureBattery}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCentrifuge</Key>
-      <Value>Kit (Zentrifuge)</Value>
+      <Value>Zentrifuge</Value>
       <Description>Dieser Kit produziert eine einzelne {THING:StructureCentrifuge}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitChute</Key>
-      <Value>Kit (Basisschächte)</Value>
+      <Value>Basisschächte</Value>
       <Description>Dieser Kit produziert eine Vielzahl von unmotorisierten Rutschen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitComputer</Key>
-      <Value>Kit (Computer)</Value>
+      <Value>Computer</Value>
       <Description>Dieser Kit produziert einen einzelnen {THING:StructureComputer}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitConsole</Key>
-      <Value>Kit (Konsolen)</Value>
+      <Value>Konsolen</Value>
       <Description>Dieser Kit produziert eine Reihe von {THING:StructureConsole}s und Displays wie die {THING:StructureConsoleLED1x2}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitConveyor</Key>
-      <Value>Kit (Förderbänder)</Value>
+      <Value>Förderbänder</Value>
       <Description>Dieser Kit produziert Förderelemente, wie z.B. den {THING:StructureConveyorStraight}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCryoTube</Key>
-      <Value>Kit (Kryoröhre)</Value>
+      <Value>Kryoröhre</Value>
       <Description>Dieser Kit produziert eine Reihe von Kälteröhren, die zum Heilen von Spielern und Spielerorganen sowie zur Wiederbelebung toter Spieler benutzt werden können.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitEngine</Key>
-      <Value>Kit (Triebwerke)</Value>
+      <Value>Triebwerke</Value>
       <Description>Dieser Kit produziert eine Maschine.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFabricator</Key>
-      <Value>Kit (Hersteller)</Value>
+      <Value>Hersteller</Value>
       <Description>Dieser Kit produziert einen einzelnen {THING:StructureFabricator}. (nur im Kreativmodus)</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFurnace</Key>
-      <Value>Kit (Ofen)</Value>
+      <Value>Schmelzofen</Value>
       <Description>Dieser Kit produziert einen einzelnen {THING:StructureFurnace}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFurniture</Key>
-      <Value>Kit (Möbel)</Value>
+      <Value>Möbel</Value>
       <Description>Dieser Kit produziert eine Reihe von {LINK:FurniturePage;furniture}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitGyroscope</Key>
-      <Value>Kit (Gyroskop)</Value>
+      <Value>Gyroskop</Value>
       <Description>Dieser Kit produziert ein einzelnes {THING:StructureGyroscope}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRegulator</Key>
-      <Value>Kit (Druckregulator)</Value>
+      <Value>Druckregulator</Value>
       <Description>Dieser Kit produziert einen einzelnen {LINK:StructurePressureRegulator}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSensor</Key>
-      <Value>Kit (Sensoren)</Value>
+      <Value>Sensoren</Value>
       <Description>Dieser Kit produziert eine Reihe von Sensoren, darunter {THING:StructureGasSensor}, {THING:StructureDaylightSensor}, {THING:StructureMotionSensor}, {THING:StructureProximitySensor} und {THING:StructureOccupancySensor}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSign</Key>
-      <Value>Kit (Schild)</Value>
+      <Value>Schild</Value>
       <Description>Dieser Kit produziert ein {THING:StructureSign1x1} oder {THING:StructureSign2x1}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSleeper</Key>
-      <Value>Kit (Schwelle)</Value>
+      <Value>Schwelle</Value>
       <Description>Dieser Kit produziert eine Reihe von Schläfern, die Spieler hydriert und ernährt halten, während sie ausgeloggt sind - solange eine atmungsaktive Atmosphäre vorhanden ist.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSolarPanel</Key>
-      <Value>Kit (Solarpanel)</Value>
+      <Value>Solarpanel</Value>
       <Description>Dieser Kit produziert ein {THING:StructureSolarPanel} und mehrere Varianten.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStairs</Key>
-      <Value>Kit (Treppe)</Value>
+      <Value>Treppe</Value>
       <Description>Dieser Kit produziert eine {THING:StructureStairs4x2} und mehrere Varianten.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStellarAnchor</Key>
-      <Value>Kit (Stellar-Anker)</Value>
+      <Value>Stellar-Anker</Value>
       <Description>Dieser Kit produziert einen einzelnen {THING:StructureStellarAnchor}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStorage</Key>
-      <Value>Kit (Lagerung)</Value>
+      <Value>Raumanzugdock</Value>
       <Description>Dieser Kit produziert einen {THING:StructureSuitStorage}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTank</Key>
-      <Value>Kit (Tank)</Value>
+      <Value>Tank</Value>
       <Description>Dieser Kit produziert entweder einen {THING:StructureTankBig} oder einen {THING:StructureTankSmall}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTorpedoTube</Key>
-      <Value>Kit (Torpedo-Abschussvorrichtung)</Value>
+      <Value>Torpedo-Abschussvorrichtung</Value>
       <Description>Dieser Kit produziert einen einzelnen {THING:StructureTorpedoTube}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTurret</Key>
-      <Value>Kit (Geschützturm)</Value>
+      <Value>Geschützturm</Value>
       <Description>Dieser Kit produziert einen einzelnen {THING:StructureGunTurret}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWall</Key>
-      <Value>Kit (Wand)</Value>
+      <Value>Wand</Value>
       <Description>Dieser Kit produziert eine Reihe von zusammengesetzten Wandelementen und Fenstern.</Description>
     </RecordThing>
     <RecordThing>
@@ -1586,7 +1586,7 @@
     <RecordThing>
       <Key>ItemPillHeal</Key>
       <Value>Pille (Medizin)</Value>
-      <Description>Drei Jahrhunderte pharmazeutischer Technologie komprimiert in einer kleinen, leicht einzunehmenden Pille: Die Heilpille, auch Protonenpille oder Mr. Happy genannt, enthält aktive Enzyme, therapeutische Proteine, modifizierte mikrobielle Stämme und Säugetierzelllinien-Analoga in einer einzigen Dosis mit hoher Reinheit, Wirksamkeit und Potenz, die eine schnelle parasympathische Immunantwort auslöst.</Description>
+      <Description>Drei Jahrhunderte pharmazeutischer Technologie komprimiert in einer Kleinen, leicht einzunehmenden Pille: Die Heilpille, auch Protonenpille oder Mr. Happy genannt, enthält aktive Enzyme, therapeutische Proteine, modifizierte mikrobielle Stämme und Säugetierzelllinien-Analoga in einer einzigen Dosis mit hoher Reinheit, Wirksamkeit und Potenz, die eine schnelle parasympathische Immunantwort auslöst.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPillStun</Key>
@@ -1595,87 +1595,87 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeAnalyizer</Key>
-      <Value>Kit (Rohr-Analysator)</Value>
+      <Value>Rohr-Analysator</Value>
       <Description>Dieser Kit erstellt einen {THING:StructurePipeAnalysizer}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeCorner</Key>
-      <Value>Kit (Rohrecke)</Value>
+      <Value>Rohrecke</Value>
       <Description>Dieser Kit erstellt eine {THING:StructurePipeCorner}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeCrossJunction</Key>
-      <Value>Kit (Rohrkreuzung)</Value>
+      <Value>Rohrkreuzung</Value>
       <Description>Dieser Kit erstellt eine {THING:StructurePipeCrossJunction}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeCrossJunction3</Key>
-      <Value>Kit (Rohr-3-Wege-Verbindung)</Value>
+      <Value>Rohr-3-Wege-Verbindung</Value>
       <Description>Dieser Kit erstellt eine {THING:StructurePipeCrossJunction3}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeCrossJunction5</Key>
-      <Value>Kit (Rohr 5-Wege-Verbindung)</Value>
+      <Value>Rohr 5-Wege-Verbindung</Value>
       <Description>Dieser Kit erstellt eine {THING:StructurePipeCrossJunction5}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeCrossJunction6</Key>
-      <Value>Kit (Rohr 6-Wege-Abzweigung)</Value>
+      <Value>Rohr 6-Wege-Abzweigung</Value>
       <Description>Dieser Kit erstellt eine {THING:StructurePipeCrossJunction6}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeDigitalValve</Key>
-      <Value>Kit (Digitales Ventil)</Value>
+      <Value>Digitales Ventil</Value>
       <Description>Dieser Kit erstellt ein {THING:StructureDigitalValve}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeGasMixer</Key>
-      <Value>Kit (Gasmischer)</Value>
+      <Value>Gasmischer</Value>
       <Description>Dieser Kit erstellt einen {THING:StructureGasMixer}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeLabel</Key>
-      <Value>Kit (Rohrleitungsetikett)</Value>
+      <Value>Rohrleitungsetikett</Value>
       <Description>Dieser Kit erstellt ein {THING:StructurePipeLabel}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeMeter</Key>
-      <Value>Kit (Rohrzähler)</Value>
+      <Value>Rohrzähler</Value>
       <Description>Dieser Kit erstellt ein {THING:StructurePipeMeter}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeRadiator</Key>
-      <Value>Kit (Heizkörper)</Value>
+      <Value>Heizkörper</Value>
       <Description>Dieser Kit erstellt einen {THING:StructurePipeRadiator}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeStraight</Key>
-      <Value>Kit (Gerade Rohrleitung)</Value>
+      <Value>Gerade Rohrleitung</Value>
       <Description>Dieser Kit erstellt ein {THING:StructurePipeStraight}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeTJunction</Key>
-      <Value>Kit (Rohr-T-Abzweigung)</Value>
+      <Value>Rohr-T-Abzweigung</Value>
       <Description>Dieser Kit erstellt eine {THING:StructurePipeTJunction}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeValve</Key>
-      <Value>Kit (Rohrleitungsventil)</Value>
+      <Value>Rohrleitungsventil</Value>
       <Description>Dieser Kit erstellt ein {THING:StructureValve}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeVolumePump</Key>
-      <Value>Kit (Volumenpumpe)</Value>
+      <Value>Volumenpumpe</Value>
       <Description>Dieser Kit erstellt eine {THING:StructureVolumePump}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidPipeValve</Key>
-      <Value>Kit (Flüssigkeitsrohrventil)</Value>
+      <Value>Flüssigkeitsrohrventil</Value>
       <Description>Dieser Kit erstellt ein {THING:StructureLiquidValve}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPowerConnector</Key>
-      <Value>Kit (Energie-Anschluss)</Value>
+      <Value>Energie-Anschluss</Value>
       <Description>Dieser Kit erstellt einen {THING:StructurePowerConnector}.</Description>
     </RecordThing>
     <RecordThing>
@@ -1690,12 +1690,12 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemRTG</Key>
-      <Value>Kit (Kreatives RTG)</Value>
+      <Value>RTG Kreatives</Value>
       <Description>Dieser Kit erschafft das Wunder der modernen Wissenschaft, ein {THING:ItemRTG}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemRTGSurvival</Key>
-      <Value>Kit (RTG)</Value>
+      <Value>RTG</Value>
       <Description>Mit diesem Kit kannst du ein {THING:ItemRTGSurvival} herstellen.</Description>
     </RecordThing>
     <RecordThing>
@@ -1798,7 +1798,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemSteelIngot</Key>
-      <Value>Barren (Stahl)</Value>
+      <Value>Stahl-Barren</Value>
       <Description>Stahlbarren sind eine Metalllegierung, die in einem {THING:StructureFurnace} durch Schmelzen von {THING:ItemIronOre} und {THING:ItemCoalOre} im Verhältnis 3:1 hergestellt wird.
   Es mag nicht elegant sein, aber {THING:ItemOxite} und {THING:ItemMethane} können in einem Verhältnis von 1:2 in einem Ofen kombiniert werden, um das notwendige Gasgemisch für die Verhüttung zu erzeugen.</Description>
     </RecordThing>
@@ -1809,22 +1809,22 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemSuitStorage</Key>
-      <Value>Kit (Anzugaufbewahrung)</Value>
+      <Value>Raumanzugdock</Value>
       <Description>Dieser Kit erstellt einen {THING:StructureSuitStorage}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemTablet</Key>
-      <Value>Handheld-Tablet</Value>
-      <Description>Das {LINK:Xigo;Xigo} Handheld-Tablet &quot;Padi&quot; ist eine universell einsetzbare Datenplattform, die standardmäßig an alle {LINK:Stationeers;Stationeers} geliefert wird. Als dynamisches Multitool, das eine Reihe von {LINK:CartridgePage;Cartridges} akzeptiert, wird das Padi zu einem {THING:CartridgeAtmosAnalyser} oder {THING:CartridgeTracker}, {THING:CartridgeMedicalAnalyser}, {THING:CartridgeOreScanner}, {THING:CartridgeElectronicReader} und verschiedenen anderen Funktionen.</Description>
+      <Value>Tablet</Value>
+      <Description>Das {LINK:Xigo;Xigo} {THING:ItemTablet} &quot;Padi&quot; ist eine universell einsetzbare Datenplattform, die standardmäßig an alle {LINK:Stationeers;Stationeers} geliefert wird. Als dynamisches Multitool, das eine Reihe von {LINK:CartridgePage;Cartridges} akzeptiert, wird das Padi zu einem {THING:CartridgeAtmosAnalyser} oder {THING:CartridgeTracker}, {THING:CartridgeMedicalAnalyser}, {THING:CartridgeOreScanner}, {THING:CartridgeElectronicReader} und verschiedenen anderen Funktionen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemTankConnector</Key>
-      <Value>Kit (Tankanschluss)</Value>
+      <Value>Tankanschluss</Value>
       <Description>Dieser Kit erstellt einen {THING:StructureTankConnector}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemTankConnectorLiquid</Key>
-      <Value>Kit (Flüssigtankanschluss)</Value>
+      <Value>Flüssigtankanschluss</Value>
       <Description>Dieser Kit erstellt einen {THING:StructureTankConnectorLiquid}.</Description>
     </RecordThing>
     <RecordThing>
@@ -1835,22 +1835,22 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemUraniumOre</Key>
-      <Value>Erz (Uran)</Value>
+      <Value>Uran-Erz</Value>
       <Description>1934 bemerkte Enrico Fermi, dass der Beschuss von Uran mit Neutronen einen Ausbruch von Betastrahlen und einen neuen Werkstoff erzeugte. Dieser Prozess wurde &quot;Kernspaltung&quot; genannt und führte zu billiger Energie, dem Kalten Krieg und zigtausend Toten. Obwohl es im gesamten Sonnensystem recht üblich ist, sind die {LINK:Stationeers;Stationeers} vorsichtig mit diesem Material.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWallCooler</Key>
-      <Value>Kit (Wandkühler)</Value>
+      <Value>Wandkühler</Value>
       <Description>Dieser Kit erstellt einen {THING:StructureWallCooler}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWallHeater</Key>
-      <Value>Kit (Wand-Heizung)</Value>
+      <Value>Wand-Heizung</Value>
       <Description>Dieser Kit stellt eine {THING:ItemWallHeater} her.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWallLight</Key>
-      <Value>Kit (Lichter)</Value>
+      <Value>Lichter</Value>
       <Description>Mit diesem Kit kannst du eine von zehn {THING:ItemWallLight} Varianten herstellen.</Description>
     </RecordThing>
     <RecordThing>
@@ -1876,25 +1876,25 @@
     </RecordThing>
     <RecordThing>
       <Key>MotherboardLogic</Key>
-      <Value>Logik-Motherboard</Value>
-      <Description>Motherboards sind mit {THING:StructureComputer}s verbunden, um verschiedene technische Funktionen auszuführen.
-  Das {LINK:Norsec;Norsec-designed} K-Cops Logik Motherboard ermöglicht es {LINK:Stationeers;Stationeers}, Variablen und Aktionen auf bestimmte {LINK:LogicUnitPage;logic}-gesteuerte Gegenstände zu setzen.</Description>
+      <Value>Logik-Hauptplatine</Value>
+      <Description>Hauptplatine sind mit {THING:StructureComputer}s verbunden, um verschiedene technische Funktionen auszuführen.
+  Das {LINK:Norsec;Norsec-designed} K-Cops Logik Hauptplatine ermöglicht es {LINK:Stationeers;Stationeers}, Variablen und Aktionen auf bestimmte {LINK:LogicUnitPage;logic}-gesteuerte Gegenstände zu setzen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>MotherboardManufacturing</Key>
-      <Value>Fertigungs-Motherboard</Value>
+      <Value>Fertigungs-Hauptplatine</Value>
       <Description>Veraltet.</Description>
     </RecordThing>
     <RecordThing>
       <Key>MotherboardSorter</Key>
-      <Value>Sorter-Motherboard</Value>
-      <Description>Motherboards sind mit {THING:StructureComputer}s verbunden, um verschiedene technische Funktionen auszuführen.
-  Das {LINK:Norsec;Norsec-designed} K-cops 10-10 Sorter Motherboard erlaubt es {LINK:Stationeers;Stationeers} zu kontrollieren, welche Gegenstände ein {THING:StructureSorter} passieren darf und welche nicht.</Description>
+      <Value>Sorter-Hauptplatine</Value>
+      <Description>Hauptplatine sind mit {THING:StructureComputer}s verbunden, um verschiedene technische Funktionen auszuführen.
+  Das {LINK:Norsec;Norsec-designed} K-cops 10-10 Sorter Hauptplatine erlaubt es {LINK:Stationeers;Stationeers} zu kontrollieren, welche Gegenstände ein {THING:StructureSorter} passieren darf und welche nicht.</Description>
     </RecordThing>
     <RecordThing>
       <Key>MothershipCore</Key>
       <Value>Mutterschiff-Kern</Value>
-      <Description>Als Relikt aus einer früheren Ära der Raumfahrt bildeten die {LINK:Sinotai;Sinotai's} Mutterschiffkerne das zentrale Element der raumfahrenden Schöpfungen einer Generation. Der Wechsel von Sinotai zu kleineren, modularen Raumschiffen hat zwar einige Puristen verärgert, aber die Mutterschiffe werden weiterhin von engagierten Enthusiasten gebaut und gewartet.</Description>
+      <Description>Als Relikt aus einer früheren Ära der Raumfahrt bildeten die {LINK:Sinotai;Sinotai's} Mutterschiffkerne das zentrale Element der raumfahrenden Schöpfungen einer Generation. Der Wechsel von Sinotai zu Kleineren, modularen Raumschiffen hat zwar einige Puristen verärgert, aber die Mutterschiffe werden weiterhin von engagierten Enthusiasten gebaut und gewartet.</Description>
     </RecordThing>
     <RecordThing>
       <Key>NPCDummyCharacter</Key>
@@ -1993,7 +1993,7 @@
     <RecordThing>
       <Key>StructureBattery</Key>
       <Value>Station Batterie</Value>
-      <Description>Die {LINK:Sinotai;Sinotai} &quot;Dianzi&quot; Stationsbatterie ist das Herzstück der meisten {LINK:Stationeers;Stationeer} Basen und speichert Energie in großem Umfang und zuverlässig. 
+      <Description>Die {LINK:Sinotai;Sinotai} &quot;Dianzi&quot; Stationsbatterie ist das Herzstück der meisten {LINK:Stationeers;Stationeer} Basen und speichert Energie in Großem Umfang und zuverlässig. 
       Bei der Konstruktion elektrischer Systeme, die Batterien benutzen, gibt es eine Reihe von Vorsichtsmaßnahmen, und jeder erfahrene Stationeer hat eine Geschichte zu erzählen, daher das Stationeer-Sprichwort: &quot;Dianzi kocht, aber grillt auch.&quot; 
       {HEADER:ENERGIE}
       Da sie bis zu 3600000 W Energie speichern kann, gibt es keine praktischen Grenzen für ihren Durchsatz, weshalb es ratsam ist, {THING:ItemCableCoilHeavy} zu benutzen. Erfahrene Elektroingenieure werden auch denjenigen ins Gesicht lachen, die es versäumen, ihre Netzwerke zur Energieerzeugung mit einem {THING:StructureAreaPowerControl} und einem {THING:StructureTransformer} zu trennen.</Description>
@@ -2012,7 +2012,7 @@
       <Key>StructureBlastDoor</Key>
       <Value>Strahltür</Value>
       <Description>Luftdicht und nahezu unzerstörbar: Die ursprüngliche &quot;Millmar&quot;-Sprengtürserie wurde vom Bergbaugiganten {LINK:Recurso;Recurso} entwickelt, um Asteroidenabbauanlagen vor einer explosiven Dekompression auf dem Niveau eines nuklearen Zwischenfalls zu schützen.
-      Wenn nicht gerade eine taschengroße Singularität in den lokalen Raum-Zeit-Rahmen blinkt, gibt es praktisch keine Grenze für den Druck, den diese Schutztüren aushalten können - ideal für den Bau von Schleusen in druckempfindlichen Umgebungen.</Description>
+      Wenn nicht gerade eine taschenGroße Singularität in den lokalen Raum-Zeit-Rahmen blinkt, gibt es praktisch keine Grenze für den Druck, den diese Schutztüren aushalten können - ideal für den Bau von Schleusen in druckempfindlichen Umgebungen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCorner</Key>
@@ -2238,7 +2238,7 @@
     <RecordThing>
       <Key>StructureCryoTube</Key>
       <Value>Kryoröhre</Value>
-      <Description>Die genaue Funktionsweise der Langschlaf-Kryoröhre bleibt ein Geschäftsgeheimnis, da {LINK:Norsec;Norsec} das Design lediglich lizenziert hat. Der Langschlaf ist in der Lage, Organschäden zu regenerieren, wenn er mit Energie und einer Atmosphäre versorgt wird, und ist ein kleines Wunder der modernen Medizintechnik.</Description>
+      <Description>Die genaue Funktionsweise der Langschlaf-Kryoröhre bleibt ein Geschäftsgeheimnis, da {LINK:Norsec;Norsec} das Design lediglich lizenziert hat. Der Langschlaf ist in der Lage, Organschäden zu regenerieren, wenn er mit Energie und einer Atmosphäre versorgt wird, und ist ein Kleines Wunder der modernen Medizintechnik.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureDaylightSensor</Key>
@@ -2268,7 +2268,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWaterPurifier</Key>
-      <Value>Kit (Wasserreiniger)</Value>
+      <Value>Wasserreiniger</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -2294,7 +2294,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureFurnace</Key>
-      <Value>Ofen</Value>
+      <Value>Schmelzofen</Value>
       <Description>Der Zhurong-Ofen verwendet ein Hochtemperatur-Gasgemisch aus {GAS:Oxygen} und {GAS:Methane}, um {LINK:IngotPage;ingots} und eine Reihe von {LINK:IngotPage;alloys} als Rohmaterial für {LINK:FabricatorPage;fabricators} zu schmelzen.
       Ein grundlegendes Gasgemisch kann durch die Zugabe von {THING:ItemOxite} und {THING:ItemMethane} im Verhältnis 1:2 direkt in den Ofen erreicht werden, aber komplexere Legierungen erfordern ein sorgfältiges Management eines speziellen Gasmischnetzwerks. Das genaue Mischungsverhältnis der Bestandteile muss beachtet werden. Ebenso produziert das Schmelzen von Erzen bei unzureichenden Temperaturen {LINK:ReagentPage;reagents}, die recycelt werden müssen.
       Wenn Wasser im Ofen vorhanden ist, sammelt es sich dort, bis der Ofen an ein Netzwerk von Flüssigkeitsleitungen angeschlossen wird.</Description>
@@ -2311,12 +2311,12 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureGasTankStorage</Key>
-      <Value>Gastank Lagerung</Value>
+      <Value>Gastank-Halterung</Value>
       <Description>Wenn sie an ein Netzwerk angeschlossen sind, kannst du einen {THING:ItemGasCanisterEmpty} auffüllen und verschiedene atmosphärische Daten aus dem {SLOT:GasCanister} ablesen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidTankStorage</Key>
-      <Value>Flüssigkeitstank-Lagerung</Value>
+      <Value>Flüssigkeitstank-Halterung</Value>
       <Description>Wenn du an ein Netzwerk von Flüssigkeitsleitungen angeschlossen bist, kannst du mit dem Tanklager einen {THING:ItemLiquidCanisterEmpty} auffüllen und verschiedene atmosphärische Daten aus dem {SLOT:GasCanister} ablesen. Er akzeptiert keine Gaskanister.</Description>
     </RecordThing>
     <RecordThing>
@@ -2410,7 +2410,7 @@
     <RecordThing>
       <Key>StructurePipeMeter</Key>
       <Value>Rohrzähler</Value>
-      <Description>Das Stationeers-Programm hat bisher nur wenig klassische Poesie hervorgebracht, aber das folgende Haiku wurde ironischerweise auf einem Wrackteil eines Rohres gefunden, das auf Vulkan gefunden wurde:
+      <Description>Das Stationeers-Programm hat bisher nur wenig klassische Pösie hervorgebracht, aber das folgende Haiku wurde ironischerweise auf einem Wrackteil eines Rohres gefunden, das auf Vulkan gefunden wurde:
       &quot;Der bescheidene Rohrzähler
       spricht die Wahrheit, überträgt den Druck
       in jedem Rohr&quot;</Description>
@@ -2470,7 +2470,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketEngineSmall</Key>
-      <Value>Raketentriebwerk (klein)</Value>
+      <Value>Raketentriebwerk (Klein)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -2480,7 +2480,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureRTG</Key>
-      <Value>Kreativer RTG</Value>
+      <Value>RTG Kreativer</Value>
       <Description>Der {LINK:Norsec;Norsec}RTG (radioisotopischer thermoelektrischer Generator) benutzt die Wärmeabgabe des radioaktiven Zerfalls, um über eine Temperaturdifferenz an einem Thermoelement eine Spannung zu erzeugen. Normalerweise ist der RTG auf Geräte mit geringer Energie beschränkt, aber es wird gemunkelt, dass er zrillianische Technik nutzt, um seine unwahrscheinlich hohe Energieabgabe zu erreichen.</Description>
     </RecordThing>
     <RecordThing>
@@ -2522,8 +2522,8 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureSuitStorage</Key>
-      <Value>Anzugaufbewahrung</Value>
-      <Description>Die ebenso aufgeräumte wie nützliche Anzugaufbewahrung enthält einen {THING:ItemEvaSuit}, einen {THING:ItemSpaceHelmet} und einen {THING:ItemJetpackBasic}.
+      <Value>Raumanzugdock</Value>
+      <Description>Die ebenso aufgeräumte wie nützliche Raumanzugdock enthält einen {THING:ItemEvaSuit}, einen {THING:ItemSpaceHelmet} und einen {THING:ItemJetpackBasic}.
       Wenn er mit Energie versorgt und an {THING:Oxygen} und {THING:Propellant} angeschlossen wird, lädt er die Batterien des Anzugs auf, füllt den {THING:ItemGasCanisterOxygen} und deinen {THING:ItemGasFilterNitrogen} {SLOT:GasCanister}. Der Abwassertank wird in die Leitung gepumpt, die mit dem Abfallausgang verbunden ist.
       Alle Rohre des Racks müssen angeschlossen sein, sonst zeigt das Gerät einen Fehler an, lädt aber trotzdem die Batterie.</Description>
     </RecordThing>
@@ -2584,16 +2584,16 @@
     <RecordThing>
       <Key>StructureWallCooler</Key>
       <Value>Wandkühler</Value>
-      <Description>Der {LINK:Xigo;Xigo} Freezy Boi Wandkühler ergänzt den Wandheizer, der die Temperatur nur erhöhen kann. Der Wandkühler funktioniert, indem er der Umgebung Wärme entzieht und diese Wärme in sein Netzwerk einspeist.
-  Um den Wandkühler richtig zu betreiben, musst du Rohre an den Wandkühler anschließen und das angeschlossene Netzwerk mit einer beliebigen Art von Gas füllen. Die Wärmekapazität und das Volumen des Gases bestimmen, wie schnell es auf Temperaturänderungen reagiert.
+      <Description>Der {LINK:Xigo;Xigo} Freezy Boi {THING:StructureWallCooler} ergänzt den {THING:StructureWallHeater}, der die Temperatur nur erhöhen kann. Der {THING:StructureWallCooler} funktioniert, indem er der Umgebung Wärme entzieht und diese Wärme in sein Netzwerk einspeist.
+  Um den {THING:StructureWallCooler} richtig zu betreiben, musst du Rohre an den {THING:StructureWallCooler} anschließen und das angeschlossene Netzwerk mit einer beliebigen Art von Gas füllen. Die Wärmekapazität und das Volumen des Gases bestimmen, wie schnell es auf Temperaturänderungen reagiert.
 
   {HEADER:EFFICIENCY}
-  Je größer der Temperaturunterschied zwischen dem in den Rohren gespeicherten Gas und dem Raum ist, desto weniger effizient ist der Wandkühler. Um den Wandkühler mit einem akzeptablen Wirkungsgrad zu betreiben, musst du also die Wärme, die sich in den angeschlossenen Rohren ansammelt, loswerden. Gewöhnlich werden die Rohre nach außen geführt und Heizkörper an der Außenseite der Rohre benutzt, um die Wärme abzuführen.
-  Je weniger effizient der Wandkühler ist, desto weniger Energie verbraucht er. Bei maximalem Wirkungsgrad verbraucht er 1010 W. Der Wandkühler kann durch Logikchips so gesteuert werden, dass er läuft, wenn die Temperatur einen bestimmten Wert erreicht.
+  Je größer der Temperaturunterschied zwischen dem in den Rohren gespeicherten Gas und dem Raum ist, desto weniger effizient ist der {THING:StructureWallCooler}. Um den {THING:StructureWallCooler} mit einem akzeptablen Wirkungsgrad zu betreiben, musst du also die Wärme, die sich in den angeschlossenen Rohren ansammelt, loswerden. Gewöhnlich werden die Rohre nach außen geführt und Heizkörper an der Außenseite der Rohre benutzt, um die Wärme abzuführen.
+  Je weniger effizient der {THING:StructureWallCooler} ist, desto weniger Energie verbraucht er. Bei maximalem Wirkungsgrad verbraucht er 1010 W. Der {THING:StructureWallCooler} kann durch Logikchips so gesteuert werden, dass er läuft, wenn die Temperatur einen bestimmten Wert erreicht.
   {HEADER:ERRORS}
-  Wenn der Wandkühler eine Fehlermeldung anzeigt, fehlt einer der folgenden Punkte:
+  Wenn der {THING:StructureWallCooler} eine Fehlermeldung anzeigt, fehlt einer der folgenden Punkte:
 
-  - Rohrverbindung zum Wandkühler.
+  - Rohrverbindung zum {THING:StructureWallCooler}.
   - Gas in den angeschlossenen Rohren, oder der Druck ist zu niedrig.
   - Die Atmosphäre in der Umgebung oder der Druck ist zu niedrig.
 
@@ -2601,8 +2601,8 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureWallHeater</Key>
-      <Value>Wand-Heizung</Value>
-      <Description>Die {LINK:Xigo;Xigo} Wandheizung ist ein einfaches Gerät, das an einer Wand oder einem Rahmen angebracht und an die Energie angeschlossen werden kann. Wenn sie eingeschaltet wird, beginnt sie, die Umgebung zu erwärmen. Sie verbraucht 1010 W Energie und kann durch Logikchips so gesteuert werden, dass sie sich einschaltet, wenn die Temperatur ein bestimmtes Niveau erreicht.</Description>
+      <Value>Wandheizung</Value>
+      <Description>Die {LINK:Xigo;Xigo} {THING:StructureWallHeater} ist ein einfaches Gerät, das an einer Wand oder einem Rahmen angebracht und an die Energie angeschlossen werden kann. Wenn sie eingeschaltet wird, beginnt sie, die Umgebung zu erwärmen. Sie verbraucht 1010 W Energie und kann durch Logikchips so gesteuert werden, dass sie sich einschaltet, wenn die Temperatur ein bestimmtes Niveau erreicht.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallLight</Key>
@@ -2631,7 +2631,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemWasteIngot</Key>
-      <Value>Barren (Abfall)</Value>
+      <Value>Abfall-Barren</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -2671,12 +2671,12 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitGenerator</Key>
-      <Value>Kit (Generator)</Value>
+      <Value>Generator</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemCableFuse</Key>
-      <Value>Kit (Kabelsicherungen)</Value>
+      <Value>Kabelsicherungen</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -2751,19 +2751,19 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformer</Key>
-      <Value>Transformator (groß)</Value>
-      <Description>Der große {LINK:Norsec;Norsec}-Transformator ist ein wichtiger Bestandteil von ausgedehnten {LINK:ElectronicPage;electrical}-Netzwerken, da er die maximale Energie steuert, die durch ein Kabel fließt. Um eine Überlastung zu verhindern, kann die Leistung von 0 bis 50.000 W eingestellt werden. 
+      <Value>Transformator (Groß)</Value>
+      <Description>Der Große {LINK:Norsec;Norsec}-Transformator ist ein wichtiger Bestandteil von ausgedehnten {LINK:ElectronicPage;electrical}-Netzwerken, da er die maximale Energie steuert, die durch ein Kabel fließt. Um eine Überlastung zu verhindern, kann die Leistung von 0 bis 50.000 W eingestellt werden. 
   Beachte, dass Transformatoren als Datenisolatoren funktionieren und verhindern, dass Daten in ein anderes Netzwerk fließen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTransformer</Key>
-      <Value>Kit Transformator (groß)</Value>
+      <Value>Kit Transformator (Groß)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformerSmall</Key>
-      <Value>Transformator (klein)</Value>
-      <Description>Transformatoren regeln die maximale Energie, die in ein Kabelsubnetz fließt, um eine Überlastung der {LINK:ElectronicPage;electrical} Systeme zu verhindern. Die Leistung von kleinen Transformatoren kann zwischen 0 und 5000 W eingestellt werden.
+      <Value>Transformator (Klein)</Value>
+      <Description>Transformatoren regeln die maximale Energie, die in ein Kabelsubnetz fließt, um eine Überlastung der {LINK:ElectronicPage;electrical} Systeme zu verhindern. Die Leistung von Kleinen Transformatoren kann zwischen 0 und 5000 W eingestellt werden.
   Beachte, dass Transformatoren als Datenisolatoren funktionieren und verhindern, dass Daten in ein anderes Netzwerk fließen.</Description>
     </RecordThing>
     <RecordThing>
@@ -2786,12 +2786,12 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureAutolathe</Key>
-      <Value>Automatendrehmaschine</Value>
-      <Description>Die Automatendrehmaschine {LINK:ExMin;ExMin} ist die Grundlage der meisten {LINK:Stationeers;Stationeer} Fabrikationssysteme und ist ein mehrachsiges System für die molekulare Zusammensetzung. Ihre Komplexität erfordert viel Zeit für den Zusammenbau, aber sie ist ein unverzichtbares Werkzeug für die Herstellung. Verbessere das Gerät mit dem {THING:AutolathePrinterMod}, um zusätzliche Rezepte und höhere Verarbeitungsgeschwindigkeiten zu erhalten.</Description>
+      <Value>Automatendrehdrucker</Value>
+      <Description>Die Automatendrehdrucker {LINK:ExMin;ExMin} ist die Grundlage der meisten {LINK:Stationeers;Stationeer} Fabrikationssysteme und ist ein mehrachsiges System für die molekulare Zusammensetzung. Ihre Komplexität erfordert viel Zeit für den Zusammenbau, aber sie ist ein unverzichtbares Werkzeug für die Herstellung. Verbessere das Gerät mit dem {THING:AutolathePrinterMod}, um zusätzliche Rezepte und höhere Verarbeitungsgeschwindigkeiten zu erhalten.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFabrication</Key>
-      <Value>Kit (Herstellung)</Value>
+      <Value>Herstellung</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -2801,7 +2801,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPipe</Key>
-      <Value>Kit (Rohre)</Value>
+      <Value>Rohre</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -2812,7 +2812,7 @@
     <RecordThing>
       <Key>ItemCableCoilHeavy</Key>
       <Value>Kabelspule (schwer)</Value>
-      <Description>Benutze die schwere Kabelrolle für Energieanlagen mit großen Leistungen. Anders als {THING:StructureCableCoil}, das nur 5 kW sicher leiten kann, können schwere Kabel bis zu 100 kW übertragen.</Description>
+      <Description>Benutze die schwere Kabelrolle für Energieanlagen mit Großen Leistungen. Anders als {THING:StructureCableCoil}, das nur 5 kW sicher leiten kann, können schwere Kabel bis zu 100 kW übertragen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFrameIron</Key>
@@ -2831,17 +2831,17 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemSilverOre</Key>
-      <Value>Erz (Silber)</Value>
+      <Value>Silber-Erz</Value>
       <Description>Silber ist ein chemisches Element mit dem Symbol &quot;Ag&quot;. Es wird von vielen {LINK:Stationeers;Stationeers} wegen seines attraktiven Glanzes geschätzt und wird auch in einer Vielzahl von {LINK:ElectronicPage;electronics} Komponenten und {LINK:IngotPage;alloys} benutzt.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemNickelOre</Key>
-      <Value>Erz (Nickel)</Value>
+      <Value>Nickel-Erz</Value>
       <Description>Nickel ist ein chemisches Element mit dem Symbol &quot;Ni&quot; und ist ein seltenes Metall, das gewöhnlich als Beschichtung benutzt wird, um Korrosion zu verhindern. Nickel wird von vielen {LINK:Stationeers;Stationeers} begehrt und gewöhnlich zur Herstellung verschiedener {LINK:IngotPage;alloys} benutzt.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLeadOre</Key>
-      <Value>Erz (Blei)</Value>
+      <Value>Blei-Erz</Value>
       <Description>Blei ist ein chemisches Element mit dem Symbol &quot;Pb&quot;. Es ist ein dichtes, schweres Metall mit einem niedrigen Schmelzpunkt. Blei wird für die Herstellung von {LINK:IngotPage;alloys} wie {THING:ItemSolderIngot} und Munition benutzt.</Description>
     </RecordThing>
     <RecordThing>
@@ -2851,37 +2851,37 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemElectrumIngot</Key>
-      <Value>Barren (Elektrum)</Value>
+      <Value>Elektrum-Barren</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemSilverIngot</Key>
-      <Value>Barren (Silber)</Value>
+      <Value>Silber-Barren</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemLeadIngot</Key>
-      <Value>Barren (Blei)</Value>
+      <Value>Blei-Barren</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemNickelIngot</Key>
-      <Value>Barren (Nickel)</Value>
+      <Value>Nickel-Barren</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemInvarIngot</Key>
-      <Value>Barren (Invar)</Value>
+      <Value>Invar-Barren</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemConstantanIngot</Key>
-      <Value>Barren (Konstantan)</Value>
+      <Value>Konstantan-Barren</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemSolderIngot</Key>
-      <Value>Barren (Lötzinn)</Value>
+      <Value>Lötzinn-Barren</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -2906,12 +2906,12 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemSiliconOre</Key>
-      <Value>Erz (Silizium)</Value>
+      <Value>Silizium-Erz</Value>
       <Description>Silizium ist ein chemisches Element mit dem Symbol &quot;Si&quot; und ist eines der nützlichsten Elemente für {LINK:Stationeers;Stationeers}. Silizium ist überall im Universum verfügbar und wird in einer Reihe von {LINK:IngotPage;alloys}, Glas, Kunststoffen und verschiedenen elektronischen Bauteilen benutzt, die ein Stationeer zur Erfüllung seiner Mission benötigt.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSiliconIngot</Key>
-      <Value>Barren (Silizium)</Value>
+      <Value>Silizium-Barren</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -2946,12 +2946,12 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureElectronicsPrinter</Key>
-      <Value>Elektronik-Drucker</Value>
+      <Value>Elektronikdrucker</Value>
       <Description>Der Elektronikdrucker stellt jedes {LINK:ElectronicPage;electronic} Teil her, das du brauchst. Von Leiterplatten und elektronischen Geräten bis hin zu Solarzellen. Du hast die Wahl. Verbessere das Gerät mit einem {THING:ElectronicPrinterMod} für zusätzliche Rezepte und schnellere Verarbeitungsgeschwindigkeiten.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMethane</Key>
-      <Value>Eis (flüchtige Stoffe)</Value>
+      <Value>Eis (Methan)</Value>
       <Description>Ein extrem reaktives Eis, in dem zahlreiche Kohlenwasserstoffe eingeschlossen sind. Der Einfachheit halber werden diese von Geräten wie dem {THING:CartridgeAtmosAnalyser} oft als H2 angezeigt.
         
   Flüchtige Stoffe verbrennen in einem Verhältnis von 2:1 mit {GAS:Oxygen} und erzeugen dabei {GAS:CarbonDioxide} und Schadstoffe. Wenn sie jedoch mit Geräten wie dem {THING:H2Combustor} in Anwesenheit von {GAS:Oxygen} katalysiert werden, produzieren sie Wasser und Wärme mit einer geringen Menge an {GAS:CarbonDioxide} und {GAS:Pollutant} durch die Selbstzündung der flüchtigen Stoffe in der Kammer. Neben {GAS:Oxygen} ist {GAS:Methane} auch der Hauptbestandteil des Brennstoffs für Geräte wie den {THING:ItemWeldingTorch}.</Description>
@@ -2979,7 +2979,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWallIron</Key>
-      <Value>Kit (Eisenwand)</Value>
+      <Value>Eisenwand</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -2994,7 +2994,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCube</Key>
-      <Value>Kit (Würfel)</Value>
+      <Value>Würfel</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -3004,82 +3004,82 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTransformerSmall</Key>
-      <Value>Kit (Transformator)</Value>
+      <Value>Transformator</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSuitStorage</Key>
-      <Value>Kit (Anzugaufbewahrung)</Value>
+      <Value>Raumanzugdock</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSolidGenerator</Key>
-      <Value>Kit (Solider Generator)</Value>
+      <Value>Solider Generator</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLocker</Key>
-      <Value>Kit (Spind)</Value>
+      <Value>Spind</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitEngineSmall</Key>
-      <Value>Kit (Triebwerk klein)</Value>
+      <Value>Triebwerk Klein</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitEngineMedium</Key>
-      <Value>Kit (Triebwerk Mittel)</Value>
+      <Value>Triebwerk Mittel</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitEngineLarge</Key>
-      <Value>Kit (Triebwerk groß)</Value>
+      <Value>Triebwerk Groß</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitElectronicsPrinter</Key>
-      <Value>Kit (Elektronikdrucker)</Value>
+      <Value>Elektronikdrucker</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDoor</Key>
-      <Value>Kit (Tür)</Value>
+      <Value>Tür</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAutolathe</Key>
-      <Value>Kit (Automatendrehmaschine)</Value>
+      <Value>Automatendrehdrucker</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitBlastDoor</Key>
-      <Value>Kit (Sprengtür)</Value>
+      <Value>Sprengtür</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitArcFurnace</Key>
-      <Value>Kit (Lichtbogenofen)</Value>
+      <Value>Lichtbogenofen</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureHydraulicPipeBender</Key>
-      <Value>Hydraulische Rohrbiegemaschine</Value>
+      <Value>Rohrbiegedrucker</Value>
       <Description>Der {LINK:ExMin;ExMin} Atmoprinter ist das ideale Werkzeug für alle deine atmosphärischen und sanitären Bedürfnisse. Atmoprinter stellt alles her, von Rohren, Pumpen und Tanks bis hin zu Entlüftungsöffnungen und Filtern, um dein Überleben in jeder Umgebung zu sichern. Verbessere den Atmoprinter mit dem {THING:PipeBenderMod}, um zusätzliche Rezepte und eine höhere Verarbeitungsgeschwindigkeit zu erhalten.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitHydraulicPipeBender</Key>
-      <Value>Kit (Hydraulische Rohrbiegemaschine)</Value>
+      <Value>Rohrbiegedrucker</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSorter</Key>
-      <Value>Kit (Sortierer)</Value>
+      <Value>Sortierer</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStacker</Key>
-      <Value>Kit (Stapler)</Value>
+      <Value>Stapler</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -3089,29 +3089,29 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemGasSensor</Key>
-      <Value>Kit (Gassensor)</Value>
+      <Value>Gassensor</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemBeacon</Key>
-      <Value>Tracking Signal</Value>
+      <Value>Peilsignal-Sender</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureToolManufactory</Key>
-      <Value>Werkzeugmanufaktur</Value>
+      <Value>Werkzeugdrucker</Value>
       <Description>Keine Mission kann ohne die richtigen Werkzeuge abgeschlossen werden. Die {LINK:Norsec;Norsec} ThuulDek-Manufaktur kann fast jedes Werkzeug oder Handgerät herstellen, das ein {LINK:Stationeer;Stationeer} braucht, um seine Mission zu erfüllen, und auch eine Vielzahl von herrlichen Farben.
   Verbessere das Gerät mit einem {THING: ToolPrinterMod}, um zusätzliche Rezepte und eine höhere Verarbeitungsgeschwindigkeit zu erhalten.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitToolManufactory</Key>
-      <Value>Kit (Werkzeugmanufaktur)</Value>
+      <Value>Werkzeugdrucker</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformerSmallReversed</Key>
-      <Value>Umgekehrter Transformator (klein)</Value>
-      <Description>Transformatoren regeln die maximale Energie, die in ein Kabelnetz fließt, um eine Überlastung der {LINK:ElectronicPage;electrical} Systeme zu verhindern. Die Leistung von kleinen Transformatoren kann von 0 bis 5000 W eingestellt werden.
+      <Value>Umgekehrter Transformator (Klein)</Value>
+      <Description>Transformatoren regeln die maximale Energie, die in ein Kabelnetz fließt, um eine Überlastung der {LINK:ElectronicPage;electrical} Systeme zu verhindern. Die Leistung von Kleinen Transformatoren kann von 0 bis 5000 W eingestellt werden.
   Beachte, dass Transformatoren als Datenisolatoren funktionieren und verhindern, dass Daten in ein anderes Netzwerk fließen.</Description>
     </RecordThing>
     <RecordThing>
@@ -3121,27 +3121,27 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLogic</Key>
-      <Value>Kit (Logikeinheit)</Value>
+      <Value>Logik-Einheit</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicReader</Key>
-      <Value>Logiklesegerät</Value>
+      <Value>Logik-Lese-Einheit</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicMemory</Key>
-      <Value>Logik Speicher</Value>
+      <Value>Logik Speicher-Einheit</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicMath</Key>
-      <Value>Logik Mathematik</Value>
+      <Value>Logik Mathe-Einheit</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicWriter</Key>
-      <Value>Logik-Schreiber</Value>
+      <Value>Logik-Schreib-Einheit</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -3151,27 +3151,27 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicCompare</Key>
-      <Value>Logik-Vergleich</Value>
+      <Value>Logik-Vergleich-Einheit</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLogicProcessor</Key>
-      <Value>Kit (Logik-Prozessor)</Value>
+      <Value>Logik-Prozessor-Einheit</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLogicMemory</Key>
-      <Value>Kit (Logik-Speicher)</Value>
+      <Value>Logik-Speicher-Einheit</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLogicInputOutput</Key>
-      <Value>Kit (Logik E/A)</Value>
+      <Value>Logik E/A</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLogicSwitch</Key>
-      <Value>Kit (Logikschalter)</Value>
+      <Value>Logikschalter</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -3186,17 +3186,17 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicDisplay5</Key>
-      <Value>LED-Anzeige (klein)</Value>
+      <Value>LED-Anzeige (Klein)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleLED5</Key>
-      <Value>LED-Anzeige (klein)</Value>
+      <Value>LED-Anzeige (Klein)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleLED8Large</Key>
-      <Value>LED-Anzeige (groß)</Value>
+      <Value>LED-Anzeige (Groß)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -3221,7 +3221,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicBatchWriter</Key>
-      <Value>Batch-Schreiber</Value>
+      <Value>Batch-Schreib-Einheit</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -3246,12 +3246,12 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRecycler</Key>
-      <Value>Kit (Wiederverwerter)</Value>
+      <Value>{THING:StructureRecycler}</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemCableAnalyser</Key>
-      <Value>Kit (Kabel-Analysator)</Value>
+      <Value>Kabel-Analysator</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -3271,7 +3271,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleLED1x3</Key>
-      <Value>LED-Anzeige (groß)</Value>
+      <Value>LED-Anzeige (Groß)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -3296,7 +3296,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitBeacon</Key>
-      <Value>Kit (Signal)</Value>
+      <Value>Signal</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -3326,7 +3326,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitGasGenerator</Key>
-      <Value>Kit (Gas-Treibstoff-Generator)</Value>
+      <Value>Gas-Treibstoff-Generator</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -3369,7 +3369,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitGasGenerator</Key>
-      <Value>Kit (Gasbetriebener Generator)</Value>
+      <Value>Gasbetriebener Generator</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -3459,7 +3459,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemFlagSmall</Key>
-      <Value>Kit (Kleine Flagge)</Value>
+      <Value>Kleine Flagge</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -3524,7 +3524,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCompositeCladding</Key>
-      <Value>Kit (Ummantelung)</Value>
+      <Value>Ummantelung</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -3539,7 +3539,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDockingPort</Key>
-      <Value>Kit (Andockhafen)</Value>
+      <Value>Andockhafen</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -3569,12 +3569,12 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitOrganicsPrinter</Key>
-      <Value>Kit (Organik-Drucker)</Value>
+      <Value>Organikdrucker</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureOrganicsPrinter</Key>
-      <Value>Organik-Drucker</Value>
+      <Value>Organikdrucker</Value>
       <Description>Bitte beachte, dass der organische Drucker veraltet ist - er kann jetzt nur noch im Kreativmodus gespawnt werden.</Description>
     </RecordThing>
     <RecordThing>
@@ -3609,7 +3609,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWallPanels</Key>
-      <Value>Kit (Wandpaneele)</Value>
+      <Value>Wandpaneele</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -3619,7 +3619,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCompositeFloorGrating</Key>
-      <Value>Kit (Bodenroste)</Value>
+      <Value>Bodenroste</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -3629,7 +3629,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLadder</Key>
-      <Value>Kit (Leiter)</Value>
+      <Value>Leiter</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -3869,22 +3869,22 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWallArch</Key>
-      <Value>Kit (gewölbte Wand)</Value>
+      <Value>gewölbte Wand</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWallFlat</Key>
-      <Value>Kit (flache Wand)</Value>
+      <Value>flache Wand</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWallGeometry</Key>
-      <Value>Kit (geometrische Wand)</Value>
+      <Value>geometrische Wand</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWallPadded</Key>
-      <Value>Kit (gepolsterte Wand)</Value>
+      <Value>gepolsterte Wand</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -4241,11 +4241,11 @@
     <RecordThing>
       <Key>StructureSecurityPrinter</Key>
       <Value>Sicherheitsdrucker</Value>
-      <Description>Jeder {LINK:Stationeer;Stationeer}, der auf Sicherheit bedacht ist, braucht den {LINK:Harkwell;Harkwell-designed} Vigilant-E Sicherheitsdrucker. Benutze den Vigilant-E, um einen {THING:CartridgeAccessController} zu erstellen, mit dem du den Zugang zu verschiedenen Teilen deiner Basis über Schlüsselkarten wie die {THING:AccessCardBlue} beschränken kannst. Der Drucker stellt auch eine Vielzahl von Waffen und Munition her, mit denen du deine Basis gegen feindliche, aggressive oder einfach nur unhöfliche Wesen verteidigen kannst, denen du bei deiner Erkundung des Sonnensystems begegnest.</Description>
+      <Description>Jeder {LINK:Stationeer;Stationeer}, der auf Sicherheit bedacht ist, braucht den {LINK:Harkwell;Harkwell-designed} Vigilant-E {THING:StructureSecurityPrinter}. Benutze den Vigilant-E, um einen {THING:CartridgeAccessController} zu erstellen, mit dem du den Zugang zu verschiedenen Teilen deiner Basis über Schlüsselkarten wie die {THING:AccessCardBlue} beschränken kannst. Der Drucker stellt auch eine Vielzahl von Waffen und Munition her, mit denen du deine Basis gegen feindliche, aggressive oder einfach nur unhöfliche Wesen verteidigen kannst, denen du bei deiner Erkundung des Sonnensystems begegnest.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSecurityPrinter</Key>
-      <Value>Kit (Sicherheitsdrucker)</Value>
+      <Value>{THING:StructureSecurityPrinter}</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -4285,7 +4285,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitElevator</Key>
-      <Value>Kit (Aufzug)</Value>
+      <Value>Aufzug</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -4305,7 +4305,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCrateMount</Key>
-      <Value>Kit (Container-Montage)</Value>
+      <Value>Container-Montage</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -4325,7 +4325,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitHydroponicStation</Key>
-      <Value>Kit (Hydroponische Station)</Value>
+      <Value>Hydroponische Station</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -4345,7 +4345,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCrate</Key>
-      <Value>Kit (Kiste)</Value>
+      <Value>Kiste</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -4355,27 +4355,27 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitMotherShipCore</Key>
-      <Value>Kit (Mutterschiff)</Value>
+      <Value>Mutterschiff</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemDynamicScrubber</Key>
-      <Value>Kit (Tragbarer Luftwäscher)</Value>
+      <Value>Tragbarer Luftwäscher</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemDynamicAirCon</Key>
-      <Value>Kit (Tragbare Klimaanlage)</Value>
+      <Value>Tragbare Klimaanlage</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPipeValve</Key>
-      <Value>Kit (Rohrleitungsventil)</Value>
+      <Value>Rohrleitungsventil</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicGenerator</Key>
-      <Value>Kit (Tragbarer Generator)</Value>
+      <Value>Tragbarer Generator</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -4385,22 +4385,22 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitVendingMachine</Key>
-      <Value>Kit (Verkaufsautomat)</Value>
+      <Value>Verkaufsautomat</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicSlotReader</Key>
-      <Value>Slot Lesegerät</Value>
+      <Value>Slot Lese-Einheit</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicBatchReader</Key>
-      <Value>Batch Lesegerät</Value>
+      <Value>Batch Lese-Einheit</Value>
       <Description />
     </RecordThing>
     <RecordThing>
-      <Key>StructureLogicReagentReader</Key>
-      <Value>Lesegerät für Reagenzien</Value>
+    <Key>StructureLogicReagentReader</Key>
+      <Value>Reagenzien Lese-Einheit</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -4415,12 +4415,12 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemWearLamp</Key>
-      <Value>lampe</Value>
+      <Value>Lampe</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemDebugHeadlamp</Key>
-      <Value>Debug Headlamp</Value>
+      <Value>Debug Stirnlampe</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureTurbineGenerator</Key>
@@ -4429,7 +4429,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTurbineGenerator</Key>
-      <Value>Kit (Turbinengenerator)</Value>
+      <Value>Turbinengenerator</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -4482,12 +4482,12 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureLockerSmall</Key>
-      <Value>Spind (klein)</Value>
+      <Value>Spind (Klein)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicBatchSlotReader</Key>
-      <Value>Batch Slot Lesegerät</Value>
+      <Value>Batch Slot Lese-Einheit</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -4497,12 +4497,12 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPressurePlate</Key>
-      <Value>Kit (Abzugsplatte)</Value>
+      <Value>Abzugsplatte</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructurePressurePlateLarge</Key>
-      <Value>Abzugsplatte (groß)</Value>
+      <Value>Abzugsplatte (Groß)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -4512,17 +4512,17 @@
     </RecordThing>
     <RecordThing>
       <Key>StructurePressurePlateSmall</Key>
-      <Value>Abzugsplatte (klein)</Value>
+      <Value>Abzugsplatte (Klein)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicCanister</Key>
-      <Value>Kit (Tragbarer Gastank)</Value>
+      <Value>Tragbarer Gastank</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicLiquidCanister</Key>
-      <Value>Kit (Tragbarer Flüssigkeitstank)</Value>
+      <Value>Tragbarer Flüssigkeitstank</Value>
       <Description>Dieses Kit produziert einen {THING:DynamicLiquidCanisterEmpty}.</Description>
     </RecordThing>
     <RecordThing>
@@ -4587,12 +4587,12 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterCarbonDioxideL</Key>
-      <Value>Schwerer Filter (Kohlendioxid)</Value>
+      <Value>Schwerer Filter (Kohlenstoffdioxid)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterCarbonDioxideM</Key>
-      <Value>Mittlerer Filter (Kohlendioxid)</Value>
+      <Value>Mittlerer Filter (Kohlenstoffdioxid)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -4627,12 +4627,12 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterMethaneL</Key>
-      <Value>Schwerer Filter (flüchtige Stoffe)</Value>
+      <Value>Schwerer Filter (Methan)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterMethaneM</Key>
-      <Value>Mittlerer Filter (flüchtige Stoffe)</Value>
+      <Value>Mittlerer Filter (Methan)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -4689,17 +4689,17 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicHydroponics</Key>
-      <Value>Kit (Tragbare Hydrokulturen)</Value>
+      <Value>Tragbare Hydrokulturen</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureKlaxon</Key>
-      <Value>Klaxon Lautsprecher</Value>
+      <Value>Klaxon</Value>
       <Description>Mit Klaxons kannst du je nach deiner {LINK:LogicPage;Logic}-Einstellung über 50 Ansagen und Töne abspielen. Stelle den Modus ein, um die Ausgabe zu wählen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSpeaker</Key>
-      <Value>Kit (Lautsprecher)</Value>
+      <Value>Klaxon</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -4721,12 +4721,12 @@
     </RecordThing>
     <RecordThing>
       <Key>MotherboardProgrammableChip</Key>
-      <Value>IC-Editor Motherboard</Value>
+      <Value>IC-Editor Hauptplatine</Value>
       <Description>Wenn er in einem {THING:StructureComputer} platziert ist, können Spieler mit dem IC-Editor IC-Code schreiben und bearbeiten, der dann in einen {THING:ItemIntegratedCircuit10} hochgeladen werden kann, wenn er in einem {THING:StructureCircuitHousing} untergebracht ist.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLogicCircuit</Key>
-      <Value>Kit (IC-Gehäuse)</Value>
+      <Value>IC-Gehäuse</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -4746,7 +4746,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitHydroponicAutomated</Key>
-      <Value>Kit (Automatisierte Hydrokulturen)</Value>
+      <Value>Automatisierte Hydrokulturen</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -4756,7 +4756,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitBasket</Key>
-      <Value>Kit (Korb)</Value>
+      <Value>Korb</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -4781,7 +4781,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterNitrousOxide</Key>
-      <Value>Gaskanister (Schlafen)</Value>
+      <Value>Gaskanister (Lachgas)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -4802,11 +4802,11 @@
     <RecordThing>
       <Key>StructureShuttleLandingPad</Key>
       <Value>Landeplatz</Value>
-      <Description>Landeplatz, der ein kleines Handelsshuttle aufnehmen kann. Wenn er an einen {THING:StructureComputer} mit einem {THING:MotherboardComms}, einem {THING:StructureSatelliteDish} und einem {THING:StructureVendingMachine} angeschlossen ist, kann er mit Lieferanten handeln. Du brauchst ein Kommunikationssignal von 95% oder mehr, um eine zuverlässige Kommunikation mit einem Händler aufzubauen.</Description>
+      <Description>Landeplatz, der ein Kleines Handelsshuttle aufnehmen kann. Wenn er an einen {THING:StructureComputer} mit einem {THING:MotherboardComms}, einem {THING:StructureSatelliteDish} und einem {THING:StructureVendingMachine} angeschlossen ist, kann er mit Lieferanten handeln. Du brauchst ein Kommunikationssignal von 95% oder mehr, um eine zuverlässige Kommunikation mit einem Händler aufzubauen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLandingPad</Key>
-      <Value>Kit (Landeplatz)</Value>
+      <Value>Landeplatz</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -4818,7 +4818,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSatelliteDish</Key>
-      <Value>Kit (Mittlere Satellitenschüssel)</Value>
+      <Value>Mittlere Satellitenschüssel</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -4833,7 +4833,7 @@
     </RecordThing>
     <RecordThing>
       <Key>MotherboardComms</Key>
-      <Value>Kommunikations-Motherboard</Value>
+      <Value>Kommunikations-Hauptplatine</Value>
       <Description>Wenn er in einem {THING:StructureComputer} platziert und mit einem {THING:Landingpad_DataConnectionPiece}, einem {THING:StructureSatelliteDish} und einem {THING:StructureVendingMachine} verbunden ist, können Stationeers mit Lieferanten handeln. Passe die horizontalen und vertikalen Attribute des {THING:StructureSatelliteDish} entweder direkt oder über die Logik an. Du brauchst ein Kommunikationssignal von 95% oder mehr, um eine zuverlässige Kommunikation mit einem Händler herzustellen. Damit ein Händler landen kann, muss mindestens eine 3x3 freie Fläche mit einem {THING:Landingpad_CenterPiece01} in der Mitte vorhanden sein.</Description>
     </RecordThing>
     <RecordThing>
@@ -4898,7 +4898,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRoverFrame</Key>
-      <Value>Kit (Rover-Rahmen)</Value>
+      <Value>Rover-Rahmen</Value>
       <Description>Nicht spawnbar.</Description>
     </RecordThing>
     <RecordThing>
@@ -4928,7 +4928,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAutoMiner</Key>
-      <Value>Kit (Auto Schürfer)</Value>
+      <Value>Auto Schürfer</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -4983,7 +4983,7 @@
       RobotMode.None = 1 = Dem nächsten Spieler folgen
       RobotMode.None = 2 = In gerader Linie zum Ziel fahren
       RobotMode.None = 3 = Herumwandern und im Umkreis von 15 Koordinaten nach Erzen suchen
-      RobotMode.None = 4 = Entlade in den Schachteingang oder den Schachteimer innerhalb von 3 Metern / 1,5 großen Gittern
+      RobotMode.None = 4 = Entlade in den Schachteingang oder den Schachteimer innerhalb von 3 Metern / 1,5 Großen Gittern
       RobotMode.None = 5 = Weg (finden) zum Ziel
       RobotMode.None = 6 = Automatisch zugewiesener Zustand, zeigt an, wenn die Slots voll sind</Description>
     </RecordThing>
@@ -4999,52 +4999,52 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLogicTransmitter</Key>
-      <Value>Kit (Logiksender)</Value>
+      <Value>Logik-Sender</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureAdvancedFurnace</Key>
-      <Value>Erweiterter Ofen</Value>
+      <Value>Erweiterter Schmelzofen</Value>
       <Description>Der fortschrittliche Ofen verfügt über integrierte Einlass- und Auslasspumpen zur Steuerung des Innendrucks der Einheit.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAdvancedFurnace</Key>
-      <Value>Kit (Hochleistungsofen)</Value>
+      <Value>Erweiterter Schmelzofen</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemStelliteIngot</Key>
-      <Value>Barren (Stellite)</Value>
+      <Value>Stellite-Barren</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWaspaloyIngot</Key>
-      <Value>Barren (Waspaloy)</Value>
+      <Value>Waspaloy-Barren</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemHastelloyIngot</Key>
-      <Value>Barren (Hastelloy)</Value>
+      <Value>Hastelloy-Barren</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemInconelIngot</Key>
-      <Value>Barren (Inconel)</Value>
+      <Value>Inconel-Barren</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemAstroloyIngot</Key>
-      <Value>Barren (Astroloy)</Value>
+      <Value>Astroloy-Barren</Value>
       <Description>Da das ursprüngliche Stationeer-Handbuch in eine Singularität kollabiert ist, wurden die Astroloy-Rezepte durch Raumzeitverwerfungen verzerrt. Die korrekte Astroloy-Rezeptur, die für alle Zeiten in einer Reihe von charmanten Plastiksymbolen festgehalten ist, lautet 1,0 Kupfer, 1,0 Kobalt und 2,0 Stahl.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCobaltOre</Key>
-      <Value>Erz (Kobalt)</Value>
-      <Description>Kobalt ist ein chemisches Element mit dem Symbol &quot;Co&quot; und wird normalerweise nur in kleinen Vorkommen gefunden. Kobalt ist ein seltener Stoff, wird aber zur Herstellung der {THING:ItemHealPill} und verschiedener {LINK:IngotPage;alloys} benutzt.</Description>
+      <Value>Kobalt-Erz</Value>
+      <Description>Kobalt ist ein chemisches Element mit dem Symbol &quot;Co&quot; und wird normalerweise nur in Kleinen Vorkommen gefunden. Kobalt ist ein seltener Stoff, wird aber zur Herstellung der {THING:ItemHealPill} und verschiedener {LINK:IngotPage;alloys} benutzt.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCobaltIngot</Key>
-      <Value>Barren (Kobalt)</Value>
+      <Value>Kobalt-Barren</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5084,12 +5084,12 @@
     </RecordThing>
     <RecordThing>
       <Key>AutolathePrinterMod</Key>
-      <Value>Automatendrehmaschine Drucker Mod</Value>
+      <Value>Automatendrehdrucker Mod</Value>
       <Description>Verbessere eine {THING:StructureAutolathe} mit einem {THING:ItemWeldingTorch} oder {THING:ItemArcWelder}, um die Verarbeitungsgeschwindigkeit zu erhöhen und mehr Rezeptoptionen zu erhalten.</Description>
     </RecordThing>
     <RecordThing>
       <Key>PipeBenderMod</Key>
-      <Value>Rohrbiegemaschine Mod</Value>
+      <Value>Rohrbiegedrucker Mod</Value>
       <Description>Verbessere einen {THING:StructureHydraulicPipeBender} mit einem {THING:ItemWeldingTorch} oder {THING:ItemArcWelder}, um die Verarbeitungsgeschwindigkeit zu erhöhen und mehr Rezeptoptionen zu erhalten.</Description>
     </RecordThing>
     <RecordThing>
@@ -5335,7 +5335,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPictureFrame</Key>
-      <Value>Kit Bilderrahmen</Value>
+      <Value>Bilderrahmen</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5345,17 +5345,17 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAIMeE</Key>
-      <Value>Kit (AIMeE)</Value>
+      <Value>AIMeE</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureAutoMinerSmall</Key>
-      <Value>Auto-Schürfer (klein)</Value>
+      <Value>Auto-Schürfer (Klein)</Value>
       <Description>Der {LINK:Recurso;Recurso} SquareDig Autominer ist ein Bauwerk, das einen vertikalen 2x2-Schacht abbaut, bis es auf das Gestein trifft. Der Autominer kann mit einem Schachtsystem verbunden werden und ist über ein logisches Netzwerk steuerbar. Beachte, dass der Autominer mehr {LINK:OrePage;ores} ausgibt als ein herkömmlicher {THING:ItemMiningDrill} auf der gleichen Fläche.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAutoMinerSmall</Key>
-      <Value>Kit (Auto-Schürfer klein)</Value>
+      <Value>Auto-Schürfer Klein</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5461,7 +5461,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitInsulatedPipe</Key>
-      <Value>Kit (isolierte Rohre)</Value>
+      <Value>isolierte Rohre</Value>
       <Description>Dieser Kit produziert Sorten von {THING:StructureInsulatedPipeStraight}, die den Wärmeverlust der in ihnen gespeicherten Gase stark reduzieren.</Description>
     </RecordThing>
     <RecordThing>
@@ -5536,7 +5536,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRailing</Key>
-      <Value>Kit (Geländer)</Value>
+      <Value>Geländer</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5631,7 +5631,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPipeOrgan</Key>
-      <Value>Kit (Pfeifenorgel)</Value>
+      <Value>Pfeifenorgel</Value>
       <Description>Erzeugt eine {THING:StructurePipeOrgan}.</Description>
     </RecordThing>
     <RecordThing>
@@ -5661,12 +5661,12 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureBatteryChargerSmall</Key>
-      <Value>Batterieladegerät klein</Value>
+      <Value>Batterieladegerät Klein</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemBatteryChargerSmall</Key>
-      <Value>Batterieladegerät klein</Value>
+      <Value>Batterieladegerät Klein</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5681,7 +5681,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSolarPanelBasic</Key>
-      <Value>Kit (Solarmodul Basic)</Value>
+      <Value>Solarmodul Basic</Value>
       <Description>Dieser Kit erstellt ein stehendes Solarpanel.</Description>
     </RecordThing>
     <RecordThing>
@@ -5696,13 +5696,13 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSDBHopper</Key>
-      <Value>Kit (SDB Trichter)</Value>
+      <Value>SDB Trichter</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureSDBSilo</Key>
       <Value>SDB Silo</Value>
-      <Description>Das majestätische Silo fasst große Mengen von fast allem. Solange es das tut, kann es nicht abgebaut werden. Beachte auch, dass jede Nahrung, die du in ein Silo legst, wahrscheinlich sehr schnell {LINK:DecayPage;decay} verfallen wird. Das Silo kann bis zu 600 Stapel fassen.</Description>
+      <Description>Das majestätische Silo fasst Große Mengen von fast allem. Solange es das tut, kann es nicht abgebaut werden. Beachte auch, dass jede Nahrung, die du in ein Silo legst, wahrscheinlich sehr schnell {LINK:DecayPage;decay} verfallen wird. Das Silo kann bis zu 600 Stapel fassen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>KitSDBSilo</Key>
@@ -5711,7 +5711,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureTankSmallInsulated</Key>
-      <Value>Aufbau Tank Klein (isoliert)</Value>
+      <Value>Aufbau Tank Klein (Isoliert)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5730,12 +5730,12 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTankInsulated</Key>
-      <Value>Kit (Tank isoliert)</Value>
+      <Value>Tank Isoliert</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDebug</Key>
-      <Value>Kit (Debug)</Value>
+      <Value>Debug</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5785,37 +5785,37 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureFlatBench</Key>
-      <Value>Bank (flach)</Value>
+      <Value>Bank (Flach)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureAngledBench</Key>
-      <Value>Bank (gewinkelt)</Value>
+      <Value>Bank (Gewinkelt)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTables</Key>
-      <Value>Kit (Tische)</Value>
+      <Value>Tische</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>KitchenTableTall</Key>
-      <Value>Küchentisch (hoch)</Value>
+      <Value>Küchentisch (Hoch)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>KitchenTableSimpleTall</Key>
-      <Value>Küchentisch (einfach hoch)</Value>
+      <Value>Küchentisch (Einfach Hoch)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>KitchenTableSimpleShort</Key>
-      <Value>Küchentisch (einfach kurz)</Value>
+      <Value>Küchentisch (Einfach Kurz)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>KitchenTableShort</Key>
-      <Value>Küchentisch (kurz)</Value>
+      <Value>Küchentisch (Kurz)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5855,17 +5855,17 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitChairs</Key>
-      <Value>Kit (Stühle)</Value>
+      <Value>Stühle</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitBeds</Key>
-      <Value>Kit (Betten)</Value>
+      <Value>Betten</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLightRoundAngled</Key>
-      <Value>Leicht rund (abgewinkelt)</Value>
+      <Value>Leicht rund (Abgewinkelt)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5875,7 +5875,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureLightRoundSmall</Key>
-      <Value>Leicht rund (klein)</Value>
+      <Value>Leicht rund (Klein)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5910,7 +5910,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAirlockGate</Key>
-      <Value>Kit (Hangartor)</Value>
+      <Value>Hangartor</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5938,12 +5938,12 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitBatteryLarge</Key>
-      <Value>Kit (Großer Akku)</Value>
+      <Value>Großer Akku</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitHarvie</Key>
-      <Value>Kit (Harvie)</Value>
+      <Value>Harvie</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5973,7 +5973,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicGasTankAdvanced</Key>
-      <Value>Kit (Tragbarer Gastank Mk II)</Value>
+      <Value>Tragbarer Gastank Mk II</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5985,7 +5985,7 @@
       <Key>Rover_MkI</Key>
       <Value>Rover MkI</Value>
       <Description>Der Mk I {{LINK:Sinotai;Sinotai} elektrische Rover, ein entfernter Cousin des Jeeps, ist eines der einfachsten und robustesten Leichtfahrzeuge im bekannten Universum. Er kann zwei Passagiere und Fracht wie den {THING:DynamicGasCanisterAir} oder die {THING:Crate} transportieren und wird von bis zu drei Batterien angetrieben, die alles, einschließlich {THING:ItemBatteryCellNuclear}, aufnehmen können.
-  Eine Vierergruppe von an der Nabe montierten Elektromotoren treibt den verstärkten Aluminiumrahmen über das meiste Terrain und kleinere Hindernisse. Der Mk I ist auf Stabilität bei geringer Horizontalität ausgelegt, aber wenn er rollt, benutze deine {THING:ItemCrowbar}, um ihn wieder aufzurichten.</Description>
+  Eine Vierergruppe von an der Nabe montierten Elektromotoren treibt den verstärkten Aluminiumrahmen über das meiste Terrain und Kleinere Hindernisse. Der Mk I ist auf Stabilität bei geringer Horizontalität ausgelegt, aber wenn er rollt, benutze deine {THING:ItemCrowbar}, um ihn wieder aufzurichten.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSpawnPoint</Key>
@@ -5999,17 +5999,17 @@
     </RecordThing>
     <RecordThing>
       <Key>RespawnPointWallMounted</Key>
-      <Value>Respawn-Punkt (montiert)</Value>
+      <Value>Respawn-Punkt (Montiert)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRespawnPointWallMounted</Key>
-      <Value>Kit (Respawn)</Value>
+      <Value>Respawn</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFlagODA</Key>
-      <Value>Kit (ODA-Flagge)</Value>
+      <Value>ODA-Flagge</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -6034,7 +6034,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRoverMKI</Key>
-      <Value>Kit (Rover Mk I)</Value>
+      <Value>Rover Mk I</Value>
       <Description>Erzeugt ein {THING:Rover_MkI}</Description>
     </RecordThing>
     <RecordThing>
@@ -6044,27 +6044,27 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureGrowLight</Key>
-      <Value>Grow Light</Value>
+      <Value>Pflanzenlampe</Value>
       <Description>{LINK:Agrizero;Agrizero's} führendes hydroponisches Beleuchtungssystem, das GrowUp UV-Licht ergänzt die Sonneneinstrahlung bei schwachem Licht oder sonnenfernen Bedingungen. Das Gerät ermöglicht den Anbau auf der Fläche eines Gitters und muss daher in unmittelbarer Nähe platziert werden, um zu funktionieren.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitGrowLight</Key>
-      <Value>Kit (Grow Light)</Value>
+      <Value>Pflanzenlampe</Value>
       <Description>Dieser Kit produziert ein {LINK:Agrizero;Agrizero} {THING:StructureGrowLight}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWeatherStation</Key>
       <Value>Wetterstation</Value>
-      <Description />
+      <Description>Die {THING:StructureWeatherStation} kann vorhersagen ob ein sturm in anmarsch ist udn wann der nächste Sturm kommt oder wie lange er andauert.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWeatherStation</Key>
-      <Value>Kit (Wetterstation)</Value>
+      <Value>Wetterstation</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitUprightWindTurbine</Key>
-      <Value>Kit (Aufrechte Windturbine)</Value>
+      <Value>Aufrechte Windturbine</Value>
       <Description>Dieses Kit produziert eine {THING:StructureUprightWindTurbine}.</Description>
     </RecordThing>
     <RecordThing>
@@ -6080,7 +6080,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCrateMkII</Key>
-      <Value>Kit (Kiste Mk II)</Value>
+      <Value>Kiste Mk II</Value>
       <Description>Dieses Kit produziert eine {THING:CrateMkII}.</Description>
     </RecordThing>
     <RecordThing>
@@ -6125,17 +6125,17 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSolarPanelReinforced</Key>
-      <Value>Kit (Solarmodul Schwer)</Value>
+      <Value>Solarmodul Schwer</Value>
       <Description>Dieses Kit produziert strapazierfähige Solarpaneele, die gegen Sturmschäden resistent sind.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSolarPanelBasicReinforced</Key>
-      <Value>Kit (Solarmodul Basic Schwer)</Value>
+      <Value>Solarmodul Basic Schwer</Value>
       <Description>Dieses Solarmodul ist resistent gegen Sturmschäden.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanel45Reinforced</Key>
-      <Value>Solarmodul (Schwer, gewinkelt)</Value>
+      <Value>Solarmodul (Schwer, Gewinkelt)</Value>
       <Description>Dieses Solarmodul ist resistent gegen Sturmschäden.</Description>
     </RecordThing>
     <RecordThing>
@@ -6145,7 +6145,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureSolarPanelFlatReinforced</Key>
-      <Value>Solarmodul (Schwer, flach)</Value>
+      <Value>Solarmodul (Schwer, Flach)</Value>
       <Description>Dieses Solarmodul ist resistent gegen Sturmschäden.</Description>
     </RecordThing>
     <RecordThing>
@@ -6166,17 +6166,17 @@
     <RecordThing>
       <Key>StructureWindTurbine</Key>
       <Value>Windturbine</Value>
-      <Description>Die Stationeers-Windturbine wurde von den Atmosphäreningenieuren von Norsec entwickelt, um ein windgetriebenes System zur Energieerzeugung zu schaffen, das auch auf Welten mit extrem niedriger Atmosphäre funktioniert. Die ultraleichten Flügel reagieren auf extrem niedrige atmosphärische Dichten und sind gleichzeitig stark genug, um auch unter großer Belastung in viel anspruchsvolleren Umgebungen zu funktionieren.
+      <Description>Die Stationeers-Windturbine wurde von den Atmosphäreningenieuren von Norsec entwickelt, um ein windgetriebenes System zur Energieerzeugung zu schaffen, das auch auf Welten mit extrem niedriger Atmosphäre funktioniert. Die ultraleichten Flügel reagieren auf extrem niedrige atmosphärische Dichten und sind gleichzeitig stark genug, um auch unter Großer Belastung in viel anspruchsvolleren Umgebungen zu funktionieren.
       Obwohl die Windturbine so optimiert ist, dass sie auch auf Welten mit niedriger Atmosphäre Energie (bis zu 500 W) produziert, funktioniert sie am besten in dichteren Umgebungen. Die Ausgabe variiert mit der Windgeschwindigkeit und kann bei Stürmen dramatisch ansteigen (bis zu 10.000 W), also solltest du deine Netzwerke für die Energieversorgung entsprechend planen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWindTurbine</Key>
-      <Value>Kit (Windturbine)</Value>
+      <Value>Windturbine</Value>
       <Description>Dieses Kit produziert eine {THING: StructureWindTurbine}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPipeLiquid</Key>
-      <Value>Kit (Flüssigkeitsleitung)</Value>
+      <Value>Flüssigkeitsrohr</Value>
       <Description>Dieses Kit produziert eine Reihe von Flüssigkeitsrohren.</Description>
     </RecordThing>
     <RecordThing>
@@ -6258,7 +6258,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitIceCrusher</Key>
-      <Value>Kit (Eiscrusher)</Value>
+      <Value>Eiscrusher</Value>
       <Description>Dieses Kit erstellt einen {THING: StructureIceCrusher}.</Description>
     </RecordThing>
     <RecordThing>
@@ -6279,7 +6279,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeLiquidRadiator</Key>
-      <Value>Kit (Flüssigkeitsstrahler)</Value>
+      <Value>Flüssigkeitsstrahler</Value>
       <Description>Dieses Kit erstellt einen {THING: StructureLiquidPipeRadiator}.</Description>
     </RecordThing>
     <RecordThing>
@@ -6289,7 +6289,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicMKIILiquidCanister</Key>
-      <Value>Kit (Tragbarer Flüssigkeitstank Mk II)</Value>
+      <Value>Tragbarer Flüssigkeitstank Mk II</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -6304,12 +6304,12 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidPipeVolumePump</Key>
-      <Value>Kit (Flüssigkeitspumpe)</Value>
+      <Value>Flüssigkeitspumpe</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLiquidRegulator</Key>
-      <Value>Kit (Flüssigkeitsregulator)</Value>
+      <Value>Flüssigkeitsregulator</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -6370,22 +6370,22 @@
     <RecordThing>
       <Key>ItemMKIIDuctTape</Key>
       <Value>Mk II Isolierband</Value>
-      <Description>In der fernen Vergangenheit lehrte einer der großen Champions der Erde eine Generation von &quot;Reparierleuten&quot;, dass Isolierband die Antwort auf jedes Problem ist. {Stationeers;Stationeers} haben bewiesen, dass das stimmt, solange es sich um einen beschädigten {THING:ItemEvaSuit}, {THING:ItemJetpackBasic}, {THING:ItemSpaceHelmet} oder sogar ein {THING:StructureSolarPanel} handelt.
+      <Description>In der fernen Vergangenheit lehrte einer der Großen Champions der Erde eine Generation von &quot;Reparierleuten&quot;, dass Isolierband die Antwort auf jedes Problem ist. {Stationeers;Stationeers} haben bewiesen, dass das stimmt, solange es sich um einen beschädigten {THING:ItemEvaSuit}, {THING:ItemJetpackBasic}, {THING:ItemSpaceHelmet} oder sogar ein {THING:StructureSolarPanel} handelt.
       Für dich selbst benutzen: Nimm Isolierband in deine aktive Hand und halte die rechte Maustaste gedrückt, um den Schaden automatisch zu reparieren.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWaterBottleFiller</Key>
-      <Value>Kit (Wasserflaschenfüller)</Value>
+      <Value>Wasserflaschenfüller</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidTankBig</Key>
-      <Value>Flüssigkeitstank groß</Value>
+      <Value>Flüssigkeitstank Groß</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidTankSmall</Key>
-      <Value>Flüssigkeitstank klein</Value>
+      <Value>Flüssigkeitstank Klein</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -6400,22 +6400,22 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLiquidTank</Key>
-      <Value>Kit (Flüssigkeitstank)</Value>
+      <Value>Flüssigkeitstank</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLiquidTankInsulated</Key>
-      <Value>Kit (Isolierter Flüssigkeitstank)</Value>
+      <Value>Isolierter Flüssigkeitstank</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidTankBigInsulated</Key>
-      <Value>Isolierter Flüssigkeitstank groß</Value>
+      <Value>Isolierter Flüssigkeitstank Groß</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidTankSmallInsulated</Key>
-      <Value>Isolierter Flüssigkeitstank klein</Value>
+      <Value>Isolierter Flüssigkeitstank Klein</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -6430,7 +6430,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemWaterPipeMeter</Key>
-      <Value>Kit (Flüssigkeitsrohrzähler)</Value>
+      <Value>Flüssigkeitsrohrzähler</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -6440,7 +6440,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemWaterPipeDigitalValve</Key>
-      <Value>Kit (Digitales Flüssigkeitsventil)</Value>
+      <Value>Digitales Flüssigkeitsventil</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -6450,7 +6450,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemWaterWallCooler</Key>
-      <Value>Kit (Flüssigkeits-Wandkühler)</Value>
+      <Value>Flüssigkeits-Wandkühler</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -6465,7 +6465,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidDrain</Key>
-      <Value>Kit (Flüssigkeitsablass)</Value>
+      <Value>Flüssigkeitsablass</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -6481,7 +6481,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidPipeAnalyzer</Key>
-      <Value>Kit (Flüssigkeitsrohranalysator)</Value>
+      <Value>Flüssigkeitsrohranalysator</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -6553,7 +6553,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitMusicMachines</Key>
-      <Value>Kit (Musikmaschinen)</Value>
+      <Value>Musikmaschinen</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -6568,7 +6568,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemInsulatedTankConnectorLiquid</Key>
-      <Value>Kit (Isolierter Tankanschluss Flüssigkeit)</Value>
+      <Value>Isolierter Tankanschluss Flüssigkeit</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -6626,7 +6626,7 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureFridgeBig</Key>
-      <Value>Kühlschrank (groß)</Value>
+      <Value>Kühlschrank (Groß)</Value>
       <Description>Der {LINK:Xigo;Xigo} Koolaid-Kühlschrank ist ein selbstkühlendes Aufbewahrungsgerät mit 15 Slots, das Lebensmittel konserviert, wenn es mit Energie versorgt wird und eingeschaltet ist. Auch wenn sich viele Nutzer/innen über die Platzierung des Energieschalters beschwert haben, ist der Koolaid-Kühlschrank unangefochtener Spitzenreiter unter den weißen Geräten außerhalb der Welt.
         
       Mit seiner dauerhaften inneren Atmosphäre verlangsamt der Koolaid-Kühlschrank den Verfall von {LINK:OrganicPage;food}, indem er eine optimale Innentemperatur aufrechterhält. Sein Energieverbrauch hängt von der Außentemperatur ab, gegen die er seine Innentemperatur ausgleichen muss. Er muss also Wärme abgeben, um zu funktionieren. Der Koolaid-Kühlschrank funktioniert also NICHT in einem Vakuum.
@@ -6637,13 +6637,13 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFridgeBig</Key>
-      <Value>Kit (Kühlschrank groß)</Value>
+      <Value>Kühlschrank Groß</Value>
       <Description>Dieses Kit erstellt einen {THING:StructureFridgeBig}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFridgeSmall</Key>
-      <Value>Kühlschrank klein</Value>
-      <Description>Der {LINK:Recurso;Recurso} Minibar-Kühlschrank ist im Wesentlichen eine stark isolierte Box, in die man jede gewünschte Atmosphäre einleiten kann, und war eine einfache Lösung für das Problem des {LINK:NutritionPage;food decay}. Er lagert eine kleine Anzahl von Gegenständen bei jeder Temperatur, die du erzeugen kannst.
+      <Value>Kühlschrank Klein</Value>
+      <Description>Der {LINK:Recurso;Recurso} Minibar-Kühlschrank ist im Wesentlichen eine stark isolierte Box, in die man jede gewünschte Atmosphäre einleiten kann, und war eine einfache Lösung für das Problem des {LINK:NutritionPage;food decay}. Er lagert eine Kleine Anzahl von Gegenständen bei jeder Temperatur, die du erzeugen kannst.
         
         Weitere Informationen zur Lebensmittelkonservierung findest du im Abschnitt {LINK:DecayPage;food decay} in der Stationspedia.</Description>
     </RecordThing>
@@ -6656,7 +6656,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitVendingMachineRefrigerated</Key>
-      <Value>Kit (Verkaufsautomat gekühlt)</Value>
+      <Value>Verkaufsautomat Gekühlt</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -6720,7 +6720,7 @@
       <Key>StructureAdvancedComposter</Key>
       <Value>Erweiterter Komposter</Value>
       <Description>Der fortschrittliche Komposter erzeugt {THING:Fertilizer} aus organischem Material. Er akzeptiert {LINK:OrganicPage;food}, {THING:DecayedFood} oder {THING:ItemBiomass}. Er benötigt {GAS:Water} und Energie zum Betrieb und beschleunigt den natürlichen Kompostierungsprozess.
-      Bei der Verarbeitung werden Stickstoff und flüchtige Stoffe sowie eine geringe Menge Wärme freigesetzt. 
+      Bei der Verarbeitung werden Stickstoff und Methan sowie eine geringe Menge Wärme freigesetzt. 
 
       {HEADER:Compost composition}
       Der Dünger wird in einem Verhältnis von 1:3 zu den Inhaltsstoffen produziert. Die Wirkung des Düngers auf die Pflanzen hängt von den jeweiligen Anteilen der Inhaltsstoffe ab.
@@ -6731,18 +6731,18 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAdvancedComposter</Key>
-      <Value>Kit (Erweiterter Komposter)</Value>
+      <Value>Erweiterter Komposter</Value>
       <Description>Erzeugt einen {THING:StructureAdvancedComposter}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFridgeSmall</Key>
-      <Value>Kit (Kühlschrank klein)</Value>
+      <Value>Kühlschrank Klein</Value>
       <Description>Erzeugt einen {THING:StructureFridgeSmall}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePlanter</Key>
       <Value>Pflanzgefäß</Value>
-      <Description>Ein kleines Pflanzgefäß für dekorative oder hydroponische Zwecke. Kann an {GAS:Water} angeschlossen werden oder manuell mit einer {THING:ItemWaterBottle} oder einem {THING:ItemGasCanisterWater} bewässert werden.</Description>
+      <Description>Ein Kleines Pflanzgefäß für dekorative oder hydroponische Zwecke. Kann an {GAS:Water} angeschlossen werden oder manuell mit einer {THING:ItemWaterBottle} oder einem {THING:ItemGasCanisterWater} bewässert werden.</Description>
     </RecordThing>
     <RecordThing>
       <Key>KitPlanter</Key>
@@ -6753,7 +6753,7 @@
       <Key>PortableComposter</Key>
       <Value>Tragbarer Komposter</Value>
       <Description>Der Basiskomposter ist ein einfaches Kompostiergerät, das {THING:Fertilizer} aus organischem Material herstellt. Er nimmt {LINK:OrganicPage;food}, {THING:DecayedFood} oder {THING:ItemBiomass} auf. Er benötigt einen vollen {THING:ItemLiquidCanisterEmpty} und eine Batterie zum Betrieb und beschleunigt den natürlichen Kompostierungsprozess.
-      Bei der Verarbeitung setzt er Stickstoff und flüchtige Stoffe sowie eine geringe Menge Wärme frei.
+      Bei der Verarbeitung setzt er Stickstoff und Methan sowie eine geringe Menge Wärme frei.
 
       {HEADER:Compost composition}
       Der Dünger wird in einem Verhältnis von 1:3 zu den Inhaltsstoffen produziert. Die Wirkung des Düngers auf die Pflanzen hängt von den jeweiligen Anteilen der Inhaltsstoffe ab.
@@ -6781,7 +6781,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPlanter</Key>
-      <Value>Kit (Pflanzgefäß)</Value>
+      <Value>Pflanzgefäß</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -6791,7 +6791,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAutomatedOven</Key>
-      <Value>Kit (Automatik-Ofen)</Value>
+      <Value>Automatik-Ofen</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -6841,7 +6841,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAdvancedPackagingMachine</Key>
-      <Value>Kit (Fortgeschrittene Verpackungsmaschine)</Value>
+      <Value>Fortgeschrittene Verpackungsmaschine</Value>
       <Description>Erzeugt und {THING: StructureAdvancedPackagingMachine.}</Description>
     </RecordThing>
     <RecordThing>
@@ -6911,12 +6911,12 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitInsulatedWaterPipe</Key>
-      <Value>Isolierte Wasserleitung (Kit)</Value>
+      <Value>Isolierte Wasserleitung</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitInsulatedLiquidPipe</Key>
-      <Value>Isoliertes Flüssigkeitsrohr (Kit)</Value>
+      <Value>Isoliertes Flüssigkeitsrohr</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7036,17 +7036,17 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeHeater</Key>
-      <Value>Kit (Gas)</Value>
+      <Value>Rohrkörper (Gas)</Value>
       <Description>Erzeugt einen {THING:StructurePipeHeater}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWaterPipeHeater</Key>
-      <Value>Kit für Rohrheizkörper (Flüssigkeit)</Value>
+      <Value>Rohrheizkörper (Flüssigkeit)</Value>
       <Description>Erzeugt einen {THING:StructureLiquidPipeHeater}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidPipeHeater</Key>
-      <Value>Kit für Rohrheizkörper (Flüssigkeit)</Value>
+      <Value>Rohrheizkörper (Flüssigkeit)</Value>
       <Description>Erzeugt einen {THING:StructureLiquidPipeHeater}.</Description>
     </RecordThing>
     <RecordThing>
@@ -7061,7 +7061,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTurboVolumePump</Key>
-      <Value>Kit (Turbo-Volumenpumpe - Gas)</Value>
+      <Value>Turbo-Volumenpumpe - Gas</Value>
       <Description>Erzeugt eine {THING:StructureTurboVolumePump}.</Description>
     </RecordThing>
     <RecordThing>
@@ -7071,13 +7071,13 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLiquidTurboVolumePump</Key>
-      <Value>Kit (Turbo-Volumenpumpe - Flüssigkeit)</Value>
+      <Value>Turbo-Volumenpumpe - Flüssigkeit</Value>
       <Description>Erzeugt eine {THING:StructureLiquidTurboVolumePump}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMkIIToolbelt</Key>
       <Value>Werkzeuggürtel MK II</Value>
-      <Description>Ein großer Werkzeuggürtel mit zehn Slots und zwei zusätzlichen generischen Slots, in denen du alles transportieren kannst, was dir gefällt.</Description>
+      <Description>Ein Großer Werkzeuggürtel mit zehn Slots und zwei zusätzlichen generischen Slots, in denen du alles transportieren kannst, was dir gefällt.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningBeltMKII</Key>
@@ -7098,7 +7098,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWindowShutter</Key>
-      <Value>Kit (Fensterladen)</Value>
+      <Value>Fensterrollladen</Value>
       <Description>Produziert einen {THING:StructureWindowShutter}.</Description>
     </RecordThing>
     <RecordThing>
@@ -7147,12 +7147,12 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureReinforcedWallPaddedWindow</Key>
-      <Value>Verstärktes Fenster (gepolstert)</Value>
+      <Value>Verstärktes Fenster (Gepolstert)</Value>
       <Description>Genieße die Aussicht selbst auf die wildesten, fremdartigsten Landschaften mit diesen hochbelastbaren Fensterrahmen, die Druckunterschieden von bis zu 1 MPa standhalten.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureReinforcedWallPaddedWindowThin</Key>
-      <Value>Verstärktes Fenster (dünn)</Value>
+      <Value>Verstärktes Fenster (Dünn)</Value>
       <Description>Genieße die Aussicht selbst auf die wildesten, fremdartigsten Landschaften mit diesen hochbelastbaren Fensterrahmen, die Druckunterschieden von bis zu 1 MPa standhalten.</Description>
     </RecordThing>
     <RecordThing>
@@ -7162,12 +7162,12 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitReinforcedWindows</Key>
-      <Value>Verstärkte Fenster (Kit)</Value>
+      <Value>Verstärkte Fenster</Value>
       <Description>Erzeugt ein {THING:StructureReinforcedCompositeWindow} und andere Varianten.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitHorizontalAutoMiner</Key>
-      <Value>Kit (OGRE)</Value>
+      <Value>OGRE</Value>
       <Description>Erzeugt einen {THING:StructureHorizontalAutoMiner}.</Description>
     </RecordThing>
     <RecordThing>
@@ -7179,32 +7179,32 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemPlantEndothermic_Genepool1</Key>
-      <Value>Winterspawn (Alpha-Variante)</Value>
-      <Description>{LINK:Agrizero;Agrizero's} Der atmosphärische Bioprozessor Winterspawn ist die jüngste Ergänzung ihres Katalogs an genesplizierten Umweltdekorationen. Der Winterspawn benutzt die Umgebungswärme, um {GAS:Water} in {GAS:Methane} und {GAS:Oxygen} aufzuspalten, und kühlt seine Umgebung, wenn genügend {GAS:Nitrogen} zugeführt wird. Die Beta-Variante hat eine maximale Kühl- und Elektrolyseleistung von 150 Watt und arbeitet am effizientesten bei Lufttemperaturen von 0 bis 40 Grad Celsius.</Description>
+      <Value>Winterbrut (Alpha-Variante)</Value>
+      <Description>{LINK:Agrizero;Agrizero's} Der atmosphärische Bioprozessor Winterbrut ist die jüngste Ergänzung ihres Katalogs an genesplizierten Umweltdekorationen. Der Winterbrut benutzt die Umgebungswärme, um {GAS:Water} in {GAS:Methane} und {GAS:Oxygen} aufzuspalten, und kühlt seine Umgebung, wenn genügend {GAS:Nitrogen} zugeführt wird. Die Beta-Variante hat eine maximale Kühl- und Elektrolyseleistung von 150 Watt und arbeitet am effizientesten bei Lufttemperaturen von 0 bis 40 Grad Celsius.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPlantEndothermic_Genepool2</Key>
-      <Value>Winterspawn (Beta-Variante)</Value>
-      <Description>{LINK:Agrizero;Agrizero's} Der atmosphärische Bioprozessor Winterspawn ist die jüngste Ergänzung ihres Katalogs an genesplizierten Umweltdekorationen. Der Winterspawn benutzt die Umgebungswärme, um {GAS:Water} in {GAS:Methane} und {GAS:Oxygen} aufzuspalten, und kühlt seine Umgebung, wenn genügend {GAS:Nitrogen} zugeführt wird. Die Beta-Variante hat eine maximale Kühl- und Elektrolyseleistung von 150 Watt und arbeitet am effizientesten bei Lufttemperaturen von 14 bis 24 Grad Celsius.</Description>
+      <Value>Winterbrut (Beta-Variante)</Value>
+      <Description>{LINK:Agrizero;Agrizero's} Der atmosphärische Bioprozessor Winterbrut ist die jüngste Ergänzung ihres Katalogs an genesplizierten Umweltdekorationen. Der Winterbrut benutzt die Umgebungswärme, um {GAS:Water} in {GAS:Methane} und {GAS:Oxygen} aufzuspalten, und kühlt seine Umgebung, wenn genügend {GAS:Nitrogen} zugeführt wird. Die Beta-Variante hat eine maximale Kühl- und Elektrolyseleistung von 150 Watt und arbeitet am effizientesten bei Lufttemperaturen von 14 bis 24 Grad Celsius.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPlantThermogenic_Genepool1</Key>
       <Value>Todesblume (Alpha-Variante)</Value>
-      <Description>Die {LINK:Agrizero;Agrizero's} kreierte Hades-Blume ist das Ergebnis eines zweifelhaften Experiments, bei dem die Anziehungskraft tropischer Pflanzen mit dem Komfort und der Gemütlichkeit einer Wärmepumpe kombiniert wurde. Die Pflanze nimmt eine 1:3-Mischung aus {GAS:Methane} und {GAS:Oxygen} auf und stößt erhitzte {GAS:Pollutant} aus.</Description>
+      <Description>Die {LINK:Agrizero;Agrizero's} kreierte Todesblume ist das Ergebnis eines zweifelhaften Experiments, bei dem die Anziehungskraft tropischer Pflanzen mit dem Komfort und der Gemütlichkeit einer Wärmepumpe kombiniert wurde. Die Pflanze nimmt eine 1:3-Mischung aus {GAS:Methane} und {GAS:Oxygen} auf und stößt erhitzte {GAS:Pollutant} aus.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPlantThermogenic_Genepool2</Key>
       <Value>Todesblume (Beta-Variante)</Value>
-      <Description>Die {LINK:Agrizero;Agrizero's} kreierte Hades-Blume ist das Ergebnis eines zweifelhaften Experiments, bei dem die Anziehungskraft tropischer Pflanzen mit dem Komfort und der Gemütlichkeit einer Wärmepumpe kombiniert wurde. Die Pflanze nimmt eine 1:3-Mischung aus {GAS:Methane} und {GAS:Oxygen} auf und stößt erhitzte {GAS:Pollutant} aus. Die Beta-Variante ist deutlich effizienter als die frühere, experimentellere Alpha-Variante.</Description>
+      <Description>Die {LINK:Agrizero;Agrizero's} kreierte Todesblume ist das Ergebnis eines zweifelhaften Experiments, bei dem die Anziehungskraft tropischer Pflanzen mit dem Komfort und der Gemütlichkeit einer Wärmepumpe kombiniert wurde. Die Pflanze nimmt eine 1:3-Mischung aus {GAS:Methane} und {GAS:Oxygen} auf und stößt erhitzte {GAS:Pollutant} aus. Die Beta-Variante ist deutlich effizienter als die frühere, experimentellere Alpha-Variante.</Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_HadesAlpha</Key>
-      <Value>Hades Samen (Alpha-Stamm)</Value>
+      <Value>Todesblume Samen (Alpha-Stamm)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_HadesBeta</Key>
-      <Value>Hades Samen (Beta-Stamm)</Value>
+      <Value>Todesblume Samen (Beta-Stamm)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7219,7 +7219,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStirlingEngine</Key>
-      <Value>Kit (Stirlingmotor)</Value>
+      <Value>Stirlingmotor</Value>
       <Description>Erzeugt eine {THING:StructureStirlingEngine}.</Description>
     </RecordThing>
     <RecordThing>
@@ -7280,7 +7280,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPowerTransmitter</Key>
-      <Value>Kit (Energie-Transmitter)</Value>
+      <Value>Energie-Transmitter</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7305,7 +7305,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitInteriorDoors</Key>
-      <Value>Kit (Innentüren)</Value>
+      <Value>Innentüren</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7320,7 +7320,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPowerTransmitterOmni</Key>
-      <Value>Kit (Energie-Sender Omni)</Value>
+      <Value>Energie-Sender Omni</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7335,7 +7335,7 @@
     </RecordThing>
     <RecordThing>
       <Key>Battery_Wireless_cell_Big</Key>
-      <Value>Batterie Drahtlose Zelle (groß)</Value>
+      <Value>Batterie Drahtlose Zelle (Groß)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7345,7 +7345,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLargeExtendableRadiator</Key>
-      <Value>Kit (Großer ausziehbarer Heizkörper)</Value>
+      <Value>Großer ausziehbarer Heizkörper</Value>
       <Description>Erzeugt {THING: StructureLargeExtendableRadiator}.</Description>
     </RecordThing>
     <RecordThing>
@@ -7372,7 +7372,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPassiveLargeRadiator</Key>
-      <Value>Kit (Medium Heizkörper)</Value>
+      <Value>Medium Heizkörper</Value>
       <Description>Erzeugt {THING:StructureMediumRadiator} und {THING:StructureMediumConvectionRadiator}.</Description>
     </RecordThing>
     <RecordThing>
@@ -7382,12 +7382,12 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPassiveLargeRadiatorGas</Key>
-      <Value>Kit (Medium Heizkörper)</Value>
+      <Value>Medium Heizkörper</Value>
       <Description>Erzeugt {THING:StructureMediumRadiator} und {THING:StructureMediumConvectionRadiator}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPassiveLargeRadiatorLiquid</Key>
-      <Value>Kit (Medium Heizkörper Flüssigkeit)</Value>
+      <Value>Medium Heizkörper Flüssigkeit</Value>
       <Description>Erzeugt {THING:StructureMediumRadiatorLiquid} und {THING:StructureMediumConvectionRadiatorLiquid}.</Description>
     </RecordThing>
     <RecordThing>
@@ -7408,7 +7408,7 @@
     <RecordThing>
       <Key>StructureNitrolyzer</Key>
       <Value>Nitrolyzer</Value>
-      <Description>Dieses Gerät wird benutzt, um {GAS:NitrousOxide} aus {GAS:Oxygen}, {GAS:Nitrogen} und einer großen Menge Energie zu erzeugen. Der Prozess wandelt nicht das gesamte verfügbare Gas auf einmal um, so dass die Ausgabe eine Mischung aus allen drei Gasen ist, die eventuell noch weiter verarbeitet werden muss.  Es wird mehr NOS erzeugt, wenn das Gas in der Maschine ein Verhältnis von 1:1 zwischen Sauerstoff und Stickstoff hat.  Die zweite Gaseingangsleitung ist optional und wird nicht benötigt, wenn das Gas vorgemischt ist.</Description>
+      <Description>Dieses Gerät wird benutzt, um {GAS:NitrousOxide} aus {GAS:Oxygen}, {GAS:Nitrogen} und einer Großen Menge Energie zu erzeugen. Der Prozess wandelt nicht das gesamte verfügbare Gas auf einmal um, so dass die Ausgabe eine Mischung aus allen drei Gasen ist, die eventuell noch weiter verarbeitet werden muss.  Es wird mehr NOS erzeugt, wenn das Gas in der Maschine ein Verhältnis von 1:1 zwischen Sauerstoff und Stickstoff hat.  Die zweite Gaseingangsleitung ist optional und wird nicht benötigt, wenn das Gas vorgemischt ist.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningBackPack</Key>
@@ -7462,12 +7462,12 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPipeRadiator</Key>
-      <Value>Kit (Rohrheizkörper)</Value>
+      <Value>Rohrheizkörper</Value>
       <Description>Dieses Kit erstellt einen {THING:StructurePipeRadiatorFlat} und einen {THING:StructurePipeRadiator}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPipeRadiatorLiquid</Key>
-      <Value>Kit (Röhrenradiator flüssig)</Value>
+      <Value>Röhrenradiator flüssig</Value>
       <Description>Dieses Kit erstellt einen {THING:StructurePipeRadiatorFlatLiquid} und einen {THING:StructureLiquidPipeRadiator}.</Description>
     </RecordThing>
     <RecordThing>
@@ -7522,12 +7522,12 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDeepMiner</Key>
-      <Value>Kit (Tiefer Schürfer)</Value>
+      <Value>Tiefer Schürfer</Value>
       <Description>Erstellt den {THING:StructureDeepMiner}, der sich durch das Gelände ins Grundgestein bohren kann, um {THING:ItemDirtyOre} abzubauen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCombustionDeepMiner</Key>
-      <Value>Kit (Combustion Tiefer Schürfer)</Value>
+      <Value>Combustion Tiefer Schürfer</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7559,7 +7559,7 @@
     </RecordThing>
     <RecordThing>
       <Key>KitStructureCombustionCentrifuge</Key>
-      <Value>Kit (Verbrennungszentrifuge)</Value>
+      <Value>Verbrennungszentrifuge</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7584,7 +7584,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStandardChute</Key>
-      <Value>Kit (Angetriebene Rutschen)</Value>
+      <Value>Angetriebene Rutschen</Value>
       <Description>Dieses Kit produziert eine Vielzahl von Energie-Rutschen</Description>
     </RecordThing>
     <RecordThing>
@@ -7685,25 +7685,25 @@
     <RecordThing>
       <Key>StructureSmallSatelliteDish</Key>
       <Value>Kleine Satellitenschüssel</Value>
-      <Description>Diese kleine Kommunikationseinheit kann benutzt werden, um mit Handelsschiffen in der Nähe zu kommunizieren.
+      <Description>Diese Kleine Kommunikationseinheit kann benutzt werden, um mit Handelsschiffen in der Nähe zu kommunizieren.
 
       Wenn es an einen {THING:StructureComputer} angeschlossen ist, der eine {THING:MotherboardComms} Motherboard, ein {THING:Landingpad_CenterPiece01} und einen {THING:StructureVendingMachine} enthält, können Stationeers damit mit Händlern Kontakt aufnehmen. Du kannst seine horizontalen und vertikalen Attribute entweder direkt oder über die Logik einstellen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSmallSatelliteDish</Key>
-      <Value>Kit (kleine Satellitenschüssel)</Value>
+      <Value>Kleine Satellitenschüssel</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLargeSatelliteDish</Key>
       <Value>Große Satellitenschüssel</Value>
-      <Description>Diese große Kommunikationseinheit kann benutzt werden, um mit Handelsschiffen in der Nähe zu kommunizieren.
+      <Description>Diese Große Kommunikationseinheit kann benutzt werden, um mit Handelsschiffen in der Nähe zu kommunizieren.
 
       Wenn es an einen {THING:StructureComputer} angeschlossen ist, der eine {THING:MotherboardComms} Motherboard, ein {THING:Landingpad_CenterPiece01} und einen {THING:StructureVendingMachine} enthält, können Stationeers damit mit Händlern Kontakt aufnehmen. Du kannst seine horizontalen und vertikalen Attribute entweder direkt oder über die Logik einstellen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLargeSatelliteDish</Key>
-      <Value>Kit (große Satellitenschüssel)</Value>
+      <Value>Große Satellitenschüssel</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7748,17 +7748,17 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLandingPadBasic</Key>
-      <Value>Kit (Landeplatz Standard)</Value>
+      <Value>Landeplatz Standard</Value>
       <Description>Die grundlegenden Teile, die zum Bau eines funktionierenden Landeplatzes benötigt werden.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLandingPadAtmos</Key>
-      <Value>Kit (Landeplatz Atmosphärisch)</Value>
+      <Value>Landeplatz Atmosphärisch</Value>
       <Description>Gase und Flüssigkeiten Ein-/Ausgabe- und Lagerteile für den Landeplatz. Diese ermöglichen den Handel mit Gasen und Flüssigkeiten.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLandingPadWaypoint</Key>
-      <Value>Kit (Landeplatz Landebahn)</Value>
+      <Value>Landeplatz Landebahn</Value>
       <Description>Teile, die den Anflug des Händlers auf den Landeplatz steuern und den Bau von Landebahnen ermöglichen.</Description>
     </RecordThing>
     <RecordThing>
@@ -7778,42 +7778,42 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterCarbonDioxideInfinite</Key>
-      <Value>Catalytic Filter (Carbon Dioxide)</Value>
+      <Value>Katalytisch Filter (Kohlenstoffdioxid)</Value>
       <Description>A filter that selectively targets Carbon Dioxide. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it a long lasting lifecycle.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterOxygenInfinite</Key>
-      <Value>Catalytic Filter (Oxygen)</Value>
+      <Value>Katalytisch Filter (Sauerstoff)</Value>
       <Description>A filter that selectively targets Oxygen. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it a long lasting lifecycle.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrousOxideInfinite</Key>
-      <Value>Catalytic Filter (Nitrous Oxide)</Value>
+      <Value>Katalytisch Filter (Distickstoffmonoxid)</Value>
       <Description>A filter that selectively targets Nitrous Oxide. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it a long lasting lifecycle.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrogenInfinite</Key>
-      <Value>Catalytic Filter (Nitrogen)</Value>
+      <Value>Katalytisch Filter (Stickstoff)</Value>
       <Description>A filter that selectively targets Nitrogen. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it a long lasting lifecycle.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterPollutantsInfinite</Key>
-      <Value>Catalytic Filter (Pollutants)</Value>
+      <Value>Katalytisch Filter (Schadstoff)</Value>
       <Description>A filter that selectively targets Pollutants. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it a long lasting lifecycle.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterMethaneInfinite</Key>
-      <Value>Catalytic Filter (Methane)</Value>
+      <Value>Katalytisch Filter (Methan)</Value>
       <Description>A filter that selectively targets {GAS:Methane}. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it a long lasting lifecycle.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterWaterInfinite</Key>
-      <Value>Catalytic Filter (Water)</Value>
+      <Value>Katalytisch Filter (Wasser)</Value>
       <Description>A filter that selectively targets Water. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it a long lasting lifecycle.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSolidFuel</Key>
-      <Value>Solid Fuel (Hydrocarbon)</Value>
+      <Value>Festbrennstoff (Kohlenwasserstoff)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7838,7 +7838,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPassiveVent</Key>
-      <Value>Kit (Passive Vent)</Value>
+      <Value>Passive Vent</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7858,7 +7858,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemPassiveVent</Key>
-      <Value>Kit (Passive Vent)</Value>
+      <Value>Passive Vent</Value>
       <Description>This kit creates a {THING:ItemPassiveVent} among other variants.</Description>
     </RecordThing>
     <RecordThing>
@@ -7878,17 +7878,17 @@
     </RecordThing>
     <RecordThing>
       <Key>StructureNosecone1x1</Key>
-      <Value>Nosecone</Value>
+      <Value>Nasenspitze</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureBatteryMedium</Key>
-      <Value>Battery (Medium)</Value>
+      <Value>Batterie (Mittel)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRockets</Key>
-      <Value>Kit (Rockets)</Value>
+      <Value>Rockets</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7933,7 +7933,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLowVolumeLiquidPipes</Key>
-      <Value>Kit (Low Volume Liquid Pipe)</Value>
+      <Value>Low Volume Liquid Pipe</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7978,7 +7978,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLowVolumePipes</Key>
-      <Value>Kit (Low Volume Pipe)</Value>
+      <Value>Low Volume Pipe</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8043,13 +8043,13 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDuct</Key>
-      <Value>Kit (Duct)</Value>
+      <Value>Duct</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ToyLuna</Key>
-      <Value>Toy Luna</Value>
-      <Description />
+      <Value>Toy Stellar</Value>
+      <Description>Meine Katze Stellar, ist immer bei mir.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureEvaporationChamber</Key>
@@ -8067,17 +8067,17 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitEvaporationChamber</Key>
-      <Value>Kit (Phase Change Device)</Value>
+      <Value>Phase Change Device</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPipeUtility</Key>
-      <Value>Kit (Pipe Utility Gas)</Value>
+      <Value>Pipe Utility Gas</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPipeUtilityLiquid</Key>
-      <Value>Kit (Pipe Utility Liquid)</Value>
+      <Value>Pipe Utility Liquid</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8102,92 +8102,92 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIce</Key>
-      <Value>Pure Ice Water</Value>
+      <Value>Reines Gefrorenes Wasser</Value>
       <Description>A frozen chunk of pure {GAS:Water}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceCarbonDioxide</Key>
-      <Value>Pure Ice Carbon Dioxide</Value>
+      <Value>Reines Gefrorenes Kohlenstoffdioxid</Value>
       <Description>A frozen chunk of pure {GAS:CarbonDioxide}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceNitrogen</Key>
-      <Value>Pure Ice Nitrogen</Value>
+      <Value>Reines Gefrorenes Stickstoff</Value>
       <Description>A frozen chunk of pure {GAS:Nitrogen}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceNitrous</Key>
-      <Value>Pure Ice NitrousOxide</Value>
+      <Value>Reines Gefrorenes Distickstoffoxid</Value>
       <Description>A frozen chunk of pure {GAS:NitrousOxide}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceOxygen</Key>
-      <Value>Pure Ice Oxygen</Value>
+      <Value>Reines Gefrorenes Sauerstoff</Value>
       <Description>A frozen chunk of pure {GAS:Oxygen}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIcePollutant</Key>
-      <Value>Pure Ice Pollutant</Value>
+      <Value>Reines Gefrorenes Schadstoff</Value>
       <Description>A frozen chunk of pure {GAS:Pollutant}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceMethane</Key>
-      <Value>Pure Ice Methane</Value>
+      <Value>Reines Gefrorenes Methan</Value>
       <Description>A frozen chunk of pure {GAS:Methane}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceLiquidCarbonDioxide</Key>
-      <Value>Pure Ice Liquid Carbon Dioxide</Value>
+      <Value>Reines Gefrorenes Flüssig Kohlenstoffdioxid</Value>
       <Description>A frozen chunk of pure {GAS:LiquidCarbonDioxide}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceLiquidNitrous</Key>
-      <Value>Pure Ice Liquid Nitrous</Value>
+      <Value>Reines Gefrorenes Flüssig Distickstoffoxid</Value>
       <Description>A frozen chunk of pure {GAS:LiquidNitrousOxide}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceLiquidNitrogen</Key>
-      <Value>Pure Ice Liquid Nitrogen</Value>
+      <Value>Reines Gefrorenes Flüssig Stickstoff</Value>
       <Description>A frozen chunk of pure {GAS:LiquidNitrogen}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceLiquidOxygen</Key>
-      <Value>Pure Ice Liquid Oxygen</Value>
+      <Value>Reines Gefrorenes Flüssig Oxygen</Value>
       <Description>A frozen chunk of pure {GAS:LiquidOxygen}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceLiquidPollutant</Key>
-      <Value>Pure Ice Liquid Pollutant</Value>
+      <Value>Reines Gefrorenes Flüssig Schadstoff</Value>
       <Description>A frozen chunk of pure {GAS:LiquidPollutant}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceLiquidMethane</Key>
-      <Value>Pure Ice Liquid Methane</Value>
+      <Value>Reines Gefrorenes Flüssig Methan</Value>
       <Description>A frozen chunk of pure {GAS:LiquidMethane}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceSteam</Key>
-      <Value>Pure Ice Steam</Value>
+      <Value>Reines Gefrorenes Dampf</Value>
       <Description>A frozen chunk of pure {GAS:Steam}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceHydrogen</Key>
-      <Value>Pure Ice Hydrogen</Value>
+      <Value>Reines Gefrorenes Wasserstoff</Value>
       <Description>A frozen chunk of pure {GAS:Hydrogen}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceLiquidHydrogen</Key>
-      <Value>Pure Ice Liquid Hydrogen</Value>
+      <Value>Reines Gefrorenes Flüssig Wasserstoff</Value>
       <Description>A frozen chunk of pure {GAS:LiquidHydrogen}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIcePollutedWater</Key>
-      <Value>Pure Ice Polluted Water</Value>
+      <Value>Reines Gefrorenes Verschmutztes Wasser</Value>
       <Description>A frozen chunk of {GAS:PollutedWater}</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePassiveLiquidDrain</Key>
-      <Value>Passive Liquid Drain</Value>
+      <Value>Passive Flüssig Drain</Value>
       <Description>Moves liquids from a pipe network to the world atmosphere.</Description>
     </RecordThing>
     <RecordThing>
@@ -8212,7 +8212,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemClothingBagOveralls_EU</Key>
-      <Value>Overalls (EU)</Value>
+      <Value>Overalls (Europa)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8222,7 +8222,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemClothingBagOveralls_Germany</Key>
-      <Value>Overalls (Germany)</Value>
+      <Value>Overalls (Deutschland)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8315,7 +8315,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPassthroughHeatExchanger</Key>
-      <Value>Kit (CounterFlow Heat Exchanger)</Value>
+      <Value>CounterFlow Heat Exchanger</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8330,22 +8330,22 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPoweredVent</Key>
-      <Value>Kit (Powered Vent)</Value>
+      <Value>Powered Vent</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitSmallDirectHeatExchanger</Key>
-      <Value>Kit (Small Direct Heat Exchanger)</Value>
+      <Value>Small Direct Heat Exchanger</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLargeDirectHeatExchanger</Key>
-      <Value>Kit (Large Direct Heat Exchanger)</Value>
+      <Value>Large Direct Heat Exchanger</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLaunchPad</Key>
-      <Value>Kit (Launch Pad)</Value>
+      <Value>Launch Pad</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8385,7 +8385,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketAvionics</Key>
-      <Value>Kit (Avionics)</Value>
+      <Value>Avionics</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8485,7 +8485,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitStairwell</Key>
-      <Value>Kit (Stairwell)</Value>
+      <Value>Stairwell</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8575,7 +8575,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLaunchMount</Key>
-      <Value>Kit (Launch Mount)</Value>
+      <Value>Launch Mount</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8584,7 +8584,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketManufactory</Key>
-      <Value>Kit (Rocket Manufactory)</Value>
+      <Value>Rocket Manufactory</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8594,72 +8594,72 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketBattery</Key>
-      <Value>Kit (Rocket Battery)</Value>
+      <Value>Rocket Battery</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketFuelTanks</Key>
-      <Value>Kit (Rocket Fuel Tanks)</Value>
+      <Value>Rocket Fuel Tanks</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketLiquidFuelTank</Key>
-      <Value>Kit (Rocket Liquid Fuel Tank)</Value>
+      <Value>Rocket Liquid Fuel Tank</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketDatalink</Key>
-      <Value>Kit (Rocket Datalink)</Value>
+      <Value>Rocket Datalink</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketLaunchPad</Key>
-      <Value>Kit (Rocket Launch Pad)</Value>
+      <Value>Rocket Launch Pad</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLaunchTower</Key>
-      <Value>Kit (Rocket Launch Tower)</Value>
+      <Value>Rocket Launch Tower</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketMiner</Key>
-      <Value>Kit (Rocket Miner)</Value>
+      <Value>Rocket Miner</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitGovernedGasRocketEngine</Key>
-      <Value>Kit (Pumped Gas Rocket Engine)</Value>
+      <Value>Pumped Gas Rocket Engine</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitGovernedLiquidRocketEngine</Key>
-      <Value>Kit (Pumped Liquid Rocket Engine)</Value>
+      <Value>Pumped Liquid Rocket Engine</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitElectricUmbilical</Key>
-      <Value>Kit (Power Umbilical)</Value>
+      <Value>Power Umbilical</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitGasUmbilical</Key>
-      <Value>Kit (Gas Umbilical)</Value>
+      <Value>Gas Umbilical</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLiquidUmbilical</Key>
-      <Value>Kit (Liquid Umbilical)</Value>
+      <Value>Liquid Umbilical</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketCargoStorage</Key>
-      <Value>Kit (Rocket Cargo Storage)</Value>
+      <Value>Rocket Cargo Storage</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketGasFuelTank</Key>
-      <Value>Kit (Rocket Gas Fuel Tank)</Value>
+      <Value>Rocket Gas Fuel Tank</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8684,7 +8684,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitChuteUmbilical</Key>
-      <Value>Kit (Chute Umbilical)</Value>
+      <Value>Chute Umbilical</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8699,7 +8699,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPumpedLiquidEngine</Key>
-      <Value>Kit (Pumped Liquid Engine)</Value>
+      <Value>Pumped Liquid Engine</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8709,7 +8709,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPressureFedGasEngine</Key>
-      <Value>Kit (Pressure Fed Gas Engine)</Value>
+      <Value>Pressure Fed Gas Engine</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8719,7 +8719,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPressureFedLiquidEngine</Key>
-      <Value>Kit (Pressure Fed Liquid Engine)</Value>
+      <Value>Pressure Fed Liquid Engine</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8729,7 +8729,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPressureFedGasEngineHeavy</Key>
-      <Value>Kit (Heavy Pressure Fed Gas Engine)</Value>
+      <Value>Heavy Pressure Fed Gas Engine</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8739,7 +8739,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPressureFedLiquidEngineHeavy</Key>
-      <Value>Kit (Heavy Pressure Fed Liquid Engine)</Value>
+      <Value>Heavy Pressure Fed Liquid Engine</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8974,37 +8974,37 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFuselageTypeD</Key>
-      <Value>Kit (Fuselage Type D)</Value>
+      <Value>Fuselage Type D</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFuselageTypeC</Key>
-      <Value>Kit (Fuselage Type C)</Value>
+      <Value>Fuselage Type C</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFuselageTypeB</Key>
-      <Value>Kit (Fuselage Type B)</Value>
+      <Value>Fuselage Type B</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFuselageTypeA</Key>
-      <Value>Kit (Fuselage Type A)</Value>
+      <Value>Fuselage Type A</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFuselage</Key>
-      <Value>Kit (Fuselage)</Value>
+      <Value>Fuselage</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAccessBridge</Key>
-      <Value>Kit (Access Bridge)</Value>
+      <Value>Access Bridge</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketScanner</Key>
-      <Value>Kit (Rocket Scanner)</Value>
+      <Value>Rocket Scanner</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9019,7 +9019,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPortablesConnector</Key>
-      <Value>Kit (Portables Connector)</Value>
+      <Value>Portables Connector</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9034,7 +9034,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketCircuitHousing</Key>
-      <Value>Kit (Rocket Circuit Housing)</Value>
+      <Value>Rocket Circuit Housing</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9059,7 +9059,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketTransformerSmall</Key>
-      <Value>Kit (Transformer Small (Rocket))</Value>
+      <Value>Transformer Small (Rocket)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9129,7 +9129,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketCelestialTracker</Key>
-      <Value>Kit (Rocket Celestial Tracker)</Value>
+      <Value>Rocket Celestial Tracker</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9139,7 +9139,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitGroundTelescope</Key>
-      <Value>Kit (Telescope)</Value>
+      <Value>Telescope</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9159,7 +9159,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemPassiveVentInsulated</Key>
-      <Value>Kit (Insulated Passive Vent)</Value>
+      <Value>Insulated Passive Vent</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9174,12 +9174,12 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDrinkingFountain</Key>
-      <Value>Kit (Drinking Fountain)</Value>
+      <Value>Drinking Fountain</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitShower</Key>
-      <Value>Kit (Shower)</Value>
+      <Value>Shower</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9214,7 +9214,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeIgniter</Key>
-      <Value>Kit (Pipe Igniter)</Value>
+      <Value>Pipe Igniter</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9244,12 +9244,12 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitInsulatedPipeUtilityLiquid</Key>
-      <Value>Kit (Insulated Pipe Utility Liquid)</Value>
+      <Value>Insulated Pipe Utility Liquid</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitInsulatedPipeUtility</Key>
-      <Value>Kit (Insulated Pipe Utility Gas)</Value>
+      <Value>Insulated Pipe Utility Gas</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9379,12 +9379,12 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRoboticArm</Key>
-      <Value>Kit (LArRE)</Value>
+      <Value>LArRE</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLinearRail</Key>
-      <Value>Kit (Linear Rail)</Value>
+      <Value>Linear Rail</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9444,7 +9444,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRobotArmDoor</Key>
-      <Value>Kit (Linear Rail Door)</Value>
+      <Value>Linear Rail Door</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9459,27 +9459,27 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLarreDockAtmos</Key>
-      <Value>Kit (LArRE Dock Atmos)</Value>
+      <Value>LArRE Dock Atmos</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLarreDockBypass</Key>
-      <Value>Kit (LArRE Dock Bypass)</Value>
+      <Value>LArRE Dock Bypass</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLarreDockHydroponics</Key>
-      <Value>Kit (LArRE Dock Hydroponics)</Value>
+      <Value>LArRE Dock Hydroponics</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLarreDockCargo</Key>
-      <Value>Kit (LArRE Dock Cargo)</Value>
+      <Value>LArRE Dock Cargo</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLarreDockCollector</Key>
-      <Value>Kit (LArRE Dock Collector)</Value>
+      <Value>LArRE Dock Collector</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9728,7 +9728,7 @@ It is liquid cooled for superb thermal performance and boasts superior resistanc
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketAtmospherics</Key>
-      <Value>Kit (Rocket Atmospherics)</Value>
+      <Value>Rocket Atmospherics</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -10027,7 +10027,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLiquidFiltration</Key>
-      <Value>Kit (Flüssigkeit Filtration)</Value>
+      <Value>Flüssigkeit Filtration</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -10042,7 +10042,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPayloadDeliveryContainer</Key>
-      <Value>Kit (Payload Delivery Container)</Value>
+      <Value>Payload Delivery Container</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketLargePayloadBay</Key>
@@ -10051,7 +10051,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketLargePayloadBay</Key>
-      <Value>Kit (Payload Bay Large)</Value>
+      <Value>Payload Bay Large</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemDefibrillator</Key>
@@ -15063,7 +15063,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>TooltipPlacementSnapFaceMount</Key>
-      <Value>Die Platzierung wird am kleinen Gitter ausgerichtet.</Value>
+      <Value>Die Platzierung wird am Kleinen Gitter ausgerichtet.</Value>
     </Record>
     <Record>
       <Key>TooltipPlacementSnapFaceMountMissingFrame</Key>
@@ -15601,7 +15601,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Key>NewWorldSpaceDesc</Key>
       <Value>Das ist der Stationeers Kreativmodus!Du kannst jeden beliebigen Gegenstand erschaffen, Ideen ausprobieren und ganz schnell verrückte Sachen bauen.
                                                 &lt;color=red&gt;Dieser Modus ist experimentell. Sieh ihn als eine freie Weltraumparty, bei der aufregende und unerwartete Dinge* passieren können und werden, im Gegensatz zu der zuverlässigeren Nahtoderfahrung des Überlebensmodus.
-                                                Sei nur nicht traurig, wenn du dich in winzig kleine Stücke sprengst, von Hühnern zerfleischt wirst oder langsam explodierst, während du allein in die unendliche Leere driftest.
+                                                Sei nur nicht traurig, wenn du dich in winzig Kleine Stücke sprengst, von Hühnern zerfleischt wirst oder langsam explodierst, während du allein in die unendliche Leere driftest.
           *bugs</Value>
     </Record>
     <Record>
@@ -15827,7 +15827,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>NewWorldMoonShortDesc</Key>
-      <Value>Das Vorhandensein von Kohle ist zwar nicht typisch für den Erdmond, aber das relativ flache Terrain mit vielen großen Kratern und die fehlende Atmosphäre sind in dieser grauen Landschaft vielleicht vertrauter. Ein großartiger Ort für angehende Stationeers, um ihre Reise zu beginnen, mit weniger Gefahren und Komplexitäten als auf exotischeren Welten.</Value>
+      <Value>Das Vorhandensein von Kohle ist zwar nicht typisch für den Erdmond, aber das relativ flache Terrain mit vielen Großen Kratern und die fehlende Atmosphäre sind in dieser grauen Landschaft vielleicht vertrauter. Ein Großartiger Ort für angehende Stationeers, um ihre Reise zu beginnen, mit weniger Gefahren und Komplexitäten als auf exotischeren Welten.</Value>
     </Record>
     <Record>
       <Key>NewWorldSpaceShortDesc</Key>
@@ -15843,7 +15843,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>NewWorldEuropaShortDesc</Key>
-      <Value>Durch das Schmelzen des Eises auf dieser kalten Welt ist endlich eine Atmosphäre entstanden, aber die extrem kalte Umgebung stellt die Stationeers vor eine große Herausforderung: Die extreme Kälte führt dazu, dass die Batterien schnell an Energie verlieren, daher ist es wichtig, dass du eine ständige Energiequelle und einen warmen Standort hast.</Value>
+      <Value>Durch das Schmelzen des Eises auf dieser kalten Welt ist endlich eine Atmosphäre entstanden, aber die extrem kalte Umgebung stellt die Stationeers vor eine Große Herausforderung: Die extreme Kälte führt dazu, dass die Batterien schnell an Energie verlieren, daher ist es wichtig, dass du eine ständige Energiequelle und einen warmen Standort hast.</Value>
     </Record>
     <Record>
       <Key>NewWorldVulcanShortDesc</Key>
@@ -16627,7 +16627,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>LogicTypeColor</Key>
-      <Value>Ob aus Gründen der Übersichtlichkeit, der Sicherheit oder der einfachen Ästhetik, {LINK:Stationeers;Stationeers} haben Zugang zu einem kleinen Regenbogen von Farben für ihre Konstruktionen. Dies sind die Farbeinstellungen für Geräte, dargestellt als ganze Zahl.
+      <Value>Ob aus Gründen der Übersichtlichkeit, der Sicherheit oder der einfachen Ästhetik, {LINK:Stationeers;Stationeers} haben Zugang zu einem Kleinen Regenbogen von Farben für ihre Konstruktionen. Dies sind die Farbeinstellungen für Geräte, dargestellt als ganze Zahl.
 
       0: Blau
       1: Grau
@@ -17762,7 +17762,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>ElectronicReaderMethane</Key>
-      <Value>Flüchtige Stoffe</Value>
+      <Value>Methan</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderGold</Key>
@@ -18502,11 +18502,11 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>ScriptCommandCeil</Key>
-      <Value>Register = kleinste ganze Zahl größer als a</Value>
+      <Value>Register = Kleinste ganze Zahl größer als a</Value>
     </Record>
     <Record>
       <Key>ScriptCommandFloor</Key>
-      <Value>Register = größte ganze Zahl kleiner als a</Value>
+      <Value>Register = größte ganze Zahl Kleiner als a</Value>
     </Record>
     <Record>
       <Key>ScriptCommandMax</Key>
@@ -19125,7 +19125,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>AsuraDesc</Key>
       <Value>Asura Biomedia wurde Anfang des 22. Jahrhunderts von dem in Mumbai ansässigen Billionär Ashan Gurwaja gegründet. Das Unternehmen hat sich zwar auf Biotechnologie spezialisiert, hatte aber schon immer eine &quot;dehnbare&quot; Vorstellung davon, was genau das bedeutet: von Pharmazeutika bis hin zu Haustier-Nahrung.
-      Gurwajas Hintergrund in Biotech-Firmen brachte das Unternehmen von Anfang an in die oberste Liga der Biowissenschaftsbranche, und es wuchs genau so, wie es sein Gründer beabsichtigte: schnell und zuverlässig, mit einer Struktur, die darauf ausgerichtet war, alle kleineren Firmen zu schlucken, die sich ihm in den Weg stellten.
+      Gurwajas Hintergrund in Biotech-Firmen brachte das Unternehmen von Anfang an in die oberste Liga der Biowissenschaftsbranche, und es wuchs genau so, wie es sein Gründer beabsichtigte: schnell und zuverlässig, mit einer Struktur, die darauf ausgerichtet war, alle Kleineren Firmen zu schlucken, die sich ihm in den Weg stellten.
       Um die Mitte des Jahrhunderts entwickelte Asura seine Ambitionen weiter, um ganze Gesundheitssysteme zu übernehmen - heute ist es der größte Anbieter von Gesundheitsdienstleistungen auf der Erde, der Krankenhäuser und Grundversorgung mit medizinischem Bedarf, pharmazeutischer Produktion und Einzelhandel, häuslicher Pflege und Bestattungsdiensten integriert.
       Im Jahr 2150 war das Geschäft von Asura ein einfaches Angebot, das in ihrem berühmten - wenn nicht sogar berüchtigten - Werbeslogan zum Ausdruck kommt: &quot;Wir sind in dir&quot;.</Value>
     </Record>
@@ -19137,7 +19137,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Key>CHACDesc</Key>
       <Value>Das Unternehmen wurde 2085 gegründet, um Waffen für die {LINK:Sinotai;Sinotai}-Weltraumstreitkräfte zu produzieren, und ist bekannt für die Herstellung äußerst zuverlässiger und erschwinglicher Waffen für den Einsatz außerhalb der Welt.
       Ihr pragmatischer Ansatz spiegelt sich in ihrem Fokus auf Designs wider, die für den 3D-Druck und die Massenproduktion geeignet sind, sowie in der hohen Wiederverwendung von Komponenten in verschiedenen Modellen und Waffenklassen.
-      Obwohl die CHAC-Waffen in keiner bestimmten Kategorie überragend sind und man ihnen nie Gier vorgeworfen hat, weisen sie keine großen Schwächen auf und sind nach den meisten bekannten Maßstäben gut genug, um ihren Konstrukteuren den inoffiziellen Titel 'Waffenschmied des Sonnensystems' zu verleihen.</Value>
+      Obwohl die CHAC-Waffen in keiner bestimmten Kategorie überragend sind und man ihnen nie Gier vorgeworfen hat, weisen sie keine Großen Schwächen auf und sind nach den meisten bekannten Maßstäben gut genug, um ihren Konstrukteuren den inoffiziellen Titel 'Waffenschmied des Sonnensystems' zu verleihen.</Value>
     </Record>
     <Record>
       <Key>ExMin</Key>
@@ -19176,7 +19176,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Key>NorsecDesc</Key>
       <Value>Norsec (auch bekannt als Northern Security Systems) hat seine Wurzeln in der Rüstungsindustrie des frühen 20. Jahrhunderts und war schon früh in den Asteroidenabbau involviert - einer seiner Schlepper war in den berüchtigten Sisyphusangriff auf die junge Marskolonie Sanders verwickelt.
       Norsec wurde offiziell von jeglichem Fehlverhalten freigesprochen, aber als die {LINK:ODA;ODA} die Umsiedlung auf Asteroiden verbot, verlagerte das Unternehmen seinen Schwerpunkt auf Infrastruktur und Produktion.
-      Die im Orbit ansässige Abteilung für Raumfahrtsysteme von Norsec ist für die Entwicklung und Produktion der wichtigsten Transportsysteme der {LINK:ODA;ODA} verantwortlich und soll Gerüchten zufolge auch eine große Beteiligung an {LINK:ExMin;ExMin} haben. Das Unternehmen ist auch für seine Bereitschaft bekannt, sich an experimenteller Robotertechnologie zu beteiligen.</Value>
+      Die im Orbit ansässige Abteilung für Raumfahrtsysteme von Norsec ist für die Entwicklung und Produktion der wichtigsten Transportsysteme der {LINK:ODA;ODA} verantwortlich und soll Gerüchten zufolge auch eine Große Beteiligung an {LINK:ExMin;ExMin} haben. Das Unternehmen ist auch für seine Bereitschaft bekannt, sich an experimenteller Robotertechnologie zu beteiligen.</Value>
     </Record>
     <Record>
       <Key>ODA</Key>
@@ -19196,7 +19196,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Key>RecursoDesc</Key>
       <Value>Dieser traditionsreiche brasilianische Bergbaukonzern expandierte Ende des 21. Jahrhunderts in den Weltraum.
       Das Unternehmen, das sich vor allem auf den Abbau von Mineralien und Metallen konzentriert, kann am besten als verlängerter Arm der brasilianischen Regierung verstanden werden - es gibt nur wenige hochrangige politische Persönlichkeiten im modernen Brasilien, die nicht in den einen oder anderen Arm dieses Industriegiganten verwickelt sind.
-      Durch die Verflechtung mit der südamerikanischen Politik hat das Unternehmen großen Einfluss auf den Weltraumfahrstuhl in Manaus. Diese tiefgreifende staatliche Kontrolle hat dazu geführt, dass andere Gruppen - auch die {LINK:ODA;ODA} - eine gewisse &quot;Flexibilität&quot; gegenüber Recurso an den Tag legen.
+      Durch die Verflechtung mit der südamerikanischen Politik hat das Unternehmen Großen Einfluss auf den Weltraumfahrstuhl in Manaus. Diese tiefgreifende staatliche Kontrolle hat dazu geführt, dass andere Gruppen - auch die {LINK:ODA;ODA} - eine gewisse &quot;Flexibilität&quot; gegenüber Recurso an den Tag legen.
       Anschuldigungen wegen illegaler Asteroidenverschiebung, Sicherheitsverletzungen und zahlreicher kommerzieller Verstöße haben ihn kaum berührt. Verteidiger weisen darauf hin, dass vor Gericht nur sehr wenig bewiesen wurde und Recurso kaum allein ist - daher die Binsenweisheit: &quot;Im Weltraum leben wir alle in Glashäusern.&quot;</Value>
     </Record>
     <Record>
@@ -19802,7 +19802,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Key>MoleMethaneDescription</Key>
       <Value>Flüchtige Stoffe sind ein extrem reaktives, komplexes organisches Molekül, das in Verbindung mit Sauerstoff als brennbarer Brennstoff benutzt werden kann. Es wird aus {THING:ItemMethane} raffiniert.
         
-  Aufgrund obskurer und weitgehend vergessener {LINK:ODA;ODA} Vorschriften werden flüchtige Stoffe von verschiedenen Gegenständen der Technik manchmal als &quot;H2&quot; bezeichnet. Sie ähneln zwar dem Wasserstoff, sind aber nicht &quot;wirklich&quot; Wasserstoff. {GAS:Methane} produzieren kein {GAS:Water}, wenn sie nicht mit einem Katalysator verbrannt werden (siehe {THING:H2Combustor}). Allein erzeugen sie {GAS:Pollutant}s und {GAS:CarbonDioxide}, wenn sie in folgendem Verhältnis gebrannt werden:
+  Aufgrund obskurer und weitgehend vergessener {LINK:ODA;ODA} Vorschriften werden Methan von verschiedenen Gegenständen der Technik manchmal als &quot;H2&quot; bezeichnet. Sie ähneln zwar dem Wasserstoff, sind aber nicht &quot;wirklich&quot; Wasserstoff. {GAS:Methane} produzieren kein {GAS:Water}, wenn sie nicht mit einem Katalysator verbrannt werden (siehe {THING:H2Combustor}). Allein erzeugen sie {GAS:Pollutant}s und {GAS:CarbonDioxide}, wenn sie in folgendem Verhältnis gebrannt werden:
         
   2 {GAS:Methane} + 1 {GAS:Oxygen} -&gt; 3 {GAS:Pollutant} + 6 {GAS:CarbonDioxide} + Wärme.</Value>
     </Record>
@@ -19814,7 +19814,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>MoleWaterDescription</Key>
-      <Value>Du kannst Wasser durch Schmelzen oder Zerkleinern von {THING:ItemIce} mit einem {THING:StructureFurnace} oder einem {THING:StructureIceCrusher} oder durch Verbrennung von {GAS:Methane} und Sauerstoff mit dem {THING:H2Combustor} gewinnen.
+      <Value>Du kannst Wasser durch Schmelzen oder ZerKleinern von {THING:ItemIce} mit einem {THING:StructureFurnace} oder einem {THING:StructureIceCrusher} oder durch Verbrennung von {GAS:Methane} und Sauerstoff mit dem {THING:H2Combustor} gewinnen.
         
   {GAS:Water} ist wichtig für {LINK:OrganicPage;plants}, um am Leben zu bleiben und {LINK:NutritionPage;food} wachsen zu lassen. Außerdem ist es ein hervorragendes Kühlmittel mit einer sehr hohen spezifischen Wärmekapazität.
 
@@ -19822,7 +19822,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>MoleNitrousOxideDescription</Key>
-      <Value>Distickstoffoxid ist ein reaktives Gas, das Spieler bewusstlos macht, wenn sie es einatmen.  Es wirkt als Oxidationsmittel bei der Verbrennung und lässt flüchtige Stoffe deutlich heißer, schneller und mit einer niedrigeren Selbstentzündungstemperatur brennen. Es kann in einem energieintensiven Prozess in einem {THING: StructureNitrolyzer} produziert werden.</Value>
+      <Value>Distickstoffoxid ist ein reaktives Gas, das Spieler bewusstlos macht, wenn sie es einatmen.  Es wirkt als Oxidationsmittel bei der Verbrennung und lässt Methan deutlich heißer, schneller und mit einer niedrigeren Selbstentzündungstemperatur brennen. Es kann in einem energieintensiven Prozess in einem {THING: StructureNitrolyzer} produziert werden.</Value>
     </Record>
     <Record>
       <Key>MoleLiquidNitrogenDescription</Key>
@@ -20474,19 +20474,19 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>WorldObjectiveUpgradeElectronicsPrinter</Key>
-      <Value>Upgrade ElectronicsPrinter</Value>
+      <Value>Erweitere den {THING:StructureElectronicsPrinter}</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveUpgradeManufacturing</Key>
-      <Value>Upgrade Manufacturing</Value>
+      <Value>Erweitere den Manufacturing</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveBuildFurnace</Key>
-      <Value>Build an Advanced Furnace</Value>
+      <Value>Baue ein {THING:StructureAdvancedFurnace}</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveBuildCentrifuge</Key>
-      <Value>Build a Recycler and Centrifuge</Value>
+      <Value>Baue ein {THING:StructureRecycler} und {THING:StructureCentrifuge}</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveDeepMiners</Key>
@@ -20494,7 +20494,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>WorldObjectiveBuildRoom</Key>
-      <Value>Build a room with a door</Value>
+      <Value>Baue ein Raum mit einer Türe</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveFillOxygen</Key>
@@ -20506,7 +20506,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>WorldObjectiveRefillBottle</Key>
-      <Value>Refill Water Bottle</Value>
+      <Value>Fülle die {THING:ItemWaterBottle} wieder auf</Value>
     </Record>
     <Record>
       <Key>WorldObjectivePlantsLight</Key>
@@ -25897,7 +25897,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>HoldForSmallIncrements</Key>
-      <Value>Halte {KEY:QuantityModifier} für kleinere Schritte</Value>
+      <Value>Halte {KEY:QuantityModifier} für Kleinere Schritte</Value>
     </Record>
     <Record>
       <Key>UseLabelerToSet</Key>
@@ -26133,7 +26133,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>ContactTradeLandingPadToSmall</Key>
-      <Value>Händler kann nicht landen, weil der Ziellandeplatz zu klein ist.</Value>
+      <Value>Händler kann nicht landen, weil der Ziellandeplatz zu Klein ist.</Value>
     </Record>
     <Record>
       <Key>ArmControlIdle</Key>
