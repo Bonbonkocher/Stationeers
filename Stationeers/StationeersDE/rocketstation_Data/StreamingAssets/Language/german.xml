@@ -26816,7 +26816,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>WorldInfoTemperatureRange</Key>
-      <Value>&lt;color=yellow&gt;Temperatur&lt;/color&gt; von {LOCAL:LowValue} bis {LOCAL:HighValue}</Value>
+      <Value>&lt;color=yellow&gt;Temperatur&lt;/color&gt; von {LOCAL:LowValue} °C bis {LOCAL:HighValue}</Value>
     </Record>
     <Record>
       <Key>WorldInfoTemperature</Key>
@@ -26832,7 +26832,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>WorldInfoPlanetWeather</Key>
-      <Value>Wird {LOCAL:Weather}-Ereignisse erfahren</Value>
+      <Value>Ist Anfällig für {LOCAL:Weather}</Value>
     </Record>
     <Record>
       <Key>ThingDamageIsAt</Key>
