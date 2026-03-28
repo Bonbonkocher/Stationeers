@@ -8,7 +8,7 @@
 > [!CAUTION]
 > Bitte bevor sie ihrgend was ersetzen, immer eine Sicherung der dateien anlegen
 
-Spiel-Version: v0.2.6217.27046
+Spiel-Version: v0.2.6227.27061
 
 Alle Inhalte in denn xml-Dateien
 
