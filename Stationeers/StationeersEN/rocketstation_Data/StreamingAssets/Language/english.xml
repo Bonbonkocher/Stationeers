@@ -16824,6 +16824,231 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>The ratio of {GAS:LiquidOzone} in device's Atmosphere</Value>
     </Record>
     <Record>
+      <Key>LogicTypeRatioHydrogenInput</Key>
+      <Value>The ratio of {GAS:Hydrogen} in device's Input Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrogenInput2</Key>
+      <Value>The ratio of {GAS:Hydrogen} in device's Input2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrogenOutput</Key>
+      <Value>The ratio of {GAS:Hydrogen} in device's Output Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrogenOutput2</Key>
+      <Value>The ratio of {GAS:Hydrogen} in device's Output2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrogenInput</Key>
+      <Value>The ratio of {GAS:LiquidHydrogen} in device's Input Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrogenInput2</Key>
+      <Value>The ratio of {GAS:LiquidHydrogen} in device's Input2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrogenOutput</Key>
+      <Value>The ratio of {GAS:LiquidHydrogen} in device's Output Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrogenOutput2</Key>
+      <Value>The ratio of {GAS:LiquidHydrogen} in device's Output2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioPollutedWaterInput</Key>
+      <Value>The ratio of {GAS:PollutedWater} in device's Input Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioPollutedWaterInput2</Key>
+      <Value>The ratio of {GAS:PollutedWater} in device's Input2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioPollutedWaterOutput</Key>
+      <Value>The ratio of {GAS:PollutedWater} in device's Output Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioPollutedWaterOutput2</Key>
+      <Value>The ratio of {GAS:PollutedWater} in device's Output2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrazineInput</Key>
+      <Value>The ratio of {GAS:Hydrazine} in device's Input Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrazineInput2</Key>
+      <Value>The ratio of {GAS:Hydrazine} in device's Input2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrazineOutput</Key>
+      <Value>The ratio of {GAS:Hydrazine} in device's Output Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrazineOutput2</Key>
+      <Value>The ratio of {GAS:Hydrazine} in device's Output2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrazineInput</Key>
+      <Value>The ratio of {GAS:LiquidHydrazine} in device's Input Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrazineInput2</Key>
+      <Value>The ratio of {GAS:LiquidHydrazine} in device's Input2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrazineOutput</Key>
+      <Value>The ratio of {GAS:LiquidHydrazine} in device's Output Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrazineOutput2</Key>
+      <Value>The ratio of {GAS:LiquidHydrazine} in device's Output2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidAlcoholInput</Key>
+      <Value>The ratio of {GAS:LiquidAlcohol} in device's Input Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidAlcoholInput2</Key>
+      <Value>The ratio of {GAS:LiquidAlcohol} in device's Input2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidAlcoholOutput</Key>
+      <Value>The ratio of {GAS:LiquidAlcohol} in device's Output Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidAlcoholOutput2</Key>
+      <Value>The ratio of {GAS:LiquidAlcohol} in device's Output2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHeliumInput</Key>
+      <Value>The ratio of {GAS:Helium} in device's Input Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHeliumInput2</Key>
+      <Value>The ratio of {GAS:Helium} in device's Input2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHeliumOutput</Key>
+      <Value>The ratio of {GAS:Helium} in device's Output Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHeliumOutput2</Key>
+      <Value>The ratio of {GAS:Helium} in device's Output2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSodiumChlorideInput</Key>
+      <Value>The ratio of {GAS:LiquidSodiumChloride} in device's Input Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSodiumChlorideInput2</Key>
+      <Value>The ratio of {GAS:LiquidSodiumChloride} in device's Input2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSodiumChlorideOutput</Key>
+      <Value>The ratio of {GAS:LiquidSodiumChloride} in device's Output Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSodiumChlorideOutput2</Key>
+      <Value>The ratio of {GAS:LiquidSodiumChloride} in device's Output2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioSilanolInput</Key>
+      <Value>The ratio of {GAS:Silanol} in device's Input Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioSilanolInput2</Key>
+      <Value>The ratio of {GAS:Silanol} in device's Input2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioSilanolOutput</Key>
+      <Value>The ratio of {GAS:Silanol} in device's Output Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioSilanolOutput2</Key>
+      <Value>The ratio of {GAS:Silanol} in device's Output2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSilanolInput</Key>
+      <Value>The ratio of {GAS:LiquidSilanol} in device's Input Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSilanolInput2</Key>
+      <Value>The ratio of {GAS:LiquidSilanol} in device's Input2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSilanolOutput</Key>
+      <Value>The ratio of {GAS:LiquidSilanol} in device's Output Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSilanolOutput2</Key>
+      <Value>The ratio of {GAS:LiquidSilanol} in device's Output2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrochloricAcidInput</Key>
+      <Value>The ratio of {GAS:HydrochloricAcid} in device's Input Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrochloricAcidInput2</Key>
+      <Value>The ratio of {GAS:HydrochloricAcid} in device's Input2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrochloricAcidOutput</Key>
+      <Value>The ratio of {GAS:HydrochloricAcid} in device's Output Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrochloricAcidOutput2</Key>
+      <Value>The ratio of {GAS:HydrochloricAcid} in device's Output2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrochloricAcidInput</Key>
+      <Value>The ratio of {GAS:LiquidHydrochloricAcid} in device's Input Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrochloricAcidInput2</Key>
+      <Value>The ratio of {GAS:LiquidHydrochloricAcid} in device's Input2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrochloricAcidOutput</Key>
+      <Value>The ratio of {GAS:LiquidHydrochloricAcid} in device's Output Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrochloricAcidOutput2</Key>
+      <Value>The ratio of {GAS:LiquidHydrochloricAcid} in device's Output2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioOzoneInput</Key>
+      <Value>The ratio of {GAS:Ozone} in device's Input Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioOzoneInput2</Key>
+      <Value>The ratio of {GAS:Ozone} in device's Input2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioOzoneOutput</Key>
+      <Value>The ratio of {GAS:Ozone} in device's Output Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioOzoneOutput2</Key>
+      <Value>The ratio of {GAS:Ozone} in device's Output2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidOzoneInput</Key>
+      <Value>The ratio of {GAS:LiquidOzone} in device's Input Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidOzoneInput2</Key>
+      <Value>The ratio of {GAS:LiquidOzone} in device's Input2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidOzoneOutput</Key>
+      <Value>The ratio of {GAS:LiquidOzone} in device's Output Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidOzoneOutput2</Key>
+      <Value>The ratio of {GAS:LiquidOzone} in device's Output2 Atmosphere</Value>
+    </Record>
+
+    <Record>
       <Key>AppearanceButtonRandomize</Key>
       <Value>Randomize</Value>
     </Record>
