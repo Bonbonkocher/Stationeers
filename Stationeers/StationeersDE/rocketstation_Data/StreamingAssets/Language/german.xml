@@ -2942,12 +2942,12 @@ Da es sehr temperaturempfindlich ist, beginnt Oxite zu schmelzen, sobald es abge
     </RecordThing>
     <RecordThing>
       <Key>StructureHydraulicPipeBender</Key>
-      <Value>Hydraulischer Rohrbieger</Value>
+      <Value>Rohrbiegerdrucker</Value>
       <Description>Als Standardwerkzeug für all deine Atmosphären- und Klempnerbedürfnisse erstellt der {LINK:ExMin;ExMin} Atmoprinter alles von Rohren, Pumpen und Tanks bis hin zu Lüftern und Filtern und sichert so dein Überleben in jeder Umgebung. Rüste den Atmoprinter mit einem {THING:PipeBenderMod} auf, um zusätzliche Rezepte und schnellere Verarbeitungsgeschwindigkeiten freizuschalten.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitHydraulicPipeBender</Key>
-      <Value>Bausatz (Hydraulischer Rohrbieger)</Value>
+      <Value>Bausatz (Rohrbiegerdrucker)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -2974,13 +2974,13 @@ Da es sehr temperaturempfindlich ist, beginnt Oxite zu schmelzen, sobald es abge
     </RecordThing>
     <RecordThing>
       <Key>StructureToolManufactory</Key>
-      <Value>Werkzeug-Manufaktur</Value>
+      <Value>Werkzeugdrucker</Value>
       <Description>Keine Mission kann ohne die richtigen Werkzeuge abgeschlossen werden. Die {LINK:Norsec;Norsec} ThuulDek-Manufaktur kann fast jedes Werkzeug oder handgehaltene Gerät herstellen, das ein {LINK:Stationeer;Stationeer} zur Erfüllung seiner Mission benötigen könnte, sowie eine Vielzahl entzückender Farben.
 Rüste das Gerät mit einem {THING:ToolPrinterMod} auf, um zusätzliche Rezepte und schnellere Verarbeitungsgeschwindigkeiten freizuschalten.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitToolManufactory</Key>
-      <Value>Bausatz (Werkzeug-Manufaktur)</Value>
+      <Value>Bausatz (Werkzeugdrucker)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -4708,7 +4708,7 @@ RobotMode.None = 6 = Automatisch zugewiesener Zustand, zeigt an, wenn Lagerslots
     </RecordThing>
     <RecordThing>
       <Key>PipeBenderMod</Key>
-      <Value>Mod (Rohrbieger)</Value>
+      <Value>Mod (Rohrbiegerdrucker)</Value>
       <Description>Wende dies mit einem {THING:ItemWeldingTorch} oder {THING:ItemArcWelder} auf einen {THING:StructureHydraulicPipeBender} an, um ihn für eine höhere Verarbeitungsgeschwindigkeit und mehr Rezeptoptionen aufzurüsten.</Description>
     </RecordThing>
     <RecordThing>
@@ -8126,11 +8126,11 @@ Um mit dem Splicing zu beginnen, lege eine Pflanze oder einen Samenbeutel in den
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketManufactory</Key>
-      <Value>Raketen-Manufaktur</Value>
+      <Value>Raketendrucker</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketManufactory</Key>
-      <Value>Bausatz (Raketen-Manufaktur)</Value>
+      <Value>Bausatz (Raketendrucker)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -21311,7 +21311,7 @@ Ein {THING:StructureWaterPurifier} kann verwendet werden, um es zurück in {GAS:
     </Record>
     <Record>
       <Key>ManufacturingTutorialSetupToolPrinterName</Key>
-      <Value>Werkzeug-Manufaktur einrichten</Value>
+      <Value>Werkzeugdrucker einrichten</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialSetupToolPrinterInfo</Key>
@@ -21339,7 +21339,7 @@ Ein {THING:StructureWaterPurifier} kann verwendet werden, um es zurück in {GAS:
     </Record>
     <Record>
       <Key>ManufacturingTutorialSetupRocketPrinterName</Key>
-      <Value>Raketen-Manufaktur einrichten</Value>
+      <Value>Raketendrucker einrichten</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialSetupRocketPrinterInfo</Key>
@@ -21967,7 +21967,7 @@ Ein {THING:StructureWaterPurifier} kann verwendet werden, um es zurück in {GAS:
     </Record>
     <Record>
       <Key>SpawnDataRocketManufactoryPackage</Key>
-      <Value>Raketen-Manufaktur-Paket</Value>
+      <Value>Raketendrucker-Paket</Value>
     </Record>
     <Record>
       <Key>SpawnDataPropellentCanister</Key>
