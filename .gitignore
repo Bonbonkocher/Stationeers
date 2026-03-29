@@ -1,6 +1,9 @@
-# folder
+# Ordner ignorieren
+StationeersZIP/
+
+# Bestimmte Dateitypen ignorieren
 *.git
 *.zip
-*.gitignore
 
-# file format
+# Die gitignore selbst (optional)
+.gitignore
