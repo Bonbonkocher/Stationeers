@@ -2685,8 +2685,8 @@ Im Gegensatz zum fortschrittlicheren {THING:StructureFurnace} kann der Lichtboge
     </RecordThing>
 <RecordThing>
       <Key>StructureAutolathe</Key>
-      <Value>Autolathe</Value>
-      <Description>Als Grundlage der meisten {LINK:Stationeers;Stationeer} Fertigungssysteme ist die {LINK:ExMin;ExMin} Autolathe ein Mehrachsen-Molekularzusammensetzungssystem. Ihre Komplexität erfordert viel Zeit beim Zusammenbau, aber sie bleibt ein unverzichtbares Werkzeug für Kreationen. Rüste das Gerät mit einem {THING:AutolathePrinterMod} auf, um zusätzliche Rezepte und schnellere Verarbeitungsgeschwindigkeiten freizuschalten.</Description>
+      <Value>Drehbankdrucker</Value>
+      <Description>Als Grundlage der meisten {LINK:Stationeers;Stationeer} Fertigungssysteme ist die {LINK:ExMin;ExMin} Drehbankdrucker ein Mehrachsen-Molekularzusammensetzungssystem. Ihre Komplexität erfordert viel Zeit beim Zusammenbau, aber sie bleibt ein unverzichtbares Werkzeug für Kreationen. Rüste das Gerät mit einem {THING:AutolathePrinterMod} auf, um zusätzliche Rezepte und schnellere Verarbeitungsgeschwindigkeiten freizuschalten.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFabrication</Key>
@@ -2927,7 +2927,7 @@ Da es sehr temperaturempfindlich ist, beginnt Oxite zu schmelzen, sobald es abge
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAutolathe</Key>
-      <Value>Bausatz (Autolathe)</Value>
+      <Value>Bausatz (Drehbankdrucker)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -4703,7 +4703,7 @@ RobotMode.None = 6 = Automatisch zugewiesener Zustand, zeigt an, wenn Lagerslots
     </RecordThing>
     <RecordThing>
       <Key>AutolathePrinterMod</Key>
-      <Value>Mod (Autolathe)</Value>
+      <Value>Mod (Drehbankdrucker)</Value>
       <Description>Wende dies mit einem {THING:ItemWeldingTorch} oder {THING:ItemArcWelder} auf eine {THING:StructureAutolathe} an, um sie für eine höhere Verarbeitungsgeschwindigkeit und mehr Rezeptoptionen aufzurüsten.</Description>
     </RecordThing>
     <RecordThing>
@@ -20259,7 +20259,7 @@ Ein {THING:StructureWaterPurifier} kann verwendet werden, um es zurück in {GAS:
     </Record>
     <Record>
       <Key>WorldObjectiveBuildArcFurnace</Key>
-      <Value>Baue Autolathe und Lichtbogenofen auf und versorge sie mit Strom</Value>
+      <Value>Baue Drehbankdrucker und Lichtbogenofen auf und versorge sie mit Strom</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveSmeltIron</Key>
@@ -21291,7 +21291,7 @@ Ein {THING:StructureWaterPurifier} kann verwendet werden, um es zurück in {GAS:
     </Record>
     <Record>
       <Key>ManufacturingTutorialSetupElectronicsPrinterBuildElectronicsPrinter</Key>
-      <Value>Stelle den {THING:StructureElectronicsPrinter} fertig, indem du die erforderlichen Materialien mit der Autolathe druckst.</Value>
+      <Value>Stelle den {THING:StructureElectronicsPrinter} fertig, indem du die erforderlichen Materialien mit der Drehbankdrucker druckst.</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialSetupPipeBenderName</Key>
@@ -21351,7 +21351,7 @@ Ein {THING:StructureWaterPurifier} kann verwendet werden, um es zurück in {GAS:
     </Record>
     <Record>
       <Key>ManufacturingTutorialSetupRocketPrinterConstructIt</Key>
-      <Value>Schließe den Bau der {THING:StructureRocketManufactory} ab, indem du die Materialien aus der Autolathe verwendest.</Value>
+      <Value>Schließe den Bau der {THING:StructureRocketManufactory} ab, indem du die Materialien aus der Drehbankdrucker verwendest.</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialModsName</Key>
@@ -21383,7 +21383,7 @@ Ein {THING:StructureWaterPurifier} kann verwendet werden, um es zurück in {GAS:
     </Record>
     <Record>
       <Key>ManufacturingTutorialModsEjectIngotsIfRequired</Key>
-      <Value>Möglicherweise musst du die Barren aus der Autolathe auswerfen und zum Elektronikdrucker bringen, indem du den Auswurfhebel der Autolathe ziehst.</Value>
+      <Value>Möglicherweise musst du die Barren aus der Drehbankdrucker auswerfen und zum Elektronikdrucker bringen, indem du den Auswurfhebel der Drehbankdrucker ziehst.</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialFinishingUpName</Key>
@@ -22507,7 +22507,7 @@ Ein {THING:StructureWaterPurifier} kann verwendet werden, um es zurück in {GAS:
     </Record>
     <Record>
       <Key>SellDataAutolatheConstructionKit</Key>
-      <Value>Bausatz Autolathe</Value>
+      <Value>Bausatz Drehbankdrucker</Value>
     </Record>
     <Record>
       <Key>TraderMoreOreLess</Key>
@@ -27128,7 +27128,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ScriptDescriptionRMap</Key>
-      <Value>Speichert für einen gegebenen Reagenzien-Hash den entsprechenden Prefab-Hash, den das Gerät zur Erfüllung der Reagenzien-Anforderung erwartet. Zum Beispiel wird bei einer Autolathe für den Hash von Eisen der Hash für ItemIronIngot gespeichert.</Value>
+      <Value>Speichert für einen gegebenen Reagenzien-Hash den entsprechenden Prefab-Hash, den das Gerät zur Erfüllung der Reagenzien-Anforderung erwartet. Zum Beispiel wird bei einer Drehbankdrucker für den Hash von Eisen der Hash für ItemIronIngot gespeichert.</Value>
     </Record>
     <Record>
       <Key>FurnaceMeltThing</Key>
