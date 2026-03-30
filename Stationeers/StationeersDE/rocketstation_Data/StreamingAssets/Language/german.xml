@@ -1918,8 +1918,8 @@ Schließlich lädt eine APC Batterien auf, die im Falle eines Stromausfalls das 
     </RecordThing>
     <RecordThing>
       <Key>StructureBackPressureRegulator</Key>
-      <Value>Rückdruckregler</Value>
-      <Description>Im Gegensatz zum {THING:StructurePressureRegulator}, der schließt, wenn der Eingang einen bestimmten Druck überschreitet, öffnet der Rückdruckregler, wenn der Eingangsdruck einen bestimmten Wert erreicht.</Description>
+      <Value>Gegendruckregler</Value>
+      <Description>Im Gegensatz zum {THING:StructurePressureRegulator}, der schließt, wenn der Eingang einen bestimmten Druck überschreitet, öffnet der Gegendruckregler, wenn der Eingangsdruck einen bestimmten Wert erreicht.</Description>
     </RecordThing>
 <RecordThing>
       <Key>StructurePurgeValve</Key>
@@ -2395,7 +2395,7 @@ Die Geschwindigkeit der Wärmeaufnahme oder des Wärmeverlusts hängt vom jeweil
     <RecordThing>
       <Key>StructurePressureRegulator</Key>
       <Value>Druckregler</Value>
-      <Description>Druckregler steuern den Gasfluss zwischen zwei Rohrnetzen und verschieben Gas, bis ein eingestellter Druck auf der Auslassseite erreicht ist oder der Gasvorrat erschöpft ist. Der Rückdruckregler hingegen arbeitet erst, wenn der Druck auf der Einlassseite den eingestellten Wert überschreitet. Mit einem Maximaldruck von über 20.000 kPa benötigt er Strom für den Betrieb.</Description>
+      <Description>Druckregler steuern den Gasfluss zwischen zwei Rohrnetzen und verschieben Gas, bis ein eingestellter Druck auf der Auslassseite erreicht ist oder der Gasvorrat erschöpft ist. Der Gegendruckregler hingegen arbeitet erst, wenn der Druck auf der Einlassseite den eingestellten Wert überschreitet. Mit einem Maximaldruck von über 20.000 kPa benötigt er Strom für den Betrieb.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRailing</Key>
@@ -7553,7 +7553,7 @@ Um mit dem Splicing zu beginnen, lege eine Pflanze oder einen Samenbeutel in den
     <RecordThing>
       <Key>StructureEvaporationChamber</Key>
       <Value>Verdampfungskammer</Value>
-      <Description>Ein Gerät zum sicheren Verdampfen von Flüssigkeiten in Gase. Flüssigkeiten und Gase koexistieren sicher im Inneren des Geräts. Durch Absenken des Druckziels des eingebauten Rückdruckreglers über das Einstellrad wird die Siedetemperatur der Flüssigkeiten im Inneren verändert.
+      <Description>Ein Gerät zum sicheren Verdampfen von Flüssigkeiten in Gase. Flüssigkeiten und Gase koexistieren sicher im Inneren des Geräts. Durch Absenken des Druckziels des eingebauten Gegendruckreglers über das Einstellrad wird die Siedetemperatur der Flüssigkeiten im Inneren verändert.
         Der sekundäre Gaseingang auf der linken Seite ist ein Wärmetauschereingang und ermöglicht den Wärmeaustausch zwischen dem sekundären Eingangsrohr und der internen Atmosphäre der Verdampfungskammer.
         In Kombination mit der {THING:StructureCondensationChamber} können Stationeers die Phasenwechseleigenschaften von Gasen nutzen, um eine eigene Klimaanlage zu bauen.</Description>
     </RecordThing>
