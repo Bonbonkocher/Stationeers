@@ -4,6 +4,8 @@ StationeersZIP/
 # Bestimmte Dateitypen ignorieren
 *.git
 *.zip
+*.bat
+*.ps1
 
 # Die gitignore selbst (optional)
 .gitignore

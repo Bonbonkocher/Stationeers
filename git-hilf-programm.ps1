@@ -20,9 +20,10 @@ while ($true) {
     Write-Host "------------------------------------------------"
     Write-Host ""
 
-    $auswahl = Read-Host "-> Auswahl"
+    # .Trim() entfernt Leerzeichen, .ToLower() macht alles klein -> Sicherer Vergleich
+    $eingabe = (Read-Host "-> Auswahl").Trim().ToLower()
 
-    switch ($auswahl) {
+    switch ($eingabe) {
         "1" {
             Write-Host "`nFuehre 'git pull' aus..." -ForegroundColor Yellow
             git pull
@@ -45,13 +46,9 @@ while ($true) {
         }
         "3" {
             Write-Host "`n--- DETAIL STATUS (Zeilen-Aenderungen) ---" -ForegroundColor Yellow
-            # git diff zeigt die genauen Zeilenunterschiede
-            # --stat zeigt erst eine Zusammenfassung, dann kommen die Details
-            git diff
-            
-            # Falls die Dateien bereits mit 'git add' vorgemerkt wurden, braucht man --cached
-            Write-Host "`n--- Bereits vorgemerkte (staged) Aenderungen ---" -ForegroundColor DarkYellow
-            git diff --cached
+            # --no-pager sorgt dafuer, dass git nicht in den "Scroll-Modus" geht
+            git --no-pager diff
+            git --no-pager diff --cached
             
             $letzteAktion = "Status-Zeile geprueft ($(Get-Date -Format 'HH:mm:ss'))"
             Write-Host "`nDruecke eine Taste fuer das Menue..."
@@ -59,7 +56,7 @@ while ($true) {
         }
         "4" {
             Write-Host "`n--- DATEI STATUS ---" -ForegroundColor Yellow
-            git status -s  # -s fuer eine kompakte Liste
+            git status -s
             $letzteAktion = "Status-Datei geprueft ($(Get-Date -Format 'HH:mm:ss'))"
             Write-Host "`nDruecke eine Taste..."
             $null = [Console]::ReadKey()
@@ -77,9 +74,13 @@ while ($true) {
             }
             $null = [Console]::ReadKey()
         }
-        "q" { break }
+        "q" {
+                    Write-Host "Programm wird beendet..." -ForegroundColor Gray
+                    Start-Sleep -Milliseconds 500
+                    exit # Beendet das Skript UND schließt das Fenster sofort
+                }
         default {
-            Write-Host "Ungueltige Auswahl." -ForegroundColor Red
+            Write-Host "Ungueltige Auswahl: '$eingabe'. Bitte 1-5 oder Q nutzen." -ForegroundColor Red
             Start-Sleep -Seconds 1
         }
     }
