@@ -11475,7 +11475,7 @@ Alle Rohre des Gestells müssen angeschlossen sein, sonst zeigt das Gerät einen
       <Key>EuropaNamedRegionSouthOutlandsName</Key>
       <Value>Südliches Außenland</Value>
     </Record>
-<Record>
+    <Record>
       <Key>EuropaSpawnIcyBasinName</Key>
       <Value>Eisbecken</Value>
     </Record>
@@ -13498,7 +13498,6 @@ Alle Rohre des Gestells müssen angeschlossen sein, sonst zeigt das Gerät einen
     <Record>
       <Key>VulcanSpawnKalimarOutlookDescription</Key>
       <Value>Ein Lavafluss windet sich durch das Tal unterhalb des strengen Blicks des Kalimar Vent.</Value>
-    </Record>
     </Record>
     <Record>
       <Key>OkayConfirmation</Key>
