@@ -579,12 +579,12 @@
       <Value>Einfahren</Value>
     </Record>
   </Actions>
-<Things>
+  <Things>
     <RecordThing>
       <Key>ApplianceMicrowave</Key>
       <Value>Mikrowelle</Value>
       <Description>Obwohl in den letzten Jahrhunderten unzählige "bessere" Arten des Kochens von {LINK:FoodPage;Essen} erfunden wurden, sind nur wenige so langlebig oder einfach herzustellen wie die OK-Zoomer Mikrowelle. Lizenziert von {LINK:Xigo;Xigo}, basieren die Pläne auf einem klassischen Modell aus der Mitte des 21. Jahrhunderts, was ihr ein charmantes Retro-Gefühl verleiht. Aber keine Sorge, sie bringt {GAS:Water}-Moleküle mehr als angemessen zum Schwingen. 
-Schraube sie einfach mit einem {THING:ItemWrench} an eine {THING:StructureBench}, um sie mit Strom zu versorgen, folge dem Rezept, und schon kochst du.</Description>
+      Schraube sie einfach mit einem {THING:ItemWrench} an eine {THING:StructureBench}, um sie mit Strom zu versorgen, folge dem Rezept, und schon kochst du.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ApplianceReagentProcessor</Key>
@@ -920,7 +920,7 @@ Schraube sie einfach mit einem {THING:ItemWrench} an eine {THING:StructureBench}
       <Value>Energiesteuerung</Value>
       <Description>Unter fernen Sonnen und in anspruchsvollen Umgebungen müssen {LINK:Stationeers;Stationeer}-Systeme Zuverlässigkeit, Belastbarkeit und Vielseitigkeit in Einklang bringen. Die Energiesteuerungskarte ermöglicht das ferngesteuerte Aktivieren und Deaktivieren ausgewählter Geräte und trennt die manuelle Bedienung. 
 
-Der Schaltkreis hat zwei Modi: "Link" schaltet alle Geräte ein oder aus; "Toggle" schaltet jedes Gerät in seinen jeweils anderen Zustand um.</Description>
+      Der Schaltkreis hat zwei Modi: "Link" schaltet alle Geräte ein oder aus; "Toggle" schaltet jedes Gerät in seinen jeweils anderen Zustand um.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardShipDisplay</Key>
@@ -1077,24 +1077,24 @@ Der Schaltkreis hat zwei Modi: "Link" schaltet alle Geräte ein oder aus; "Toggl
       <Value>Batteriezelle (Klein)</Value>
       <Description>Basierend auf einem Design aus dem frühen 21. Jahrhundert ist die kleine Batteriezelle die Grundeinheit für tragbare elektrische Energie eines {LINK:Stationeers;Stationeer's}. Obwohl ihr die Kapazität einer {THING:ItemBatteryCellLarge} oder {THING:ItemBatteryCellNuclear} fehlt, hat sie den bescheidenen Vorteil, dass sie aus Basisressourcen hergestellt werden kann.
 
-{HEADER:POWER OUTPUT}
-Die kleine Zelle speichert bis zu 36000 Watt an Leistung.</Description>
+      {HEADER:POWER OUTPUT}
+      Die kleine Zelle speichert bis zu 36000 Watt an Leistung.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBatteryCellLarge</Key>
       <Value>Batteriezelle (Groß)</Value>
       <Description>Im Jahr 2155 erstmals von {LINK:Xigo;Xigo} auf Basis eines nicht zugeschriebenen Prototyps in Massenproduktion gefertigt, erweitert das klassische Solid-State-Design mit Siliziumanode den optimalen Temperaturbereich.
 
-{HEADER:POWER OUTPUT}
-Die große Energiezelle kann 288kW an Leistung abgeben.</Description>
+      {HEADER:POWER OUTPUT}
+      Die große Energiezelle kann 288kW an Leistung abgeben.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBatteryCellNuclear</Key>
       <Value>Batteriezelle (Nuklear)</Value>
       <Description>Seit dem Chengdu-Ereignis auf der Erde illegal, fanden die nuklearen Energiezellen von Norsec einen neuen und drastisch weniger sicherheitsbewussten Markt im Weltraum.
 
-{HEADER:POWER OUTPUT}
-Die "Nuke" reizt das Leistungs-Gewichts-Verhältnis bis an die Grenzen aus und verfügt über eine Ladung von 2,3 Megawatt (2304000W), was ihre Abhängigkeit von exotischen {LINK:IngotPage;superalloys} widerspiegelt.</Description>
+      {HEADER:POWER OUTPUT}
+      Die "Nuke" reizt das Leistungs-Gewichts-Verhältnis bis an die Grenzen aus und verfügt über eine Ladung von 2,3 Megawatt (2304000W), was ihre Abhängigkeit von exotischen {LINK:IngotPage;superalloys} widerspiegelt.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBatteryCharger</Key>
@@ -1110,7 +1110,7 @@ Die "Nuke" reizt das Leistungs-Gewichts-Verhältnis bis an die Grenzen aus und v
       <Key>ItemCableCoil</Key>
       <Value>Kabelrolle</Value>
       <Description>Körperliche Metaphern sind ermüdend und anthropozentrisch, aber es war Frida Stuppen, die erste {LINK:ODA;ODA} Administratorin, die sagte: "Lasst die Verkabelung wie Nerven und Gefäße sein, die Kraft und Daten gleichermaßen durch die Systeme übertragen, die wir zwischen den Sternen schmieden." Spätere Kommentatoren meinten, sie habe lediglich ein Stück zweifelhafter Ökonomie romantisch verklärt. Wie dem auch sei, Standardverkabelung ist der Anfang eines jeden {LINK:Stationeers;Stationeer's} Netzwerks. 
-Eine normale Rolle hat eine maximale Leistung von 5kW. Für Anwendungen mit höherer Stromstärke verwende {THING:ItemCableCoilHeavy}.</Description>
+      Eine normale Rolle hat eine maximale Leistung von 5kW. Für Anwendungen mit höherer Stromstärke verwende {THING:ItemCableCoilHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemChemLightBlue</Key>
@@ -1171,7 +1171,7 @@ Eine normale Rolle hat eine maximale Leistung von 5kW. Für Anwendungen mit höh
       <Key>ItemDuctTape</Key>
       <Value>Klebeband</Value>
       <Description>In ferner Vergangenheit lehrte einer der größten Helden der Erde eine Generation von "Fix-It Leuten", dass Klebeband die Antwort auf jedes Problem sei. {LINK:Stationeers;Stationeers} haben bewiesen, dass diese Wahrheit Bestand hat, solange das Problem ein beschädigter {THING:ItemEvaSuit}, {THING:ItemJetpackBasic}, {THING:ItemSpaceHelmet} oder sogar ein {THING:StructureSolarPanel} ist.
-Anwendung bei sich selbst: Klebeband in die aktive Hand nehmen, RECHTE MAUSTASTE halten, um Schäden automatisch zu reparieren.</Description>
+      Anwendung bei sich selbst: Klebeband in die aktive Hand nehmen, RECHTE MAUSTASTE halten, um Schäden automatisch zu reparieren.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemDynamite</Key>
@@ -1500,7 +1500,7 @@ Anwendung bei sich selbst: Klebeband in die aktive Hand nehmen, RECHTE MAUSTASTE
       <Key>ItemKitWall</Key>
       <Value>Bausatz (Wand)</Value>
     </RecordThing>
-<RecordThing>
+    <RecordThing>
       <Key>ItemLabeller</Key>
       <Value>Beschriftungsgerät</Value>
       <Description>Mit einem Beschriftungsgerät kannst du Namen und Werte auf einer Vielzahl von Geräten und Strukturen festlegen, einschließlich {THING:StructureConsole} und {LINK:LogicPage;Logic}.</Description>
@@ -1674,14 +1674,14 @@ Anwendung bei sich selbst: Klebeband in die aktive Hand nehmen, RECHTE MAUSTASTE
       <Key>ItemSpaceHelmet</Key>
       <Value>Weltraumhelm</Value>
       <Description>Der Basis-Weltraumhelm isoliert {LINK:Stationeers;Stationeers} gegen alles, vom harten Vakuum bis hin zu seltsamen Kochgerüchen. Er bietet eine druckgesteuerte, atembare Atmosphäre und verfügt über ein eingebautes Licht, das von deiner {THING:ItemEvaSuit} {THING:ItemBatteryCell} gespeist wird.
-Er verfügt außerdem über eine Sperr-/Entsperrfunktion, um versehentliches Öffnen zu verhindern, sowie eine Spülfunktion zum Ausstoßen und Ersetzen der internen Atmosphäre. Falls beschädigt, verwende {THING:ItemDuctTape} zur Reparatur, oder male ihn mit dem {THING:AppliancePaintMixer} in einer beliebigen Farbe an.</Description>
+      Er verfügt außerdem über eine Sperr-/Entsperrfunktion, um versehentliches Öffnen zu verhindern, sowie eine Spülfunktion zum Ausstoßen und Ersetzen der internen Atmosphäre. Falls beschädigt, verwende {THING:ItemDuctTape} zur Reparatur, oder male ihn mit dem {THING:AppliancePaintMixer} in einer beliebigen Farbe an.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSpacepack</Key>
       <Value>Spacepack</Value>
       <Description>Das einfache {LINK:CHAC;CHAC} Spacepack ist "technisch gesehen" kein Jetpack, sondern ein Gastriebwerk. Es kann mit jedem Gas betrieben werden, solange der Innendruck des {LINK:AtmosphericsPage;canister} höher ist als der äußere Umgebungsdruck. Wenn der Außendruck größer ist, funktioniert das Spacepack nicht.
-Unverzichtbar für Bauarbeiten, Bergbau und allgemeine Fortbewegung, verfügt es über zehn Lagerplätze und lässt {LINK:Stationeers;Stationeers} mit 3m/s fliegen, im Vergleich zum stärkeren {THING:ItemJetpackBasic} oder {THING:ItemHardJetpack}. Das Anpassen des Schubwertes ändert deine Beschleunigungsrate, während das Aktivieren des Stabilisators das Spacepack schweben lässt, wenn eine bestimmte Höhe erreicht ist.
-BEDIENUNG: 'J' zum Aktivieren; 'Leertaste' zum Aufsteigen; 'linkes Strg' zum Sinken; und 'WASD' zum Bewegen.</Description>
+      Unverzichtbar für Bauarbeiten, Bergbau und allgemeine Fortbewegung, verfügt es über zehn Lagerplätze und lässt {LINK:Stationeers;Stationeers} mit 3m/s fliegen, im Vergleich zum stärkeren {THING:ItemJetpackBasic} oder {THING:ItemHardJetpack}. Das Anpassen des Schubwertes ändert deine Beschleunigungsrate, während das Aktivieren des Stabilisators das Spacepack schweben lässt, wenn eine bestimmte Höhe erreicht ist.
+      BEDIENUNG: 'J' zum Aktivieren; 'Leertaste' zum Aufsteigen; 'linkes Strg' zum Sinken; und 'WASD' zum Bewegen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSprayCanBlack</Key>
@@ -1752,7 +1752,7 @@ BEDIENUNG: 'J' zum Aktivieren; 'Leertaste' zum Aufsteigen; 'linkes Strg' zum Sin
       <Key>ItemSteelIngot</Key>
       <Value>Barren (Stahl)</Value>
       <Description>Stahlbarren sind eine Metalllegierung, die in einem {THING:StructureFurnace} durch Schmelzen von {THING:ItemIronOre} und {THING:ItemCoalOre} im Verhältnis von 3:1 hergestellt wird.
-Es mag nicht elegant sein, aber {THING:ItemOxite} und {THING:ItemVolatiles} können im Verhältnis 1:2 in einem Ofen kombiniert werden, um das notwendige Gasgemisch zum Schmelzen zu erzeugen.</Description>
+      Es mag nicht elegant sein, aber {THING:ItemOxite} und {THING:ItemVolatiles} können im Verhältnis 1:2 in einem Ofen kombiniert werden, um das notwendige Gasgemisch zum Schmelzen zu erzeugen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSteelSheets</Key>
@@ -1783,7 +1783,7 @@ Es mag nicht elegant sein, aber {THING:ItemOxite} und {THING:ItemVolatiles} kön
       <Key>ItemToolBelt</Key>
       <Value>Werkzeuggürtel</Value>
       <Description>Wenn es ein Ausrüstungsstück gibt, das das Leben eines {LINK:Stationeers;Stationeer} mehr als alles andere verkörpert, dann ist es der bescheidene Werkzeuggürtel (Anmerkung des Herausgebers: Eine kürzlich durchgeführte {LINK:ODA;ODA} Umfrage unter ikonischer Stationeer-Ausrüstung bewertete auch die rauchenden, giftigen Ruinen eines unter Überdruck stehenden {THING:StructureFurnace}, die inmitten der verkohlten Überreste deiner neuesten Basis liegen, sehr hoch).
-Entwickelt, um die strengsten ODA-Sicherheitsstandards (so ungefähr) zu erfüllen, fassen die acht Schlitze des Werkzeuggürtels eine Sache: Werkzeuge und {THING:ItemCableCoil}. Nicht zu verwechseln mit dem {THING:ItemMiningBelt}.</Description>
+      Entwickelt, um die strengsten ODA-Sicherheitsstandards (so ungefähr) zu erfüllen, fassen die acht Schlitze des Werkzeuggürtels eine Sache: Werkzeuge und {THING:ItemCableCoil}. Nicht zu verwechseln mit dem {THING:ItemMiningBelt}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemUraniumOre</Key>
@@ -1809,7 +1809,7 @@ Entwickelt, um die strengsten ODA-Sicherheitsstandards (so ungefähr) zu erfüll
       <Key>ItemWeldingTorch</Key>
       <Value>Schweißbrenner</Value>
       <Description>Aufbewahrt im standardmäßig ausgegebenen {LINK:Stationeers;Stationeers} {THING:ItemToolBelt}, wird der Arlite-Schweißbrenner zum Bau einer Reihe wichtiger Strukturen verwendet.
-Als verbesserte Version des klassischen "Zairo"-Modells, das ursprünglich von {LINK:ExMin;ExMin} für die modulare Montage von Weltraumhabitaten hergestellt wurde, wird der Arlite von einem einzelnen {THING:ItemGasCanisterFuel} betrieben und ist so konzipiert, dass er in der Tiefe des Weltraums ebenso gut funktioniert wie in starken Gravitationsfeldern.</Description>
+      Als verbesserte Version des klassischen "Zairo"-Modells, das ursprünglich von {LINK:ExMin;ExMin} für die modulare Montage von Weltraumhabitaten hergestellt wurde, wird der Arlite von einem einzelnen {THING:ItemGasCanisterFuel} betrieben und ist so konzipiert, dass er in der Tiefe des Weltraums ebenso gut funktioniert wie in starken Gravitationsfeldern.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWheat</Key>
@@ -1830,7 +1830,7 @@ Als verbesserte Version des klassischen "Zairo"-Modells, das ursprünglich von {
       <Key>MotherboardLogic</Key>
       <Value>Logik-Mainboard</Value>
       <Description>Mainboards werden mit {THING:StructureComputer} verbunden, um verschiedene technische Funktionen auszuführen.
-Das von {LINK:Norsec;Norsec-entworfene} K-Cops Logik-Mainboard ermöglicht es {LINK:Stationeers;Stationeers}, Variablen und Aktionen an spezifischen {LINK:LogicUnitPage;logic} gesteuerten Gegenständen festzulegen.</Description>
+      Das von {LINK:Norsec;Norsec-entworfene} K-Cops Logik-Mainboard ermöglicht es {LINK:Stationeers;Stationeers}, Variablen und Aktionen an spezifischen {LINK:LogicUnitPage;logic} gesteuerten Gegenständen festzulegen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>MotherboardManufacturing</Key>
@@ -1841,7 +1841,7 @@ Das von {LINK:Norsec;Norsec-entworfene} K-Cops Logik-Mainboard ermöglicht es {L
       <Key>MotherboardSorter</Key>
       <Value>Sortierer-Mainboard</Value>
       <Description>Mainboards werden mit {THING:StructureComputer} verbunden, um verschiedene technische Funktionen auszuführen.
-Das von {LINK:Norsec;Norsec-entworfene} K-Cops 10-10 Sortierer-Mainboard erlaubt es {LINK:Stationeers;Stationeers} zu steuern, welche Gegenstände ein {THING:StructureSorter} passieren lässt und welche nicht.</Description>
+      Das von {LINK:Norsec;Norsec-entworfene} K-Cops 10-10 Sortierer-Mainboard erlaubt es {LINK:Stationeers;Stationeers} zu steuern, welche Gegenstände ein {THING:StructureSorter} passieren lässt und welche nicht.</Description>
     </RecordThing>
     <RecordThing>
       <Key>MothershipCore</Key>
@@ -1887,13 +1887,13 @@ Das von {LINK:Norsec;Norsec-entworfene} K-Cops 10-10 Sortierer-Mainboard erlaubt
       <Value>Klimaanlage</Value>
       <Description>Gebaut mit dem {THING:ItemKitAtmospherics}, wird die von {LINK:ExMin;ExMin-entworfene} Klimaanlage verwendet, um die Temperatur des Eingangsgases zu erhöhen oder zu senken.
 	  
-Die Einheit verfügt über drei Rohranschlüsse: Eingang (Input), Ausgang (Output) und Abfall (Waste). Gas, das in den Eingang geleitet wird, wird erhitzt oder gekühlt, um die Zieltemperatur zu erreichen, während das Gegenteil mit dem Gas im Abfallnetz geschieht.
+      Die Einheit verfügt über drei Rohranschlüsse: Eingang (Input), Ausgang (Output) und Abfall (Waste). Gas, das in den Eingang geleitet wird, wird erhitzt oder gekühlt, um die Zieltemperatur zu erreichen, während das Gegenteil mit dem Gas im Abfallnetz geschieht.
 
-Mehrere Effizienz-Multiplikatoren können die Energiemenge beeinflussen, die die Klimaanlage verbraucht; diese können auf dem grünen Informationspanel der Einheit eingesehen werden. Wenn die Temperaturdifferenz zwischen Eingang und Abfall zunimmt, verringert sich der Multiplikator für die Temperaturdifferenz-Effizienz. Wenn die Eingangs- oder Abfalltemperatur extrem heiß oder kalt ist, sinkt die Betriebstemperatur-Effizienz. Wenn das Eingangs- oder Abfallrohr niedrige Drücke erreicht, sinkt die Druck-Effizienz.
+      Mehrere Effizienz-Multiplikatoren können die Energiemenge beeinflussen, die die Klimaanlage verbraucht; diese können auf dem grünen Informationspanel der Einheit eingesehen werden. Wenn die Temperaturdifferenz zwischen Eingang und Abfall zunimmt, verringert sich der Multiplikator für die Temperaturdifferenz-Effizienz. Wenn die Eingangs- oder Abfalltemperatur extrem heiß oder kalt ist, sinkt die Betriebstemperatur-Effizienz. Wenn das Eingangs- oder Abfallrohr niedrige Drücke erreicht, sinkt die Druck-Effizienz.
 
-{THING:StructurePipeRadiator}s können nützlich sein, um extreme Rohr-Temperaturen wieder in Richtung normaler Umgebungstemperaturen zu bringen.
+      {THING:StructurePipeRadiator}s können nützlich sein, um extreme Rohr-Temperaturen wieder in Richtung normaler Umgebungstemperaturen zu bringen.
 	  
-Für weitere Informationen zur Verwendung der Klimaanlage konsultiere die {LINK:TemperatureControlPage;temperature control} Handbuchseite.</Description>
+      Für weitere Informationen zur Verwendung der Klimaanlage konsultiere die {LINK:TemperatureControlPage;temperature control} Handbuchseite.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAirlock</Key>
@@ -1904,24 +1904,24 @@ Für weitere Informationen zur Verwendung der Klimaanlage konsultiere die {LINK:
       <Key>StructureAreaPowerControl</Key>
       <Value>Bereichs-Leistungssteuerung</Value>
       <Description>Eine Bereichs-Leistungssteuerung (Area Power Control, APC) hat drei Hauptfunktionen:
-Ihr primärer Zweck ist die Regulierung des Stromflusses, um eine unterbrechungsfreie Leistung von Geräten und Maschinen zu gewährleisten, insbesondere bei solchen mit schwankendem Verbrauch.
-APCs erstellen auch Sub-Netzwerke, da keine Geräte hinter einer APC im Hauptnetzwerk sichtbar sind.
-Schließlich lädt eine APC Batterien auf, die im Falle eines Stromausfalls das Sub-Netzwerk mit Notstrom versorgen können. Beachte, dass eine APC eine Batterie benötigt, um die Stromaufnahme zu stabilisieren. Sie existiert in zwei Varianten, von denen jede den Stromfluss nur in eine Richtung zulässt.</Description>
+      Ihr primärer Zweck ist die Regulierung des Stromflusses, um eine unterbrechungsfreie Leistung von Geräten und Maschinen zu gewährleisten, insbesondere bei solchen mit schwankendem Verbrauch.
+      APCs erstellen auch Sub-Netzwerke, da keine Geräte hinter einer APC im Hauptnetzwerk sichtbar sind.
+      Schließlich lädt eine APC Batterien auf, die im Falle eines Stromausfalls das Sub-Netzwerk mit Notstrom versorgen können. Beachte, dass eine APC eine Batterie benötigt, um die Stromaufnahme zu stabilisieren. Sie existiert in zwei Varianten, von denen jede den Stromfluss nur in eine Richtung zulässt.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAreaPowerControlReversed</Key>
       <Value>Bereichs-Leistungssteuerung (Umgekehrt)</Value>
       <Description>Eine Bereichs-Leistungssteuerung (Area Power Control, APC) hat drei Hauptfunktionen:
-Ihr primärer Zweck ist die Regulierung des Stromflusses, um eine unterbrechungsfreie Leistung von Geräten und Maschinen zu gewährleisten, insbesondere bei solchen mit schwankendem Verbrauch.
-APCs erstellen auch Sub-Netzwerke, da keine Geräte hinter einer APC im Hauptnetzwerk sichtbar sind.
-Schließlich lädt eine APC Batterien auf, die im Falle eines Stromausfalls das Sub-Netzwerk mit Notstrom versorgen können. Beachte, dass eine APC eine Batterie benötigt, um die Stromaufnahme zu stabilisieren. Sie existiert in zwei Varianten, von denen jede den Stromfluss nur in eine Richtung zulässt.</Description>
+      Ihr primärer Zweck ist die Regulierung des Stromflusses, um eine unterbrechungsfreie Leistung von Geräten und Maschinen zu gewährleisten, insbesondere bei solchen mit schwankendem Verbrauch.
+      APCs erstellen auch Sub-Netzwerke, da keine Geräte hinter einer APC im Hauptnetzwerk sichtbar sind.
+      Schließlich lädt eine APC Batterien auf, die im Falle eines Stromausfalls das Sub-Netzwerk mit Notstrom versorgen können. Beachte, dass eine APC eine Batterie benötigt, um die Stromaufnahme zu stabilisieren. Sie existiert in zwei Varianten, von denen jede den Stromfluss nur in eine Richtung zulässt.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBackPressureRegulator</Key>
       <Value>Gegendruckregler</Value>
       <Description>Im Gegensatz zum {THING:StructurePressureRegulator}, der schließt, wenn der Eingang einen bestimmten Druck überschreitet, öffnet der Gegendruckregler, wenn der Eingangsdruck einen bestimmten Wert erreicht.</Description>
     </RecordThing>
-<RecordThing>
+    <RecordThing>
       <Key>StructurePurgeValve</Key>
       <Value>Entlüftungsventil</Value>
       <Description>Ermöglicht das Entfernen von Treibgas und verdampften Flüssigkeiten aus einer Flüssigkeitsleitung. In seiner Funktion ähnlich wie ein {THING:StructureBackPressureRegulator}, leitet das {THING:StructurePurgeValve} Gas von der Eingangs-Flüssigkeitsleitung in die Ausgangs-Gasleitung um, mit dem Ziel, den Druck am Eingang auf dem Zielwert zu halten.</Description>
@@ -1945,9 +1945,9 @@ Schließlich lädt eine APC Batterien auf, die im Falle eines Stromausfalls das 
       <Key>StructureBattery</Key>
       <Value>Stationsbatterie</Value>
       <Description>Die {LINK:Sinotai;Sinotai} 'Dianzi' Stationsbatterie bietet eine großflächige, zuverlässige Energiespeicherung und ist das Herzstück der meisten {LINK:Stationeers;Stationeer} Basen. 
-Es gibt eine Vielzahl von Warnhinweisen zur Konstruktion elektrischer Systeme mit Batterien, und jeder erfahrene Stationeer hat eine Geschichte zu erzählen, daher das Sprichwort: 'Dianzi kocht, aber sie röstet dich auch.' 
-{HEADER:POWER OUTPUT}
-Sie kann bis zu 3600000W an Energie speichern, und es gibt keine praktischen Grenzen für ihren Durchsatz, weshalb es ratsam ist, {THING:ItemCableCoilHeavy} zu verwenden. Erfahrene Elektroingenieure lachen zudem über diejenigen, die es versäumen, ihre Energieerzeugungsnetze durch eine {THING:StructureAreaPowerControl} und einen {THING:StructureTransformer} zu trennen.</Description>
+      Es gibt eine Vielzahl von Warnhinweisen zur Konstruktion elektrischer Systeme mit Batterien, und jeder erfahrene Stationeer hat eine Geschichte zu erzählen, daher das Sprichwort: 'Dianzi kocht, aber sie röstet dich auch.' 
+      {HEADER:POWER OUTPUT}
+      Sie kann bis zu 3600000W an Energie speichern, und es gibt keine praktischen Grenzen für ihren Durchsatz, weshalb es ratsam ist, {THING:ItemCableCoilHeavy} zu verwenden. Erfahrene Elektroingenieure lachen zudem über diejenigen, die es versäumen, ihre Energieerzeugungsnetze durch eine {THING:StructureAreaPowerControl} und einen {THING:StructureTransformer} zu trennen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureBatteryCharger</Key>
@@ -9818,7 +9818,7 @@ Alle Rohre des Gestells müssen angeschlossen sein, sonst zeigt das Gerät einen
       <Description />
     </RecordThing>
   </Things>
-<Slots>
+  <Slots>
     <Record>
       <Key>SprayCan</Key>
       <Value>Sprühdose</Value>
@@ -10224,7 +10224,7 @@ Alle Rohre des Gestells müssen angeschlossen sein, sonst zeigt das Gerät einen
       <Value>Kisten-Slot</Value>
     </Record>
   </Slots>
-<Interactables>
+  <Interactables>
     <Record>
       <Key>Poke</Key>
       <Value>Anstupsen</Value>
@@ -10730,7 +10730,7 @@ Alle Rohre des Gestells müssen angeschlossen sein, sonst zeigt das Gerät einen
       <Value>Erhöhen</Value>
     </Record>
   </Interactables>
-<Interface>
+  <Interface>
     <Record>
       <Key>InventorySort</Key>
       <Value>Sortieren</Value>
@@ -23079,7 +23079,7 @@ Vielen Dank für dein Verständnis. Wir können es kaum erwarten, dass du die Ne
     </Record>
   </Interface>
   <Colors>
-<Record>
+    <Record>
       <Key>ColorBlue</Key>
       <Value>Blau</Value>
     </Record>
@@ -24434,7 +24434,7 @@ Vielen Dank für dein Verständnis. Wir können es kaum erwarten, dass du die Ne
       <Value>Joystick8 Taste19</Value>
     </Record>
   </Keys>
-<Mineables>
+  <Mineables>
     <Record>
       <Key>Iron</Key>
       <Value>Eisen</Value>
@@ -24496,7 +24496,7 @@ Vielen Dank für dein Verständnis. Wir können es kaum erwarten, dass du die Ne
   <HelpPage />
   <ThingPageOverride />
   <HomePageButtonsOverride />
-<GameStrings>
+  <GameStrings>
     <Record>
       <Key>ToolRequiredToDeconstruct</Key>
       <Value>{LOCAL:Tool} erforderlich zum &lt;color=red&gt;Abbauen&lt;/color&gt;</Value>
