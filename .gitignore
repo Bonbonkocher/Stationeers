@@ -6,6 +6,7 @@ StationeersZIP/
 *.zip
 *.bat
 *.ps1
+*.bak
 
 # Die gitignore selbst (optional)
 .gitignore

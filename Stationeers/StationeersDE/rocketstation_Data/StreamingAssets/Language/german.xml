@@ -13339,441 +13339,166 @@ Alle Rohre des Gestells müssen angeschlossen sein, sonst zeigt das Gerät einen
       <Key>VulcanPoiTranquilityNorthDescription</Key>
       <Value>Neuer Standort</Value>
     </Record>
-<Record>
-      <Key>EuropaSpawnIcyBasinName</Key>
-      <Value>Eisiges Becken</Value>
-    </Record>
-    <Record>
-      <Key>EuropaSpawnIcyBasinDescription</Key>
-      <Value>Die große, flache Pfanne eines eisigen Beckens.</Value>
-    </Record>
-    <Record>
-      <Key>EuropaSpawnGlacialChannelName</Key>
-      <Value>Gletscherkanal</Value>
-    </Record>
-    <Record>
-      <Key>EuropaSpawnGlacialChannelDescription</Key>
-      <Value>Ein schmaler Kanal, flankiert von Bergen.</Value>
-    </Record>
-    <Record>
-      <Key>EuropaSpawnBalgatanPassName</Key>
-      <Value>Balgatan-Pass</Value>
-    </Record>
-    <Record>
-      <Key>EuropaSpawnBalgatanPassDescription</Key>
-      <Value>Ein breiter Pass, der durch steile Gebirgsketten führt.</Value>
-    </Record>
-    <Record>
-      <Key>EuropaSpawnFrigidHighlandsName</Key>
-      <Value>Eiskaltes Hochland</Value>
-    </Record>
-    <Record>
-      <Key>EuropaSpawnFrigidHighlandsDescription</Key>
-      <Value>Eine Gebirgsregion in großer Höhe.</Value>
-    </Record>
-    <Record>
-      <Key>EuropaSpawnTyreValleyName</Key>
-      <Value>Tyre-Tal</Value>
-    </Record>
-    <Record>
-      <Key>EuropaSpawnTyreValleyDescription</Key>
-      <Value>Ein isoliertes Tal, umringt von gezackten Gipfeln.</Value>
-    </Record>
-    <Record>
-      <Key>VenusSpawnGaiaValleyName</Key>
-      <Value>Gaia-Tal</Value>
-    </Record>
-    <Record>
-      <Key>VenusSpawnGaiaValleyDescription</Key>
-      <Value>Ein relativ großes und offenes Tal mit Schwefelebenen.</Value>
-    </Record>
-    <Record>
-      <Key>VenusSpawnDaisyValleyName</Key>
-      <Value>Gänseblümchental</Value>
-    </Record>
-    <Record>
-      <Key>VenusSpawnDaisyValleyDescription</Key>
-      <Value>Eingebettet in ein kleines Tal, in der Nähe der größten Schwefelebene der Region.</Value>
-    </Record>
-    <Record>
-      <Key>VenusSpawnFaithValleyName</Key>
-      <Value>Tal des Glaubens</Value>
-    </Record>
-    <Record>
-      <Key>VenusSpawnFaithValleyDescription</Key>
-      <Value>Ein bedrückendes Tal, das einen Großteil des Tages im Schatten liegt.</Value>
-    </Record>
-    <Record>
-      <Key>VenusSpawnDuskValleyName</Key>
-      <Value>Abenddämmerungstal</Value>
-    </Record>
-    <Record>
-      <Key>VenusSpawnDuskValleyDescription</Key>
-      <Value>Versteckt in einem langen, gewundenen Tal mit hochragenden Gipfeln auf beiden Seiten.</Value>
-    </Record>
-    <Record>
-      <Key>LunarPoiRichOreCraterName</Key>
-      <Value>Erzreicher Krater</Value>
-    </Record>
-    <Record>
-      <Key>LunarPoiRichOreCraterGoldSilverDescription</Key>
-      <Value>Reich an Gold und Silber</Value>
-    </Record>
-    <Record>
-      <Key>LunarPoiRichOreCraterCobaltDescription</Key>
-      <Value>Reich an Kobalt</Value>
-    </Record>
-    <Record>
-      <Key>LunarPoiRichOreCraterNickelLeadDescription</Key>
-      <Value>Reich an Nickel und Blei</Value>
-    </Record>
-    <Record>
-      <Key>LunarPoiGrandCraterLacusBellusName</Key>
-      <Value>Lacus Bellus</Value>
-    </Record>
-    <Record>
-      <Key>LunarPoiGrandCraterLacusBellusDescription</Key>
-      <Value>Großer Krater</Value>
-    </Record>
-    <Record>
-      <Key>LunarPoiGrandCraterCraterVeritasName</Key>
-      <Value>Crater Veritas</Value>
-    </Record>
-    <Record>
-      <Key>LunarPoiGrandCraterCraterVeritasDescription</Key>
-      <Value>Großer Krater</Value>
-    </Record>
-    <Record>
-      <Key>LunarPoiGrandCraterCraterVesperName</Key>
-      <Value>Crater Vesper</Value>
-    </Record>
-    <Record>
-      <Key>LunarPoiGrandCraterCraterVesperDescription</Key>
-      <Value>Großer Krater</Value>
-    </Record>
-    <Record>
-      <Key>LunarPoiGrandCraterCraterNoxName</Key>
-      <Value>Crater Nox</Value>
-    </Record>
-    <Record>
-      <Key>LunarPoiGrandCraterCraterNoxDescription</Key>
-      <Value>Großer Krater</Value>
-    </Record>
-    <Record>
-      <Key>MarsNamedRegionOuterBasinWestName</Key>
-      <Value>Äußeres Becken West</Value>
-    </Record>
-    <Record>
-      <Key>MarsNamedRegionOuterBasinKnollName</Key>
-      <Value>Äußere Beckenkuppe</Value>
-    </Record>
-    <Record>
-      <Key>MarsNamedRegionOuterBasinEastName</Key>
-      <Value>Äußeres Becken Ost</Value>
-    </Record>
-    <Record>
-      <Key>MarsNamedRegionRockyRidgeName</Key>
-      <Value>Felsiger Rücken</Value>
-    </Record>
-    <Record>
-      <Key>MarsNamedRegionDusterPlainSouthName</Key>
-      <Value>Duster-Ebene Süd</Value>
-    </Record>
-    <Record>
-      <Key>MarsNamedRegionDusterPlainNorthName</Key>
-      <Value>Duster-Ebene Nord</Value>
-    </Record>
-    <Record>
-      <Key>MarsNamedRegionDusterRidgeName</Key>
-      <Value>Duster-Rücken</Value>
-    </Record>
-    <Record>
-      <Key>MarsNamedRegionShelterName</Key>
-      <Value>Unterschlupf</Value>
-    </Record>
-    <Record>
-      <Key>MarsNamedRegionShelteredFlatName</Key>
-      <Value>Geschützte Ebene</Value>
-    </Record>
-    <Record>
-      <Key>MarsNamedRegionHesperianStripName</Key>
-      <Value>Hesperianischer Streifen</Value>
-    </Record>
-    <Record>
-      <Key>MarsNamedRegionHesperianPlainName</Key>
-      <Value>Hesperianische Ebene</Value>
-    </Record>
-    <Record>
-      <Key>MarsNamedRegionHellasCragsName</Key>
-      <Value>Hellas-Klippen</Value>
-    </Record>
-    <Record>
-      <Key>MarsNamedRegionHellasPlainsWestName</Key>
-      <Value>Hellas-Ebenen West</Value>
-    </Record>
-    <Record>
-      <Key>MarsNamedRegionHellasPlainsEastName</Key>
-      <Value>Hellas-Ebenen Ost</Value>
-    </Record>
-    <Record>
-      <Key>MarsNamedRegionHellasPlainsSouthName</Key>
-      <Value>Hellas-Ebenen Süd</Value>
-    </Record>
-    <Record>
-      <Key>MarsNamedRegionJuniperFlatsName</Key>
-      <Value>Wacholderebenen</Value>
-    </Record>
-    <Record>
-      <Key>MarsNamedRegionJuniperHillsName</Key>
-      <Value>Wacholderhügel</Value>
-    </Record>
-    <Record>
-      <Key>MarsNamedRegionBeaconPlainsName</Key>
-      <Value>Leuchtfeuer-Ebenen</Value>
-    </Record>
-    <Record>
-      <Key>MarsNamedRegionArcadiaFlatsSouthName</Key>
-      <Value>Arcadia-Ebenen Süd</Value>
-    </Record>
-    <Record>
-      <Key>MarsNamedRegionArcadiaFlatsNorthName</Key>
-      <Value>Arcadia-Ebenen Nord</Value>
-    </Record>
-    <Record>
-      <Key>MarsNamedRegionTharsisRiseSouthName</Key>
-      <Value>Tharsis-Anhöhe Süd</Value>
-    </Record>
-    <Record>
-      <Key>MarsNamedRegionTharsisRiseWestName</Key>
-      <Value>Tharsis-Anhöhe West</Value>
-    </Record>
-    <Record>
-      <Key>MarsNamedRegionTharsisRiseEastName</Key>
-      <Value>Tharsis-Anhöhe Ost</Value>
-    </Record>
-    <Record>
-      <Key>MarsNamedRegionAeolisRidgeName</Key>
-      <Value>Aeolis-Rücken</Value>
-    </Record>
-    <Record>
-      <Key>MarsNamedRegionButchersFlatName</Key>
-      <Value>Metzgerebene</Value>
-    </Record>
-    <Record>
-      <Key>MarsNamedRegionCrescentCliffsName</Key>
-      <Value>Sichelklippen</Value>
-    </Record>
-    <Record>
-      <Key>MarsNamedRegionButchersScoopName</Key>
-      <Value>Metzgerschaufel</Value>
-    </Record>
-    <Record>
-      <Key>MarsNamedRegionBuckSaddleName</Key>
-      <Value>Buck-Sattel</Value>
-    </Record>
-    <Record>
-      <Key>MarsNamedRegionDavisRidgeName</Key>
-      <Value>Davis-Rücken</Value>
-    </Record>
-    <Record>
-      <Key>MarsNamedRegionDavisPassName</Key>
-      <Value>Davis-Pass</Value>
-    </Record>
     <Record>
-      <Key>MarsNamedRegionArcadiaMonsName</Key>
-      <Value>Arcadia Mons</Value>
+      <Key>VulcanPoiTranquilityWestDescription</Key>
+      <Value>Neuer Ort</Value>
     </Record>
     <Record>
-      <Key>MarsNamedRegionJebSaddleName</Key>
-      <Value>Jeb-Sattel</Value>
+      <Key>VulcanPoiTranquilityEastDescription</Key>
+      <Value>Neuer Ort</Value>
     </Record>
     <Record>
-      <Key>MarsNamedRegionJebCliffsNorthName</Key>
-      <Value>Jeb-Klippen Nord</Value>
+      <Key>VulcanPoiIronValleyDescription</Key>
+      <Value>Neuer Ort</Value>
     </Record>
     <Record>
-      <Key>MarsNamedRegionJebCliffsSouthName</Key>
-      <Value>Jeb-Klippen Süd</Value>
+      <Key>VulcanPoiPepperGullyDescription</Key>
+      <Value>Neuer Ort</Value>
     </Record>
     <Record>
-      <Key>MarsNamedRegionEloKnollName</Key>
-      <Value>Elo-Kuppe</Value>
+      <Key>VulcanPoiAshValleyDescription</Key>
+      <Value>Neuer Ort</Value>
     </Record>
     <Record>
-      <Key>MarsNamedRegionDonutFlatsWestName</Key>
-      <Value>Donut-Ebenen West</Value>
+      <Key>VulcanPoiCinderPeakDescription</Key>
+      <Value>Neuer Ort</Value>
     </Record>
     <Record>
-      <Key>MarsNamedRegionDonutFlatsEastName</Key>
-      <Value>Donut-Ebenen Ost</Value>
+      <Key>VulcanPoiMountSorinDescription</Key>
+      <Value>Neuer Ort</Value>
     </Record>
     <Record>
-      <Key>MarsNamedRegionDelosFlatsName</Key>
-      <Value>Delos-Ebenen</Value>
+      <Key>VulcanPoiDogsheadDescription</Key>
+      <Value>Neuer Ort</Value>
     </Record>
     <Record>
-      <Key>MarsNamedRegionCrowesPassageName</Key>
-      <Value>Crowes Passage</Value>
+      <Key>VulcanPoiTalonPeakDescription</Key>
+      <Value>Neuer Ort</Value>
     </Record>
     <Record>
-      <Key>MarsNamedRegionCasiusRidgeName</Key>
-      <Value>Casius-Rücken</Value>
+      <Key>VulcanPoiKalimarVentDescription</Key>
+      <Value>Neuer Ort</Value>
     </Record>
     <Record>
-      <Key>MarsNamedRegionCrowesLookoutName</Key>
-      <Value>Crowes Aussichtspunkt</Value>
+      <Key>VulcanPoiMountValourDescription</Key>
+      <Value>Neuer Ort</Value>
     </Record>
     <Record>
-      <Key>MarsNamedRegionOuterPlainsEastName</Key>
-      <Value>Äußere Ebenen Ost</Value>
+      <Key>VulcanPoiMountOrenDescription</Key>
+      <Value>Neuer Ort</Value>
     </Record>
     <Record>
-      <Key>MarsNamedRegionCallistoCraterName</Key>
-      <Value>Callisto-Krater</Value>
+      <Key>VulcanPoiLomaDescription</Key>
+      <Value>Neuer Ort</Value>
     </Record>
     <Record>
-      <Key>MarsNamedRegionCallistoFlatsName</Key>
-      <Value>Callisto-Ebenen</Value>
+      <Key>VulcanPoiToraDescription</Key>
+      <Value>Neuer Ort</Value>
     </Record>
     <Record>
-      <Key>MarsNamedRegionSeleneRiseName</Key>
-      <Value>Selene-Anhöhe</Value>
+      <Key>VulcanSpawnVestaValleyName</Key>
+      <Value>Vesta Valley</Value>
     </Record>
     <Record>
-      <Key>MarsNamedRegionEosRidgeName</Key>
-      <Value>Eos-Rücken</Value>
+      <Key>VulcanSpawnVestaValleyDescription</Key>
+      <Value>Ein tiefes vulkanisches Tal, geformt durch antike Lavaströme und umgeben von gewaltigen Klippen.</Value>
     </Record>
     <Record>
-      <Key>MarsNamedRegionOuterPlainsWestName</Key>
-      <Value>Äußere Ebenen West</Value>
+      <Key>VulcanSpawnEtnasFuryName</Key>
+      <Value>Etnas Zorn</Value>
     </Record>
     <Record>
-      <Key>MarsNamedRegionOuterPlainsNorthEastName</Key>
-      <Value>Äußere Ebenen Nordost</Value>
+      <Key>VulcanSpawnEtnasFuryDescription</Key>
+      <Value>Eine rissige, flache Ebene über Lavatunneln mit Blick auf ferne Vulkane.</Value>
     </Record>
     <Record>
-      <Key>MarsNamedRegionOuterPlainsNorthName</Key>
-      <Value>Äußere Ebenen Nord</Value>
+      <Key>VulcanSpawnIxionsDemiseName</Key>
+      <Value>Ixions Ende</Value>
     </Record>
     <Record>
-      <Key>MarsNamedRegionOuterPlainsNorthWestName</Key>
-      <Value>Äußere Ebenen Nordwest</Value>
+      <Key>VulcanSpawnIxionsDemiseDescription</Key>
+      <Value>Ein unerbittliches Ödland aus zerklüftetem Gestein und eingestürzten Magmakammern.</Value>
     </Record>
     <Record>
-      <Key>MarsNamedRegionHoodCraterName</Key>
-      <Value>Hood-Krater</Value>
+      <Key>SpawnRoundRobin</Key>
+      <Value>Reihum-Start (Round Robin)</Value>
     </Record>
     <Record>
-      <Key>MarsNamedRegionCamdenCraterName</Key>
-      <Value>Camden-Krater</Value>
+      <Key>SpawnRoundRobinDescription</Key>
+      <Value>Jeder Spieler beginnt das Spiel an einem separaten Ort.</Value>
     </Record>
     <Record>
-      <Key>MarsNamedRegionGalenaCraterName</Key>
-      <Value>Galena-Krater</Value>
+      <Key>VulcanSpawnTitusReachName</Key>
+      <Value>Titus Reach</Value>
     </Record>
     <Record>
-      <Key>MarsNamedRegionTaosCraterName</Key>
-      <Value>Taos-Krater</Value>
+      <Key>VulcanSpawnTitusReachDescription</Key>
+      <Value>Ein flaches, mittelhohes Plateau mit Blick auf Lavaseen und Vulkane.</Value>
     </Record>
     <Record>
-      <Key>MarsNamedRegionFindersCanyonSouthName</Key>
-      <Value>Finders Canyon Süd</Value>
+      <Key>VulcanSpawnSerpentPlateauName</Key>
+      <Value>Serpent Plateau</Value>
     </Record>
     <Record>
-      <Key>MarsNamedRegionFindersCanyonScarpName</Key>
-      <Value>Finders Canyon Steilhang</Value>
+      <Key>VulcanSpawnSerpentPlateauDescription</Key>
+      <Value>Eine zertrümmerte Ebene, die in Lavaseen abfällt.</Value>
     </Record>
     <Record>
-      <Key>MarsNamedRegionCanyonOverlookName</Key>
-      <Value>Canyon-Ausblick</Value>
+      <Key>VulcanSpawnTalonHeightsName</Key>
+      <Value>Talon Heights</Value>
     </Record>
     <Record>
-      <Key>MarsNamedRegionFindersCanyonName</Key>
-      <Value>Finders Canyon</Value>
+      <Key>VulcanSpawnTalonHeightsDescription</Key>
+      <Value>Ein vulkanisches Gebirgstal im Windschatten des Talon Peak.</Value>
     </Record>
     <Record>
-      <Key>MarsNamedRegionFindersCanyonWestName</Key>
-      <Value>Finders Canyon West</Value>
+      <Key>VulcanSpawnDusterPlateauNorthName</Key>
+      <Value>Duster Plateau Nord</Value>
     </Record>
     <Record>
-      <Key>MarsNamedRegionFindersCanyonEastName</Key>
-      <Value>Finders Canyon Ost</Value>
+      <Key>VulcanSpawnDusterPlateauNorthDescription</Key>
+      <Value>Geschützt durch ein Mikrotal mit Blick auf das Peanut Valley.</Value>
     </Record>
     <Record>
-      <Key>MarsNamedRegionFindersWatchName</Key>
-      <Value>Finders Wacht</Value>
+      <Key>VulcanSpawnCinderPeakName</Key>
+      <Value>Cinder Peak</Value>
     </Record>
     <Record>
-      <Key>MarsSpawnCanyonOverlookName</Key>
-      <Value>Canyon-Ausblick</Value>
+      <Key>VulcanSpawnCinderPeakDescription</Key>
+      <Value>Ein tiefes Tal am Fuße des Dogsfoot Mountain.</Value>
     </Record>
     <Record>
-      <Key>MarsSpawnCanyonOverlookDescription</Key>
-      <Value>Der Rand eines hohen Plateaus, das den weiten Finders Canyon überblickt.</Value>
+      <Key>VulcanSpawnRedJunctionName</Key>
+      <Value>Red Junction</Value>
     </Record>
     <Record>
-      <Key>MarsSpawnButchersFlatName</Key>
-      <Value>Metzgerebene</Value>
+      <Key>VulcanSpawnRedJunctionDescription</Key>
+      <Value>An den Ufern von Junction Lake und Lake Calamity.</Value>
     </Record>
     <Record>
-      <Key>MarsSpawnButchersFlatDescription</Key>
-      <Value>Eine tief gelegene Ebene, umgeben von felsigen Hügeln.</Value>
+      <Key>VulcanSpawnOrensTrackName</Key>
+      <Value>Oren's Track</Value>
     </Record>
     <Record>
-      <Key>MarsSpawnFindersCanyonName</Key>
-      <Value>Finders Canyon West</Value>
+      <Key>VulcanSpawnOrensTrackDescription</Key>
+      <Value>Eingebettet zwischen Mount Oren und Mount Valour bietet Oren's Track guten Platz zum Bauen.</Value>
     </Record>
     <Record>
-      <Key>MarsSpawnFindersCanyonDescription</Key>
-      <Value>Steile Klippen ragen in dem Graben eines großen Canyons empor.</Value>
+      <Key>VulcanSpawnDogsfootName</Key>
+      <Value>Dogsfoot</Value>
     </Record>
     <Record>
-      <Key>MarsSpawnHellasCragsName</Key>
-      <Value>Hellas-Klippen</Value>
+      <Key>VulcanSpawnDogsfootDescription</Key>
+      <Value>Eine gegabelte Basaltformation, die einer Pfote ähnelt und seltenen Schutz vor Aschestürmen bietet.</Value>
     </Record>
     <Record>
-      <Key>MarsSpawnHellasCragsDescription</Key>
-      <Value>Hohe und zerklüftete Hügel mit weitem Blick über die Marsoberfläche.</Value>
+      <Key>VulcanSpawnKalimarOutlookName</Key>
+      <Value>Kalimar Outlook</Value>
     </Record>
     <Record>
-      <Key>MarsSpawnDonutFlatsName</Key>
-      <Value>Donut-Ebenen</Value>
+      <Key>VulcanSpawnKalimarOutlookDescription</Key>
+      <Value>Ein Lavafluss windet sich durch das Tal unterhalb des strengen Blicks des Kalimar Vent.</Value>
     </Record>
-    <Record>
-      <Key>MarsSpawnDonutFlatsDescription</Key>
-      <Value>Staubgepeitschte Ebenen, die sich in alle Richtungen erstrecken.</Value>
-    </Record>
-    <Record>
-      <Key>MarsPoiCrowesLookoutName</Key>
-      <Value>Crowes Aussichtspunkt</Value>
-    </Record>
-    <Record>
-      <Key>MarsPoiCrowesLookoutDescription</Key>
-      <Value>Steilste Klippen der Region</Value>
-    </Record>
-    <Record>
-      <Key>MarsPoiCanyonOverlookPeakName</Key>
-      <Value>Canyon-Ausblick</Value>
-    </Record>
-    <Record>
-      <Key>MarsPoiCanyonOverlookPeakDescription</Key>
-      <Value>Felsiger Klippenrand</Value>
-    </Record>
-    <Record>
-      <Key>MarsPoiFindersWatchPlateauName</Key>
-      <Value>Finders Wacht</Value>
-    </Record>
-    <Record>
-      <Key>MarsPoiFindersWatchPlateauDescription</Key>
-      <Value>Höchster Punkt der Region</Value>
-    </Record>
-    <Record>
-      <Key>MarsPoiCamdenCraterKnollName</Key>
-      <Value>Camden-Kuppe</Value>
-    </Record>
-    <Record>
-      <Key>MarsPoiCamdenCraterKnollDescription</Key>
-      <Value>Kraterzentrum</Value>
     </Record>
     <Record>
       <Key>OkayConfirmation</Key>
@@ -17049,7 +16774,231 @@ Es ist ein unumstößliches universelles Gesetz, dass alles über 11 Lila sein w
       <Value>Der Anteil von {GAS:LiquidOzone} in der Atmosphäre des Geräts</Value>
     </Record>
     <Record>
-      <Key>AppearanceButtonRandomize</Key>
+      <Key>LogicTypeRatioHydrogenInput</Key>
+      <Value>Der Anteil von {GAS:Hydrogen} in der Eingangs-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrogenInput2</Key>
+      <Value>Der Anteil von {GAS:Hydrogen} in der Eingang2-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrogenOutput</Key>
+      <Value>Der Anteil von {GAS:Hydrogen} in der Ausgangs-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrogenOutput2</Key>
+      <Value>Der Anteil von {GAS:Hydrogen} in der Ausgang2-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrogenInput</Key>
+      <Value>Der Anteil von {GAS:LiquidHydrogen} in der Eingangs-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrogenInput2</Key>
+      <Value>Der Anteil von {GAS:LiquidHydrogen} in der Eingang2-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrogenOutput</Key>
+      <Value>Der Anteil von {GAS:LiquidHydrogen} in der Ausgangs-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrogenOutput2</Key>
+      <Value>Der Anteil von {GAS:LiquidHydrogen} in der Ausgang2-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioPollutedWaterInput</Key>
+      <Value>Der Anteil von {GAS:PollutedWater} in der Eingangs-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioPollutedWaterInput2</Key>
+      <Value>Der Anteil von {GAS:PollutedWater} in der Eingang2-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioPollutedWaterOutput</Key>
+      <Value>Der Anteil von {GAS:PollutedWater} in der Ausgangs-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioPollutedWaterOutput2</Key>
+      <Value>Der Anteil von {GAS:PollutedWater} in der Ausgang2-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrazineInput</Key>
+      <Value>Der Anteil von {GAS:Hydrazine} in der Eingangs-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrazineInput2</Key>
+      <Value>Der Anteil von {GAS:Hydrazine} in der Eingang2-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrazineOutput</Key>
+      <Value>Der Anteil von {GAS:Hydrazine} in der Ausgangs-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrazineOutput2</Key>
+      <Value>Der Anteil von {GAS:Hydrazine} in der Ausgang2-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrazineInput</Key>
+      <Value>Der Anteil von {GAS:LiquidHydrazine} in der Eingangs-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrazineInput2</Key>
+      <Value>Der Anteil von {GAS:LiquidHydrazine} in der Eingang2-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrazineOutput</Key>
+      <Value>Der Anteil von {GAS:LiquidHydrazine} in der Ausgangs-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrazineOutput2</Key>
+      <Value>Der Anteil von {GAS:LiquidHydrazine} in der Ausgang2-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidAlcoholInput</Key>
+      <Value>Der Anteil von {GAS:LiquidAlcohol} in der Eingangs-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidAlcoholInput2</Key>
+      <Value>Der Anteil von {GAS:LiquidAlcohol} in der Eingang2-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidAlcoholOutput</Key>
+      <Value>Der Anteil von {GAS:LiquidAlcohol} in der Ausgangs-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidAlcoholOutput2</Key>
+      <Value>Der Anteil von {GAS:LiquidAlcohol} in der Ausgang2-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHeliumInput</Key>
+      <Value>Der Anteil von {GAS:Helium} in der Eingangs-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHeliumInput2</Key>
+      <Value>Der Anteil von {GAS:Helium} in der Eingang2-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHeliumOutput</Key>
+      <Value>Der Anteil von {GAS:Helium} in der Ausgangs-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHeliumOutput2</Key>
+      <Value>Der Anteil von {GAS:Helium} in der Ausgang2-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSodiumChlorideInput</Key>
+      <Value>Der Anteil von {GAS:LiquidSodiumChloride} in der Eingangs-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSodiumChlorideInput2</Key>
+      <Value>Der Anteil von {GAS:LiquidSodiumChloride} in der Eingang2-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSodiumChlorideOutput</Key>
+      <Value>Der Anteil von {GAS:LiquidSodiumChloride} in der Ausgangs-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSodiumChlorideOutput2</Key>
+      <Value>Der Anteil von {GAS:LiquidSodiumChloride} in der Ausgang2-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioSilanolInput</Key>
+      <Value>Der Anteil von {GAS:Silanol} in der Eingangs-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioSilanolInput2</Key>
+      <Value>Der Anteil von {GAS:Silanol} in der Eingang2-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioSilanolOutput</Key>
+      <Value>Der Anteil von {GAS:Silanol} in der Ausgangs-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioSilanolOutput2</Key>
+      <Value>Der Anteil von {GAS:Silanol} in der Ausgang2-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSilanolInput</Key>
+      <Value>Der Anteil von {GAS:LiquidSilanol} in der Eingangs-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSilanolInput2</Key>
+      <Value>Der Anteil von {GAS:LiquidSilanol} in der Eingang2-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSilanolOutput</Key>
+      <Value>Der Anteil von {GAS:LiquidSilanol} in der Ausgangs-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSilanolOutput2</Key>
+      <Value>Der Anteil von {GAS:LiquidSilanol} in der Ausgang2-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrochloricAcidInput</Key>
+      <Value>Der Anteil von {GAS:HydrochloricAcid} in der Eingangs-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrochloricAcidInput2</Key>
+      <Value>Der Anteil von {GAS:HydrochloricAcid} in der Eingang2-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrochloricAcidOutput</Key>
+      <Value>Der Anteil von {GAS:HydrochloricAcid} in der Ausgangs-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrochloricAcidOutput2</Key>
+      <Value>Der Anteil von {GAS:HydrochloricAcid} in der Ausgang2-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrochloricAcidInput</Key>
+      <Value>Der Anteil von {GAS:LiquidHydrochloricAcid} in der Eingangs-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrochloricAcidInput2</Key>
+      <Value>Der Anteil von {GAS:LiquidHydrochloricAcid} in der Eingang2-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrochloricAcidOutput</Key>
+      <Value>Der Anteil von {GAS:LiquidHydrochloricAcid} in der Ausgangs-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrochloricAcidOutput2</Key>
+      <Value>Der Anteil von {GAS:LiquidHydrochloricAcid} in der Ausgang2-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioOzoneInput</Key>
+      <Value>Der Anteil von {GAS:Ozone} in der Eingangs-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioOzoneInput2</Key>
+      <Value>Der Anteil von {GAS:Ozone} in der Eingang2-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioOzoneOutput</Key>
+      <Value>Der Anteil von {GAS:Ozone} in der Ausgangs-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioOzoneOutput2</Key>
+      <Value>Der Anteil von {GAS:Ozone} in der Ausgang2-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidOzoneInput</Key>
+      <Value>Der Anteil von {GAS:LiquidOzone} in der Eingangs-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidOzoneInput2</Key>
+      <Value>Der Anteil von {GAS:LiquidOzone} in der Eingang2-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidOzoneOutput</Key>
+      <Value>Der Anteil von {GAS:LiquidOzone} in der Ausgangs-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidOzoneOutput2</Key>
+      <Value>Der Anteil von {GAS:LiquidOzone} in der Ausgang2-Atmosphäre des Geräts</Value>
+    </Record>
+    <Record>
+    <Key>AppearanceButtonRandomize</Key>
       <Value>Zufällig</Value>
     </Record>
     <Record>
@@ -27782,7 +27731,7 @@ Status: {LOCAL:StatusValue}</Value>
       <Key>RocketThrust</Key>
       <Value>Schub</Value>
     </Record>
-<Record>
+    <Record>
       <Key>RocketWeight</Key>
       <Value>Gewicht</Value>
     </Record>
@@ -28513,7 +28462,7 @@ Status: {LOCAL:StatusValue}</Value>
     <Record>
       <Key>ScriptEditorAuthorInfo</Key>
       <Value>Erstellt von &lt;color=white&gt;{LOCAL:Author}&lt;/color&gt;
-{LOCAL:Description}</Value>
+      {LOCAL:Description}</Value>
     </Record>
     <Record>
       <Key>ScriptEditorLoadTitle</Key>
@@ -29122,7 +29071,7 @@ Status: {LOCAL:StatusValue}</Value>
     <Record>
       <Key>AirControlModeButton</Key>
       <Value>Modus
-&lt;b&gt;{LOCAL:Value}&lt;/b&gt;</Value>
+      &lt;b&gt;{LOCAL:Value}&lt;/b&gt;</Value>
     </Record>
     <Record>
       <Key>AirControlVent</Key>
