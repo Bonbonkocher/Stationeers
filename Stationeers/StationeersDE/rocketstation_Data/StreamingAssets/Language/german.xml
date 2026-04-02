@@ -2204,9 +2204,29 @@ Eine wiederkehrende Beschwerde der {LINK:Stationeers;Stationeer} konzentriert si
     </RecordThing>
     <RecordThing>
       <Key>StructureFiltration</Key>
-      <Value>Filtrierung</Value>
-      <Description>Die Filtrierungseinheit basiert auf einem langjährigen {LINK:ExMin;ExMin} System, das seinerseits auf älteren Designs unbekannter Herkunft beruht. Sie ist im {THING:ItemKitAtmospherics} verfügbar.
-Das Gerät hat sich dennoch als unverzichtbar für atmosphärische Systeme der {LINK:Stationeers;Stationeer} erwiesen, da es unter Verwendung eines Dual-Filter-Arrays zwei {LINK:GasPage;gases} gleichzeitig aus einem einzigen Rohrnetz filtern kann. Die Einheit verfügt über einen Eingang, einen Filterausgang sowie einen ungefilterten Auslass für jegliche Restgase.</Description>
+      <Value>Filteranlage</Value>
+      <Description>Die Filteranlage basiert auf einem langjährigen {LINK:ExMin;ExMin} System, das seinerseits auf älteren Designs unbekannter Herkunft beruht. Sie ist im {THING:ItemKitAtmospherics} verfügbar.
+      Das Gerät hat sich dennoch als unverzichtbar für atmosphärische Systeme der {LINK:Stationeers;Stationeer} erwiesen, da es unter Verwendung eines Dual-Filter-Arrays zwei {LINK:GasPage;gases} gleichzeitig aus einem einzigen Rohrnetz filtern kann.
+      Die Einheit verfügt über einen Eingang, einen Filterausgang sowie einen ungefilterten Auslass für jegliche Restgase.
+      
+      EIGENSCHAFTEN:
+      Im Leerlauf verbraucht es 10 W und im aktiven Zustand 10-110 W (abhängig vom Eingangsdruck).
+      
+      VERWENDUNG:
+      Filterslot 0: Der dem Anschluss-Eingang am nächstes ist, wird zuerst verbraucht.
+      Filterslot 1: bei einer gleichen Filter wie im "Filterslot 0" wird erst verbraucht wenn "Filterslot 0" keine Haltbarkeit mehr hat.
+      Gasleitung 1: Eingang/Input - Startgasnetz, aus dem Sie filtern möchten, ist dem Data-Anschluss am nächstem.
+      Gasleitung 2: Gefilltert/Output1 - Gefilterter Gasauslass, ist gegenüber vom Anschluss-Eingang ist dem Strom-Anschluss am nächstem.
+      Gasleitung 3: Ungefilltert/Output2 - Der Restgasgemischausgang, umgangssprachlich als "Abfallausgang" bezeichnet, befindet sich unterhalb der Fillter-Slots und seitlich der Inline-Verbindung zwischen den beiden primären Anschlüssen.
+      
+      Das Eingangsgasgemisch unter Druck setzen
+      Beide Auslassleitungsnetze werden kontinuierlich abgepumpt.
+      Einen großen Druckunterschied zwischen Ein- und Ausgängen aufrechterhalten.
+      SICHERHEIT:
+      Die Filteranlage verfügt unrealistischerweise über eine unendlich leistungsstarke Pumpe, die in ihre Ausgänge integriert ist. Solange die Anlage eingeschaltet ist und Gas zum Filtern vorhanden ist, drückt sie gefiltertes Gas unabhängig vom vorhandenen Druck in das Ausgabeleitungsnetz.
+      
+      
+      </Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterPurifier</Key>
@@ -9571,12 +9591,12 @@ Alle Rohre des Gestells müssen angeschlossen sein, sonst zeigt das Gerät einen
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLiquidFiltration</Key>
-      <Value>Bausatz (Flüssigkeitsfiltrierung)</Value>
+      <Value>Bausatz (Flüssigkeits-Filteranlage)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFiltrationLiquid</Key>
-      <Value>Flüssigkeitsfiltrierung</Value>
+      <Value>Flüssigkeits-Filteranlage</Value>
       <Description />
     </RecordThing>
     <RecordThing>
