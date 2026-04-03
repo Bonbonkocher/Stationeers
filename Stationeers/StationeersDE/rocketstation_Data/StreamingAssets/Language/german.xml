@@ -2615,19 +2615,19 @@ Für weitere Informationen zur Temperatursteuerung konsultiere die {LINK:Tempera
     </RecordThing>
     <RecordThing>
       <Key>StructureCableStraightH</Key>
-      <Value>Schweres Kabel (Gerade)</Value>
+      <Value>Starkstromkabel (Gerade)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunctionH6</Key>
-      <Value>Schweres Kabel (6-Wege-Verbindung)</Value>
+      <Value>Starkstromkabel (6-Wege-Verbindung)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunctionH4</Key>
-      <Value>Schweres Kabel (4-Wege-Verbindung)</Value>
+      <Value>Starkstromkabel (4-Wege-Verbindung)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunctionH</Key>
-      <Value>Schweres Kabel (3-Wege-Verbindung)</Value>
+      <Value>Starkstromkabel (3-Wege-Verbindung)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction6HBurnt</Key>
@@ -2651,7 +2651,7 @@ Für weitere Informationen zur Temperatursteuerung konsultiere die {LINK:Tempera
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCornerH</Key>
-      <Value>Schweres Kabel (Ecke)</Value>
+      <Value>Starkstromkabel (Ecke)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableFuse1k</Key>
@@ -2729,7 +2729,7 @@ Im Gegensatz zum fortschrittlicheren {THING:StructureFurnace} kann der Lichtboge
     </RecordThing>
     <RecordThing>
       <Key>ItemCableCoilHeavy</Key>
-      <Value>Schwere Kabelrolle</Value>
+      <Value>Starkstromkabel</Value>
       <Description>Verwende schwere Kabelrollen für Stromsysteme mit hohem Verbrauch. Im Gegensatz zur {THING:ItemCableCoil}, die nur 5 kW sicher leiten kann, können schwere Kabel bis zu 100 kW übertragen.</Description>
     </RecordThing>
     <RecordThing>
@@ -3263,15 +3263,15 @@ Beachte, dass Transformatoren als Datenisolatoren fungieren und verhindern, dass
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCornerH3</Key>
-      <Value>Schweres Kabel (3-Wege-Ecke)</Value>
+      <Value>Starkstromkabel (3-Wege-Ecke)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCornerH4</Key>
-      <Value>Schweres Kabel (4-Wege-Ecke)</Value>
+      <Value>Starkstromkabel (4-Wege-Ecke)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCorner4HBurnt</Key>
-      <Value>Verbranntes schweres Kabel (4-Wege-Ecke)</Value>
+      <Value>Verbranntes Starkstromkabel (4-Wege-Ecke)</Value>
     </RecordThing>
     <RecordThing>
       <Key>PortableSolarPanel</Key>
@@ -3295,11 +3295,11 @@ Beachte, dass Transformatoren als Datenisolatoren fungieren und verhindern, dass
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunctionH5</Key>
-      <Value>Schweres Kabel (5-Wege-Verbindung)</Value>
+      <Value>Starkstromkabel (5-Wege-Verbindung)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunctionH5Burnt</Key>
-      <Value>Verbranntes schweres Kabel (5-Wege-Verbindung)</Value>
+      <Value>Verbranntes Starkstromkabel (5-Wege-Verbindung)</Value>
     </RecordThing>
     <RecordThing>
       <Key>WallFrameCornerCut</Key>
@@ -9376,117 +9376,117 @@ Alle Rohre des Gestells müssen angeschlossen sein, sonst zeigt das Gerät einen
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyCorner</Key>
-      <Value>Superschweres Kabel (Ecke)</Value>
+      <Value>Hochleistungskabel (Ecke)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyCorner3</Key>
-      <Value>Superschweres Kabel (3-Wege-Ecke)</Value>
+      <Value>Hochleistungskabel (3-Wege-Ecke)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyCorner3Burnt</Key>
-      <Value>Verbranntes superschweres Kabel (3-Wege-Ecke)</Value>
+      <Value>Verbranntes Hochleistungskabel (3-Wege-Ecke)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyCorner4</Key>
-      <Value>Superschweres Kabel (4-Wege-Ecke)</Value>
+      <Value>Hochleistungskabel (4-Wege-Ecke)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyCorner4Burnt</Key>
-      <Value>Verbranntes superschweres Kabel (4-Wege-Ecke)</Value>
+      <Value>Verbranntes Hochleistungskabel (4-Wege-Ecke)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyCornerBurnt</Key>
-      <Value>Verbranntes superschweres Kabel (Ecke)</Value>
+      <Value>Verbranntes Hochleistungskabel (Ecke)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyJunction</Key>
-      <Value>Superschweres Kabel (Verbindung)</Value>
+      <Value>Hochleistungskabel (Verbindung)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyJunction4</Key>
-      <Value>Superschweres Kabel (4-Wege-Verbindung)</Value>
+      <Value>Hochleistungskabel (4-Wege-Verbindung)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyJunction4Burnt</Key>
-      <Value>Verbranntes superschweres Kabel (4-Wege-Verbindung)</Value>
+      <Value>Verbranntes Hochleistungskabel (4-Wege-Verbindung)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyJunction5</Key>
-      <Value>Superschweres Kabel (5-Wege-Verbindung)</Value>
+      <Value>Hochleistungskabel (5-Wege-Verbindung)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyJunction5Burnt</Key>
-      <Value>Verbranntes superschweres Kabel (5-Wege-Verbindung)</Value>
+      <Value>Verbranntes Hochleistungskabel (5-Wege-Verbindung)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyJunction6</Key>
-      <Value>Superschweres Kabel (6-Wege-Verbindung)</Value>
+      <Value>Hochleistungskabel (6-Wege-Verbindung)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyJunction6Burnt</Key>
-      <Value>Verbranntes superschweres Kabel (6-Wege-Verbindung)</Value>
+      <Value>Verbranntes Hochleistungskabel (6-Wege-Verbindung)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyJunctionBurnt</Key>
-      <Value>Verbranntes superschweres Kabel (Verbindung)</Value>
+      <Value>Verbranntes Hochleistungskabel (Verbindung)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyStraight</Key>
-      <Value>Superschweres Kabel (Gerade)</Value>
+      <Value>Hochleistungskabel (Gerade)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyStraight3</Key>
-      <Value>Superschweres Kabel (Gerade 3)</Value>
+      <Value>Hochleistungskabel (Gerade 3)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyStraight3Burnt</Key>
-      <Value>Verbranntes superschweres Kabel (Gerade 3)</Value>
+      <Value>Verbranntes Hochleistungskabel (Gerade 3)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyStraight5</Key>
-      <Value>Superschweres Kabel (Gerade 5)</Value>
+      <Value>Hochleistungskabel (Gerade 5)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyStraight5Burnt</Key>
-      <Value>Verbranntes superschweres Kabel (Gerade 5)</Value>
+      <Value>Verbranntes Hochleistungskabel (Gerade 5)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyStraight10</Key>
-      <Value>Superschweres Kabel (Gerade 10)</Value>
+      <Value>Hochleistungskabel (Gerade 10)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyStraight10Burnt</Key>
-      <Value>Verbranntes superschweres Kabel (Gerade 10)</Value>
+      <Value>Verbranntes Hochleistungskabel (Gerade 10)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyStraightBurnt</Key>
-      <Value>Verbranntes superschweres Kabel (Gerade)</Value>
+      <Value>Verbranntes Hochleistungskabel (Gerade)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemCableCoilSuperHeavy</Key>
-      <Value>Superschwere Kabelrolle</Value>
+      <Value>Hochleistungskabelrolle</Value>
       <Description />
     </RecordThing>
     <RecordThing>
