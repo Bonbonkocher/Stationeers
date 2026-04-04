@@ -12,7 +12,7 @@ Spiel-Version: v0.2.6227.27061
 
 Alle Inhalte in denn xml-Dateien
 
-|  xml  |  Übertragen  | Übersetztung  |
+|  xml  |  Übertragen  | Übertragen  |
 |  Dateien  |  Ohne Übersetzung  | Übersetztung  |
 |  :---: | :---: | :---: |
 | german.xml  |  [x]  |  []  |
