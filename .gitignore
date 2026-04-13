@@ -4,8 +4,8 @@ zip/
 # Bestimmte Dateitypen ignorieren
 *.git
 *.zip
-#*.bat
-#*.ps1
+*.bat
+*.ps1
 *.bak
 
 # Die gitignore selbst (optional)
