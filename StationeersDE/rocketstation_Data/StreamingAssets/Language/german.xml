@@ -295,7 +295,7 @@
     </Record>
     <Record>
       <Key>LiquidNitrousOxide</Key>
-      <Value>Flüssiges Lachgas</Value>
+      <Value>Flüssiges Distickstoffmonoxid</Value>
     </Record>
     <Record>
       <Key>Hydrogen</Key>
@@ -4448,19 +4448,19 @@ BEDIENUNG: 'J' zum Aktivieren; 'Leertaste' zum Aufsteigen; 'linkes Strg' zum Sin
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrousOxide</Key>
-      <Value>Filter (Lachgas)</Value>
+      <Value>Filter (Distickstoffmonoxid)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrousOxideL</Key>
-      <Value>Schwerer Filter (Lachgas)</Value>
+      <Value>Schwerer Filter (Distickstoffmonoxid)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrousOxideM</Key>
-      <Value>Mittlerer Filter (Lachgas)</Value>
+      <Value>Mittlerer Filter (Distickstoffmonoxid)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterNitrousOxide</Key>
-      <Value>Gaskanister (Schlafgas)</Value>
+      <Value>Gaskanister (Distickstoffmonoxid)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemNVG</Key>
@@ -4592,7 +4592,7 @@ In Verbindung mit einem {THING:StructureComputer}, der ein {THING:MotherboardCom
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterNitrousOxide</Key>
-      <Value>Tragbarer Gastank (Lachgas)</Value>
+      <Value>Tragbarer Gastank (Distickstoffmonoxid)</Value>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterPollutants</Key>
@@ -6927,7 +6927,7 @@ Hochgradig temperaturempfindlich, beginnt Nitrice zu schmelzen, sobald es abgeba
     <RecordThing>
       <Key>StructureNitrolyzer</Key>
       <Value>Nitrolyzer</Value>
-      <Description>Dieses Gerät wird verwendet, um {GAS:NitrousOxide} aus {GAS:Oxygen}, {GAS:Nitrogen} und einer großen Menge Energie zu erzeugen. Der Prozess wandelt nicht das gesamte verfügbare Gas auf einmal um, sodass der Ausgang eine Mischung aus allen drei Gasen ist, die eventuell weiterverarbeitet werden muss. Mehr Lachgas (NOS) wird erzeugt, wenn das Gas in der Maschine nahe einem 1:1-Verhältnis von Sauerstoff zu Stickstoff liegt. Die zweite Gaseinlassleitung ist optional und wird nicht benötigt, wenn das Gas bereits vorgemischt ist.</Description>
+      <Description>Dieses Gerät wird verwendet, um {GAS:NitrousOxide} aus {GAS:Oxygen}, {GAS:Nitrogen} und einer großen Menge Energie zu erzeugen. Der Prozess wandelt nicht das gesamte verfügbare Gas auf einmal um, sodass der Ausgang eine Mischung aus allen drei Gasen ist, die eventuell weiterverarbeitet werden muss. Mehr Distickstoffmonoxid (NOS) wird erzeugt, wenn das Gas in der Maschine nahe einem 1:1-Verhältnis von Sauerstoff zu Stickstoff liegt. Die zweite Gaseinlassleitung ist optional und wird nicht benötigt, wenn das Gas bereits vorgemischt ist.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMiningBackPack</Key>
@@ -7308,8 +7308,8 @@ Um mit dem Splicing zu beginnen, lege eine Pflanze oder einen Samenbeutel in den
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrousOxideInfinite</Key>
-      <Value>Katalytischer Filter (Lachgas)</Value>
-      <Description>Ein Filter, der gezielt Lachgas filtert. Er nutzt interne Druckunterschiede, um einen einzigartigen Phasenwechselkatalysator zu regenerieren, was ihm eine lange Lebensdauer verleiht.</Description>
+      <Value>Katalytischer Filter (Distickstoffmonoxid)</Value>
+      <Description>Ein Filter, der gezielt Distickstoffmonoxid filtert. Er nutzt interne Druckunterschiede, um einen einzigartigen Phasenwechselkatalysator zu regenerieren, was ihm eine lange Lebensdauer verleiht.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrogenInfinite</Key>
@@ -7637,7 +7637,7 @@ Um mit dem Splicing zu beginnen, lege eine Pflanze oder einen Samenbeutel in den
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceNitrous</Key>
-      <Value>Reines Lachgaseis</Value>
+      <Value>Reines Distickstoffmonoxideis</Value>
       <Description>Ein gefrorener Brocken aus reinem {GAS:NitrousOxide}.</Description>
     </RecordThing>
     <RecordThing>
@@ -7662,7 +7662,7 @@ Um mit dem Splicing zu beginnen, lege eine Pflanze oder einen Samenbeutel in den
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceLiquidNitrous</Key>
-      <Value>Reines flüssiges Lachgaseis</Value>
+      <Value>Reines flüssiges Distickstoffmonoxideis</Value>
       <Description>Ein gefrorener Brocken aus reinem {GAS:LiquidNitrousOxide}</Description>
     </RecordThing>
     <RecordThing>
@@ -19624,7 +19624,7 @@ Ein {THING:StructureWaterPurifier} kann verwendet werden, um es zurück in {GAS:
     </Record>
     <Record>
       <Key>MoleNitrousOxideDescription</Key>
-      <Value>Lachgas ist ein reaktives Gas, das Spieler bei Inhalation bewusstlos macht. Es fungiert als Oxidationsmittel für Verbrennungen und lässt flüchtige Gase deutlich heißer, schneller und bei einer niedrigeren Selbstentzündungstemperatur brennen. Es kann in einem energieintensiven Prozess in einem {THING:StructureNitrolyzer} hergestellt werden.</Value>
+      <Value>Distickstoffmonoxid ist ein reaktives Gas, das Spieler bei Inhalation bewusstlos macht. Es fungiert als Oxidationsmittel für Verbrennungen und lässt flüchtige Gase deutlich heißer, schneller und bei einer niedrigeren Selbstentzündungstemperatur brennen. Es kann in einem energieintensiven Prozess in einem {THING:StructureNitrolyzer} hergestellt werden.</Value>
     </Record>
     <Record>
       <Key>MoleLiquidNitrogenDescription</Key>
@@ -19648,7 +19648,7 @@ Ein {THING:StructureWaterPurifier} kann verwendet werden, um es zurück in {GAS:
     </Record>
     <Record>
       <Key>MoleLiquidNitrousOxideDescription</Key>
-      <Value>{GAS:NitrousOxide} in flüssiger Form. Es kann erzeugt werden, indem die Temperatur von Lachgas unter seinen Siedepunkt gesenkt wird. Dies kann mit einem {THING:StructureHeatExchangerGastoGas} oder einer {THING:StructureAirConditioner} erreicht werden. In die Atmosphäre freigesetztes {GAS:LiquidNitrousOxide} verdampft schnell wieder zu {GAS:NitrousOxide}.</Value>
+      <Value>{GAS:NitrousOxide} in flüssiger Form. Es kann erzeugt werden, indem die Temperatur von Distickstoffmonoxid unter seinen Siedepunkt gesenkt wird. Dies kann mit einem {THING:StructureHeatExchangerGastoGas} oder einer {THING:StructureAirConditioner} erreicht werden. In die Atmosphäre freigesetztes {GAS:LiquidNitrousOxide} verdampft schnell wieder zu {GAS:NitrousOxide}.</Value>
     </Record>
     <Record>
       <Key>MoleLiquidHydrogenDescription</Key>
@@ -22220,7 +22220,7 @@ Ein {THING:StructureWaterPurifier} kann verwendet werden, um es zurück in {GAS:
     </Record>
     <Record>
       <Key>BuyDataNitrousOxideFuelMix</Key>
-      <Value>Lachgas-Treibstoffgemisch</Value>
+      <Value>Distickstoffmonoxid-Treibstoffgemisch</Value>
     </Record>
     <Record>
       <Key>BuyDataRegularFuelMix</Key>
@@ -22368,7 +22368,7 @@ Ein {THING:StructureWaterPurifier} kann verwendet werden, um es zurück in {GAS:
     </Record>
     <Record>
       <Key>SellDataBulkNitrousOxide</Key>
-      <Value>Lachgas (Bulk)</Value>
+      <Value>Distickstoffmonoxid (Bulk)</Value>
     </Record>
     <Record>
       <Key>SellDataBulkDirtyVolatiles</Key>
@@ -30199,7 +30199,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PartialPressureN2O</Key>
-      <Value>Lachgas-Partialdruck</Value>
+      <Value>Distickstoffmonoxid-Partialdruck</Value>
     </Record>
     <Record>
       <Key>Refreshed</Key>
