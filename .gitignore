@@ -1,5 +1,6 @@
 # Ordner ignorieren
 zip/
+Scripts/
 
 # Bestimmte Dateitypen ignorieren
 *.git
