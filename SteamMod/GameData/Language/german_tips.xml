@@ -1,0 +1,49 @@
+﻿<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>EN</Code>
+<GameTip>
+    <String>Drücke {KEY:HelmetSlot}, {KEY:SuitSlot}, {KEY:BackSlot}, {KEY:UniformSlot} oder {KEY:ToolBeltSlot}, um durch Interaktionen und Slots von Ausrüstungsgegenständen zu schalten, die du trägst. Halte die Taste gedrückt, um zwischen diesem Slot und deinen aktiven Händen zu wechseln.</String>
+    <String>Das Drücken von {KEY:ToggleHandPower} oder {KEY:SecondaryAction} schaltet die Energie für Gegenstände in deiner Hand ein oder aus.</String>
+    <String>Drücke {KEY:ToggleLight}, um das Licht deines {THING:ItemSpaceHelmet} ein- oder auszuschalten.</String>
+    <String>Drücke {KEY:EmoteWave}, damit dein Charakter anderen Stationeers zuwinkt.</String>
+    <String>Drücke {KEY:Jetpack}, um dein {THING:ItemSpacepack} ein- oder auszuschalten.</String>
+    <String>Drücke {KEY:ToggleUI}, um die Benutzeroberfläche für Screenshots oder Videos ein- oder auszublenden.</String>
+    <String>Drücke {KEY:Ascend}, um aufzusteigen, wenn dein {THING:ItemSpacepack} eingeschaltet ist. Drücke {KEY:Descend}, um abzusinken.</String>
+    <String>Das Drücken von {KEY:InventorySelect} wechselt zwischen einem Inventar-Slot und deiner aktiven Hand.</String>
+    <String>Durch Drücken von {KEY:Drop} lässt du alles fallen, was in deiner Hand ist. Durch Halten von {KEY:Drop} wirfst du es. Längeres Halten lässt dich weiter werfen.</String>
+    <String>Das Drücken von {KEY:SwapHands} wechselt deine aktive Hand. Drücke {KEY:ActiveHandSlot}, um durch die Interaktionsoptionen des Gegenstands in deiner aktiven Hand zu schalten.</String>
+    <String>Drücke {KEY:Internals} , um dein {THING:ItemSpaceHelmet} schnell zu öffnen oder zu schließen.</String>
+    <String>Drücke {KEY:Chatting}, um mit anderen Spielern zu chatten.</String>
+    <String>Drücke {KEY:RotateLeft}, um den Bau-Cursor nach links zu drehen, {KEY:RotateRight} nach rechts, {KEY:RotateUp} nach oben, {KEY:RotateDown} nach unten, {KEY:RotateRollLeft} zum Rollen nach links oder {KEY:RotateRollRight} zum Rollen nach rechts.</String>
+    <String>Der Weltraum ist nicht so leer, wie er sich anhört.</String>
+    <String>Lege einen Stapel {THING:ItemIronOre} in einen mit Strom versorgten {THING:StructureArcFurnace}, um einen {THING:ItemIronIngot} zu schmelzen.</String>
+    <String>Setze ein {THING:MotherboardLogic} in einen {THING:StructureComputer} ein, um Logik mit einem IC-Chip zu ermöglichen. Du wirst in der Lage sein, Bedingungen und Aktionen hinzuzufügen, die den Status von Geräten im selben Datennetzwerk steuern.</String>
+    <String>Wenn du die Menge von etwas über eine Schaltfläche in der Welt änderst, halte {KEY:QuantityModifier} gedrückt, während du klickst, um kleinere Schritte zu verwenden.</String>
+    <String>Verwende ein {THING:ItemKitLogicInputOutput}, um einen {THING:StructureLogicReader} oder {THING:StructureLogicWriter} zu erstellen. Reader ermöglichen es dir, Werte von anderen Geräten zu lesen, Writer lassen dich Werte auf Geräten ändern. In Kombination mit Math-Einheiten kannst du extrem komplexe automatisierte Systeme erstellen.</String>
+    <String>Verwende ein {THING:ItemKitLogicInputOutput}, um einen {THING:StructureLogicBatchReader} oder {THING:StructureLogicBatchWriter} zu erstellen. Reader ermöglichen es dir, Werte einer ganzen Gruppe anderer Geräte zu lesen, während Writer dich Werte ganzer Gruppen anderer Geräte ändern lassen.</String>
+    <String>Verwende einen {THING:StructureRecycler}, um Dinge, die du nicht mehr benötigst, in nutzbare Reagenzien umzuwandeln. Leite das ausgegebene {THING:ItemReagentMix} in eine {THING:StructureCentrifuge}, um es zurück in Erz für einen {THING:StructureFurnace} zu verwandeln.</String>
+    <String>Verwende einen {THING:StructureHydraulicPipeBender}, um atmosphärische Gegenstände herzustellen, wie zum Beispiel das {THING:ItemKitAtmospherics}, mit dem du nützliche Maschinen wie die {THING:StructureAirConditioner} oder die {THING:StructureFiltration} bauen kannst.</String>
+    <String>Je mehr dein Anzug beschädigt ist, desto ineffizienter arbeitet er. Klebeband kann das beheben.</String>
+    <String>Je mehr dein Anzug beschädigt ist, desto ineffizienter arbeitet er.</String>
+    <String>Nachdem das ursprüngliche Stationeers-Handbuch in eine Singularität kollabiert war, wurde es durch die Stationpedia ersetzt. Drücke {KEY:Help}, um sie für Hilfe im Spiel zu öffnen.</String>
+    <String>Dein anfänglicher {THING:ItemEvaSuit} und {THING:ItemSpaceHelmet} fangen bei hohen Temperaturen Feuer. Verwende den {THING:ItemHardSuit} in gefährlichen Umgebungen.</String>
+    <String>Das Stationeers-Programm wurde von der Offworld Development Agency ins Leben gerufen, um die Erforschung des Sonnensystems und darüber hinaus zu unterstützen.</String>
+    <String>Achte auf die Warnungen deines Anzugs. Sie können helfen, Katastrophen zu verhindern.</String>
+    <String>{THING:ItemHardBackpack} kann mehr Gegenstände tragen, aber er kann nicht dich tragen!</String>
+    <String>Je mehr dein Anzug beschädigt ist, desto ineffizienter arbeitet er.</String>
+    <String>Wenn sich deine Station düster anfühlt, hebe deine Stimmung mit Melodien aus dem {THING:StructureKlaxon} oder baue deinen eigenen Sampler mithilfe von Logik.</String>
+    <String>{THING:StructureHarvie} ermöglicht es dir, das Pflanzen, Wachsen und Ernten von Pflanzen vollständig zu automatisieren.</String>
+    <String>Die erweiterten Tooltips können im Einstellungsmenü ein- oder ausgeschaltet werden.</String>
+    <String>Du kannst alle offenen Fenster auf deinem Bildschirm gleichzeitig schließen, indem du {KEY:HideAllWindows} drückst.</String>
+    <String>{THING:ItemCrowbar} kann verwendet werden, um stromlose Türen und Leistungsregler zu öffnen.</String>
+    <String>{THING:ItemMiningDrill} kann in den Modus „Ebnen“ geschaltet werden, um dir beim Erstellen flacher Böden während des Bergbaus zu helfen.</String>
+    <String>Die {THING:ItemWearLamp} kann zur Beleuchtung verwendet werden, ohne dass ein Helm getragen werden muss.</String>
+    <String>Durch Halten von {KEY:MouseControl} kannst du deinen Mauszeiger aktivieren und Gegenstände in dein Inventar hinein- oder herausziehen oder zwischen Slots verschieben.</String>
+    <String>Der einfache Raumhelm isoliert Stationeers gegen alles – vom harten Vakuum bis hin zu seltsamen Kochgerüchen.</String>
+    <String>Die Physik ist dein Freund. Bis sie es nicht mehr ist.</String>
+    <String>Der Reibungshaftungsjustierer ist ein bi-rotationales Modell mit einem säulenförmigen Uni-Griff. Es ist nicht nur ein Schraubendreher.</String>
+    <String>Es ist nicht wirklich „Milch“, sondern eine Agrizero-patentierte Synthese aus {THING:ItemSoyOil} und {THING:ItemFern}, die in der {THING:ApplianceChemistryStation} delikat gemischt wird.</String>
+    <String>Die seit dem Chengdu-Ereignis auf der Erde illegalen Norsec-Kernenergiezellen haben einen neuen und drastisch weniger sicherheitsbewussten Markt außerhalb der Welt gefunden.</String>
+    <String>Hungrig? Müsliriegel sind kompakt, nahrhaft und erfrischend strahlungsarm.</String>
+    <String>Hast du es satt, ständig normale Filter auszutauschen? Mittlere und schwere Filter halten 5-mal bzw. 20-mal so lange, sind aber teurer.</String>
+  </GameTip>
+</Language>

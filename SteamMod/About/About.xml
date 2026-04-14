@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetadata xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Stationeers_Deutsch-Mod</Name>
+  <Author>Bonbonkocher</Author>
+  <Version>v0.2.6228.27061 | v0.0.9</Version>
+  <Description>
+    Dieser Mod Bearbeitet die Deutsche Uebersetzung. Die übersetzung ist Mein eigenes Übersetztung oder meiner Meinung Falsch war.
+  </Description>
+  <ChangeLog xsi:nil="true" />
+  <WorkshopHandle>3694636517</WorkshopHandle>
+  <Tags />
+  <InGameDescription xsi:nil="true" />
+</ModMetadata>
