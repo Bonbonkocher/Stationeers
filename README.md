@@ -23,13 +23,14 @@ Alle Inhalte in denn xml-Dateien
 
 Weitere Links:
 - [GitHub](https://github.com/Bonbonkocher/Stationeers/ "https://github.com/Bonbonkocher/Stationeers/")
-- [Steam Workshop] in Plannung
+- [Steam Workshop] (https://steamcommunity.com/sharedfiles/filedetails/?id=3694636517 "Stationeers_Deutsch-Mod")
 
 > [!IMPORTANT]
 > Installiere:
-> 1. Downloade die releases version [Releases](https://github.com/Bonbonkocher/Stationeers/releases "https://github.com/Bonbonkocher/Stationeers/releases")
-> 2. Enpacke die Dateien der zip Dateien, in ordner StationeersDE/ sind die bearbeitete Dateien
-> 3. die im ordner xml, alle dateien einfügen nach Installationsverzeichnis (Steam): "C:\Program Files (x86)\Steam\steamapps\common\Stationeers\rocketstation_Data\StreamingAssets\Language"
+> 1. Downloade die releases version [Releases](https://github.com/Bonbonkocher/Stationeers/releases "Releases")
+> 2. ~~Enpacke die Dateien der zip Dateien, in ordner StationeersDE/ sind die bearbeitete Dateien~~
+> 2.1 Entpacken die detei, Stationeers-Standart-Spieleverzeichniss "C:\Program Files (x86)\Steam\steamapps\common\Stationeers\" und ersetzen sie die "rocketstation_Data", **NICHT LÖSCHEN nur ersetzen** 
+> 3. ~~die im ordner xml, alle dateien einfügen nach Installationsverzeichnis (Steam): "C:\Program Files (x86)\Steam\steamapps\common\Stationeers\rocketstation_Data\StreamingAssets\Language"~~
 > 4. bitte sicherung vor dem Ersetzen der dateien german.xml, german_help.xml, german_keys.xml, german_tips.xml, german_tooltips.xml (z.B. Desktop Neuer Ordner Original)
 > 5. Spiel starten untereinstellung spiel auf Deutsch stellen fertig, wenn es hier zur fehler kommt und nicht läd bitte um kontakt aufnahme.
 
