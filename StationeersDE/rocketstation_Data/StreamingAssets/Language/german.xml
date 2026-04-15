@@ -1407,7 +1407,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitBattery</Key>
-      <Value>Bausatz (Batterie)</Value>
+      <Value>Bausatz (Stationsbatterie)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCentrifuge</Key>
