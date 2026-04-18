@@ -8691,17 +8691,17 @@ Um mit dem Splicing zu beginnen, lege eine Pflanze oder einen Samenbeutel in den
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketCelestialTracker</Key>
-      <Value>Raketen-Himmels-Tracker</Value>
+      <Value>Raketen-Astro-Tracker</Value>
       <Description>Der Himmels-Tracker kann in Raketen platziert werden und liefert im eingeschalteten Zustand Daten, die zur Ausrichtung von Geräten wie dem {THING:StructureGroundBasedTelescope} verwendet werden können. Die horizontale und vertikale Ausgabe ist auf die Ausrichtung des Trackers lokalisiert. Du kannst deine Ausrichtung kalibrieren, indem du das Ergebnis für den Primärkörper mit der Ausgabe des {THING:StructureDaylightSensor} vergleichst. Die volle Funktionalität steht nur im Orbit zur Verfügung, aber die Konfiguration ist über den Primärkörper möglich. Zur Ausrichtung mit dem Teleskop muss die Frontplatte nach oben zeigen und die Kabel in dieselbe Richtung wie beim Teleskop verlaufen, dann werden die Ausgabewerte angeglichen.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketCelestialTracker</Key>
-      <Value>Bausatz (Raketen-Himmels-Tracker)</Value>
+      <Value>Bausatz (Raketen-Astro-Tracker)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemSensorProcessingUnitCelestialScanner</Key>
-      <Value>Sensor-Verarbeitungseinheit (Himmels-Scanner)</Value>
+      <Value>Sensor-Verarbeitungseinheit (Astro-Scanner)</Value>
       <Description />
     </RecordThing>
     <RecordThing>

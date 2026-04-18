@@ -48,18 +48,21 @@ while ($true) {
     $eingabe = (Read-Host "-> Auswahl").Trim().ToLower()
 
     switch ($eingabe) {
+      
         "0" { 
             Write-Host "`n--- DATEI STATUS ---" -ForegroundColor Yellow
             git status -s
             $letzteAktion = "Status geprueft"
             $null = [Console]::ReadKey() 
         }
+        
         "1" { 
             Write-Host "`n--- GIT PULL ---" -ForegroundColor Yellow
             git pull
             $letzteAktion = "Pull erledigt"
             $null = [Console]::ReadKey() 
         }
+        
         "2" {
             Write-Host "`n--- GIT PUSH ---" -ForegroundColor Yellow
             $msg = Read-Host "Commit-Nachricht (leer lassen fuer Zeitstempel)"
@@ -78,6 +81,7 @@ while ($true) {
             $letzteAktion = "Diff geprueft"
             $null = [Console]::ReadKey() 
         }
+        
         "4" {
             Write-Host "`n--- SYNCHRONISIEREN & ZIP ERSTELLUNG ---" -ForegroundColor Yellow
             
@@ -114,6 +118,7 @@ while ($true) {
             Write-Host "ZIP-Dateien erfolgreich erstellt!" -ForegroundColor Green
             $null = [Console]::ReadKey()
         }
+        
         "5" {
             Write-Host "`n--- GITHUB RELEASE ---" -ForegroundColor Yellow
             $zipNormal = Join-Path $PSScriptRoot "zip\$MOD_NAME-$aktuelleVersion.zip"
@@ -129,22 +134,24 @@ while ($true) {
             }
             $null = [Console]::ReadKey()
         }
-        "6" {
+        
+"6" {
             Write-Host "`n--- STEAM WORKSHOP UPDATE ---" -ForegroundColor Yellow
             $steamNotes = Read-Host "Changenotes (Enter fuer: '$letzteNachricht')"
             if (-not $steamNotes) { $steamNotes = $letzteNachricht }
             if (-not $steamNotes) { $steamNotes = "Update v$aktuelleVersion" }
 
+            # Wir bauen die VDF mit expliziten Anführungszeichen
             $vdfContent = @"
 "workshopitem"
 {
  "appid"             "544550"
  "publishedfileid"   "3694636517"
- "contentfolder"     "$PSScriptRoot\SteamMod\"
- "changenotes"       "$steamNotes"
+ "contentfolder"     "$($PSScriptRoot)\SteamMod"
+ "changenotes"       "$($steamNotes)"
 }
-"@
-            $vdfContent | Out-File -FilePath $VDF_PFAD -Encoding utf8 -Force
+"@# WICHTIG: Encoding auf ASCII setzen für SteamCMD Kompatibilität
+            $vdfContent | Out-File -FilePath $VDF_PFAD -Encoding ascii -Force
 
             if (Test-Path $STEAMCMD_PFAD) {
                 Start-Process -FilePath $STEAMCMD_PFAD -ArgumentList "+login Bonbonkocher", "+workshop_build_item `"$VDF_PFAD`"", "+quit" -Wait
@@ -152,19 +159,23 @@ while ($true) {
             } else { Write-Host "SteamCMD nicht gefunden!" -ForegroundColor Red }
             $null = [Console]::ReadKey()
         }
+        
         "v" {
             $aktuelleVersion = (Read-Host "Neue Version").Trim()
             $aktuelleVersion | Out-File -FilePath $DATEI_VERSION -Encoding utf8 -Force
             $letzteAktion = "Version -> $aktuelleVersion"
         }
+        
         "n" {
             $MOD_NAME = (Read-Host "Neuer Projekt-Name").Trim()
             $MOD_NAME | Out-File -FilePath $DATEI_NAME -Encoding utf8 -Force
             $letzteAktion = "Name -> $MOD_NAME"
         }
+        
         "q" { 
             Write-Host "Beende..." -ForegroundColor Gray
             exit 
         }
+        
     }
 }
