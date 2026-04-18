@@ -8,6 +8,7 @@ Scripts/
 *.bat
 *.ps1
 *.bak
+*.vdf
 
 # Die gitignore selbst (optional)
 .gitignore
