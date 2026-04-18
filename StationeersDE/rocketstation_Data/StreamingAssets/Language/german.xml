@@ -3139,8 +3139,8 @@ Beachte, dass Transformatoren als Datenisolatoren fungieren und verhindern, dass
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicDial</Key>
-      <Value>Wählschalter</Value>
-      <Description>Ein zuweisbarer Wählschalter mit bis zu 1000 Modi.</Description>
+      <Value>Drehregler</Value>
+      <Description>Ein zuweisbarer {THING:StructureLogicDial} mit bis zu 1000 Modi.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleLED1x2</Key>
@@ -8581,12 +8581,12 @@ Um mit dem Splicing zu beginnen, lege eine Pflanze oder einen Samenbeutel in den
     </RecordThing>
     <RecordThing>
       <Key>StructurePortablesConnector</Key>
-      <Value>Anschluss für tragbare Geräte</Value>
+      <Value>Anschluss für tragbare Tanks</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPortablesConnector</Key>
-      <Value>Bausatz (Anschluss für tragbare Geräte)</Value>
+      <Value>Bausatz (Anschluss für tragbare Tanks)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
